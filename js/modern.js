@@ -1,47 +1,53 @@
-import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.14';
+import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.15';
 const NS='http://www.w3.org/2000/svg',$=s=>document.querySelector(s);
 const worlds=[
  {id:'earth-616',name:'Earth-616',color:'#7ef0bd',subtitle:'Główna rzeczywistość · 1943–2025'},
  {id:'earth-838',name:'Earth-838',color:'#a98aff',subtitle:'Świat Illuminati · odgałęzienie 2018',parent:'earth-616'},
  {id:'zombie',name:'Marvel Zombies',color:'#ff7272',subtitle:'Świat zakażenia · odgałęzienie 2023',parent:'earth-616'}
 ];
+const geoToMap=(lon,lat)=>{
+ const u=(lon+180)/360*1000,v=(90-lat)/180*500;
+ return {x:600+.42*u-.84*v,mapY:600+.13*u+.26*v,lon,lat};
+};
+const at=(name,lon,lat,zone)=>({name,...geoToMap(lon,lat),zone});
 const locations={
- newYork:{name:'Nowy Jork',x:305,mapY:748,zone:'Ameryka Północna'},
- arctic:{name:'Arktyka',x:425,mapY:682,zone:'Arktyka'},
- sokovia:{name:'Sokovia',x:585,mapY:704,zone:'Europa'},
- wakanda:{name:'Wakanda',x:625,mapY:787,zone:'Afryka'},
- kamarTaj:{name:'Kamar-Taj',x:815,mapY:727,zone:'Azja'},
+ newYork:at('Nowy Jork',-74.006,40.713,'Ameryka Północna'),
+ arctic:at('Arktyka',0,80,'Arktyka'),
+ sokovia:at('Sokovia',20,48,'Europa'),
+ wakanda:at('Wakanda',35,-1,'Afryka'),
+ kamarTaj:at('Kamar-Taj',85.324,27.717,'Azja'),
  space:{name:'Kosmos',x:1160,mapY:680,zone:'Poza Ziemią'},
  hell:{name:'Piekło',x:1290,mapY:775,zone:'Sfera metafizyczna'}
 };
 const locationCatalog=[
- createLocation({id:'earth',name:'Ziemia',type:'world',worldId:'earth-616',x:600,mapY:730,minZoom:.3}),
- createLocation({id:'north-america',name:'Ameryka Północna',type:'continent',parentLocationId:'earth',x:305,mapY:748,minZoom:.5}),
- createLocation({id:'usa',name:'USA',type:'country',parentLocationId:'north-america',x:305,mapY:748}),
- createLocation({id:'new-york',name:'Nowy Jork',type:'city',parentLocationId:'usa',x:305,mapY:748,minZoom:1}),
- createLocation({id:'queens',name:'Queens',type:'district',parentLocationId:'new-york',x:309,mapY:750}),
- createLocation({id:'forest-hills',name:'Forest Hills',type:'district',parentLocationId:'queens',x:312,mapY:752,minZoom:8}),
- createLocation({id:'ingram-street',name:'Ingram Street',type:'street',parentLocationId:'forest-hills',x:315,mapY:754,minZoom:11}),
- createLocation({id:'parker-home',name:'Dom Parkerów',type:'building',parentLocationId:'ingram-street',x:317,mapY:755,minZoom:15}),
- createLocation({id:'sokovia',name:'Sokovia',type:'country',parentLocationId:'earth',x:585,mapY:704,minZoom:1}),
- createLocation({id:'wakanda',name:'Wakanda',type:'country',parentLocationId:'earth',x:625,mapY:787,minZoom:1}),
- createLocation({id:'kamar-taj',name:'Kamar-Taj',type:'building',parentLocationId:'earth',x:815,mapY:727,minZoom:2})
+ createLocation({id:'earth',name:'Ziemia',type:'world',worldId:'earth-616',...geoToMap(0,0),minZoom:.3}),
+ createLocation({id:'north-america',name:'Ameryka Północna',type:'continent',parentLocationId:'earth',...geoToMap(-105,50),minZoom:.5}),
+ createLocation({id:'usa',name:'USA',type:'country',parentLocationId:'north-america',...geoToMap(-98.58,39.83)}),
+ createLocation({id:'new-york',name:'Nowy Jork',type:'city',parentLocationId:'usa',...geoToMap(-74.006,40.713),minZoom:1}),
+ createLocation({id:'queens',name:'Queens',type:'district',parentLocationId:'new-york',...geoToMap(-73.7949,40.7282)}),
+ createLocation({id:'forest-hills',name:'Forest Hills',type:'district',parentLocationId:'queens',...geoToMap(-73.8448,40.7181),minZoom:8}),
+ createLocation({id:'ingram-street',name:'Ingram Street',type:'street',parentLocationId:'forest-hills',...geoToMap(-73.8456,40.7153),minZoom:11}),
+ createLocation({id:'parker-home',name:'Dom Parkerów',type:'building',parentLocationId:'ingram-street',...geoToMap(-73.8457,40.7152),minZoom:15}),
+ createLocation({id:'sokovia',name:'Sokovia',type:'country',parentLocationId:'earth',...geoToMap(20,48),minZoom:1}),
+ createLocation({id:'wakanda',name:'Wakanda',type:'country',parentLocationId:'earth',...geoToMap(35,-1),minZoom:1}),
+ createLocation({id:'kamar-taj',name:'Kamar-Taj',type:'building',parentLocationId:'earth',...geoToMap(85.324,27.717),minZoom:2})
 ];
+const X={ny:locations.newYork.x,sokovia:locations.sokovia.x,wakanda:locations.wakanda.x,kamarTaj:locations.kamarTaj.x};
 const people={
- steve:{name:'Steve Rogers',hero:'Kapitan Ameryka',color:'#68b7ff',tags:['Steve Rogers','Kapitan Ameryka','Avengers'],points:[[305,758],[585,665],[305,548],[305,388],[330,260],[305,146]]},
- tony:{name:'Tony Stark',hero:'Iron Man',color:'#ff6f61',tags:['Tony Stark','Iron Man','Avengers'],points:[[305,548],[585,435],[625,315],[330,260]]},
- thor:{name:'Thor Odinson',hero:'Thor',color:'#efc46c',tags:['Thor Odinson','Thor','Avengers'],points:[[1160,650],[305,548],[1160,450],[330,260],[585,146]]},
- wanda:{name:'Wanda Maximoff',hero:'Scarlet Witch',color:'#df78c8',tags:['Wanda Maximoff','Scarlet Witch','Avengers'],points:[[585,450],[330,260],[815,196],[815,146]]},
- claire:{name:'Claire Voyant',hero:'Black Widow',color:'#b58cff',tags:['Claire Voyant','Black Widow','Golden Age'],points:[[305,758],[1290,720],[305,675]]}
+ steve:{name:'Steve Rogers',hero:'Kapitan Ameryka',color:'#68b7ff',tags:['Steve Rogers','Kapitan Ameryka','Avengers'],points:[[X.ny,758],[X.ny,675],[X.ny,548],[X.ny,388],[X.ny,260],[X.ny,146]]},
+ tony:{name:'Tony Stark',hero:'Iron Man',color:'#ff6f61',tags:['Tony Stark','Iron Man','Avengers'],points:[[X.ny,548],[X.sokovia,435],[X.wakanda,315],[X.ny,260]]},
+ thor:{name:'Thor Odinson',hero:'Thor',color:'#efc46c',tags:['Thor Odinson','Thor','Avengers'],points:[[1160,650],[X.ny,548],[1160,450],[X.ny,260],[X.sokovia,146]]},
+ wanda:{name:'Wanda Maximoff',hero:'Scarlet Witch',color:'#df78c8',tags:['Wanda Maximoff','Scarlet Witch','Avengers'],points:[[X.sokovia,450],[X.ny,260],[X.kamarTaj,196],[X.kamarTaj,146]]},
+ claire:{name:'Claire Voyant',hero:'Black Widow',color:'#b58cff',tags:['Claire Voyant','Black Widow','Golden Age'],points:[[X.ny,758],[1290,720],[X.ny,675]]}
 };
 const mainEvents=[
- {title:'Narodziny Kapitana Ameryki',year:'1943',x:305,y:758,char:'steve',place:'Nowy Jork · Ameryka',source:'The First Avenger',tags:['Steve Rogers','Kapitan Ameryka','Origin']},
- {title:'Black Widow wraca z Piekła',year:'1944',x:305,y:675,char:'claire',place:'Ziemia / Piekło',source:'Mystic Comics #4',tags:['Claire Voyant','Black Widow','Golden Age'],copy:'Piekło jest regionem metafizycznym należącym do tego świata — nie osobnym uniwersum.'},
- {title:'Bitwa o Nowy Jork',year:'2012',x:305,y:548,char:'steve',place:'Nowy Jork · Ameryka',source:'The Avengers',tags:['Avengers','Steve Rogers','Tony Stark','Thor'],copy:'Węzeł spotkania: linie uczestników schodzą się w jednym wydarzeniu.'},
- {title:'Ultron pokonany',year:'2015',x:585,y:435,char:'tony',place:'Sokovia · Europa',source:'Age of Ultron',tags:['Avengers','Tony Stark','Wanda Maximoff']},
- {title:'Blip',year:'2018',x:625,y:315,char:'tony',place:'Wakanda · Afryka',source:'Infinity War',tags:['Avengers','Infinity War','World Shift']},
- {title:'Ostateczna bitwa',year:'2023',x:330,y:260,char:'steve',place:'Avengers Compound · Ameryka',source:'Endgame',tags:['Avengers','Endgame','Tony Stark','Steve Rogers'],copy:'Globalne wydarzenie; półprzezroczysta płaszczyzna pokazuje nowy stan świata.'},
- {title:'Przejście do Earth-838',year:'2025',x:815,y:146,char:'wanda',place:'Kamar-Taj',source:'Multiverse of Madness',tags:['Wanda Maximoff','Scarlet Witch','Multiverse'],target:'earth-838',copy:'Punkt ponad wydarzeniem oznacza przejście do innego świata. Kliknięcie otwiera jego historię.'}
+ {title:'Narodziny Kapitana Ameryki',year:'1943',x:X.ny,y:758,char:'steve',place:'Nowy Jork · Ameryka',source:'The First Avenger',tags:['Steve Rogers','Kapitan Ameryka','Origin']},
+ {title:'Black Widow wraca z Piekła',year:'1944',x:X.ny,y:675,char:'claire',place:'Ziemia / Piekło',source:'Mystic Comics #4',tags:['Claire Voyant','Black Widow','Golden Age'],copy:'Piekło jest regionem metafizycznym należącym do tego świata — nie osobnym uniwersum.'},
+ {title:'Bitwa o Nowy Jork',year:'2012',x:X.ny,y:548,char:'steve',place:'Nowy Jork · Ameryka',source:'The Avengers',tags:['Avengers','Steve Rogers','Tony Stark','Thor'],copy:'Węzeł spotkania: linie uczestników schodzą się w jednym wydarzeniu.'},
+ {title:'Ultron pokonany',year:'2015',x:X.sokovia,y:435,char:'tony',place:'Sokovia · Europa',source:'Age of Ultron',tags:['Avengers','Tony Stark','Wanda Maximoff']},
+ {title:'Blip',year:'2018',x:X.wakanda,y:315,char:'tony',place:'Wakanda · Afryka',source:'Infinity War',tags:['Avengers','Infinity War','World Shift']},
+ {title:'Ostateczna bitwa',year:'2023',x:X.ny,y:260,char:'steve',place:'Avengers Compound · Ameryka',source:'Endgame',tags:['Avengers','Endgame','Tony Stark','Steve Rogers'],copy:'Globalne wydarzenie; półprzezroczysta płaszczyzna pokazuje nowy stan świata.'},
+ {title:'Przejście do Earth-838',year:'2025',x:X.kamarTaj,y:146,char:'wanda',place:'Kamar-Taj',source:'Multiverse of Madness',tags:['Wanda Maximoff','Scarlet Witch','Multiverse'],target:'earth-838',copy:'Punkt ponad wydarzeniem oznacza przejście do innego świata. Kliknięcie otwiera jego historię.'}
 ];
 const otherEvents={
  'earth-838':[{title:'Illuminati strzegą świata',year:'2018',x:620,y:315,place:'Nowy Jork · Earth-838',source:'Multiverse of Madness',tags:['Illuminati','Earth-838']},{title:'Wanda przybywa z Earth-616',year:'2025',x:620,y:146,place:'Siedziba Illuminati',source:'Multiverse of Madness',tags:['Wanda Maximoff','Multiverse'],target:'earth-616'}],
@@ -52,7 +58,11 @@ const customLocations=[];
 const pointers=new Map();
 const svg=$('#story-map');
 const el=(name,attrs={},text='')=>{const n=document.createElementNS(NS,name);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));if(text)n.textContent=text;return n};
-const line=pts=>pts.map((p,i)=>(i?'L':'M')+p.join(' ')).join(' ');
+const line=pts=>pts.reduce((d,p,i)=>{
+ if(!i)return 'M'+p.join(' ');
+ const prev=pts[i-1],dx=(p[0]-prev[0])*.42;
+ return d+` C${prev[0]+dx} ${prev[1]} ${p[0]-dx} ${p[1]} ${p[0]} ${p[1]}`;
+},'');
 function append(parent,...nodes){nodes.forEach(n=>parent.append(n));}
 
 function tabs(){const nav=$('#world-tabs');nav.innerHTML='';worlds.forEach(w=>{const b=document.createElement('button');b.className='world-tab'+(w.id===active?' active':'');b.innerHTML='<i style="background:'+w.color+'"></i>'+w.name;b.onclick=()=>switchWorld(w.id);nav.append(b)});const b=document.createElement('button');b.className='world-tab world-more';b.textContent='Wszystkie światy ▾';nav.append(b)}
@@ -68,15 +78,15 @@ function base(g){
  const mapCorners='600,600 1020,730 600,860 180,730';
  append(p,el('polygon',{points:mapCorners,class:'iso-side',transform:'translate(0 18)'}),el('polygon',{points:mapCorners,class:'earth-plane'}));
  const clip=el('clipPath',{id:'map-clip'});clip.append(el('polygon',{points:mapCorners}));g.querySelector('defs').append(clip);
- p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.14',x:0,y:0,width:1000,height:500,transform:'matrix(.42 .13 -.84 .26 600 600)',class:'map-texture'}));
+ p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.15',x:0,y:0,width:1000,height:500,transform:'matrix(.42 .13 -.84 .26 600 600)',class:'map-texture'}));
  g.append(p);
  [...locationCatalog,...customLocations].filter(l=>l.worldId===active&&visibleAtZoom(l,zoom)).forEach(l=>{const pin=el('g',{class:'map-pin','data-level':l.type});append(pin,el('circle',{cx:l.x,cy:l.mapY,r:l.type==='world'?5:3}),el('text',{x:l.x+7,y:l.mapY-5},l.name));pin.onclick=ev=>{ev.stopPropagation();const catalog=[...locationCatalog,...customLocations];show({title:l.name,place:getLocationPath(l,catalog),tags:['Lokalizacja',LOCATION_LEVELS.find(x=>x.id===l.type)?.label||l.type],copy:'Poziom szczegółowości: '+l.type+'. Widoczna od powiększenia '+l.minZoom+'×.'},'LOKALIZACJA')};p.append(pin)});
- [305,585,625,815].forEach(x=>g.insertBefore(el('line',{x1:x,y1:748,x2:x,y2:120,class:'anchor-pillar'}),g.firstChild));
+ [locations.newYork,locations.sokovia,locations.wakanda,locations.kamarTaj].forEach(a=>g.insertBefore(el('line',{x1:a.x,y1:a.mapY,x2:a.x,y2:120,class:'anchor-pillar'}),g.firstChild));
  if(active==='earth-616'){const s=el('g');append(s,el('polygon',{points:'220,275 585,195 1010,275 645,355',class:'shift-side',transform:'translate(0 9)'}),el('polygon',{points:'220,275 585,195 1010,275 645,355',class:'shift-plane'}),el('text',{x:805,y:245,class:'shift-title'},'WORLD SHIFT · 2023'),el('text',{x:805,y:262,class:'map-note'},'nowa izometryczna warstwa mapy'));s.onclick=()=>show({title:'World Shift: świat po Blipie',year:'2023',place:'Earth-616',source:'Avengers: Endgame',tags:['World Shift','Mapa v2'],copy:'Nowa półprzezroczysta płaszczyzna mapy. Stary stan świata pozostaje widoczny poniżej.'},'WORLD SHIFT');g.append(s)}
 }
 function main(g){
  Object.values(people).forEach(c=>{const d=line(c.points),filtering=Boolean(tag||query),selected=filtering&&matches(c),state=filtering?(selected?'focused':'muted'):'';append(g,el('path',{d,class:'thread '+state,stroke:selected?c.color:'#62d7a3'}),(()=>{const n=el('path',{d,class:'thread-hit'});n.onclick=()=>show({title:c.name,copy:c.hero+' · ścieżka postaci przez miejsca i wydarzenia.',tags:c.tags,place:'Kliknij hashtag, aby odfiltrować drzewo.'},'POSTAĆ');return n})());const [x,y]=c.points.at(-1);g.append(el('text',{x:x+10,y:y-9,class:'person-label',fill:selected?c.color:'#62d7a3'},c.name))});
- const travel=el('g',{class:'world-jump'});append(travel,el('line',{x1:815,y1:140,x2:815,y2:120}),el('circle',{cx:815,cy:113,r:7}),el('text',{x:829,y:117},'Earth-838'));travel.onclick=()=>switchWorld('earth-838');g.append(travel);
+ const travel=el('g',{class:'world-jump'});append(travel,el('line',{x1:X.kamarTaj,y1:140,x2:X.kamarTaj,y2:120}),el('circle',{cx:X.kamarTaj,cy:113,r:7}),el('text',{x:X.kamarTaj+14,y:117},'Earth-838'));travel.onclick=()=>switchWorld('earth-838');g.append(travel);
  const mention=el('path',{d:'M930 388C830 430 760 505 705 548',class:'mentioned-line'});mention.onclick=()=>show({title:'Tajne spotkanie',year:'2012',place:'Europa',source:'Wspomniane w 2017',tags:['Mentioned','Retrospekcja'],copy:'Cienka linia cofa się od momentu ujawnienia do czasu rzeczywistego wydarzenia.'},'WYDARZENIE WSPOMNIANE');g.append(mention);
  mainEvents.forEach(e=>event(g,e));const b=el('g',{class:'branch-node'});append(b,el('polygon',{points:'610,307 620,297 630,307 620,317'}),el('text',{x:638,y:311},'odgałęzienie: Marvel Zombies'));b.onclick=()=>switchWorld('zombie');g.append(b)
 }

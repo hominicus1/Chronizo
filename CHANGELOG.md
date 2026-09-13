@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.15
+
+- Istniejące lokalizacje są pozycjonowane z długości i szerokości geograficznej na tej samej projekcji co mapa.
+- Nowy Jork, USA, Queens, Forest Hills, Ingram Street i dom Parkerów korzystają z rzeczywistych współrzędnych.
+- Fikcyjne Sokovia i Wakanda otrzymały jawne umowne kotwice, a Kamar-Taj umieszczono w rejonie Katmandu.
+- Linie postaci są cieńsze i prowadzone łagodnymi krzywymi; pogrubiają się dopiero podczas filtrowania.
+
 ## alpha.14
 
 - Zastąpiono umowny rysunek kontynentów pełną mapą świata opartą na danych geograficznych.

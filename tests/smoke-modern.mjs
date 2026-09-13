@@ -23,5 +23,9 @@ assert.match(html,/id="inspector" class="inspector hidden"/,'inspector must star
 assert.ok(css.includes('width:100vw'),'full-width phone stage missing');
 assert.ok(css.includes('grid-template-columns:82px minmax(0,1fr)'),'inspector column must not be reserved');
 assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
+assert.ok(js.includes('geoToMap'),'coordinate projection missing');
+assert.ok(js.includes("-74.006,40.713"),'New York coordinates missing');
+assert.ok(css.includes("stroke-width:.8")&&css.includes("stroke-width:1.8"),'thin/focused thread widths missing');
+assert.match(html,/α15/,'visible build version missing');
 assert.ok(css.includes('@media(max-width:720px)'));
 console.log('modern UI smoke: OK');

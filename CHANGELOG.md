@@ -23,6 +23,7 @@
 - Siatka szerokości i długości geograficznej na mapie.
 - Zoom pod kursorem rolką myszy oraz przesuwanie i pinch na ekranie dotykowym.
 - Kliknięcie wydarzenia podnosi mapę do jego wysokości; Dopasuj przywraca podstawę.
+- Stały znacznik wersji przy logo Chronizo.
 
 ## alpha.5
 

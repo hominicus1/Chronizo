@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.8
+
+- Panel szczegółów na telefonie działa jako zamykany arkusz od dołu.
+- Panel mobilny jest domyślnie schowany i otwiera się dopiero po wybraniu elementu.
+- Naprawiona globalna klasa ukrywania oraz działanie przycisku zamknięcia.
+
 ## alpha.7
 
 - Punkty wydarzeń nie są przechwytywane przez mechanizm przeciągania.

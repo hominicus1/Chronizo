@@ -88,4 +88,4 @@ svg.addEventListener('click',e=>{if(!placingLocation)return;const pt=svg.createS
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&placingLocation){placingLocation=false;$('#map-wrap').classList.remove('location-mode');$('#location-mode-banner')?.remove()}});
 $('#btn-fit').onclick=()=>{zoom=1;panX=0;panY=0;liftedY=null;render()};
 document.querySelectorAll('.rail-button[data-view]').forEach(b=>b.onclick=()=>{document.querySelectorAll('.rail-button').forEach(x=>x.classList.remove('active'));b.classList.add('active');if(b.dataset.view!=='world')show({title:b.textContent.trim(),copy:'Ten widok wykorzysta ten sam model danych. W pierwszym prototypie dopracowujemy mapę świata.',tags:['Prototyp']},'WIDOK W PRZYGOTOWANIU')});
-tabs();tags();render();show({title:'Earth-616',copy:'Główne drzewo aktywnej rzeczywistości.',place:worlds[0].subtitle,tags:['Earth-616']},'ŚWIAT');if(matchMedia('(max-width:720px)').matches)$('#inspector').classList.add('hidden');
+tabs();tags();render();

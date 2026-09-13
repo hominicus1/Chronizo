@@ -13,6 +13,7 @@ assert.ok(js.includes("pointermove"),'touch pinch/pan missing');
 assert.ok(js.includes("liftedY=e.y"),'map lift on event missing');
 assert.ok(js.includes("event-node,.world-jump"),'interactive nodes must bypass pointer capture');
 assert.ok(js.includes("classList.add('hidden')"),'mobile inspector close missing');
+assert.match(html,/id="inspector" class="inspector hidden"/,'inspector must start closed');
 assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
 assert.ok(css.includes('@media(max-width:720px)'));
 console.log('modern UI smoke: OK');

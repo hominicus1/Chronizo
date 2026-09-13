@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.9
+
+- Inspektor jest zamknięty już w początkowym HTML na każdym urządzeniu.
+- Urządzenia dotykowe zawsze używają mobilnego arkusza niezależnie od szerokości viewportu.
+- Próg układu nakładkowego zwiększony do 1100 px.
+
 ## alpha.8
 
 - Panel szczegółów na telefonie działa jako zamykany arkusz od dołu.

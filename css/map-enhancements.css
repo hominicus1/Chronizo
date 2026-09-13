@@ -4,6 +4,8 @@
 .world-jump{cursor:pointer;color:var(--violet)}.world-jump line{stroke:currentColor;stroke-width:1;stroke-dasharray:2 3}.world-jump circle{fill:var(--panel);stroke:currentColor;stroke-width:2}.world-jump:hover circle{fill:currentColor}.world-jump text{fill:var(--violet);font:700 10px "DM Sans";paint-order:stroke;stroke:var(--panel);stroke-width:4}
 #story-map{touch-action:none;cursor:grab}#story-map.is-panning{cursor:grabbing}#earth-map-plane{transition:transform .55s cubic-bezier(.2,.8,.2,1),opacity .3s;transform-box:view-box;transform-origin:0 0}#earth-map-plane.map-lifted{opacity:.72}
 .build-version{align-self:flex-start;margin-top:2px;padding:3px 6px;border:1px solid color-mix(in srgb,var(--mint) 55%,var(--line));border-radius:999px;color:var(--mint);background:color-mix(in srgb,var(--mint) 8%,transparent);font:700 9px "DM Sans";letter-spacing:.08em}
+.map-pin[data-level="street"] circle,.map-pin[data-level="building"] circle,.map-pin[data-level="room"] circle{fill:var(--gold)}
+.map-pin[data-level="street"] text,.map-pin[data-level="building"] text,.map-pin[data-level="room"] text{fill:var(--gold)}
 .hidden{display:none!important}
 .workspace{grid-template-columns:82px minmax(0,1fr)}
 .stage{grid-column:2}

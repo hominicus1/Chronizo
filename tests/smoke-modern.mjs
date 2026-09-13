@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
 const js=fs.readFileSync(new URL('../js/modern.js',import.meta.url),'utf8');
+const locations=fs.readFileSync(new URL('../js/locations.js',import.meta.url),'utf8');
 const css=fs.readFileSync(new URL('../css/modern.css',import.meta.url),'utf8')+
   fs.readFileSync(new URL('../css/map-enhancements.css',import.meta.url),'utf8');
 for(const id of ['world-tabs','story-map','tag-filters','inspector','add-dialog','map-texture-input','build-version'])assert.match(html,new RegExp('id=["\\\']'+id+'["\\\']'));
@@ -14,6 +15,8 @@ assert.ok(js.includes("pointermove"),'touch pinch/pan missing');
 assert.ok(js.includes("liftMapTo(e.y)"),'map lift on event missing');
 assert.ok(js.includes("Math.min(20"),'deep geographic zoom missing');
 assert.ok(js.includes("function liftMapTo"),'direct map lift missing');
+assert.ok(locations.includes("parentLocationId"),'location hierarchy missing');
+assert.ok(locations.includes("visibleAtZoom"),'semantic location zoom missing');
 assert.ok(js.includes("event-node,.world-jump"),'interactive nodes must bypass pointer capture');
 assert.ok(js.includes("classList.add('hidden')"),'mobile inspector close missing');
 assert.match(html,/id="inspector" class="inspector hidden"/,'inspector must start closed');

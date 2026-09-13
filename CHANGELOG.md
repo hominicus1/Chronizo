@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.13
+
+- Hierarchiczny model: świat, kontynent, kraj, miasto, dzielnica, ulica, budynek i pomieszczenie.
+- Semantyczny zoom odsłania dokładniejsze lokalizacje wraz ze wzrostem powiększenia.
+- Nowe lokalizacje otrzymują automatycznie najbliższego logicznego rodzica.
+- Panel pokazuje pełną ścieżkę lokalizacji.
+
 ## alpha.12
 
 - Usunięta stała kolumna rezerwowana wcześniej dla inspektora.

@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
 const js=fs.readFileSync(new URL('../js/modern.js',import.meta.url),'utf8');
-const css=fs.readFileSync(new URL('../css/modern.css',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../css/modern.css',import.meta.url),'utf8')+
+  fs.readFileSync(new URL('../css/map-enhancements.css',import.meta.url),'utf8');
 for(const id of ['world-tabs','story-map','tag-filters','inspector','add-dialog','map-texture-input','build-version'])assert.match(html,new RegExp('id=["\\\']'+id+'["\\\']'));
 for(const concept of ['earth-616','world-jump','WORLD SHIFT','mentioned-line'])assert.ok(js.includes(concept),'missing '+concept);
 assert.ok(js.includes('customTexture'),'custom map texture missing');
@@ -16,6 +17,7 @@ assert.ok(js.includes("function liftMapTo"),'direct map lift missing');
 assert.ok(js.includes("event-node,.world-jump"),'interactive nodes must bypass pointer capture');
 assert.ok(js.includes("classList.add('hidden')"),'mobile inspector close missing');
 assert.match(html,/id="inspector" class="inspector hidden"/,'inspector must start closed');
+assert.ok(css.includes('width:100vw'),'full-width phone stage missing');
 assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
 assert.ok(css.includes('@media(max-width:720px)'));
 console.log('modern UI smoke: OK');

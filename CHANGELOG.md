@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.11
+
+- Naprawiona kolizja reguł dotykowych z mobilną siatką.
+- Mapa i obszar roboczy zajmują pełną szerokość telefonu.
+- Dolna nawigacja pozostaje nakładką i nie zwęża sceny.
+
 ## alpha.10
 
 - Maksymalne powiększenie zwiększone do 20× z szybszą obsługą rolki.

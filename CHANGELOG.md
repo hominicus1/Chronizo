@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.6
+
+- Siatka szerokości i długości geograficznej na mapie.
+- Zoom pod kursorem rolką myszy oraz przesuwanie i pinch na ekranie dotykowym.
+- Kliknięcie wydarzenia podnosi mapę do jego wysokości; Dopasuj przywraca podstawę.
+
 ## alpha.5
 
 - Przejście do innego świata jest punktem nad wydarzeniem zamiast linią wychodzącą poza mapę.

@@ -1,4 +1,18 @@
-# ⟁ Chronizo — Builder Chronologii
+# Chronizo — kartografia opowieści
+
+## 4.0 alpha — Map Tree
+
+Gałąź prototypowa przebudowuje Chronizo z klasycznej osi czasu w interaktywną
+mapę-drzewo. Na ekranie widoczny jest jeden świat, czas rośnie pionowo, a linie
+postaci przemieszczają się pomiędzy miejscami.
+
+Pierwszy prototyp pokazuje język wizualny: przełączanie światów, linie postaci,
+hashtagi postać / alter ego / drużyna, regiony kosmiczne i metafizyczne należące
+do danego świata, podróż do innego świata, punkt rozgałęzienia, World Shift oraz
+cienką linię wstecz dla wydarzenia ujawnionego później.
+
+To etap oceny interfejsu. Edycja i migracja pełnych danych ze schematu 3.x będą
+dołączane po zatwierdzeniu kierunku wizualnego.
 
 
 ### OET Release Order note

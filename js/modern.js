@@ -1,4 +1,4 @@
-import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.13';
+import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.14';
 const NS='http://www.w3.org/2000/svg',$=s=>document.querySelector(s);
 const worlds=[
  {id:'earth-616',name:'Earth-616',color:'#7ef0bd',subtitle:'Główna rzeczywistość · 1943–2025'},
@@ -68,11 +68,8 @@ function base(g){
  const mapCorners='600,600 1020,730 600,860 180,730';
  append(p,el('polygon',{points:mapCorners,class:'iso-side',transform:'translate(0 18)'}),el('polygon',{points:mapCorners,class:'earth-plane'}));
  const clip=el('clipPath',{id:'map-clip'});clip.append(el('polygon',{points:mapCorners}));g.querySelector('defs').append(clip);
- p.append(el('image',{href:customTexture||'assets/world-map.svg',x:0,y:0,width:1000,height:500,transform:'matrix(.42 .13 -.84 .26 600 600)',class:'map-texture'}));
- const land=el('g',{transform:'translate(0 755) scale(1 .48) translate(0 -755)'});
- append(land,el('path',{d:'M210 738c30-49 99-70 153-48 33 13 39 44 15 65-20 18-9 50-50 65-38 13-69-11-76-39-7-29-59-7-42-43z',class:'continent'}),el('path',{d:'M510 692c54-31 144-35 206-11 40 16 85 8 121 34 29 21 17 45-17 53-46 11-72-15-110-2-32 11-21 57-68 61-50 5-68-46-104-56-48-12-73-53-28-79z',class:'continent'}),el('path',{d:'M832 711c58-25 144-18 180 15 26 24 7 57-39 60-58 4-117 11-150-25-17-18-12-39 9-50z',class:'continent'}));
- [270,390,510,630,750,870,990].forEach(x=>p.append(el('line',{x1:x-100,y1:820,x2:x+140,y2:665,class:'map-grid'})));
- append(p,el('text',{x:250,y:851,class:'location-label'},'AMERYKA'),el('text',{x:570,y:851,class:'location-label'},'EUROPA / AFRYKA'),el('text',{x:900,y:820,class:'location-label'},'AZJA'));g.append(p);
+ p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.14',x:0,y:0,width:1000,height:500,transform:'matrix(.42 .13 -.84 .26 600 600)',class:'map-texture'}));
+ g.append(p);
  [...locationCatalog,...customLocations].filter(l=>l.worldId===active&&visibleAtZoom(l,zoom)).forEach(l=>{const pin=el('g',{class:'map-pin','data-level':l.type});append(pin,el('circle',{cx:l.x,cy:l.mapY,r:l.type==='world'?5:3}),el('text',{x:l.x+7,y:l.mapY-5},l.name));pin.onclick=ev=>{ev.stopPropagation();const catalog=[...locationCatalog,...customLocations];show({title:l.name,place:getLocationPath(l,catalog),tags:['Lokalizacja',LOCATION_LEVELS.find(x=>x.id===l.type)?.label||l.type],copy:'Poziom szczegółowości: '+l.type+'. Widoczna od powiększenia '+l.minZoom+'×.'},'LOKALIZACJA')};p.append(pin)});
  [305,585,625,815].forEach(x=>g.insertBefore(el('line',{x1:x,y1:748,x2:x,y2:120,class:'anchor-pillar'}),g.firstChild));
  if(active==='earth-616'){const s=el('g');append(s,el('polygon',{points:'220,275 585,195 1010,275 645,355',class:'shift-side',transform:'translate(0 9)'}),el('polygon',{points:'220,275 585,195 1010,275 645,355',class:'shift-plane'}),el('text',{x:805,y:245,class:'shift-title'},'WORLD SHIFT · 2023'),el('text',{x:805,y:262,class:'map-note'},'nowa izometryczna warstwa mapy'));s.onclick=()=>show({title:'World Shift: świat po Blipie',year:'2023',place:'Earth-616',source:'Avengers: Endgame',tags:['World Shift','Mapa v2'],copy:'Nowa półprzezroczysta płaszczyzna mapy. Stary stan świata pozostaje widoczny poniżej.'},'WORLD SHIFT');g.append(s)}

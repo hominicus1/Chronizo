@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.14
+
+- Zastąpiono umowny rysunek kontynentów pełną mapą świata opartą na danych geograficznych.
+- Równoleżniki i południki są rozmieszczone co 30° w odwzorowaniu równokątnym, a dopiero potem poddane rzutowi izometrycznemu.
+- Usunięto dodatkowe proceduralne plamy kontynentów i ukośne linie, które fałszowały geografię.
+
 ## alpha.13
 
 - Hierarchiczny model: świat, kontynent, kraj, miasto, dzielnica, ulica, budynek i pomieszczenie.

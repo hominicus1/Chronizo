@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.4
+
+- Domyślna tekstura Ziemi osadzona na izometrycznej mapie.
+- Dodawanie własnych lokalizacji przez wskazanie punktu na mapie.
+- Wszystkie linie postaci są bazowo zielone; indywidualny kolor pojawia się po filtrowaniu.
+
 ## alpha.3
 
 - Prostokątna mapa osadzona na izometrycznej płaszczyźnie.

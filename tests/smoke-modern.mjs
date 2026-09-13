@@ -6,6 +6,8 @@ const css=fs.readFileSync(new URL('../css/modern.css',import.meta.url),'utf8');
 for(const id of ['world-tabs','story-map','tag-filters','inspector','add-dialog','map-texture-input'])assert.match(html,new RegExp('id=["\\\']'+id+'["\\\']'));
 for(const concept of ['earth-616','travel-segment','WORLD SHIFT','mentioned-line'])assert.ok(js.includes(concept),'missing '+concept);
 assert.ok(js.includes('customTexture'),'custom map texture missing');
+assert.ok(js.includes('customLocations'),'custom location mode missing');
+assert.ok(js.includes("assets/world-map.svg"),'default earth texture missing');
 assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
 assert.ok(css.includes('@media(max-width:720px)'));
 console.log('modern UI smoke: OK');

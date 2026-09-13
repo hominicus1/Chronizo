@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.7
+
+- Punkty wydarzeń nie są przechwytywane przez mechanizm przeciągania.
+- Kliknięcie wydarzenia niezawodnie podnosi mapę do jego wysokości.
+- Przeciąganie pustego tła nadal przesuwa cały widok.
+
 ## alpha.6
 
 - Siatka szerokości i długości geograficznej na mapie.

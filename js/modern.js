@@ -17,7 +17,7 @@ const people={
  steve:{name:'Steve Rogers',hero:'Kapitan Ameryka',color:'#68b7ff',tags:['Steve Rogers','Kapitan Ameryka','Avengers'],points:[[305,758],[585,665],[305,548],[305,388],[330,260],[305,146]]},
  tony:{name:'Tony Stark',hero:'Iron Man',color:'#ff6f61',tags:['Tony Stark','Iron Man','Avengers'],points:[[305,548],[585,435],[625,315],[330,260]]},
  thor:{name:'Thor Odinson',hero:'Thor',color:'#efc46c',tags:['Thor Odinson','Thor','Avengers'],points:[[1160,650],[305,548],[1160,450],[330,260],[585,146]]},
- wanda:{name:'Wanda Maximoff',hero:'Scarlet Witch',color:'#df78c8',tags:['Wanda Maximoff','Scarlet Witch','Avengers'],points:[[585,450],[330,260],[815,196],[1100,146]]},
+ wanda:{name:'Wanda Maximoff',hero:'Scarlet Witch',color:'#df78c8',tags:['Wanda Maximoff','Scarlet Witch','Avengers'],points:[[585,450],[330,260],[815,196],[815,146]]},
  claire:{name:'Claire Voyant',hero:'Black Widow',color:'#b58cff',tags:['Claire Voyant','Black Widow','Golden Age'],points:[[305,758],[1290,720],[305,675]]}
 };
 const mainEvents=[
@@ -27,7 +27,7 @@ const mainEvents=[
  {title:'Ultron pokonany',year:'2015',x:585,y:435,char:'tony',place:'Sokovia · Europa',source:'Age of Ultron',tags:['Avengers','Tony Stark','Wanda Maximoff']},
  {title:'Blip',year:'2018',x:625,y:315,char:'tony',place:'Wakanda · Afryka',source:'Infinity War',tags:['Avengers','Infinity War','World Shift']},
  {title:'Ostateczna bitwa',year:'2023',x:330,y:260,char:'steve',place:'Avengers Compound · Ameryka',source:'Endgame',tags:['Avengers','Endgame','Tony Stark','Steve Rogers'],copy:'Globalne wydarzenie; półprzezroczysta płaszczyzna pokazuje nowy stan świata.'},
- {title:'Przejście do Earth-838',year:'2025',x:1100,y:146,char:'wanda',place:'Kamar-Taj → Earth-838',source:'Multiverse of Madness',tags:['Wanda Maximoff','Scarlet Witch','Multiverse'],target:'earth-838',copy:'Kolorowy odcinek oznacza pobyt w innym świecie. Kliknięcie otwiera jego historię.'}
+ {title:'Przejście do Earth-838',year:'2025',x:815,y:146,char:'wanda',place:'Kamar-Taj',source:'Multiverse of Madness',tags:['Wanda Maximoff','Scarlet Witch','Multiverse'],target:'earth-838',copy:'Punkt ponad wydarzeniem oznacza przejście do innego świata. Kliknięcie otwiera jego historię.'}
 ];
 const otherEvents={
  'earth-838':[{title:'Illuminati strzegą świata',year:'2018',x:620,y:315,place:'Nowy Jork · Earth-838',source:'Multiverse of Madness',tags:['Illuminati','Earth-838']},{title:'Wanda przybywa z Earth-616',year:'2025',x:620,y:146,place:'Siedziba Illuminati',source:'Multiverse of Madness',tags:['Wanda Maximoff','Multiverse'],target:'earth-616'}],
@@ -64,7 +64,7 @@ function base(g){
 }
 function main(g){
  Object.values(people).forEach(c=>{const d=line(c.points),filtering=Boolean(tag||query),selected=filtering&&matches(c),state=filtering?(selected?'focused':'muted'):'';append(g,el('path',{d,class:'thread '+state,stroke:selected?c.color:'#62d7a3'}),(()=>{const n=el('path',{d,class:'thread-hit'});n.onclick=()=>show({title:c.name,copy:c.hero+' · ścieżka postaci przez miejsca i wydarzenia.',tags:c.tags,place:'Kliknij hashtag, aby odfiltrować drzewo.'},'POSTAĆ');return n})());const [x,y]=c.points.at(-1);g.append(el('text',{x:x+10,y:y-9,class:'person-label',fill:selected?c.color:'#62d7a3'},c.name))});
- const travel=el('path',{d:'M650 196C790 175 930 168 1100 146',class:'travel-segment',stroke:'#a98aff'});travel.onclick=()=>switchWorld('earth-838');g.append(travel);
+ const travel=el('g',{class:'world-jump'});append(travel,el('line',{x1:815,y1:140,x2:815,y2:120}),el('circle',{cx:815,cy:113,r:7}),el('text',{x:829,y:117},'Earth-838'));travel.onclick=()=>switchWorld('earth-838');g.append(travel);
  const mention=el('path',{d:'M930 388C830 430 760 505 705 548',class:'mentioned-line'});mention.onclick=()=>show({title:'Tajne spotkanie',year:'2012',place:'Europa',source:'Wspomniane w 2017',tags:['Mentioned','Retrospekcja'],copy:'Cienka linia cofa się od momentu ujawnienia do czasu rzeczywistego wydarzenia.'},'WYDARZENIE WSPOMNIANE');g.append(mention);
  mainEvents.forEach(e=>event(g,e));const b=el('g',{class:'branch-node'});append(b,el('polygon',{points:'610,307 620,297 630,307 620,317'}),el('text',{x:638,y:311},'odgałęzienie: Marvel Zombies'));b.onclick=()=>switchWorld('zombie');g.append(b)
 }

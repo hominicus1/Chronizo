@@ -18,6 +18,11 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.10
+
+- Maksymalne powiększenie zwiększone do 20× z szybszą obsługą rolki.
+- Podnoszenie mapy wykonuje bezpośrednią transformację istniejącej płaszczyzny SVG.
+
 ## alpha.9
 
 - Inspektor jest zamknięty już w początkowym HTML na każdym urządzeniu.

@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.3
+
+- Prostokątna mapa osadzona na izometrycznej płaszczyźnie.
+- Niezawodny wybór pliku tekstury przez natywną etykietę pola plikowego.
+- Cieńsze linie postaci; pogrubienie wyłącznie dla aktywnego filtra.
+- Mniejsze punkty wydarzeń i odświeżony cache zasobów.
+
 - Nowy interfejs mapy-drzewa z czasem na osi pionowej.
 - Jeden aktywny świat i górne zakładki do przełączania rzeczywistości.
 - Linie postaci, hashtagi, interaktywny inspektor i filtrowanie.

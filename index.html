@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronizo — Omniversal Timeline Builder</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Top bar -->
+    <header id="topbar">
+      <div class="topbar-left">
+        <h1>⟁ Chronizo</h1>
+        <span id="project-name" class="project-label">Untitled Project</span>
+      </div>
+      <div class="topbar-right">
+        <button id="btn-new" title="New project">✦ New</button>
+        <button id="btn-load" title="Load JSON file">⟐ Load</button>
+        <button id="btn-csv-import" title="Import CSV file">📊 CSV↑</button>
+        <button id="btn-merge" title="Merge another timeline into current">⊕ Merge</button>
+        <button id="btn-save" title="Save as JSON">⟑ Save</button>
+        <button id="btn-csv-export" title="Export to CSV (backup / Excel)">📊 CSV↓</button>
+        <button id="btn-quick-add" title="Paste an AI-generated formula to add one or more events">⚡ Quick Add</button>
+        <span class="separator">|</span>
+        <button id="btn-add-event" title="Add event">+ Event</button>
+        <button id="btn-add-universe" title="Add universe">+ Universe</button>
+        <button id="btn-connect" title="Connect two events">⟷ Connect</button>
+        <span class="separator">|</span>
+        <select id="sort-mode">
+          <option value="in-universe">In-Universe Chronology</option>
+          <option value="release">Release Order</option>
+          <option value="mix">Mixed (chronology + release)</option>
+          <option value="custom">Custom / manual order</option>
+        </select>
+        <input type="text" id="search-box" placeholder="🔍 Search..." class="search-input">
+        <input type="text" id="character-focus" list="character-list" placeholder="👤 Character focus..." class="focus-input" title="Show character thread only for the selected name">
+        <datalist id="character-list"></datalist>
+        <button id="btn-clear-character-focus" class="icon-btn" title="Clear character focus">✕</button>
+        <label class="compact-toggle" title="Performance mode hides heavy visual helpers until needed">
+          <input type="checkbox" id="performance-mode"> Fast
+        </label>
+        <select id="filter-universe" title="Filter by universe">
+          <option value="">All Universes</option>
+        </select>
+        <span class="separator">|</span>
+        <button id="theme-toggle" title="Toggle dark / light theme">🌓 Theme</button>
+        <select id="filter-evidence" title="Filter by evidence">
+          <option value="">All Evidence</option>
+          <option value="shown">👁 Shown</option>
+          <option value="described">📝 Described</option>
+          <option value="mentioned">💬 Mentioned</option>
+          <option value="implied">🔮 Implied</option>
+          <option value="speculated">❓ Speculated</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- Main canvas area -->
+    <div id="timeline-viewport">
+      <canvas id="timeline-canvas"></canvas>
+      <div id="event-tooltip" class="tooltip hidden"></div>
+      <!-- Connection mode banner -->
+      <div id="connect-banner" class="banner hidden">
+        🔗 Connection mode: click SOURCE event, then TARGET event
+        <button id="btn-cancel-connect">Cancel</button>
+      </div>
+      <!-- Minimap -->
+      <canvas id="minimap"></canvas>
+      <!-- Character focus banner -->
+      <div id="character-focus-banner" class="banner focus-banner hidden">
+        👤 Focus: <strong id="character-focus-name"></strong>
+        <span id="character-focus-count"></span>
+        <button id="btn-clear-character-focus-banner">Clear</button>
+      </div>
+      <!-- Selection banner -->
+      <div id="selection-banner" class="hidden">
+        <span id="sel-count">0</span> events selected (Ctrl+click to add, Shift+click for range)
+        <button id="btn-bulk-edit">✏ Bulk Edit</button>
+        <button id="btn-clear-selection">Clear</button>
+      </div>
+    </div>
+
+    <!-- Side panel for event editing -->
+    <aside id="side-panel" class="hidden">
+      <div class="panel-header">
+        <h2 id="panel-title">New Event</h2>
+        <button id="btn-close-panel">✕</button>
+      </div>
+      <form id="event-form">
+        <label>Title
+          <input type="text" id="ev-title" required placeholder="Battle of New York · Fall of Rome · Red Wedding">
+        </label>
+
+        <label>Official Universe
+          <select id="ev-universe"></select>
+        </label>
+
+        <label>Speculative Universe
+          <select id="ev-speculative">
+            <option value="">— none —</option>
+          </select>
+        </label>
+
+        <fieldset>
+          <legend>Date</legend>
+          <label>Exact date
+            <input type="date" id="ev-date-exact">
+          </label>
+          <label>Approximate (year or text)
+            <input type="text" id="ev-date-approx" placeholder="~2012 or 'Before the coronation'">
+          </label>
+          <label>Date Range — From
+            <input type="text" id="ev-date-from" placeholder="1940 or 1940-06-01">
+          </label>
+          <label>Date Range — To
+            <input type="text" id="ev-date-to" placeholder="1945 or 1945-09-02">
+          </label>
+          <label>Season
+            <select id="ev-season">
+              <option value="">— unknown —</option>
+              <option value="spring">🌱 Spring</option>
+              <option value="summer">☀️ Summer</option>
+              <option value="autumn">🍂 Autumn</option>
+              <option value="winter">❄️ Winter</option>
+            </select>
+          </label>
+          <label>Era
+            <input type="text" id="ev-date-era" placeholder="Bronze Age, 15th century...">
+          </label>
+        </fieldset>
+
+        <label>Release Date (real world)
+          <input type="date" id="ev-release">
+        </label>
+
+        <fieldset>
+          <legend>Media Source</legend>
+          <label>Type
+            <select id="ev-media-type">
+              <option value="">— none —</option>
+              <option value="film">🎬 Film</option>
+              <option value="series">📺 Series</option>
+              <option value="comic">📖 Comic</option>
+              <option value="game">🎮 Game</option>
+              <option value="book">📚 Book</option>
+              <option value="historical">🏛 Historical</option>
+              <option value="other">📄 Other</option>
+            </select>
+          </label>
+          <label>Title
+            <input type="text" id="ev-media-title" placeholder="Avengers: Endgame · The Witcher · Chernobyl">
+          </label>
+          <label>Episode / Issue
+            <input type="text" id="ev-media-episode" placeholder="S01E05 or #127">
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Evidence Strength</legend>
+          <label>
+            <select id="ev-evidence">
+              <option value="shown">👁 Shown — directly depicted on screen/page</option>
+              <option value="described">📝 Described — narrated or explained by character</option>
+              <option value="mentioned">💬 Mentioned — brief reference in dialogue</option>
+              <option value="implied">🔮 Implied — context clues suggest it happened</option>
+              <option value="speculated">❓ Speculated — fan theory / interpretation</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <label>Source / Reference
+          <input type="text" id="ev-source" placeholder="Comic issue, historical document, URL...">
+        </label>
+
+        <label>Reasoning
+          <textarea id="ev-reasoning" rows="3" placeholder="Why this event belongs here..."></textarea>
+        </label>
+
+        <label>Tags (comma separated)
+          <input type="text" id="ev-tags" placeholder="battle, invasion, dynasty">
+        </label>
+
+        <label>Characters (comma separated)
+          <input type="text" id="ev-characters" placeholder="Napoleon, Geralt, Tony Stark...">
+        </label>
+
+        <fieldset>
+          <legend>Location</legend>
+          <label>Realm / Dimension
+            <input type="text" id="ev-loc-realm" placeholder="Nine Realms, Middle-earth, Underworld...">
+          </label>
+          <label>Planet / World
+            <input type="text" id="ev-loc-planet" placeholder="Earth, Mars, Arrakis...">
+          </label>
+          <label>Region / Territory
+            <input type="text" id="ev-loc-region" placeholder="Europe, Westeros, Wakanda...">
+          </label>
+          <label>Place / City
+            <input type="text" id="ev-loc-place" placeholder="New York, Berlin, Winterfell...">
+          </label>
+        </fieldset>
+
+        <!-- Appearance: optional icon + background per event -->
+        <fieldset id="appearance-fieldset">
+          <legend>Appearance</legend>
+          <label>Icon (emoji or short symbol)
+            <input type="text" id="ev-icon" maxlength="4" placeholder="🛡 🗡 👑">
+          </label>
+          <label>Background color
+            <input type="color" id="ev-bg" title="Block background color">
+          </label>
+        </fieldset>
+
+        <!-- Sub-events / timeline segments within this event -->
+        <fieldset id="sub-events-fieldset">
+          <legend>Timeline Segments (flashbacks, callbacks)</legend>
+          <div id="sub-events-list"></div>
+          <button type="button" id="btn-add-sub-event" class="small-btn">+ Add segment</button>
+        </fieldset>
+
+        <label>Custom Sort Order
+          <input type="number" id="ev-sort-order" value="0">
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" id="btn-save-event">Save Event</button>
+          <button type="button" id="btn-delete-event" class="danger hidden">Delete</button>
+        </div>
+      </form>
+    </aside>
+
+    <!-- Bulk edit panel (multi-select) -->
+    <dialog id="bulk-edit-dialog">
+      <h2>Bulk Edit — <span id="bulk-count">0</span> events selected</h2>
+      <p style="color:var(--text-dim);font-size:11px;margin-bottom:12px">Only filled fields will be applied. Leave blank to keep current values.</p>
+      <label>Move to Universe
+        <select id="bulk-universe">
+          <option value="">— don't change —</option>
+        </select>
+      </label>
+      <label>Set Evidence
+        <select id="bulk-evidence">
+          <option value="">— don't change —</option>
+          <option value="shown">👁 Shown</option>
+          <option value="described">📝 Described</option>
+          <option value="mentioned">💬 Mentioned</option>
+          <option value="implied">🔮 Implied</option>
+          <option value="speculated">❓ Speculated</option>
+        </select>
+      </label>
+      <label>Add Tags (comma separated)
+        <input type="text" id="bulk-tags" placeholder="Leave blank to skip">
+      </label>
+      <label>Set Planet
+        <input type="text" id="bulk-planet" placeholder="Leave blank to skip">
+      </label>
+      <label>Set Region
+        <input type="text" id="bulk-region" placeholder="Leave blank to skip">
+      </label>
+      <div class="form-actions">
+        <button id="btn-bulk-apply">Apply to All Selected</button>
+        <button id="btn-bulk-delete" class="danger">Delete All Selected</button>
+        <button id="btn-bulk-cancel">Cancel</button>
+      </div>
+    </dialog>
+
+    <!-- Universe manager modal -->
+    <dialog id="universe-dialog">
+      <h2>Manage Universes</h2>
+      <div id="universe-list"></div>
+      <div class="dialog-add">
+        <input type="text" id="uni-name" placeholder="Universe name (e.g. Earth-616, The Witcher, World History)">
+        <input type="color" id="uni-color" value="#a855f7">
+        <input type="text" id="uni-icon" maxlength="4" placeholder="Icon 🌍" title="Universe icon (emoji)">
+        <input type="color" id="uni-bg" title="Universe background color">
+        <select id="uni-parent" title="Branches from...">
+          <option value="">— branches from main —</option>
+        </select>
+        <button id="btn-add-uni">Add</button>
+      </div>
+      <button id="btn-close-dialog">Close</button>
+    </dialog>
+
+    <!-- Connection type dialog -->
+    <dialog id="connection-dialog">
+      <h2>Create Connection</h2>
+      <p id="conn-info"></p>
+      <label>Type
+        <select id="conn-type">
+          <option value="branch">🌿 Branch — fiction diverges from source</option>
+          <option value="crossover">🌀 Crossover — character/object crosses universes</option>
+          <option value="merge">🔀 Merge — timelines converge</option>
+          <option value="backward">⏪ Backward — retroactive connection in time</option>
+          <option value="reference">📎 Reference — soft nod / easter egg</option>
+        </select>
+      </label>
+      <label>Character / Object
+        <input type="text" id="conn-character" placeholder="Spider-Man, One Ring, Excalibur...">
+      </label>
+      <label>Label
+        <input type="text" id="conn-label" placeholder="Short description...">
+      </label>
+      <label>Notes
+        <textarea id="conn-notes" rows="2" placeholder="Additional context..."></textarea>
+      </label>
+      <div class="form-actions">
+        <button id="btn-save-conn">Create Connection</button>
+        <button id="btn-cancel-conn">Cancel</button>
+      </div>
+    </dialog>
+
+    <!-- Quick Add — paste a text formula -->
+    <dialog id="quickadd-dialog">
+      <h2>⚡ Quick Add — paste formula</h2>
+      <p style="color:var(--text-dim);font-size:11px;margin-bottom:8px">
+        One <code>key: value</code> per line. Separate multiple events with a line containing only <code>---</code>.
+        Unrecognized keys are skipped with a warning. Put clues and uncertainty in <code>reasoning:</code>; keep the event block clean.
+      </p>
+      <textarea id="quickadd-text" rows="14" placeholder="title: Action Comics #1 — Superman stops the car&#10;universe: DC Earth-2&#10;media: Action Comics #1&#10;date: 1938&#10;release: 1938-04-18&#10;type: comic&#10;characters: Superman, Lois Lane&#10;evidence: shown&#10;source: Action Comics #1, story A&#10;reasoning: Publication-based placement for OET; exact in-story date is not stated.&#10;tags: OET, Golden Age, Superman"></textarea>
+      <div id="quickadd-feedback" style="font-size:11px;margin-top:6px;min-height:16px"></div>
+      <div class="form-actions">
+        <button id="btn-quickadd-parse">Add events</button>
+        <button id="btn-quickadd-spec" type="button">Show Add format</button>
+        <button id="btn-quickupdate-spec" type="button">Show Update format</button>
+        <button id="btn-quickadd-prompt" type="button" title="Copy a ready-to-use prompt explaining the formula to any AI">📋 AI Prompt</button>
+        <button id="btn-quickadd-cancel" type="button">Cancel</button>
+      </div>
+    </dialog>
+
+    <input type="file" id="file-input" accept=".json" class="hidden">
+  </div>
+
+  <script type="module" src="js/app.js?v=3.10"></script>
+</body>
+</html>

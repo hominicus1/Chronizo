@@ -18,6 +18,7 @@ assert.ok(js.includes("event-node,.world-jump"),'interactive nodes must bypass p
 assert.ok(js.includes("classList.add('hidden')"),'mobile inspector close missing');
 assert.match(html,/id="inspector" class="inspector hidden"/,'inspector must start closed');
 assert.ok(css.includes('width:100vw'),'full-width phone stage missing');
+assert.ok(css.includes('grid-template-columns:82px minmax(0,1fr)'),'inspector column must not be reserved');
 assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
 assert.ok(css.includes('@media(max-width:720px)'));
 console.log('modern UI smoke: OK');

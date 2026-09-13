@@ -18,6 +18,11 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.12
+
+- Usunięta stała kolumna rezerwowana wcześniej dla inspektora.
+- Inspektor jest nakładką i nigdy nie zmniejsza obszaru mapy.
+
 ## alpha.11
 
 - Naprawiona kolizja reguł dotykowych z mobilną siatką.

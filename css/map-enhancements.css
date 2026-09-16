@@ -7,6 +7,9 @@
 .map-pin[data-level="street"] circle,.map-pin[data-level="building"] circle,.map-pin[data-level="room"] circle{fill:var(--gold)}
 .map-pin[data-level="street"] text,.map-pin[data-level="building"] text,.map-pin[data-level="room"] text{fill:var(--gold)}
 .hidden{display:none!important}
+.place-map-button{position:absolute;right:16px;top:98px;z-index:5;border:1px solid color-mix(in srgb,var(--mint) 65%,var(--line));border-radius:999px;padding:9px 13px;background:var(--panel);color:var(--mint);font:700 11px "DM Sans";box-shadow:0 8px 30px var(--shadow);cursor:pointer}
+.place-map-button:hover{background:var(--mint);color:#062016}
+.place-map-dialog{width:min(900px,94vw);padding:18px}.place-map-dialog form{display:grid;grid-template-rows:auto auto minmax(300px,70vh) auto}.place-map-dialog h2{margin-bottom:12px}.place-map-dialog iframe{width:100%;height:100%;min-height:300px;border:1px solid var(--line);border-radius:13px;background:var(--panel2)}.map-attribution{margin:8px 2px 0;color:var(--muted);font-size:10px}.map-attribution a{color:var(--mint)}
 .workspace{grid-template-columns:82px minmax(0,1fr)}
 .stage{grid-column:2}
 .inspector{position:fixed;right:0;top:72px;bottom:0;width:310px;z-index:100;box-shadow:-20px 0 55px var(--shadow)}
@@ -25,4 +28,5 @@
  .workspace{display:grid;grid-template-columns:minmax(0,1fr);width:100vw}
  .stage{grid-column:1;width:100vw;min-width:0}
  .map-wrap{width:100%;min-width:0}
+ .place-map-button{right:12px;top:92px;padding:8px 10px;font-size:10px}
 }

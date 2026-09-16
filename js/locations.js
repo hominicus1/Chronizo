@@ -19,6 +19,8 @@ export function createLocation(input){
   worldId:input.worldId||'earth-616',
   x:Number(input.x)||0,
   mapY:Number(input.mapY)||0,
+  lon:Number.isFinite(input.lon)?input.lon:null,
+  lat:Number.isFinite(input.lat)?input.lat:null,
   minZoom:Number.isFinite(input.minZoom)?input.minZoom:level.minZoom,
   custom:Boolean(input.custom)
  };

@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.17
+
+- Etykiety zachowują czytelny rozmiar podczas przybliżania, a ich ciemny obrys jest znacznie cieńszy.
+- Od powiększenia 10× po wybraniu miejsca pojawia się przycisk „Pokaż mapę miejsca”.
+- Dokładna mapa uliczna OpenStreetMap jest ładowana dopiero po kliknięciu i zawiera wymagane oznaczenie autorów.
+- Przyciski plus/minus korzystają teraz z pełnego zakresu powiększenia do 20×.
+- Rzut mapy jest bardziej frontalny i tylko lekko ukośny, dzięki czemu geografia pozostaje łatwiejsza do odczytania.
+
 ## alpha.16
 
 - Oś czasu została odsunięta ponad mapę, więc wydarzenia nie udają już punktów geograficznych w przypadkowych krajach.

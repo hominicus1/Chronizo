@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#071513">
   <title>Chronizo — kartografia opowieści</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/modern.css?v=4.0.0-alpha.16">
-  <link rel="stylesheet" href="css/map-enhancements.css?v=4.0.0-alpha.16">
+  <link rel="stylesheet" href="css/modern.css?v=4.0.0-alpha.17">
+  <link rel="stylesheet" href="css/map-enhancements.css?v=4.0.0-alpha.17">
 </head>
 <body>
   <div class="shell">
@@ -15,7 +15,7 @@
       <a class="brand" href="#" aria-label="Chronizo — początek">
         <span class="brand-mark">C</span>
         <span><b>Chronizo</b><small>Kartografia opowieści</small></span>
-        <span id="build-version" class="build-version" title="Aktualna wersja prototypu">α16</span>
+        <span id="build-version" class="build-version" title="Aktualna wersja prototypu">α17</span>
       </a>
       <nav id="world-tabs" class="world-tabs" aria-label="Światy"></nav>
       <div class="top-actions">
@@ -56,6 +56,7 @@
         <div id="map-wrap" class="map-wrap">
           <svg id="story-map" viewBox="0 0 1440 900" role="img" aria-label="Interaktywne drzewo czasu i miejsc"></svg>
           <div class="zoom-controls"><button id="zoom-in">＋</button><button id="zoom-out">−</button></div>
+          <button id="btn-place-map" class="place-map-button" hidden>🗺 Pokaż mapę miejsca</button>
           <div class="legend">
             <span><i class="legend-dot event"></i> wydarzenie</span>
             <span><i class="legend-dot branch"></i> rozgałęzienie</span>
@@ -92,6 +93,15 @@
       <p class="prototype-note">Pierwszy prototyp interfejsu — edytor danych dołączymy po zatwierdzeniu języka wizualnego.</p>
     </form>
   </dialog>
-  <script type="module" src="js/modern.js?v=4.0.0-alpha.16"></script>
+  <dialog id="place-map-dialog" class="modal place-map-dialog">
+    <form method="dialog">
+      <button class="modal-close" value="cancel" aria-label="Zamknij">×</button>
+      <p class="eyebrow">DOKŁADNA MAPA</p>
+      <h2 id="place-map-title">Mapa miejsca</h2>
+      <iframe id="place-map-frame" title="Dokładna mapa miejsca" loading="lazy"></iframe>
+      <p class="map-attribution">Dane mapy © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">autorzy OpenStreetMap</a></p>
+    </form>
+  </dialog>
+  <script type="module" src="js/modern.js?v=4.0.0-alpha.17"></script>
 </body>
 </html>

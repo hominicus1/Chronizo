@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.18
+
+- Etykiety wydarzeń, miejsc i postaci mają większy stały rozmiar ekranowy oraz nadal cienki obrys.
+- Ikona dokładnej mapy jest zawsze widoczna w panelu zoomu; aktywuje się po wyborze miejsca i od 4×.
+- World Shift, rozgałęzienie i linia wspomnienia zostały dopasowane do frontalnego rzutu mapy.
+
 ## alpha.17
 
 - Etykiety zachowują czytelny rozmiar podczas przybliżania, a ich ciemny obrys jest znacznie cieńszy.

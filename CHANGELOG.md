@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.16
+
+- Oś czasu została odsunięta ponad mapę, więc wydarzenia nie udają już punktów geograficznych w przypadkowych krajach.
+- Kliknięcie wydarzenia podnosi mapę o różnicę między pozycją czasu a rzeczywistą pozycją miejsca.
+- Punkt Nowego Jorku trafia dokładnie pod wydarzenia Kapitana Ameryki i bitwy o Nowy Jork.
+
 ## alpha.15
 
 - Istniejące lokalizacje są pozycjonowane z długości i szerokości geograficznej na tej samej projekcji co mapa.

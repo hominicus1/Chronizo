@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#071513">
   <title>Chronizo — kartografia opowieści</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/modern.css?v=4.0.0-alpha.21">
-  <link rel="stylesheet" href="css/map-enhancements.css?v=4.0.0-alpha.21">
+  <link rel="stylesheet" href="css/modern.css?v=4.0.0-alpha.22">
+  <link rel="stylesheet" href="css/map-enhancements.css?v=4.0.0-alpha.22">
 </head>
 <body>
   <div class="shell">
@@ -15,7 +15,7 @@
       <a class="brand" href="#" aria-label="Chronizo — początek">
         <span class="brand-mark">C</span>
         <span><b>Chronizo</b><small>Kartografia opowieści</small></span>
-        <span id="build-version" class="build-version" title="Aktualna wersja prototypu">α21</span>
+        <span id="build-version" class="build-version" title="Aktualna wersja prototypu">α22</span>
       </a>
       <nav id="world-tabs" class="world-tabs" aria-label="Światy"></nav>
       <div class="top-actions">
@@ -58,7 +58,7 @@
           <div class="zoom-controls">
             <button id="zoom-in" title="Przybliż">＋</button>
             <button id="zoom-out" title="Oddal">−</button>
-            <a id="btn-place-map" class="place-map-button" href="https://www.openstreetmap.org/?mlat=40.713&amp;mlon=-74.006#map=14/40.713/-74.006" target="_blank" rel="noopener" title="Pokaż przykładową mapę Nowego Jorku" aria-label="Pokaż dokładną mapę miejsca">🗺</a>
+            <button id="btn-place-map" class="place-map-button" title="Pokaż mapę Chronizo dla Nowego Jorku" aria-label="Pokaż dokładną mapę miejsca">🗺</button>
           </div>
           <div class="legend">
             <span><i class="legend-dot event"></i> wydarzenie</span>
@@ -96,6 +96,21 @@
       <p class="prototype-note">Pierwszy prototyp interfejsu — edytor danych dołączymy po zatwierdzeniu języka wizualnego.</p>
     </form>
   </dialog>
-  <script type="module" src="js/modern.js?v=4.0.0-alpha.21"></script>
+  <dialog id="place-map-dialog" class="detail-map-dialog">
+    <div class="detail-map-head">
+      <div><p class="eyebrow">MAPA MIEJSCA</p><h2 id="place-map-title">Nowy Jork</h2></div>
+      <div class="detail-map-actions">
+        <button id="detail-zoom-in" type="button" title="Przybliż mapę miejsca">＋</button>
+        <button id="detail-zoom-out" type="button" title="Oddal mapę miejsca">−</button>
+        <button id="place-map-close" type="button" aria-label="Zamknij">×</button>
+      </div>
+    </div>
+    <div id="detail-map" class="detail-map" aria-label="Szczegółowa mapa miejsca">
+      <div id="detail-map-tiles" class="detail-map-tiles"></div>
+      <div id="detail-map-pois" class="detail-map-pois"></div>
+    </div>
+    <div class="detail-map-foot"><span>Warstwa Chronizo · punkty rzeczywiste i fikcyjne</span><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© autorzy OpenStreetMap</a></div>
+  </dialog>
+  <script type="module" src="js/modern.js?v=4.0.0-alpha.22"></script>
 </body>
 </html>

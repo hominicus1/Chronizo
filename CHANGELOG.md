@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.22
+
+- Dokładna mapa działa wewnątrz Chronizo jako własny widok kafelkowy.
+- OpenStreetMap jest podkładem, a lokalizacje Chronizo tworzą niezależną klikalną warstwę POI.
+- Warstwa pokazuje także miejsca fikcyjne i lokalizacje dodane przez użytkownika.
+- Widok szczegółowy ma niezależne przybliżanie od poziomu kraju do ulicy.
+
 ## alpha.21
 
 - Ikona dokładnej mapy jest teraz zwykłym linkiem zamiast blokowanego wywołania popup.

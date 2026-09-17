@@ -18,6 +18,11 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.21
+
+- Ikona dokładnej mapy jest teraz zwykłym linkiem zamiast blokowanego wywołania popup.
+- Link ma od razu adres Nowego Jorku i zmienia się wraz z wybraną lokalizacją.
+
 ## alpha.20
 
 - Dokładna mapa otwiera się jako pełna strona OpenStreetMap, ponieważ osadzona ramka była blokowana.

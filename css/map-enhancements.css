@@ -7,7 +7,7 @@
 .map-pin[data-level="street"] circle,.map-pin[data-level="building"] circle,.map-pin[data-level="room"] circle{fill:var(--gold)}
 .map-pin[data-level="street"] text,.map-pin[data-level="building"] text,.map-pin[data-level="room"] text{fill:var(--gold)}
 .hidden{display:none!important}
-.zoom-controls .place-map-button{color:var(--mint);font-size:16px}.zoom-controls .place-map-button:disabled{color:var(--muted);opacity:.38;cursor:not-allowed}.zoom-controls .place-map-button:not(:disabled):hover{background:var(--mint);color:#062016}
+.zoom-controls .place-map-button{color:var(--mint);font-size:16px}.zoom-controls .place-map-button[aria-disabled="true"]{color:var(--muted);opacity:.38;pointer-events:none}.zoom-controls .place-map-button:not([aria-disabled="true"]):hover{background:var(--mint);color:#062016}
 .workspace{grid-template-columns:82px minmax(0,1fr)}
 .stage{grid-column:2}
 .inspector{position:fixed;right:0;top:72px;bottom:0;width:310px;z-index:100;box-shadow:-20px 0 55px var(--shadow)}

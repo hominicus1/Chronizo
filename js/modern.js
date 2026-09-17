@@ -1,4 +1,4 @@
-import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.18';
+import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.19';
 const NS='http://www.w3.org/2000/svg',$=s=>document.querySelector(s);
 const worlds=[
  {id:'earth-616',name:'Earth-616',color:'#7ef0bd',subtitle:'Główna rzeczywistość · 1943–2025'},
@@ -53,7 +53,7 @@ const otherEvents={
  'earth-838':[{title:'Illuminati strzegą świata',year:'2018',x:620,y:315,place:'Nowy Jork · Earth-838',source:'Multiverse of Madness',tags:['Illuminati','Earth-838']},{title:'Wanda przybywa z Earth-616',year:'2025',x:620,y:146,place:'Siedziba Illuminati',source:'Multiverse of Madness',tags:['Wanda Maximoff','Multiverse'],target:'earth-616'}],
  zombie:[{title:'Początek zakażenia',year:'2023',x:620,y:260,place:'Nowy Jork',source:'Marvel Zombies',tags:['Zombies','World Shift']},{title:'Upadek bohaterów',year:'2024',x:390,y:205,place:'Ameryka',source:'Marvel Zombies',tags:['Zombies','Avengers']}]
 };
-let active='earth-616',tag='',query='',zoom=1,panX=0,panY=0,liftedY=null,customTexture='',placingLocation=false,selectedPlace=null;
+let active='earth-616',tag='',query='',zoom=1,panX=0,panY=0,liftedY=null,customTexture='',placingLocation=false,selectedPlace=locations.newYork;
 const customLocations=[];
 const pointers=new Map();
 const svg=$('#story-map');
@@ -69,11 +69,11 @@ const mapToGeo=(x,mapY)=>{
  return {lon:u/1000*360-180,lat:90-v/500*180};
 };
 function selectPlace(item){selectedPlace=Number.isFinite(item?.lat)&&Number.isFinite(item?.lon)?item:null;updatePlaceMapButton()}
-function updatePlaceMapButton(){const button=$('#btn-place-map');if(!button)return;button.disabled=!(selectedPlace&&zoom>=4);button.title=!selectedPlace?'Najpierw wybierz wydarzenie lub lokalizację':zoom<4?'Przybliż mapę co najmniej 4×':'Pokaż dokładną mapę '+(selectedPlace.title||selectedPlace.name||selectedPlace.place||'miejsca')}
+function updatePlaceMapButton(){const button=$('#btn-place-map');if(!button)return;button.disabled=!selectedPlace;button.title=!selectedPlace?'Najpierw wybierz wydarzenie lub lokalizację':'Pokaż dokładną mapę '+(selectedPlace.title||selectedPlace.name||selectedPlace.place||'miejsca')}
 function append(parent,...nodes){nodes.forEach(n=>parent.append(n));}
 
 function tabs(){const nav=$('#world-tabs');nav.innerHTML='';worlds.forEach(w=>{const b=document.createElement('button');b.className='world-tab'+(w.id===active?' active':'');b.innerHTML='<i style="background:'+w.color+'"></i>'+w.name;b.onclick=()=>switchWorld(w.id);nav.append(b)});const b=document.createElement('button');b.className='world-tab world-more';b.textContent='Wszystkie światy ▾';nav.append(b)}
-function switchWorld(id){active=id;tag='';query='';selectedPlace=null;$('#search').value='';const w=worlds.find(x=>x.id===id);$('#world-title').textContent=w.name;$('#world-subtitle').textContent=w.subtitle;tabs();tags();render();show({title:w.name,copy:w.parent?'Świat potomny dziedziczy historię do punktu rozgałęzienia.':'Główne drzewo aktywnej rzeczywistości.',place:w.subtitle,tags:[w.name]},'ŚWIAT')}
+function switchWorld(id){active=id;tag='';query='';selectedPlace=id==='earth-616'?locations.newYork:null;$('#search').value='';const w=worlds.find(x=>x.id===id);$('#world-title').textContent=w.name;$('#world-subtitle').textContent=w.subtitle;tabs();tags();render();show({title:w.name,copy:w.parent?'Świat potomny dziedziczy historię do punktu rozgałęzienia.':'Główne drzewo aktywnej rzeczywistości.',place:w.subtitle,tags:[w.name]},'ŚWIAT')}
 function matches(item){const hay=[item.title,item.name,item.hero,item.place,...(item.tags||[])].filter(Boolean).join(' ').toLowerCase();return(!tag||(item.tags||[]).includes(tag))&&(!query||hay.includes(query.toLowerCase()))}
 
 function base(g){
@@ -85,7 +85,7 @@ function base(g){
  const mapCorners='250,620 1020,660 950,840 180,800';
  append(p,el('polygon',{points:mapCorners,class:'iso-side',transform:'translate(0 18)'}),el('polygon',{points:mapCorners,class:'earth-plane'}));
  const clip=el('clipPath',{id:'map-clip'});clip.append(el('polygon',{points:mapCorners}));g.querySelector('defs').append(clip);
- p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.18',x:0,y:0,width:1000,height:500,transform:'matrix(.77 .04 -.14 .36 250 620)',class:'map-texture'}));
+ p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.19',x:0,y:0,width:1000,height:500,transform:'matrix(.77 .04 -.14 .36 250 620)',class:'map-texture'}));
  g.append(p);
  [...locationCatalog,...customLocations].filter(l=>l.worldId===active&&visibleAtZoom(l,zoom)).forEach(l=>{const pin=el('g',{class:'map-pin','data-level':l.type});append(pin,el('circle',{cx:l.x,cy:l.mapY,r:Math.max(1.4,4/zoom)}),el('text',{x:l.x+9/zoom,y:l.mapY-6/zoom,style:labelStyle(13)},l.name));pin.onclick=ev=>{ev.stopPropagation();selectPlace(l);const catalog=[...locationCatalog,...customLocations];show({title:l.name,place:getLocationPath(l,catalog),tags:['Lokalizacja',LOCATION_LEVELS.find(x=>x.id===l.type)?.label||l.type],copy:'Poziom szczegółowości: '+l.type+'. Widoczna od powiększenia '+l.minZoom+'×.'},'LOKALIZACJA')};p.append(pin)});
  [locations.newYork,locations.sokovia,locations.wakanda,locations.kamarTaj].forEach(a=>g.insertBefore(el('line',{x1:a.x,y1:a.mapY,x2:a.x,y2:120,class:'anchor-pillar'}),g.firstChild));

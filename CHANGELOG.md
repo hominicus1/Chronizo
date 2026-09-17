@@ -18,6 +18,11 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.19
+
+- Nowy Jork jest domyślnym przykładem dokładnej mapy, a ikona mapy jest aktywna od razu.
+- Wybranie kolejnego wydarzenia lub miejsca nadal automatycznie zmienia cel dokładnej mapy.
+
 ## alpha.18
 
 - Etykiety wydarzeń, miejsc i postaci mają większy stały rozmiar ekranowy oraz nadal cienki obrys.

@@ -25,9 +25,9 @@ assert.ok(css.includes('grid-template-columns:82px minmax(0,1fr)'),'inspector co
 assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
 assert.ok(js.includes('geoToMap'),'coordinate projection missing');
 assert.ok(js.includes('openstreetmap.org/export/embed.html'),'on-demand detailed map missing');
-assert.ok(js.includes('zoom>=4'),'detail map zoom threshold missing');
+assert.ok(js.includes('selectedPlace=locations.newYork'),'New York detail-map example missing');
 assert.ok(js.includes("-74.006,40.713"),'New York coordinates missing');
 assert.ok(css.includes("stroke-width:.8")&&css.includes("stroke-width:1.8"),'thin/focused thread widths missing');
-assert.match(html,/α18/,'visible build version missing');
+assert.match(html,/α19/,'visible build version missing');
 assert.ok(css.includes('@media(max-width:720px)'));
 console.log('modern UI smoke: OK');

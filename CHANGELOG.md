@@ -18,6 +18,11 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.20
+
+- Dokładna mapa otwiera się jako pełna strona OpenStreetMap, ponieważ osadzona ramka była blokowana.
+- Antarktyda ma własny bezpieczny kontur bez błędnego połączenia przez południk 180°.
+
 ## alpha.19
 
 - Nowy Jork jest domyślnym przykładem dokładnej mapy, a ikona mapy jest aktywna od razu.

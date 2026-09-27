@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.25
+
+- Added a required event picker for before, after and parallel relationships.
+- Events can be searched by title, source, character/tag, world, place and notes and are grouped by source.
+- Road can switch between source order and event chronology.
+- Sources have an optional approximate date; an event may override it for flashbacks and other exceptions.
+
 ## alpha.24
 
 - Replaced the visual-first demo with the empty Chronizo 2 chronicler workbench.

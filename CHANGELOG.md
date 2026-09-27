@@ -18,6 +18,18 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.24
+
+- Replaced the visual-first demo with the empty Chronizo 2 chronicler workbench.
+- Added projects, Road sources, rapid consecutive event capture and an inbox for uncertain facts.
+- Moved Atlas into an empty experimental view generated from user data.
+- Removed all example worlds, characters, places and events from the active interface and isolated storage from the previous prototype.
+
+## alpha.23
+- Added an always-visible Chronizo place shortcut inside the detailed map.
+- The fictional Parker home can now be opened directly in Forest Hills at building zoom.
+- Fictional locations use the violet Chronizo marker instead of pretending to be OpenStreetMap data.
+
 ## alpha.22
 
 - Dokładna mapa działa wewnątrz Chronizo jako własny widok kafelkowy.

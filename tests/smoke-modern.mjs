@@ -1,35 +1,21 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
-const js=fs.readFileSync(new URL('../js/modern.js',import.meta.url),'utf8');
-const locations=fs.readFileSync(new URL('../js/locations.js',import.meta.url),'utf8');
-const css=fs.readFileSync(new URL('../css/modern.css',import.meta.url),'utf8')+
-  fs.readFileSync(new URL('../css/map-enhancements.css',import.meta.url),'utf8');
-for(const id of ['world-tabs','story-map','tag-filters','inspector','add-dialog','map-texture-input','build-version','btn-place-map','place-map-dialog','detail-map','detail-map-tiles','detail-map-pois'])assert.match(html,new RegExp('id=["\\\']'+id+'["\\\']'));
-for(const concept of ['earth-616','world-jump','WORLD SHIFT','mentioned-line'])assert.ok(js.includes(concept),'missing '+concept);
-assert.ok(js.includes('customTexture'),'custom map texture missing');
-assert.ok(js.includes('customLocations'),'custom location mode missing');
-assert.ok(js.includes("assets/world-map.svg"),'default earth texture missing');
-assert.ok(js.includes("addEventListener('wheel'"),'mouse wheel zoom missing');
-assert.ok(js.includes("pointermove"),'touch pinch/pan missing');
-assert.ok(js.includes("liftMapTo(e)"),'map lift on event missing');
-assert.ok(js.includes("Math.min(20"),'deep geographic zoom missing');
-assert.ok(js.includes("function liftMapTo"),'direct map lift missing');
-assert.ok(locations.includes("parentLocationId"),'location hierarchy missing');
-assert.ok(locations.includes("visibleAtZoom"),'semantic location zoom missing');
-assert.ok(js.includes("event-node,.world-jump"),'interactive nodes must bypass pointer capture');
-assert.ok(js.includes("classList.add('hidden')"),'mobile inspector close missing');
-assert.match(html,/id="inspector" class="inspector hidden"/,'inspector must start closed');
-assert.ok(css.includes('width:100vw'),'full-width phone stage missing');
-assert.ok(css.includes('grid-template-columns:82px minmax(0,1fr)'),'inspector column must not be reserved');
-assert.ok(js.includes('newYork')&&js.includes('sokovia')&&js.includes('wakanda'),'geographic anchors missing');
-assert.ok(js.includes('geoToMap'),'coordinate projection missing');
-assert.ok(js.includes('tile.openstreetmap.org'),'detailed map tile layer missing');
-assert.ok(js.includes('detail-map-poi'),'Chronizo POI overlay missing');
-assert.ok(js.includes('renderDetailMap'),'internal detailed map renderer missing');
-assert.ok(js.includes('selectedPlace=locations.newYork'),'New York detail-map example missing');
-assert.ok(js.includes("-74.006,40.713"),'New York coordinates missing');
-assert.ok(css.includes("stroke-width:.8")&&css.includes("stroke-width:1.8"),'thin/focused thread widths missing');
-assert.match(html,/α22/,'visible build version missing');
-assert.ok(css.includes('@media(max-width:720px)'));
-console.log('modern UI smoke: OK');
+const js=fs.readFileSync(new URL('../js/workbench.js',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8');
+
+for(const id of ['build-version','project-select','view-road','view-sources','view-events','view-atlas','road-content','sources-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
+  assert.match(html,new RegExp(`id=["']${id}["']`),`missing ${id}`);
+}
+for(const concept of ['projects:[]','sources:[]','events:[]','localStorage','Zapisz i dodaj następne','skrzynce do uporządkowania']){
+  assert.ok((html+js).includes(concept),`missing ${concept}`);
+}
+for(const demo of ['Earth-616','Avengers','Tony Stark','Steve Rogers','Nowy Jork','Dom Parkerów']){
+  assert.ok(!html.includes(demo),`active UI still contains demo value: ${demo}`);
+}
+assert.ok(js.includes('chronizo.workbench.v1'),'isolated clean storage missing');
+assert.ok(js.includes('timeType'),'flexible event time missing');
+assert.ok(css.includes('@media(max-width:800px)'),'mobile layout missing');
+assert.match(html,/α24/,'visible build version missing');
+console.log('Chronizo workbench smoke: OK');

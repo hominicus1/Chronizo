@@ -1,4 +1,4 @@
-import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.22';
+import {createLocation,getLocationPath,nearestParent,visibleAtZoom,LOCATION_LEVELS} from './locations.js?v=4.0.0-alpha.23';
 const NS='http://www.w3.org/2000/svg',$=s=>document.querySelector(s);
 const worlds=[
  {id:'earth-616',name:'Earth-616',color:'#7ef0bd',subtitle:'Główna rzeczywistość · 1943–2025'},
@@ -73,14 +73,17 @@ function updatePlaceMapButton(){const button=$('#btn-place-map');if(!button)retu
 function worldPixel(lat,lon,z){const scale=256*2**z,sin=Math.sin(Math.max(-85.0511,Math.min(85.0511,lat))*Math.PI/180);return{x:(lon+180)/360*scale,y:(.5-Math.log((1+sin)/(1-sin))/(4*Math.PI))*scale}}
 function renderDetailMap(){
  if(!selectedPlace)return;
- const map=$('#detail-map'),tiles=$('#detail-map-tiles'),pois=$('#detail-map-pois'),w=map.clientWidth,h=map.clientHeight,center=worldPixel(selectedPlace.lat,selectedPlace.lon,detailZoom),worldTiles=2**detailZoom;
+ const map=$('#detail-map'),tiles=$('#detail-map-tiles'),pois=$('#detail-map-pois'),shortcuts=$('#detail-map-shortcuts'),w=map.clientWidth,h=map.clientHeight,center=worldPixel(selectedPlace.lat,selectedPlace.lon,detailZoom),worldTiles=2**detailZoom;
  tiles.innerHTML='';pois.innerHTML='';
  const minX=Math.floor((center.x-w/2)/256),maxX=Math.floor((center.x+w/2)/256),minY=Math.max(0,Math.floor((center.y-h/2)/256)),maxY=Math.min(worldTiles-1,Math.floor((center.y+h/2)/256));
  for(let tx=minX;tx<=maxX;tx++)for(let ty=minY;ty<=maxY;ty++){const img=document.createElement('img'),wrappedX=((tx%worldTiles)+worldTiles)%worldTiles;img.src=`https://tile.openstreetmap.org/${detailZoom}/${wrappedX}/${ty}.png`;img.alt='';img.loading='eager';img.referrerPolicy='origin';img.style.left=(tx*256-center.x+w/2)+'px';img.style.top=(ty*256-center.y+h/2)+'px';tiles.append(img)}
  const detailMin={world:3,continent:4,country:6,city:10,district:13,street:16,building:17,room:19},catalog=[...locationCatalog,...customLocations].filter(l=>l.worldId===active&&Number.isFinite(l.lat)&&Number.isFinite(l.lon)&&(detailMin[l.type]||10)<=detailZoom),items=selectedPlace.title?[...catalog,{...selectedPlace,id:'selected-event',name:selectedPlace.title}]:catalog;
- items.forEach(l=>{const p=worldPixel(l.lat,l.lon,detailZoom),left=p.x-center.x+w/2,top=p.y-center.y+h/2;if(left< -100||left>w+100||top<0||top>h)return;const pin=document.createElement('button');pin.className='detail-map-poi'+(['sokovia','wakanda','kamar-taj'].includes(l.id)?' fictional':'')+(l.id==='selected-event'||l===selectedPlace||l.name===selectedPlace.name?' selected':'');pin.style.left=left+'px';pin.style.top=top+'px';pin.textContent=l.name;pin.onclick=()=>{selectedPlace=l;$('#place-map-title').textContent=l.name;renderDetailMap()};pois.append(pin)});
+ items.forEach(l=>{const p=worldPixel(l.lat,l.lon,detailZoom),left=p.x-center.x+w/2,top=p.y-center.y+h/2;if(left< -100||left>w+100||top<0||top>h)return;const pin=document.createElement('button');pin.className='detail-map-poi'+(['sokovia','wakanda','kamar-taj','parker-home'].includes(l.id)?' fictional':'')+(l.id==='selected-event'||l===selectedPlace||l.name===selectedPlace.name?' selected':'');pin.style.left=left+'px';pin.style.top=top+'px';pin.textContent=l.name;pin.onclick=()=>focusDetailPlace(l);pois.append(pin)});
+ shortcuts.innerHTML='';
+ locationCatalog.filter(l=>l.worldId===active&&['building','street'].includes(l.type)).forEach(l=>{const button=document.createElement('button');button.type='button';button.className='detail-map-shortcut'+(l.id==='parker-home'?' fictional':'');button.textContent=(l.type==='building'?'⌂ ':'⌖ ')+l.name;button.onclick=()=>focusDetailPlace(l);shortcuts.append(button)});
  $('#place-map-title').textContent=selectedPlace.title||selectedPlace.name||selectedPlace.place||'Mapa miejsca';
 }
+function focusDetailPlace(place){selectedPlace=place;detailZoom=place.type==='building'?18:place.type==='street'?17:14;$('#place-map-title').textContent=place.name;renderDetailMap()}
 function append(parent,...nodes){nodes.forEach(n=>parent.append(n));}
 
 function tabs(){const nav=$('#world-tabs');nav.innerHTML='';worlds.forEach(w=>{const b=document.createElement('button');b.className='world-tab'+(w.id===active?' active':'');b.innerHTML='<i style="background:'+w.color+'"></i>'+w.name;b.onclick=()=>switchWorld(w.id);nav.append(b)});const b=document.createElement('button');b.className='world-tab world-more';b.textContent='Wszystkie światy ▾';nav.append(b)}
@@ -96,7 +99,7 @@ function base(g){
  const mapCorners='250,620 1020,660 950,840 180,800';
  append(p,el('polygon',{points:mapCorners,class:'iso-side',transform:'translate(0 18)'}),el('polygon',{points:mapCorners,class:'earth-plane'}));
  const clip=el('clipPath',{id:'map-clip'});clip.append(el('polygon',{points:mapCorners}));g.querySelector('defs').append(clip);
- p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.22',x:0,y:0,width:1000,height:500,transform:'matrix(.77 .04 -.14 .36 250 620)',class:'map-texture'}));
+ p.append(el('image',{href:customTexture||'assets/world-map.svg?v=4.0.0-alpha.23',x:0,y:0,width:1000,height:500,transform:'matrix(.77 .04 -.14 .36 250 620)',class:'map-texture'}));
  g.append(p);
  [...locationCatalog,...customLocations].filter(l=>l.worldId===active&&visibleAtZoom(l,zoom)).forEach(l=>{const pin=el('g',{class:'map-pin','data-level':l.type});append(pin,el('circle',{cx:l.x,cy:l.mapY,r:Math.max(1.4,4/zoom)}),el('text',{x:l.x+9/zoom,y:l.mapY-6/zoom,style:labelStyle(13)},l.name));pin.onclick=ev=>{ev.stopPropagation();selectPlace(l);const catalog=[...locationCatalog,...customLocations];show({title:l.name,place:getLocationPath(l,catalog),tags:['Lokalizacja',LOCATION_LEVELS.find(x=>x.id===l.type)?.label||l.type],copy:'Poziom szczegółowości: '+l.type+'. Widoczna od powiększenia '+l.minZoom+'×.'},'LOKALIZACJA')};p.append(pin)});
  [locations.newYork,locations.sokovia,locations.wakanda,locations.kamarTaj].forEach(a=>g.insertBefore(el('line',{x1:a.x,y1:a.mapY,x2:a.x,y2:120,class:'anchor-pillar'}),g.firstChild));

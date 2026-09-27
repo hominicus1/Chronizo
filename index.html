@@ -3,114 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#071513">
-  <title>Chronizo — kartografia opowieści</title>
+  <meta name="theme-color" content="#07110f">
+  <title>Chronizo — warsztat kronikarza</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/modern.css?v=4.0.0-alpha.22">
-  <link rel="stylesheet" href="css/map-enhancements.css?v=4.0.0-alpha.22">
+  <link rel="stylesheet" href="css/workbench.css?v=5.0.0-alpha.1">
 </head>
 <body>
-  <div class="shell">
+  <div class="app-shell">
     <header class="topbar">
-      <a class="brand" href="#" aria-label="Chronizo — początek">
+      <button class="brand" id="brand-home" type="button" aria-label="Chronizo — projekty">
         <span class="brand-mark">C</span>
-        <span><b>Chronizo</b><small>Kartografia opowieści</small></span>
-        <span id="build-version" class="build-version" title="Aktualna wersja prototypu">α22</span>
-      </a>
-      <nav id="world-tabs" class="world-tabs" aria-label="Światy"></nav>
-      <div class="top-actions">
-        <button id="btn-search" class="icon-button" title="Szukaj">⌕</button>
-        <button id="btn-theme" class="icon-button" title="Zmień motyw">◐</button>
-        <button id="btn-add" class="primary-button">＋ Dodaj</button>
-      </div>
+        <span class="brand-copy"><b>Chronizo</b><small>Warsztat kronikarza</small></span>
+        <span id="build-version" class="version">α24</span>
+      </button>
+      <div class="project-switcher"><span>Projekt</span><select id="project-select" aria-label="Aktywny projekt"></select></div>
+      <div class="top-actions"><button id="theme-button" class="icon-button" type="button" title="Zmień motyw">◐</button><button id="quick-event-button" class="primary-button" type="button">＋ Wydarzenie</button></div>
     </header>
-
-    <main class="workspace">
-      <aside class="rail">
-        <button class="rail-button active" data-view="world"><span>⌾</span>Świat</button>
-        <button class="rail-button" data-view="chronology"><span>⌁</span>Chronologia</button>
-        <button class="rail-button" data-view="sources"><span>▤</span>Źródła</button>
-        <div class="rail-spacer"></div>
-        <button id="btn-help" class="rail-button"><span>?</span>Pomoc</button>
-      </aside>
-
-      <section class="stage" aria-label="Mapa historii">
-        <div class="stage-head">
-          <div>
-            <p class="eyebrow">AKTYWNY ŚWIAT</p>
-            <h1 id="world-title">Earth-616</h1>
-            <p id="world-subtitle">Główna rzeczywistość · 1943–2025</p>
-          </div>
-          <div class="view-controls">
-            <label id="btn-texture" class="soft-button texture-button" for="map-texture-input">▧ Tekstura mapy</label>
-            <input id="map-texture-input" type="file" accept="image/*" hidden>
-            <button id="btn-fit" class="soft-button">Dopasuj</button>
-            <button id="btn-play" class="soft-button">▶ Odtwórz</button>
-          </div>
-        </div>
-        <div class="filterbar">
-          <label class="search-field"><span>⌕</span><input id="search" placeholder="Postać, event, drużyna…"></label>
-          <div id="tag-filters" class="tag-filters"></div>
-          <button id="btn-clear-filter" class="clear-filter" hidden>Wyczyść ×</button>
-        </div>
-        <div id="map-wrap" class="map-wrap">
-          <svg id="story-map" viewBox="0 0 1440 900" role="img" aria-label="Interaktywne drzewo czasu i miejsc"></svg>
-          <div class="zoom-controls">
-            <button id="zoom-in" title="Przybliż">＋</button>
-            <button id="zoom-out" title="Oddal">−</button>
-            <button id="btn-place-map" class="place-map-button" title="Pokaż mapę Chronizo dla Nowego Jorku" aria-label="Pokaż dokładną mapę miejsca">🗺</button>
-          </div>
-          <div class="legend">
-            <span><i class="legend-dot event"></i> wydarzenie</span>
-            <span><i class="legend-dot branch"></i> rozgałęzienie</span>
-            <span><i class="legend-line travel"></i> inny świat</span>
-            <span><i class="legend-line mentioned"></i> wspomniane</span>
-          </div>
-        </div>
+    <aside class="sidebar" aria-label="Główna nawigacja">
+      <nav>
+        <button class="nav-button active" data-view="road" type="button"><span>◫</span><b>Road</b></button>
+        <button class="nav-button" data-view="sources" type="button"><span>▤</span><b>Źródła</b></button>
+        <button class="nav-button" data-view="events" type="button"><span>●</span><b>Wydarzenia</b></button>
+        <button class="nav-button" data-view="atlas" type="button"><span>⌖</span><b>Atlas</b><small>eksperymentalny</small></button>
+      </nav>
+      <button id="new-project-side" class="new-project-side" type="button">＋ Nowy projekt</button>
+    </aside>
+    <main class="main">
+      <section id="view-road" class="view active" aria-labelledby="road-title">
+        <header class="view-head"><div><p class="eyebrow">TWOJA DROGA</p><h1 id="road-title">Zacznij własną kronikę</h1><p id="road-subtitle">Bez przykładów. Bez narzuconego uniwersum. To miejsce czeka na Twoją historię.</p></div><button id="new-project-main" class="primary-button" type="button">Utwórz pierwszy projekt</button></header>
+        <div id="road-content" class="content"></div>
       </section>
-
-      <aside id="inspector" class="inspector hidden" aria-hidden="true">
-        <button id="inspector-close" class="inspector-close" aria-label="Zamknij">×</button>
-        <p id="inspector-kicker" class="eyebrow">WYDARZENIE</p>
-        <h2 id="inspector-title">Wybierz punkt na drzewie</h2>
-        <p id="inspector-copy" class="inspector-copy">Kliknij wydarzenie, linię postaci albo kolorowy punkt przejścia.</p>
-        <dl id="inspector-meta" class="meta-list"></dl>
-        <div id="inspector-tags" class="inspector-tags"></div>
-        <button id="inspector-action" class="primary-button wide" hidden></button>
-      </aside>
+      <section id="view-sources" class="view" aria-labelledby="sources-title">
+        <header class="view-head"><div><p class="eyebrow">MATERIAŁY</p><h1 id="sources-title">Źródła</h1><p>Filmy, seriale, odcinki, komiksy i książki należące do aktywnego projektu.</p></div><button id="add-source-button" class="primary-button" type="button">＋ Dodaj źródło</button></header>
+        <div id="sources-content" class="content"></div>
+      </section>
+      <section id="view-events" class="view" aria-labelledby="events-title">
+        <header class="view-head"><div><p class="eyebrow">DZIENNIK</p><h1 id="events-title">Wydarzenia</h1><p>Zapisuj fakty od razu. Niepewne szczegóły możesz uporządkować później.</p></div><button id="add-event-button" class="primary-button" type="button">＋ Dodaj wydarzenie</button></header>
+        <div id="events-content" class="content"></div>
+      </section>
+      <section id="view-atlas" class="view" aria-labelledby="atlas-title">
+        <header class="view-head"><div><p class="eyebrow">EKSPERYMENT</p><h1 id="atlas-title">Atlas</h1><p>Chronologia, mapa i linie postaci powstaną z zapisanych przez Ciebie danych.</p></div></header>
+        <div id="atlas-content" class="content"></div>
+      </section>
     </main>
   </div>
-
-  <dialog id="add-dialog" class="modal">
-    <form method="dialog">
-      <button class="modal-close" value="cancel">×</button>
-      <p class="eyebrow">NOWY ELEMENT</p>
-      <h2>Co dodajemy do historii?</h2>
-      <div class="add-grid">
-        <button value="event"><b>● Wydarzenie</b><small>Punkt w czasie i miejscu</small></button>
-        <button value="character"><b>│ Postać</b><small>Nowa linia życia</small></button>
-        <button value="location"><b>⌖ Lokalizacja</b><small>Umieść punkt na mapie</small></button>
-        <button value="branch"><b>◆ Rozgałęzienie</b><small>Nowy wariant świata</small></button>
-        <button value="shift"><b>▱ World Shift</b><small>Nowa wersja mapy</small></button>
-      </div>
-      <p class="prototype-note">Pierwszy prototyp interfejsu — edytor danych dołączymy po zatwierdzeniu języka wizualnego.</p>
-    </form>
-  </dialog>
-  <dialog id="place-map-dialog" class="detail-map-dialog">
-    <div class="detail-map-head">
-      <div><p class="eyebrow">MAPA MIEJSCA</p><h2 id="place-map-title">Nowy Jork</h2></div>
-      <div class="detail-map-actions">
-        <button id="detail-zoom-in" type="button" title="Przybliż mapę miejsca">＋</button>
-        <button id="detail-zoom-out" type="button" title="Oddal mapę miejsca">−</button>
-        <button id="place-map-close" type="button" aria-label="Zamknij">×</button>
-      </div>
-    </div>
-    <div id="detail-map" class="detail-map" aria-label="Szczegółowa mapa miejsca">
-      <div id="detail-map-tiles" class="detail-map-tiles"></div>
-      <div id="detail-map-pois" class="detail-map-pois"></div>
-    </div>
-    <div class="detail-map-foot"><span>Warstwa Chronizo · punkty rzeczywiste i fikcyjne</span><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© autorzy OpenStreetMap</a></div>
-  </dialog>
-  <script type="module" src="js/modern.js?v=4.0.0-alpha.22"></script>
+  <dialog id="project-dialog" class="dialog"><form id="project-form" method="dialog"><button class="dialog-close" value="cancel" type="submit" aria-label="Zamknij">×</button><p class="eyebrow">NOWY PROJEKT</p><h2>Co chcesz uporządkować?</h2><label>Nazwa projektu<input id="project-name" name="name" required autocomplete="off" placeholder="Np. moja droga do…"></label><label>Krótki opis<textarea id="project-description" name="description" rows="3" placeholder="Opcjonalnie"></textarea></label><button class="primary-button full" value="save" type="submit">Utwórz projekt</button></form></dialog>
+  <dialog id="source-dialog" class="dialog"><form id="source-form" method="dialog"><button class="dialog-close" value="cancel" type="submit" aria-label="Zamknij">×</button><p class="eyebrow">NOWE ŹRÓDŁO</p><h2>Dodaj materiał</h2><label>Tytuł<input id="source-title" name="title" required autocomplete="off"></label><div class="form-row"><label>Rodzaj<select id="source-type" name="type"><option>Film</option><option>Serial</option><option>Odcinek</option><option>Komiks</option><option>Książka</option><option>Gra</option><option>Inne</option></select></label><label>Status<select id="source-status" name="status"><option>Do poznania</option><option>Rozpoczęte</option><option>Ukończone</option><option>Opracowane</option></select></label></div><button class="primary-button full" value="save" type="submit">Dodaj do Road</button></form></dialog>
+  <dialog id="event-dialog" class="dialog event-dialog"><form id="event-form" method="dialog"><button class="dialog-close" value="cancel" type="submit" aria-label="Zamknij">×</button><p class="eyebrow">SZYBKI ZAPIS</p><h2>Co się wydarzyło?</h2><label class="event-title-field">Wydarzenie<input id="event-title" name="title" required autocomplete="off" placeholder="Jedno zdanie wystarczy"></label><div class="form-row"><label>Źródło<select id="event-source" name="sourceId"></select></label><label>Umiejscowienie<select id="event-time-type" name="timeType"><option value="unknown">Jeszcze nie wiem</option><option value="exact">Dokładna data</option><option value="approx">Około</option><option value="before">Przed innym wydarzeniem</option><option value="after">Po innym wydarzeniu</option><option value="parallel">Równolegle</option><option value="order">Kolejność w źródle</option></select></label></div><div class="form-row"><label>Świat<input id="event-world" name="world" autocomplete="off" placeholder="Opcjonalnie"></label><label>Miejsce<input id="event-place" name="place" autocomplete="off" placeholder="Opcjonalnie"></label></div><label>Postacie i tagi<input id="event-tags" name="tags" autocomplete="off" placeholder="Oddziel przecinkami"></label><label>Notatka<textarea id="event-notes" name="notes" rows="3" placeholder="Opcjonalnie"></textarea></label><label class="check"><input id="event-inbox" name="inbox" type="checkbox" checked> Zostaw w skrzynce do uporządkowania</label><button class="primary-button full" value="save" type="submit">Zapisz i dodaj następne</button></form></dialog>
+  <script type="module" src="js/workbench.js?v=5.0.0-alpha.1"></script>
 </body>
 </html>

@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.26
+
+- Added editing and deletion for sources and events.
+- One event can now cite a primary source plus multiple additional sources.
+- Added project worlds, a host world and additional participating worlds for convergence events.
+- Atlas now shows every project world and bridges created by meetings between worlds.
+- Source and event lists use a right-growing TVA-style tree and metric values are centered.
+
 ## alpha.25
 
 - Added a required event picker for before, after and parallel relationships.

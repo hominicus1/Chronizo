@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.31
+
+- Source and event dates are now descriptive text and accept values such as `1260 BC`, `10 AD`, `początek czasu` or an ISO date.
+- Recognized historical labels, including BC/BCE and AD/CE, are sorted chronologically on Road.
+- Added an inline world creation button to the event form.
+- A world created from an event is immediately selected as that event's host world.
+
 ## alpha.30
 
 - Temporarily hidden the Atlas from navigation without removing its implementation.

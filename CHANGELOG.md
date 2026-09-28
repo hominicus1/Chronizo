@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.30
+
+- Temporarily hidden the Atlas from navigation without removing its implementation.
+- Road source order and event chronology now render as a horizontally scrollable TVA-style branching track.
+- Added project export to a portable, versioned Chronizo JSON file.
+- Added JSON import as a separate restored project, preserving the existing local project.
+- Prepared the project data format for a future authenticated server sync.
+
 ## alpha.29
 
 - Reality designations are now free text and accept both canonical forms such as Earth-616 and temporary Marvel labels such as TRN414.

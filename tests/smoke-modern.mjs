@@ -24,6 +24,8 @@ for(const concept of ['projectWorlds','worldLinks','world-network','Wszystkie po
 for(const concept of ['worldLabel','world-designation','Oznaczenie rzeczywistości','Krótki opis','TRN414'])assert.ok(js.includes(concept),`missing world designation concept: ${concept}`);
 for(const concept of ['projectCharacters','characterIds','characterConnections','character-name','character-aliases','characterAliases','character-birth','character-death'])assert.ok(js.includes(concept),`missing character concept: ${concept}`);
 for(const concept of ['THEME_KEY','ensureThemeDialog','data-theme-choice','shield','green','dark','light'])assert.ok((js+css).includes(concept),`missing theme concept: ${concept}`);
+for(const concept of ['road-track','roadNode','branch-up','branch-down','exportProject','importProjectFile','chronizo-project','Zapisz JSON','Wczytaj JSON'])assert.ok((html+js+css).includes(concept),`missing horizontal road or JSON concept: ${concept}`);
+assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alpha 30');
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
-assert.match(html,/α29/,'visible build version missing');
+assert.match(html,/α30/,'visible build version missing');
 console.log('Chronizo workbench smoke: OK');

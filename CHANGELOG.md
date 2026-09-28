@@ -209,3 +209,8 @@
 - Kolorowe przejścia do innych światów i klikalne punkty rozgałęzienia.
 - Cienka linia wstecz dla wydarzeń wspomnianych lub ujawnionych później.
 - Responsywny układ komputerowy i mobilny.
+# α32
+
+- Dodano do źródeł osobną datę premiery lub wydania, niezależną od daty akcji.
+- Data premiery jest zachowywana w JSON-ie i widoczna na Road oraz liście źródeł.
+- Pole chronologiczne źródła otrzymało jednoznaczną nazwę „Data akcji źródła”.

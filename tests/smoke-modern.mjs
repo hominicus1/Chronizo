@@ -21,8 +21,9 @@ for(const concept of ['event-relation-picker','event-relation-search','relationE
 for(const concept of ['roadMode','eventChronologyDate','orderEventsChronologically','source-date','event-date','dateApprox'])assert.ok(js.includes(concept),`missing chronology concept: ${concept}`);
 for(const concept of ['editingSourceId','editingEventId','delete-source','delete-event','eventSourceIds','event-extra-sources'])assert.ok(js.includes(concept),`missing editing concept: ${concept}`);
 for(const concept of ['projectWorlds','worldLinks','world-network','Wszystkie połączone światy'])assert.ok((js+css).includes(concept),`missing multiverse concept: ${concept}`);
-for(const concept of ['worldLabel','world-number','Numer rzeczywistości','Krótki opis','Earth-'])assert.ok(js.includes(concept),`missing numbered world concept: ${concept}`);
-for(const concept of ['projectCharacters','characterIds','characterConnections','character-name','character-alter-ego','character-birth','character-death'])assert.ok(js.includes(concept),`missing character concept: ${concept}`);
+for(const concept of ['worldLabel','world-designation','Oznaczenie rzeczywistości','Krótki opis','TRN414'])assert.ok(js.includes(concept),`missing world designation concept: ${concept}`);
+for(const concept of ['projectCharacters','characterIds','characterConnections','character-name','character-aliases','characterAliases','character-birth','character-death'])assert.ok(js.includes(concept),`missing character concept: ${concept}`);
+for(const concept of ['THEME_KEY','ensureThemeDialog','data-theme-choice','shield','green','dark','light'])assert.ok((js+css).includes(concept),`missing theme concept: ${concept}`);
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
-assert.match(html,/α28/,'visible build version missing');
+assert.match(html,/α29/,'visible build version missing');
 console.log('Chronizo workbench smoke: OK');

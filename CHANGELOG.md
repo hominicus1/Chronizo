@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.29
+
+- Reality designations are now free text and accept both canonical forms such as Earth-616 and temporary Marvel labels such as TRN414.
+- Added selectable Captain shield, Chronizo green, neutral dark and light themes with the choice saved locally.
+- Characters now support multiple alter egos and alternative names, all searchable and visible in event assignment.
+- Existing single alter ego values are migrated transparently when a character is edited.
+
 ## alpha.28
 
 - Project worlds now store the Marvel reality number separately from their short description.

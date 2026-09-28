@@ -18,6 +18,20 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.28
+
+- Project worlds now store the Marvel reality number separately from their short description.
+- Worlds are displayed consistently as `Earth-{number}` with a readable label such as MCU or X-Men Fox.
+- World selectors show both the canonical identifier and description while preserving older saved worlds.
+
+## alpha.27
+
+- Added a dedicated character registry with only name, alter ego, world, birth date and death date.
+- Characters are assigned directly to events rather than sources, and one event can contain many characters.
+- Character cards show connections inferred from shared events; event cards show their participants.
+- Character names and alter egos are included in event relationship search.
+- Added character editing and deletion, including safe removal from existing events.
+
 ## alpha.26
 
 - Added editing and deletion for sources and events.

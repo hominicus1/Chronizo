@@ -34,7 +34,8 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α51/,'visible build version missing');
+assert.match(html,/α52/,'visible build version missing');
+assert.ok(js.includes("multiversal-vo.sources.json?v=2"),'Multiversal VO cache version must expose subsidiary VO additions');
 for(const paging of ['SOURCE_PAGE_SIZE','sourcePage','sourceCatalogCompare','previous-sources','next-sources','Strona ${sourcePage+1} z ${pageCount}'])assert.ok(js.includes(paging),`missing source pagination or MVO order: ${paging}`);
 assert.ok(js.includes("rows.MVO??rows.EMCU"),'all-sources order must prefer Multiversal VO');
 for(const search of ['data-view-search="road"','data-view-search="sources"','data-view-search="worlds"','data-view-search="characters"','data-view-search="events"','matchesViewSearch','sourceMatchesSearch','eventMatchesSearch','characterMatchesSearch'])assert.ok((html+js).includes(search),`missing view search: ${search}`);

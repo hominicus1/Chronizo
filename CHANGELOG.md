@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α49
+
+- Światy otrzymały własne podmenu w głównej nawigacji
+- kartotekę światów usunięto z dołu Road, pozostawiając tam wyłącznie podsumowanie kroniki
+- widok Światy pokazuje opis oraz liczbę powiązanych źródeł i wydarzeń
+- nowy świat można dodać bezpośrednio z jego kartoteki
+
 # α48
 
 - każdy materiał z hashtagiem EMCU jest zawsze kapitańsko czerwony

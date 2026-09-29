@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α42
+
+- wszystkie wcześniej zaimportowane źródła Extended VO automatycznie otrzymują hashtag EMCU
+- migracja uruchamia się przy otwarciu Chronizo i nie wymaga ponownego importu
+- statusy oraz ręczne zmiany istniejących źródeł pozostają nietknięte
+
 # α41
 
 - postać można wybrać z kartoteki i otworzyć jej własną chronologiczną drogę

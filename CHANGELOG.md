@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α44
+
+- wpisy z datą Outside of Time zachowują kolejność wierszy z właściwego arkusza
+- kolejność arkusza jest przechowywana osobno dla EMCU i MVO, także po scaleniu duplikatów
+- istniejące importy odzyskują numer wiersza automatycznie z klucza importu
+
 # α43
 
 - lista Źródła jest porządkowana według daty akcji podanej w arkuszu

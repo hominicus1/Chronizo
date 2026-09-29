@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α40
+
+- Road źródeł dzieli materiały na osobne poziome pasy dla każdego świata
+- źródła obejmujące kilka światów trafiają do osobnego pasa Połączenie
+- przygotowano widok pod komiksy ekranowych uniwersów z hashtagami EMCU/MVO
+
 # α39
 
 - ręcznie usunięte źródło może wrócić przy kolejnym imporcie katalogu

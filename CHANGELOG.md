@@ -234,6 +234,15 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α37
+
+- dodano paczkę 3273 źródeł z zakładki Multiversal VO i hashtag #MVO
+- źródła Extended VO otrzymały hashtag #EMCU
+- identyczne źródło z obu kompendiów jest łączone i otrzymuje oba hashtagi
+- dodano filtrowanie źródeł według hashtagów oraz wybór kolorowania według medium lub hashtagu
+- nasycenie tła pokazuje postęp: nierozpoczęte, rozpoczęte i ukończone
+- duże listy źródeł są renderowane porcjami, a Road ogranicza jednorazowy widok do 300 węzłów
+
 # α36
 
 - Dodano jednorazowy import kompletnej zakładki Extended VO do aktywnego projektu.

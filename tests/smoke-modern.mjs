@@ -34,8 +34,8 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α38/,'visible build version missing');
-for(const guard of ['dismissedImportKeys','dismissedSourceIdentities','protectedCount'])assert.ok(js.includes(guard),`missing catalog update protection: ${guard}`);
+assert.match(html,/α39/,'visible build version missing');
+for(const removedMemory of ['dismissedImportKeys','dismissedSourceIdentities','protectedCount'])assert.ok(!js.includes(removedMemory),`deleted sources should be importable again: ${removedMemory}`);
 const guardedImporter=js.slice(js.indexOf('async function importSourcePackFast'),js.indexOf('function importExtendedVo'));
 assert.ok(!guardedImporter.includes('existing.worldIds='),'catalog update must not overwrite or extend worlds on an existing source');
 console.log('Chronizo workbench smoke: OK');

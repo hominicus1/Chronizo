@@ -36,6 +36,7 @@ assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not cen
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
 assert.match(html,/α56/,'visible build version missing');
+assert.match(html,/workbench\.js\?v=5\.0\.0-alpha\.56/,'workbench cache version missing');
 for(const migration of ['MVO_MINI_VERSE_ADDITIONS','migrateMvoMiniVerseSources','mvo-mini-verse-9-v2-order-repair','catalogMigrations','Mini-Verse VOs','runCatalogMigrations'])assert.ok(js.includes(migration),`missing one-time MVO additions migration: ${migration}`);
 assert.equal((js.match(/\['mini-verse-vo-\d+'/g)||[]).length,9,'embedded MVO migration must contain exactly nine sources');
 for(const projectTransfer of ['↑ Importuj projekt','↓ Eksportuj projekt','id="export-project"'])assert.ok(js.includes(projectTransfer),`missing universal project transfer action: ${projectTransfer}`);

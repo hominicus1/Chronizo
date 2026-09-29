@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α47
+
+- zwiększono nasycenie kart źródeł na każdym poziomie postępu
+- EMCU ma teraz wyraźny kapitański czerwony kolor, odróżniający podgrupę od fioletowego MVO
+- źródła należące do obu zbiorów otrzymują czerwono-fioletowy gradient
+
 # α46
 
 - porównano wszystkie dziesięć zakładek VO z głównym Multiversal VO

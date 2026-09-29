@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α52
+
+- odświeżono wersję cache paczki Multiversal VO
+- ponowny import pobiera katalog 3282 pozycji wraz z 9 dodatkami z Mini-Verse VOs
+- dodano test chroniący wersję adresu paczki przed ponownym użyciem starego katalogu
+
 # α51
 
 - każda robocza podstrona ma własną małą wyszukiwarkę

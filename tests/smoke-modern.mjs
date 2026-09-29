@@ -29,5 +29,7 @@ for(const concept of ['THEME_KEY','ensureThemeDialog','data-theme-choice','shiel
 for(const concept of ['road-track','roadNode','branch-up','branch-down','exportProject','importProjectFile','chronizo-project','Zapisz JSON','Wczytaj JSON'])assert.ok((html+js+css).includes(concept),`missing horizontal road or JSON concept: ${concept}`);
 assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alpha 30');
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
-assert.match(html,/α32/,'visible build version missing');
+for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
+assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
+assert.match(html,/α33/,'visible build version missing');
 console.log('Chronizo workbench smoke: OK');

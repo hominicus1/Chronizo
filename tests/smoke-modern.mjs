@@ -5,7 +5,7 @@ const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
 const js=fs.readFileSync(new URL('../js/workbench.js',import.meta.url),'utf8');
 const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8');
 
-for(const id of ['build-version','project-select','view-road','view-sources','view-characters','view-events','view-atlas','road-content','sources-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
+for(const id of ['build-version','project-select','view-road','view-sources','view-worlds','view-characters','view-events','view-atlas','road-content','sources-content','worlds-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
   assert.match(html,new RegExp(`id=["']${id}["']`),`missing ${id}`);
 }
 for(const concept of ['projects:[]','sources:[]','events:[]','localStorage','Zapisz i dodaj następne','skrzynce do uporządkowania']){
@@ -34,7 +34,9 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α48/,'visible build version missing');
+assert.match(html,/α49/,'visible build version missing');
+for(const worldsView of ['data-view="worlds"','add-world-view-button','renderWorlds','Kartoteka światów'])assert.ok((html+js).includes(worldsView),`missing worlds submenu: ${worldsView}`);
+assert.ok(!js.includes("content.querySelector('.road-summary');side.insertAdjacentHTML"),'world registry must not remain under Road');
 for(const palette of ["EMCU:'#df3348'","MVO:'#35b84a'","tags.includes('EMCU')?tag.EMCU","?62:","?40:18"])assert.ok(js.includes(palette),`missing stronger source palette: ${palette}`);
 assert.ok(js.includes("filteredSources().slice().sort(chronologicalCompare)"),'source registry must follow the spreadsheet action date');
 for(const orderGuard of ['importSheetPosition','rememberSheetPosition','sourceSheetRow','sheetRows','packed.row'])assert.ok(js.includes(orderGuard),`missing spreadsheet order guard: ${orderGuard}`);

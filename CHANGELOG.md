@@ -240,6 +240,12 @@
 - migracja nie zależy już od pobrania ani pamięci podręcznej paczki Multiversal VO
 - licznik MVO po migracji istniejącego katalogu powinien wzrosnąć z 3273 do 3282
 
+# α56
+
+- naprawiono kolejność 9 źródeł Mini-Verse już zapisanych w istniejących projektach
+- pozycje 1–9 serialu Meet Spidey trafiają bezpośrednio przed pozycje 10–11 zamiast na początek katalogu
+- filtr MVO zachowuje nadrzędną kolejność arkusza tak samo jak widok Wszystkie
+
 # α54
 
 - projekty zawierające MVO automatycznie otrzymują 9 brakujących źródeł z Mini-Verse VOs

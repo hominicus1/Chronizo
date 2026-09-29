@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α38
+
+- ponowny import nigdy nie nadpisuje statusu, tytułu, dat, typu ani światów już istniejącego źródła
+- aktualizacja może jedynie dopisać pochodzenie katalogowe i brakujący hashtag EMCU/MVO
+- Chronizo pamięta ręcznie usunięte pozycje i nie przywraca ich przy kolejnych aktualizacjach paczek
+- ochrona działa także wtedy, gdy w przyszłości zmienią się numery wierszy w arkuszu
+
 # α37
 
 - dodano paczkę 3273 źródeł z zakładki Multiversal VO i hashtag #MVO

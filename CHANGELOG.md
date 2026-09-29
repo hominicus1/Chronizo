@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α48
+
+- każdy materiał z hashtagiem EMCU jest zawsze kapitańsko czerwony
+- materiały należące wyłącznie do MVO są hulkowsko zielone
+- EMCU ma pierwszeństwo koloru przy źródłach oznaczonych jednocześnie EMCU i MVO
+- usunięto czerwono-fioletowy gradient wspólnych pozycji
+
 # α47
 
 - zwiększono nasycenie kart źródeł na każdym poziomie postępu

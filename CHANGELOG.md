@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α53
+
+- usunięto z widocznego interfejsu przyciski importu Extended VO i Multiversal VO
+- mechanizm katalogów pozostaje ukryty w kodzie na potrzeby przyszłych aktualizacji danych
+- przycisk Zapisz JSON otrzymał jednoznaczną nazwę Eksportuj projekt i mocniejsze wyróżnienie
+- Wczytaj JSON zmieniono na uniwersalne Importuj projekt
+
 # α52
 
 - odświeżono wersję cache paczki Multiversal VO

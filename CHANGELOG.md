@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α46
+
+- porównano wszystkie dziesięć zakładek VO z głównym Multiversal VO
+- dodano 9 rzeczywiście brakujących odcinków Meet Spidey and His Amazing Friends z Mini-Verse VOs
+- pominięto pozorne różnice wynikające z interpunkcji, literówek, przesuniętej numeracji i łączenia części odcinków
+- dodatkowe źródła zachowują własne pochodzenie, kolejność chronologiczną, świat Earth-21642 i datę premiery
+
 # α45
 
 - pełny audyt potwierdził kompletność paczek: 834 źródła Extended VO i 3273 źródła Multiversal VO

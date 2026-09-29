@@ -100,7 +100,7 @@ async function importSourcePackFast({url,buttonId,label,tag}){
  finally{button.disabled=false;button.textContent=`↓ Wczytaj ${label}`}
 }
 function importExtendedVo(){return importSourcePackFast({url:'data/extended-vo.sources.json?v=2',buttonId:'#import-extended-vo',label:'Extended VO',tag:'EMCU'})}
-function importMultiversalVo(){return importSourcePackFast({url:'data/multiversal-vo.sources.json?v=1',buttonId:'#import-multiversal-vo',label:'Multiversal VO',tag:'MVO'})}
+function importMultiversalVo(){return importSourcePackFast({url:'data/multiversal-vo.sources.json?v=2',buttonId:'#import-multiversal-vo',label:'Multiversal VO',tag:'MVO'})}
 function renderRoad(){
  const project=activeProject(),content=$('#road-content'),button=$('#new-project-main');
  if(!project){$('#road-title').textContent='Zacznij własną kronikę';$('#road-subtitle').textContent='Bez przykładów. Bez narzuconego uniwersum. To miejsce czeka na Twoją historię.';button.textContent='Utwórz pierwszy projekt';content.innerHTML=empty('◫','Tabula rasa','Utwórz projekt, nadaj mu własną nazwę i zacznij dodawać materiały. Chronizo nie wstawia żadnych przykładowych światów, postaci ani wydarzeń.','Utwórz projekt','empty-new-project');$('#empty-new-project').onclick=()=>openDialog('#project-dialog');return}

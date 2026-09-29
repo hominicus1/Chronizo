@@ -220,3 +220,16 @@
 - Uproszczono rodzaje źródeł do: Film, Serial, Komiks, Książka, Gra i Inne.
 - Odcinek nie jest już osobnym rodzajem źródła; wydarzenia pozostają przypisane bezpośrednio do całego źródła.
 - Istniejące projekty zachowują wcześniej zapisane dane bez automatycznego usuwania lub migracji.
+
+# α34
+
+- Naprawiono otwieranie formularza „Dodaj postać” w pustym projekcie.
+- Kartoteka postaci nie zależy już od wcześniejszego otwarcia formularza wydarzenia.
+
+# α35
+
+- Dodano szybkie tworzenie powiązanych elementów bez opuszczania rozpoczętego formularza.
+- Źródło może otrzymać jeden lub kilka światów, również utworzonych bezpośrednio podczas dodawania źródła.
+- Z wydarzenia można od razu utworzyć brakujące źródło lub postać; nowy element zostaje automatycznie wybrany.
+- Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
+- Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.

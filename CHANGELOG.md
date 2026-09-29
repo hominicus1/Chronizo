@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α55
+
+- 9 rekordów migracji Mini-Verse VOs osadzono bezpośrednio w aplikacji
+- migracja nie zależy już od pobrania ani pamięci podręcznej paczki Multiversal VO
+- licznik MVO po migracji istniejącego katalogu powinien wzrosnąć z 3273 do 3282
+
 # α54
 
 - projekty zawierające MVO automatycznie otrzymują 9 brakujących źródeł z Mini-Verse VOs

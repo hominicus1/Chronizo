@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α43
+
+- lista Źródła jest porządkowana według daty akcji podanej w arkuszu
+- ta sama chronologia obowiązuje po filtrowaniu hashtagami EMCU i MVO
+- źródła bez rozpoznawalnej daty pozostają na końcu listy
+
 # α42
 
 - wszystkie wcześniej zaimportowane źródła Extended VO automatycznie otrzymują hashtag EMCU

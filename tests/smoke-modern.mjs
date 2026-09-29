@@ -34,11 +34,14 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α49/,'visible build version missing');
+assert.match(html,/α51/,'visible build version missing');
+for(const paging of ['SOURCE_PAGE_SIZE','sourcePage','sourceCatalogCompare','previous-sources','next-sources','Strona ${sourcePage+1} z ${pageCount}'])assert.ok(js.includes(paging),`missing source pagination or MVO order: ${paging}`);
+assert.ok(js.includes("rows.MVO??rows.EMCU"),'all-sources order must prefer Multiversal VO');
+for(const search of ['data-view-search="road"','data-view-search="sources"','data-view-search="worlds"','data-view-search="characters"','data-view-search="events"','matchesViewSearch','sourceMatchesSearch','eventMatchesSearch','characterMatchesSearch'])assert.ok((html+js).includes(search),`missing view search: ${search}`);
 for(const worldsView of ['data-view="worlds"','add-world-view-button','renderWorlds','Kartoteka światów'])assert.ok((html+js).includes(worldsView),`missing worlds submenu: ${worldsView}`);
 assert.ok(!js.includes("content.querySelector('.road-summary');side.insertAdjacentHTML"),'world registry must not remain under Road');
 for(const palette of ["EMCU:'#df3348'","MVO:'#35b84a'","tags.includes('EMCU')?tag.EMCU","?62:","?40:18"])assert.ok(js.includes(palette),`missing stronger source palette: ${palette}`);
-assert.ok(js.includes("filteredSources().slice().sort(chronologicalCompare)"),'source registry must follow the spreadsheet action date');
+assert.ok(js.includes("filteredSources().filter(source=>sourceMatchesSearch(source,'sources')).slice().sort(sourceCatalogCompare)"),'source registry must follow MVO order and search');
 for(const orderGuard of ['importSheetPosition','rememberSheetPosition','sourceSheetRow','sheetRows','packed.row'])assert.ok(js.includes(orderGuard),`missing spreadsheet order guard: ${orderGuard}`);
 for(const metadata of ['source-metadata.json','enrichSourceMetadata','releaseOrderRow','universeIndexRow','releaseDateIso'])assert.ok(js.includes(metadata),`missing sheet metadata enrichment: ${metadata}`);
 for(const migration of ['migrateLegacySourceTags','extended-vo-','EMCU'])assert.ok(js.includes(migration),`missing legacy EMCU migration: ${migration}`);

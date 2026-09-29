@@ -35,8 +35,9 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α54/,'visible build version missing');
-for(const migration of ['migrateMvoMiniVerseSources','mvo-mini-verse-9-v1','catalogMigrations','source.sourceSheet===\'Mini-Verse VOs\'','additions.length!==9','runCatalogMigrations'])assert.ok(js.includes(migration),`missing one-time MVO additions migration: ${migration}`);
+assert.match(html,/α55/,'visible build version missing');
+for(const migration of ['MVO_MINI_VERSE_ADDITIONS','migrateMvoMiniVerseSources','mvo-mini-verse-9-v1','catalogMigrations','Mini-Verse VOs','runCatalogMigrations'])assert.ok(js.includes(migration),`missing one-time MVO additions migration: ${migration}`);
+assert.equal((js.match(/\['mini-verse-vo-\d+'/g)||[]).length,9,'embedded MVO migration must contain exactly nine sources');
 for(const projectTransfer of ['↑ Importuj projekt','↓ Eksportuj projekt','id="export-project"'])assert.ok(js.includes(projectTransfer),`missing universal project transfer action: ${projectTransfer}`);
 assert.ok(js.includes("multiversal-vo.sources.json?v=2"),'Multiversal VO cache version must expose subsidiary VO additions');
 for(const paging of ['SOURCE_PAGE_SIZE','sourcePage','sourceCatalogCompare','previous-sources','next-sources','Strona ${sourcePage+1} z ${pageCount}'])assert.ok(js.includes(paging),`missing source pagination or MVO order: ${paging}`);

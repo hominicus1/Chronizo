@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#07110f">
   <title>Chronizo — warsztat kronikarza</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/workbench.css?v=5.0.0-alpha.19">
-  <link rel="stylesheet" href="css/workbench-enhancements.css?v=5.0.0-alpha.19">
+  <link rel="stylesheet" href="css/workbench.css?v=5.0.0-alpha.20">
+  <link rel="stylesheet" href="css/workbench-enhancements.css?v=5.0.0-alpha.20">
 </head>
 <body>
   <div class="app-shell">
@@ -15,7 +15,7 @@
       <button class="brand" id="brand-home" type="button" aria-label="Chronizo — projekty">
         <span class="brand-mark">C</span>
         <span class="brand-copy"><b>Chronizo</b><small>Warsztat kronikarza</small></span>
-        <span id="build-version" class="version">α42</span>
+        <span id="build-version" class="version">α43</span>
       </button>
       <div class="project-switcher"><span>Projekt</span><select id="project-select" aria-label="Aktywny projekt"></select></div>
       <div class="top-actions"><button id="theme-button" class="icon-button" type="button" title="Zmień motyw">◐</button><button id="quick-event-button" class="primary-button" type="button">＋ Wydarzenie</button></div>
@@ -56,6 +56,6 @@
   <dialog id="project-dialog" class="dialog"><form id="project-form" method="dialog"><button class="dialog-close" value="cancel" type="submit" aria-label="Zamknij">×</button><p class="eyebrow">NOWY PROJEKT</p><h2>Co chcesz uporządkować?</h2><label>Nazwa projektu<input id="project-name" name="name" required autocomplete="off" placeholder="Np. moja droga do…"></label><label>Krótki opis<textarea id="project-description" name="description" rows="3" placeholder="Opcjonalnie"></textarea></label><button class="primary-button full" value="save" type="submit">Utwórz projekt</button></form></dialog>
   <dialog id="source-dialog" class="dialog"><form id="source-form" method="dialog"><button class="dialog-close" value="cancel" type="submit" aria-label="Zamknij">×</button><p class="eyebrow">NOWE ŹRÓDŁO</p><h2>Dodaj materiał</h2><label>Tytuł<input id="source-title" name="title" required autocomplete="off"></label><div class="form-row"><label>Rodzaj<select id="source-type" name="type"><option>Film</option><option>Serial</option><option>Komiks</option><option>Książka</option><option>Gra</option><option>Inne</option></select></label><label>Status<select id="source-status" name="status"><option>Nierozpoczęte</option><option>Rozpoczęte</option><option>Ukończone</option><option>Opracowane</option></select></label></div><button class="primary-button full" value="save" type="submit">Dodaj do Road</button></form></dialog>
   <dialog id="event-dialog" class="dialog event-dialog"><form id="event-form" method="dialog"><button class="dialog-close" value="cancel" type="submit" aria-label="Zamknij">×</button><p class="eyebrow">SZYBKI ZAPIS</p><h2>Co się wydarzyło?</h2><label class="event-title-field">Wydarzenie<input id="event-title" name="title" required autocomplete="off" placeholder="Jedno zdanie wystarczy"></label><div class="form-row"><label>Źródło<select id="event-source" name="sourceId"></select></label><label>Umiejscowienie<select id="event-time-type" name="timeType"><option value="unknown">Jeszcze nie wiem</option><option value="exact">Dokładna data</option><option value="approx">Około</option><option value="before">Przed innym wydarzeniem</option><option value="after">Po innym wydarzeniu</option><option value="parallel">Równolegle</option><option value="order">Kolejność w źródle</option></select></label></div><div class="form-row"><label>Świat<input id="event-world" name="world" autocomplete="off" placeholder="Opcjonalnie"></label><label>Miejsce<input id="event-place" name="place" autocomplete="off" placeholder="Opcjonalnie"></label></div><label>Postacie i tagi<input id="event-tags" name="tags" autocomplete="off" placeholder="Oddziel przecinkami"></label><label>Notatka<textarea id="event-notes" name="notes" rows="3" placeholder="Opcjonalnie"></textarea></label><label class="check"><input id="event-inbox" name="inbox" type="checkbox" checked> Zostaw w skrzynce do uporządkowania</label><button class="primary-button full" value="save" type="submit">Zapisz i dodaj następne</button></form></dialog>
-  <script type="module" src="js/workbench.js?v=5.0.0-alpha.19"></script>
+  <script type="module" src="js/workbench.js?v=5.0.0-alpha.20"></script>
 </body>
 </html>

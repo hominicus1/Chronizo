@@ -234,6 +234,14 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α45
+
+- pełny audyt potwierdził kompletność paczek: 834 źródła Extended VO i 3273 źródła Multiversal VO
+- nazwy i opisy światów są uzupełniane z zakładki Universe Index
+- brakujące daty premier są uzupełniane z zakładki Release Order
+- aktualizacja metadanych nie nadpisuje ręcznie wpisanych dat premier ani opisów światów
+- zakładki Order z fragmentami czasowymi pozostają poza katalogiem źródeł i będą mogły zasilić wydarzenia
+
 # α44
 
 - wpisy z datą Outside of Time zachowują kolejność wierszy z właściwego arkusza

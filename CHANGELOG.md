@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α54
+
+- projekty zawierające MVO automatycznie otrzymują 9 brakujących źródeł z Mini-Verse VOs
+- migracja wykonuje się tylko raz i nie wymaga przywracania przycisku importu katalogu
+- nowe źródła otrzymują status Nierozpoczęte, hashtag MVO, świat Earth-21642 i właściwą kolejność
+- znacznik migracji zapobiega ponownemu dodaniu pozycji usuniętej później ręcznie
+
 # α53
 
 - usunięto z widocznego interfejsu przyciski importu Extended VO i Multiversal VO

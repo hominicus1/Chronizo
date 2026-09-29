@@ -214,3 +214,9 @@
 - Dodano do źródeł osobną datę premiery lub wydania, niezależną od daty akcji.
 - Data premiery jest zachowywana w JSON-ie i widoczna na Road oraz liście źródeł.
 - Pole chronologiczne źródła otrzymało jednoznaczną nazwę „Data akcji źródła”.
+
+# α33
+
+- Uproszczono rodzaje źródeł do: Film, Serial, Komiks, Książka, Gra i Inne.
+- Odcinek nie jest już osobnym rodzajem źródła; wydarzenia pozostają przypisane bezpośrednio do całego źródła.
+- Istniejące projekty zachowują wcześniej zapisane dane bez automatycznego usuwania lub migracji.

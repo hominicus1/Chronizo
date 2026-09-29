@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α39
+
+- ręcznie usunięte źródło może wrócić przy kolejnym imporcie katalogu
+- przywrócona pozycja jest traktowana jak nowa i otrzymuje status Nierozpoczęte
+- istniejące źródła nadal zachowują status, dane i ręcznie przypisane światy
+
 # α38
 
 - ponowny import nigdy nie nadpisuje statusu, tytułu, dat, typu ani światów już istniejącego źródła

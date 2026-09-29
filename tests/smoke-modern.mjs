@@ -27,11 +27,12 @@ for(const concept of ['add-event-world','worldDialogTarget',"openWorldDialog('ev
 for(const concept of ['projectCharacters','characterIds','characterConnections','character-name','character-aliases','characterAliases','character-birth','character-death'])assert.ok(js.includes(concept),`missing character concept: ${concept}`);
 assert.ok(js.includes("$('#event-extra-sources')||$('#event-source')?.closest('.form-row')"),'character form must initialize before the event dialog is opened');
 for(const concept of ['sourceDialogTarget','characterDialogTarget','source-worlds','add-source-world','add-event-source','add-event-character','add-character-world','Świat pochodzenia'])assert.ok(js.includes(concept),`missing linked creation concept: ${concept}`);
+for(const concept of ['import-extended-vo','importExtendedVo','extended-vo.sources.json','chronizo-source-pack','Nierozpoczęte'])assert.ok((html+js).includes(concept),`missing Extended VO import concept: ${concept}`);
 for(const concept of ['THEME_KEY','ensureThemeDialog','data-theme-choice','shield','green','dark','light'])assert.ok((js+css).includes(concept),`missing theme concept: ${concept}`);
 for(const concept of ['road-track','roadNode','branch-up','branch-down','exportProject','importProjectFile','chronizo-project','Zapisz JSON','Wczytaj JSON'])assert.ok((html+js+css).includes(concept),`missing horizontal road or JSON concept: ${concept}`);
 assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alpha 30');
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α35/,'visible build version missing');
+assert.match(html,/α36/,'visible build version missing');
 console.log('Chronizo workbench smoke: OK');

@@ -233,3 +233,11 @@
 - Z wydarzenia można od razu utworzyć brakujące źródło lub postać; nowy element zostaje automatycznie wybrany.
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
+
+# α36
+
+- Dodano jednorazowy import kompletnej zakładki Extended VO do aktywnego projektu.
+- Paczka zawiera 834 wiersze źródeł z nazwą, datą akcji i światem zgodnymi z arkuszem.
+- Wszystkie importowane źródła otrzymują status „Nierozpoczęte”.
+- Brakujące światy są tworzone automatycznie, a wpisy obejmujące kilka światów otrzymują wszystkie odpowiednie powiązania.
+- Ponowne uruchomienie importu pomija już wczytane wiersze.

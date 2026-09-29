@@ -234,6 +234,20 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α51
+
+- każda robocza podstrona ma własną małą wyszukiwarkę
+- Road przeszukuje źródła i wydarzenia wraz z postaciami, światami, miejscami i hashtagami
+- wyszukiwarki Źródeł, Światów, Postaci i Wydarzeń obejmują całą kartotekę, nie tylko widoczną stronę
+- rozpoczęcie wyszukiwania źródeł automatycznie wraca na pierwszą stronę wyników
+
+# α50
+
+- filtr Wszystkie korzysta z nadrzędnej kolejności wierszy Multiversal VO
+- kolejność Extended VO jest używana tylko dla źródeł nieobecnych w MVO
+- lista źródeł ma prawdziwe strony po 160 pozycji zamiast bezpowrotnego dokładania elementów
+- dodano przyciski Wstecz i Dalej oraz bieżący numer strony
+
 # α49
 
 - Światy otrzymały własne podmenu w głównej nawigacji

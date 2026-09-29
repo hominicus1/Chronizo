@@ -34,7 +34,7 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α45/,'visible build version missing');
+assert.match(html,/α46/,'visible build version missing');
 assert.ok(js.includes("filteredSources().slice().sort(chronologicalCompare)"),'source registry must follow the spreadsheet action date');
 for(const orderGuard of ['importSheetPosition','rememberSheetPosition','sourceSheetRow','sheetRows','packed.row'])assert.ok(js.includes(orderGuard),`missing spreadsheet order guard: ${orderGuard}`);
 for(const metadata of ['source-metadata.json','enrichSourceMetadata','releaseOrderRow','universeIndexRow','releaseDateIso'])assert.ok(js.includes(metadata),`missing sheet metadata enrichment: ${metadata}`);

@@ -234,6 +234,13 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α41
+
+- postać można wybrać z kartoteki i otworzyć jej własną chronologiczną drogę
+- Road postaci pokazuje wyłącznie wydarzenia z jej udziałem oraz powiązane źródła
+- filtrowanie postaci współpracuje z osobnymi pasami światów i trybami źródła/wydarzenia
+- dodano pasek aktywnego focusu z szybkim powrotem do całej kroniki
+
 # α40
 
 - Road źródeł dzieli materiały na osobne poziome pasy dla każdego świata

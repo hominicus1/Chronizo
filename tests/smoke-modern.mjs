@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
-const js=fs.readFileSync(new URL('../js/workbench.js',import.meta.url),'utf8');
+const js=fs.readFileSync(new URL('../js/workbench-alpha58.js',import.meta.url),'utf8');
 const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8');
 
 for(const id of ['build-version','project-select','view-road','view-sources','view-worlds','view-characters','view-events','view-atlas','road-content','sources-content','worlds-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
@@ -36,7 +36,7 @@ assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not cen
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
 assert.match(html,/α58/,'visible build version missing');
-assert.match(html,/workbench\.js\?v=5\.0\.0-alpha\.58/,'workbench cache version missing');
+assert.match(html,/workbench-alpha58\.js/,'immutable workbench build missing');
 for(const sourcePicker of ['event-source-search','event-source-selected','event-source-results','populateEventSources','slice(0,40)'])assert.ok((html+js).includes(sourcePicker),`missing searchable event source picker: ${sourcePicker}`);
 assert.doesNotMatch(html,/Jedno zdanie wystarczy/,'event form must not suggest sentence-style titles');
 for(const picker of ['event-character-search','event-character-selected','populateEventCharacters','event-world-search','event-world-selected','populateEventWorlds'])assert.ok((html+js).includes(picker),`missing searchable event picker: ${picker}`);

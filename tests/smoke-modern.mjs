@@ -25,7 +25,7 @@ for(const concept of ['projectWorlds','worldLinks','world-network','Wszystkie po
 for(const concept of ['worldLabel','world-designation','Numer, nazwa lub oznaczenie','Krótki opis','TRN414'])assert.ok(js.includes(concept),`missing world designation concept: ${concept}`);
 for(const concept of ['add-event-world','worldDialogTarget',"openWorldDialog('event')",'Numer, nazwa lub oznaczenie'])assert.ok(js.includes(concept),`missing inline world creation concept: ${concept}`);
 for(const concept of ['projectCharacters','characterIds','characterConnections','character-name','character-aliases','characterAliases','character-birth','character-death'])assert.ok(js.includes(concept),`missing character concept: ${concept}`);
-assert.ok(js.includes("const anchor=$('#event-source-picker')"),'character form must initialize beside the event source picker');
+assert.ok(html.includes('id="event-character-picker"'),'event form must contain one dedicated character picker');
 for(const concept of ['sourceDialogTarget','characterDialogTarget','source-worlds','add-source-world','add-event-source','add-event-character','add-character-world','Świat pochodzenia'])assert.ok(js.includes(concept),`missing linked creation concept: ${concept}`);
 for(const concept of ['importExtendedVo','extended-vo.sources.json','importMultiversalVo','multiversal-vo.sources.json','chronizo-source-pack','Nierozpoczęte','sourceTagFilter','sourceColorMode','EMCU','MVO'])assert.ok(js.includes(concept),`missing hidden source compendium mechanism: ${concept}`);
 assert.doesNotMatch(html,/id="import-(extended|multiversal)-vo"/,'Marvel catalog import buttons must stay out of the universal UI');
@@ -35,10 +35,13 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α57/,'visible build version missing');
-assert.match(html,/workbench\.js\?v=5\.0\.0-alpha\.57/,'workbench cache version missing');
+assert.match(html,/α58/,'visible build version missing');
+assert.match(html,/workbench\.js\?v=5\.0\.0-alpha\.58/,'workbench cache version missing');
 for(const sourcePicker of ['event-source-search','event-source-selected','event-source-results','populateEventSources','slice(0,40)'])assert.ok((html+js).includes(sourcePicker),`missing searchable event source picker: ${sourcePicker}`);
 assert.doesNotMatch(html,/Jedno zdanie wystarczy/,'event form must not suggest sentence-style titles');
+for(const picker of ['event-character-search','event-character-selected','populateEventCharacters','event-world-search','event-world-selected','populateEventWorlds'])assert.ok((html+js).includes(picker),`missing searchable event picker: ${picker}`);
+assert.match(html,/<label>Hashtagi<input id="event-tags"/,'characters and hashtags must not share a second field');
+assert.ok(js.includes("$('#event-form').addEventListener('submit',event=>{event.preventDefault();"),'event save must never depend on submitter metadata');
 for(const migration of ['MVO_MINI_VERSE_ADDITIONS','migrateMvoMiniVerseSources','mvo-mini-verse-9-v2-order-repair','catalogMigrations','Mini-Verse VOs','runCatalogMigrations'])assert.ok(js.includes(migration),`missing one-time MVO additions migration: ${migration}`);
 assert.equal((js.match(/\['mini-verse-vo-\d+'/g)||[]).length,9,'embedded MVO migration must contain exactly nine sources');
 for(const projectTransfer of ['↑ Importuj projekt','↓ Eksportuj projekt','id="export-project"'])assert.ok(js.includes(projectTransfer),`missing universal project transfer action: ${projectTransfer}`);

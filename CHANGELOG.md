@@ -234,6 +234,14 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α58
+
+- naprawiono zapis wydarzenia, który mógł zamknąć formularz bez dodania rekordu
+- zapis nie zależy już od informacji o klikniętym przycisku przekazywanej przez przeglądarkę
+- światy wydarzenia otrzymały wyszukiwarkę; pierwszy wybór jest światem głównym, kolejne oznaczają spotkanie światów
+- postacie mają jeden selektor z wyszukiwaniem po nazwie i alter ego
+- osobne mylące pole „Postacie i tagi” zastąpiono jednoznacznym polem „Hashtagi”
+
 # α57
 
 - formularz używa krótkiej nazwy „Wydarzenie” bez sugestii zapisywania pełnego zdania

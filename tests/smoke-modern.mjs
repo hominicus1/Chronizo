@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
-const js=fs.readFileSync(new URL('../js/workbench-alpha59.js',import.meta.url),'utf8');
+const js=fs.readFileSync(new URL('../js/workbench-alpha60.js',import.meta.url),'utf8');
 const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8');
 
 for(const id of ['build-version','project-select','view-road','view-sources','view-worlds','view-characters','view-events','view-atlas','road-content','sources-content','worlds-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
@@ -35,13 +35,14 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α59/,'visible build version missing');
-assert.match(html,/workbench-alpha59\.js/,'immutable workbench build missing');
+assert.match(html,/α60/,'visible build version missing');
+assert.match(html,/workbench-alpha60\.js/,'immutable workbench build missing');
 for(const sourcePicker of ['event-source-search','event-source-selected','event-source-results','populateEventSources','slice(0,40)'])assert.ok((html+js).includes(sourcePicker),`missing searchable event source picker: ${sourcePicker}`);
 assert.doesNotMatch(html,/Jedno zdanie wystarczy/,'event form must not suggest sentence-style titles');
 for(const picker of ['event-character-search','event-character-selected','populateEventCharacters','event-world-search','event-world-selected','populateEventWorlds'])assert.ok((html+js).includes(picker),`missing searchable event picker: ${picker}`);
 assert.match(html,/<label>Hashtagi<input id="event-tags"/,'characters and hashtags must not share a second field');
 assert.ok(js.includes("$('#event-form').addEventListener('submit',saveEvent)"),'event save handler must be attached before optional UI wiring');
+assert.doesNotMatch(js,/addEventListener\('click',open(?:Event|Source)Dialog\)/,'dialog openers must not receive click events as record IDs');
 for(const migration of ['MVO_MINI_VERSE_ADDITIONS','migrateMvoMiniVerseSources','mvo-mini-verse-9-v2-order-repair','catalogMigrations','Mini-Verse VOs','runCatalogMigrations'])assert.ok(js.includes(migration),`missing one-time MVO additions migration: ${migration}`);
 assert.equal((js.match(/\['mini-verse-vo-\d+'/g)||[]).length,9,'embedded MVO migration must contain exactly nine sources');
 for(const projectTransfer of ['↑ Importuj projekt','↓ Eksportuj projekt','id="export-project"'])assert.ok(js.includes(projectTransfer),`missing universal project transfer action: ${projectTransfer}`);

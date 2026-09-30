@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α59
+
+- obsługa zapisu wydarzenia jest podpinana przed pozostałymi opcjonalnymi elementami interfejsu
+- dodano kontrolny znacznik gotowości formularza na potrzeby testów przeglądarkowych
+- skrypt wersji otrzymał nową, niebuforowaną nazwę pliku
+
 # α58
 
 - naprawiono zapis wydarzenia, który mógł zamknąć formularz bez dodania rekordu

@@ -234,6 +234,15 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α57
+
+- formularz używa krótkiej nazwy „Wydarzenie” bez sugestii zapisywania pełnego zdania
+- data wydarzenia jest niezależna od relacji przed, po i równolegle
+- jedno wydarzenie może mieć jednocześnie datę oraz wiele relacji do innych wydarzeń
+- źródła wydarzenia wybiera się przez osobną wyszukiwarkę zamiast listy liczącej tysiące pozycji
+- można przypisać wiele źródeł; pierwsze pozostaje źródłem głównym
+- starsze wydarzenia z pojedynczym umiejscowieniem pozostają zgodne z nowym modelem
+
 # α55
 
 - 9 rekordów migracji Mini-Verse VOs osadzono bezpośrednio w aplikacji

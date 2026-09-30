@@ -234,6 +234,12 @@
 - Z formularza postaci można utworzyć i automatycznie przypisać świat pochodzenia.
 - Formularze zachowują wcześniejsze wybory podczas odświeżania list powiązań.
 
+# α60
+
+- naprawiono właściwą przyczynę znikającego wydarzenia: obiekt kliknięcia nie jest już mylony z ID edytowanego rekordu
+- poprawka obejmuje wszystkie wejścia do formularza wydarzenia: nagłówek, Road i pustą kartotekę
+- analogicznie zabezpieczono wszystkie przyciski dodawania źródła
+
 # α59
 
 - obsługa zapisu wydarzenia jest podpinana przed pozostałymi opcjonalnymi elementami interfejsu

@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.62
+
+- Replaced the source shortcut's full TVA form with a compact watching notebook.
+- Quick capture keeps the source, date and world context while clearing the event, moment, characters and note for the next entry.
+- Character and world fields suggest existing records as the user types.
+- Unknown character and world names are saved as visible drafts instead of interrupting watching.
+- Added a full-form escape hatch and editable world cards so every draft can be completed later.
+
 ## alpha.61
 
 - Added a quick “add event” action directly to every source in the source registry.

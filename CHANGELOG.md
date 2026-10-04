@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.61
+
+- Added a quick “add event” action directly to every source in the source registry.
+- Events opened from a source have that source assigned automatically.
+- Added an optional source moment such as a film timestamp, comic page, chapter or descriptive scene.
+- Character birth and death dates now accept a year, month, range or descriptive approximation instead of requiring a full calendar date.
+- Existing character dates remain compatible and editable.
+
 ## alpha.31
 
 - Source and event dates are now descriptive text and accept values such as `1260 BC`, `10 AD`, `początek czasu` or an ISO date.

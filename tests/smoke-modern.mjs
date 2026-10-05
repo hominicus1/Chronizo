@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
-const js=fs.readFileSync(new URL('../js/workbench-alpha63.js',import.meta.url),'utf8');
+const js=fs.readFileSync(new URL('../js/workbench-alpha64.js',import.meta.url),'utf8');
+const movieComics=JSON.parse(fs.readFileSync(new URL('../data/movie-comics.sources.json',import.meta.url),'utf8'));
 const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8');
 
 for(const id of ['build-version','project-select','view-road','view-sources','view-worlds','view-characters','view-events','view-atlas','road-content','sources-content','worlds-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
@@ -35,12 +36,17 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α63/,'visible build version missing');
-assert.match(html,/workbench-alpha63\.js/,'immutable workbench build missing');
+assert.match(html,/α64/,'visible build version missing');
+assert.match(html,/workbench-alpha64\.js/,'immutable workbench build missing');
 for(const quickEvent of ['add-event-from-source','presetSourceId','event-source-moment','sourceMoment','Moment w źródle'])assert.ok((html+js+css).includes(quickEvent),`missing source-context event capture: ${quickEvent}`);
 for(const notebook of ['quick-event-dialog','openQuickEventDialog','saveQuickEvent','quickCharacterIds','quickWorldLabel','Pełny formularz','Zapisz i następne','draft:true'])assert.ok((js+css).includes(notebook),`missing watch notebook: ${notebook}`);
 for(const draftCard of ['draft-tag','edit-world','openWorldDialog(null,id)','do uzupełnienia'])assert.ok((js+css).includes(draftCard),`missing draft completion path: ${draftCard}`);
 for(const movieComic of ['selectedRelatedSourceIds','source-relation-fields','source-relation-search','relatedSourceIds','relationType','canonStatus','sourceRelationLabel','Nieoficjalnie łączony'])assert.ok((js+css).includes(movieComic),`missing movie-comic relation model: ${movieComic}`);
+for(const catalog of ['importMovieComicCatalog','movie-comics.sources.json?v=1','chronizo-movie-comics','Movie Comics','FILMOWY'])assert.ok(js.includes(catalog),`missing movie-comic catalog importer: ${catalog}`);
+assert.equal(movieComics.format,'chronizo-movie-comics','invalid movie-comic pack');
+assert.ok(movieComics.sources.length>=30,'official MCU movie-comic pack is unexpectedly small');
+assert.equal(new Set(movieComics.sources.map(source=>source.key)).size,movieComics.sources.length,'duplicate movie-comic import keys');
+assert.ok(movieComics.sources.every(source=>source.title&&source.relationType&&source.canonStatus&&Array.isArray(source.relatedTitles)),'incomplete movie-comic catalog row');
 assert.ok(js.includes('id="character-birth" type="text"'),'character birth date must accept partial descriptive dates');
 assert.ok(js.includes('id="character-death" type="text"'),'character death date must accept partial descriptive dates');
 for(const sourcePicker of ['event-source-search','event-source-selected','event-source-results','populateEventSources','slice(0,40)'])assert.ok((html+js).includes(sourcePicker),`missing searchable event source picker: ${sourcePicker}`);

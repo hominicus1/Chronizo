@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.63
+
+- Added first-class links from comic sources to one or more related films or series.
+- Added relation types: adaptation, prequel, tie-in, promotional material and unofficial association.
+- Added an independent canonicity status so “official” is not mistaken for “canonical”.
+- Film and series links use a searchable picker suitable for projects with thousands of sources.
+- Source cards and search now expose their screen relationship and canonicity.
+
 ## alpha.62
 
 - Replaced the source shortcut's full TVA form with a compact watching notebook.

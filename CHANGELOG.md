@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.65
+
+- Added `Inspiracja` as a distinct comic-to-screen relationship with automatic `#INSPIRACJA` tagging.
+- Inspiration stays explicitly outside the screen continuity instead of pretending to be a tie-in.
+- Re-runs the Mini-Verse ordering repair so all nine `Meet Spidey and His Amazing Friends` entries return to their intended MVO position.
+
 ## alpha.64
 
 - Added the first verified movie-comic catalog: 34 official MCU adaptations, preludes and tie-ins.

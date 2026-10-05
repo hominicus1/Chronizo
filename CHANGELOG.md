@@ -18,6 +18,15 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.64
+
+- Added the first verified movie-comic catalog: 34 official MCU adaptations, preludes and tie-ins.
+- Comics are imported only into projects already containing the EMCU catalog.
+- Imported comics start as unread, inherit worlds from their matched films and link directly to those screen sources.
+- Existing matching comics are enriched without overwriting their reading status, chronology or user edits.
+- Added `#FILMOWY` alongside `#EMCU` for immediate filtering.
+- Catalog migrations are versioned so future Fox, Sony and MCU updates can be added without duplicating prior records.
+
 ## alpha.63
 
 - Added first-class links from comic sources to one or more related films or series.

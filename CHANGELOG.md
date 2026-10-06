@@ -18,6 +18,12 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.67
+
+- Comics linked to any `#EMCU` source now inherit `#EMCU` automatically.
+- Mini-Verse ordering repair now matches all nine Meet Spidey entries by normalized title as well as import key.
+- Every matching duplicate receives the proper MVO row, preventing an older copy from remaining at the beginning.
+
 ## alpha.66
 
 - Expanded the movie-comic working catalog from 34 to 101 sources across MCU, Fox, Sony and legacy Marvel screen continuities.

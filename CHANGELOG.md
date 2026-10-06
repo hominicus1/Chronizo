@@ -18,6 +18,16 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.68
+
+- Audited 4,116 source chronology dates and 3,246 release dates.
+- Physically sorted both EMCU and MVO source packs by their canonical sheet position.
+- Moved the nine Meet Spidey additions out of the beginning of the MVO file into rows 2418.1–2418.9.
+- Normalized wrapped numeric dates such as `-2019-`, `-2091-`, `-3960-` and `-3000 BC-`.
+- Added parsing for year ranges, month/day dates and split-month descriptions without flattening TVA, concurrent or outside-time records.
+- Existing processed sources keep user-edited chronology; untouched sources receive audited dates and order automatically.
+- Added a permanent source-date audit test to prevent the problem from returning.
+
 ## alpha.67
 
 - Comics linked to any `#EMCU` source now inherit `#EMCU` automatically.

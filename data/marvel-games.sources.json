@@ -1,0 +1,2625 @@
+{
+  "format": "chronizo-marvel-games",
+  "version": 1,
+  "generatedAt": "2026-10-06",
+  "scope": "Oficjalnie wydane i zapowiedziane gry oparte na własnościach Marvela; porty jednej gry scalone.",
+  "sources": [
+    {
+      "key": "marvel-game-001-spider-man",
+      "sourceUid": "chronizo:source:marvel-game-001-spider-man",
+      "title": "Spider-Man",
+      "releaseDate": "1982",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-002-questprobe-featuring-the-hulk",
+      "sourceUid": "chronizo:source:marvel-game-002-questprobe-featuring-the-hulk",
+      "title": "Questprobe featuring The Hulk",
+      "releaseDate": "1984",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-003-questprobe-featuring-spider-man",
+      "sourceUid": "chronizo:source:marvel-game-003-questprobe-featuring-spider-man",
+      "title": "Questprobe featuring Spider-Man",
+      "releaseDate": "1984",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-004-questprobe-featuring-human-torch-and-the-thing",
+      "sourceUid": "chronizo:source:marvel-game-004-questprobe-featuring-human-torch-and-the-thing",
+      "title": "Questprobe: Featuring Human Torch and the Thing",
+      "releaseDate": "1985",
+      "franchise": "Fantastic Four",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-005-howard-the-duck",
+      "sourceUid": "chronizo:source:marvel-game-005-howard-the-duck",
+      "title": "Howard the Duck",
+      "releaseDate": "1986",
+      "franchise": "Howard the Duck",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-006-captain-america-in-the-doom-tube-of-dr-megalomann",
+      "sourceUid": "chronizo:source:marvel-game-006-captain-america-in-the-doom-tube-of-dr-megalomann",
+      "title": "Captain America in: The Doom Tube of Dr. Megalomann",
+      "releaseDate": "1987",
+      "franchise": "Captain America",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-007-the-amazing-spider-man-and-captain-america-in-dr-doom-s-revenge",
+      "sourceUid": "chronizo:source:marvel-game-007-the-amazing-spider-man-and-captain-america-in-dr-doom-s-revenge",
+      "title": "The Amazing Spider-Man and Captain America in Dr. Doom's Revenge!",
+      "releaseDate": "1989",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-008-the-uncanny-x-men",
+      "sourceUid": "chronizo:source:marvel-game-008-the-uncanny-x-men",
+      "title": "The Uncanny X-Men",
+      "releaseDate": "1989",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-009-x-men-madness-in-murderworld",
+      "sourceUid": "chronizo:source:marvel-game-009-x-men-madness-in-murderworld",
+      "title": "X-Men: Madness in Murderworld",
+      "releaseDate": "1989",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-010-x-men-ii-the-fall-of-the-mutants",
+      "sourceUid": "chronizo:source:marvel-game-010-x-men-ii-the-fall-of-the-mutants",
+      "title": "X-Men II: The Fall of the Mutants",
+      "releaseDate": "1990",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-011-the-amazing-spider-man",
+      "sourceUid": "chronizo:source:marvel-game-011-the-amazing-spider-man",
+      "title": "The Amazing Spider-Man",
+      "releaseDate": "1990",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-012-the-punisher-microprose",
+      "sourceUid": "chronizo:source:marvel-game-012-the-punisher-microprose",
+      "title": "The Punisher (MicroProse)",
+      "releaseDate": "1990",
+      "franchise": "Punisher",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-013-the-amazing-spider-man-game-boy",
+      "sourceUid": "chronizo:source:marvel-game-013-the-amazing-spider-man-game-boy",
+      "title": "The Amazing Spider-Man (Game Boy)",
+      "releaseDate": "1990",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-014-silver-surfer",
+      "sourceUid": "chronizo:source:marvel-game-014-silver-surfer",
+      "title": "Silver Surfer",
+      "releaseDate": "1990",
+      "franchise": "Silver Surfer",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-015-the-punisher-nes",
+      "sourceUid": "chronizo:source:marvel-game-015-the-punisher-nes",
+      "title": "The Punisher (NES)",
+      "releaseDate": "1991",
+      "franchise": "Punisher",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-016-the-punisher-the-ultimate-payback",
+      "sourceUid": "chronizo:source:marvel-game-016-the-punisher-the-ultimate-payback",
+      "title": "The Punisher: The Ultimate Payback!",
+      "releaseDate": "1991",
+      "franchise": "Punisher",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-017-spider-man-vs-the-kingpin",
+      "sourceUid": "chronizo:source:marvel-game-017-spider-man-vs-the-kingpin",
+      "title": "Spider-Man vs. The Kingpin",
+      "releaseDate": "1991",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-018-spider-man-the-video-game",
+      "sourceUid": "chronizo:source:marvel-game-018-spider-man-the-video-game",
+      "title": "Spider-Man: The Video Game",
+      "releaseDate": "1991",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-019-wolverine",
+      "sourceUid": "chronizo:source:marvel-game-019-wolverine",
+      "title": "Wolverine",
+      "releaseDate": "1991",
+      "franchise": "Wolverine",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-020-captain-america-and-the-avengers",
+      "sourceUid": "chronizo:source:marvel-game-020-captain-america-and-the-avengers",
+      "title": "Captain America and The Avengers",
+      "releaseDate": "1991",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-021-x-men-arcade",
+      "sourceUid": "chronizo:source:marvel-game-021-x-men-arcade",
+      "title": "X-Men (Arcade)",
+      "releaseDate": "1992",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-022-the-amazing-spider-man-2-game-boy",
+      "sourceUid": "chronizo:source:marvel-game-022-the-amazing-spider-man-2-game-boy",
+      "title": "The Amazing Spider-Man 2 (Game Boy)",
+      "releaseDate": "1992",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-023-spider-man-return-of-the-sinister-six",
+      "sourceUid": "chronizo:source:marvel-game-023-spider-man-return-of-the-sinister-six",
+      "title": "Spider-Man: Return of the Sinister Six",
+      "releaseDate": "1992",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-024-spider-man-and-the-x-men-in-arcade-s-revenge",
+      "sourceUid": "chronizo:source:marvel-game-024-spider-man-and-the-x-men-in-arcade-s-revenge",
+      "title": "Spider-Man and the X-Men in Arcade's Revenge",
+      "releaseDate": "1992",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-025-x-men-genesis",
+      "sourceUid": "chronizo:source:marvel-game-025-x-men-genesis",
+      "title": "X-Men (Genesis)",
+      "releaseDate": "1993",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-026-the-punisher-arcade",
+      "sourceUid": "chronizo:source:marvel-game-026-the-punisher-arcade",
+      "title": "The Punisher (Arcade)",
+      "releaseDate": "1993",
+      "franchise": "Punisher",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-027-the-amazing-spider-man-3-invasion-of-the-spider-slayers",
+      "sourceUid": "chronizo:source:marvel-game-027-the-amazing-spider-man-3-invasion-of-the-spider-slayers",
+      "title": "The Amazing Spider-Man 3: Invasion of the Spider-Slayers",
+      "releaseDate": "1993",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-028-x-men-game-gear",
+      "sourceUid": "chronizo:source:marvel-game-028-x-men-game-gear",
+      "title": "X-Men (Game Gear)",
+      "releaseDate": "1994",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-029-the-incredible-hulk",
+      "sourceUid": "chronizo:source:marvel-game-029-the-incredible-hulk",
+      "title": "The Incredible Hulk",
+      "releaseDate": "1994",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-030-spider-man-and-venom-maximum-carnage",
+      "sourceUid": "chronizo:source:marvel-game-030-spider-man-and-venom-maximum-carnage",
+      "title": "Spider-Man and Venom: Maximum Carnage",
+      "releaseDate": "1994",
+      "franchise": "Spider-Man / Venom",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-031-wolverine-adamantium-rage",
+      "sourceUid": "chronizo:source:marvel-game-031-wolverine-adamantium-rage",
+      "title": "Wolverine: Adamantium Rage",
+      "releaseDate": "1994",
+      "franchise": "Wolverine",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-032-x-men-mutant-apocalypse",
+      "sourceUid": "chronizo:source:marvel-game-032-x-men-mutant-apocalypse",
+      "title": "X-Men: Mutant Apocalypse",
+      "releaseDate": "1994",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-033-x-men-children-of-the-atom",
+      "sourceUid": "chronizo:source:marvel-game-033-x-men-children-of-the-atom",
+      "title": "X-Men: Children of the Atom",
+      "releaseDate": "1994",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-034-x-men-2-clone-wars",
+      "sourceUid": "chronizo:source:marvel-game-034-x-men-2-clone-wars",
+      "title": "X-Men 2: Clone Wars",
+      "releaseDate": "1995",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-035-x-men-gamesmaster-s-legacy",
+      "sourceUid": "chronizo:source:marvel-game-035-x-men-gamesmaster-s-legacy",
+      "title": "X-Men: Gamesmaster's Legacy",
+      "releaseDate": "1995",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-036-spider-man-1995",
+      "sourceUid": "chronizo:source:marvel-game-036-spider-man-1995",
+      "title": "Spider-Man (1995)",
+      "releaseDate": "1995",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-037-the-amazing-spider-man-lethal-foes",
+      "sourceUid": "chronizo:source:marvel-game-037-the-amazing-spider-man-lethal-foes",
+      "title": "The Amazing Spider-Man: Lethal Foes",
+      "releaseDate": "1995",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-038-marvel-super-heroes",
+      "sourceUid": "chronizo:source:marvel-game-038-marvel-super-heroes",
+      "title": "Marvel Super Heroes",
+      "releaseDate": "1995",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-039-venom-spider-man-separation-anxiety",
+      "sourceUid": "chronizo:source:marvel-game-039-venom-spider-man-separation-anxiety",
+      "title": "Venom/Spider-Man: Separation Anxiety",
+      "releaseDate": "1995",
+      "franchise": "Spider-Man / Venom",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-040-avengers-in-galactic-storm",
+      "sourceUid": "chronizo:source:marvel-game-040-avengers-in-galactic-storm",
+      "title": "Avengers in Galactic Storm",
+      "releaseDate": "1996",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-041-the-amazing-spider-man-web-of-fire",
+      "sourceUid": "chronizo:source:marvel-game-041-the-amazing-spider-man-web-of-fire",
+      "title": "The Amazing Spider-Man: Web of Fire",
+      "releaseDate": "1996",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-042-x-men-vs-street-fighter",
+      "sourceUid": "chronizo:source:marvel-game-042-x-men-vs-street-fighter",
+      "title": "X-Men vs. Street Fighter",
+      "releaseDate": "1996",
+      "franchise": "X-Men / Street Fighter",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-043-marvel-super-heroes-in-war-of-the-gems",
+      "sourceUid": "chronizo:source:marvel-game-043-marvel-super-heroes-in-war-of-the-gems",
+      "title": "Marvel Super Heroes in War of the Gems",
+      "releaseDate": "1996",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-044-x-men-mojo-world",
+      "sourceUid": "chronizo:source:marvel-game-044-x-men-mojo-world",
+      "title": "X-Men: Mojo World",
+      "releaseDate": "1996",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-045-iron-man-and-x-o-manowar-in-heavy-metal",
+      "sourceUid": "chronizo:source:marvel-game-045-iron-man-and-x-o-manowar-in-heavy-metal",
+      "title": "Iron Man and X-O Manowar in Heavy Metal",
+      "releaseDate": "1996",
+      "franchise": "Iron Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-046-spider-man-the-sinister-six",
+      "sourceUid": "chronizo:source:marvel-game-046-spider-man-the-sinister-six",
+      "title": "Spider-Man: The Sinister Six",
+      "releaseDate": "1996",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-047-the-incredible-hulk-the-pantheon-saga",
+      "sourceUid": "chronizo:source:marvel-game-047-the-incredible-hulk-the-pantheon-saga",
+      "title": "The Incredible Hulk: The Pantheon Saga",
+      "releaseDate": "1997",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-048-marvel-super-heroes-vs-street-fighter",
+      "sourceUid": "chronizo:source:marvel-game-048-marvel-super-heroes-vs-street-fighter",
+      "title": "Marvel Super Heroes vs. Street Fighter",
+      "releaseDate": "1997",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-049-fantastic-four",
+      "sourceUid": "chronizo:source:marvel-game-049-fantastic-four",
+      "title": "Fantastic Four",
+      "releaseDate": "1997",
+      "franchise": "Fantastic Four",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-050-men-in-black-the-game",
+      "sourceUid": "chronizo:source:marvel-game-050-men-in-black-the-game",
+      "title": "Men in Black: The Game",
+      "releaseDate": "1997",
+      "franchise": "Men in Black",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-051-x-men-the-ravages-of-apocalypse",
+      "sourceUid": "chronizo:source:marvel-game-051-x-men-the-ravages-of-apocalypse",
+      "title": "X-Men: The Ravages of Apocalypse",
+      "releaseDate": "1997",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-052-marvel-vs-capcom-clash-of-super-heroes",
+      "sourceUid": "chronizo:source:marvel-game-052-marvel-vs-capcom-clash-of-super-heroes",
+      "title": "Marvel vs. Capcom: Clash of Super Heroes",
+      "releaseDate": "1998",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-053-marvel-vs-capcom-2-new-age-of-heroes",
+      "sourceUid": "chronizo:source:marvel-game-053-marvel-vs-capcom-2-new-age-of-heroes",
+      "title": "Marvel vs. Capcom 2: New Age of Heroes",
+      "releaseDate": "2000",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-054-x-men-mutant-academy",
+      "sourceUid": "chronizo:source:marvel-game-054-x-men-mutant-academy",
+      "title": "X-Men: Mutant Academy",
+      "releaseDate": "2000",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-055-spider-man-2000",
+      "sourceUid": "chronizo:source:marvel-game-055-spider-man-2000",
+      "title": "Spider-Man (2000)",
+      "releaseDate": "2000",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-056-blade",
+      "sourceUid": "chronizo:source:marvel-game-056-blade",
+      "title": "Blade",
+      "releaseDate": "2000",
+      "franchise": "Blade",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Blade"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-057-x-men-mutant-wars",
+      "sourceUid": "chronizo:source:marvel-game-057-x-men-mutant-wars",
+      "title": "X-Men: Mutant Wars",
+      "releaseDate": "2000",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-058-x-men-wolverine-s-rage",
+      "sourceUid": "chronizo:source:marvel-game-058-x-men-wolverine-s-rage",
+      "title": "X-Men: Wolverine's Rage",
+      "releaseDate": "2001",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-059-spider-man-2-the-sinister-six",
+      "sourceUid": "chronizo:source:marvel-game-059-spider-man-2-the-sinister-six",
+      "title": "Spider-Man 2: The Sinister Six",
+      "releaseDate": "2001",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-060-spider-man-2-enter-electro",
+      "sourceUid": "chronizo:source:marvel-game-060-spider-man-2-enter-electro",
+      "title": "Spider-Man 2: Enter Electro",
+      "releaseDate": "2001",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-061-x-men-mutant-academy-2",
+      "sourceUid": "chronizo:source:marvel-game-061-x-men-mutant-academy-2",
+      "title": "X-Men: Mutant Academy 2",
+      "releaseDate": "2001",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-062-spider-man-mysterio-s-menace",
+      "sourceUid": "chronizo:source:marvel-game-062-spider-man-mysterio-s-menace",
+      "title": "Spider-Man: Mysterio's Menace",
+      "releaseDate": "2001",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-063-x-men-reign-of-apocalypse",
+      "sourceUid": "chronizo:source:marvel-game-063-x-men-reign-of-apocalypse",
+      "title": "X-Men: Reign of Apocalypse",
+      "releaseDate": "2001",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-064-men-in-black-the-series-crashdown",
+      "sourceUid": "chronizo:source:marvel-game-064-men-in-black-the-series-crashdown",
+      "title": "Men in Black: The Series – Crashdown",
+      "releaseDate": "2001",
+      "franchise": "Men in Black",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-065-men-in-black-ii-alien-escape",
+      "sourceUid": "chronizo:source:marvel-game-065-men-in-black-ii-alien-escape",
+      "title": "Men in Black II: Alien Escape",
+      "releaseDate": "2002",
+      "franchise": "Men in Black",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-066-spider-man-2002",
+      "sourceUid": "chronizo:source:marvel-game-066-spider-man-2002",
+      "title": "Spider-Man (2002)",
+      "releaseDate": "2002",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Spider-Man"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-067-x-men-next-dimension",
+      "sourceUid": "chronizo:source:marvel-game-067-x-men-next-dimension",
+      "title": "X-Men: Next Dimension",
+      "releaseDate": "2002",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-068-blade-ii",
+      "sourceUid": "chronizo:source:marvel-game-068-blade-ii",
+      "title": "Blade II",
+      "releaseDate": "2002",
+      "franchise": "Blade",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Blade II"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-069-the-invincible-iron-man",
+      "sourceUid": "chronizo:source:marvel-game-069-the-invincible-iron-man",
+      "title": "The Invincible Iron Man",
+      "releaseDate": "2002",
+      "franchise": "Iron Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-070-daredevil",
+      "sourceUid": "chronizo:source:marvel-game-070-daredevil",
+      "title": "Daredevil",
+      "releaseDate": "2003",
+      "franchise": "Daredevil",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-071-the-incredible-hulk-2003",
+      "sourceUid": "chronizo:source:marvel-game-071-the-incredible-hulk-2003",
+      "title": "The Incredible Hulk (2003)",
+      "releaseDate": "2003",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-072-hulk",
+      "sourceUid": "chronizo:source:marvel-game-072-hulk",
+      "title": "Hulk",
+      "releaseDate": "2003",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-073-x2-wolverine-s-revenge",
+      "sourceUid": "chronizo:source:marvel-game-073-x2-wolverine-s-revenge",
+      "title": "X2: Wolverine's Revenge",
+      "releaseDate": "2003",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "X2: X-Men United"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-074-spider-man-2",
+      "sourceUid": "chronizo:source:marvel-game-074-spider-man-2",
+      "title": "Spider-Man 2",
+      "releaseDate": "2004",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Spider-Man 2"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-075-spider-man-2-the-hero-returns",
+      "sourceUid": "chronizo:source:marvel-game-075-spider-man-2-the-hero-returns",
+      "title": "Spider-Man 2: The Hero Returns",
+      "releaseDate": "2004",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-076-blade-trinity",
+      "sourceUid": "chronizo:source:marvel-game-076-blade-trinity",
+      "title": "Blade: Trinity",
+      "releaseDate": "2004",
+      "franchise": "Blade",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Blade: Trinity"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-077-x-men-legends",
+      "sourceUid": "chronizo:source:marvel-game-077-x-men-legends",
+      "title": "X-Men Legends",
+      "releaseDate": "2004",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-078-x-men-legends-ii-rise-of-apocalypse",
+      "sourceUid": "chronizo:source:marvel-game-078-x-men-legends-ii-rise-of-apocalypse",
+      "title": "X-Men Legends II: Rise of Apocalypse",
+      "releaseDate": "2005",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-079-fantastic-four-2005",
+      "sourceUid": "chronizo:source:marvel-game-079-fantastic-four-2005",
+      "title": "Fantastic Four (2005)",
+      "releaseDate": "2005",
+      "franchise": "Fantastic Four",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Fantastic Four"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-080-fantastic-four-flame-on",
+      "sourceUid": "chronizo:source:marvel-game-080-fantastic-four-flame-on",
+      "title": "Fantastic Four: Flame On",
+      "releaseDate": "2005",
+      "franchise": "Fantastic Four",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-081-ultimate-spider-man",
+      "sourceUid": "chronizo:source:marvel-game-081-ultimate-spider-man",
+      "title": "Ultimate Spider-Man",
+      "releaseDate": "2005",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-082-elektra",
+      "sourceUid": "chronizo:source:marvel-game-082-elektra",
+      "title": "Elektra",
+      "releaseDate": "2005",
+      "franchise": "Elektra",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Elektra"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-083-the-punisher-2005",
+      "sourceUid": "chronizo:source:marvel-game-083-the-punisher-2005",
+      "title": "The Punisher (2005)",
+      "releaseDate": "2005",
+      "franchise": "Punisher",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-084-the-incredible-hulk-ultimate-destruction",
+      "sourceUid": "chronizo:source:marvel-game-084-the-incredible-hulk-ultimate-destruction",
+      "title": "The Incredible Hulk: Ultimate Destruction",
+      "releaseDate": "2005",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-085-marvel-nemesis-rise-of-the-imperfects",
+      "sourceUid": "chronizo:source:marvel-game-085-marvel-nemesis-rise-of-the-imperfects",
+      "title": "Marvel Nemesis: Rise of the Imperfects",
+      "releaseDate": "2005",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-086-x-men-the-official-game",
+      "sourceUid": "chronizo:source:marvel-game-086-x-men-the-official-game",
+      "title": "X-Men: The Official Game",
+      "releaseDate": "2006",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "X2: X-Men United",
+        "X-Men: The Last Stand"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-087-marvel-ultimate-alliance",
+      "sourceUid": "chronizo:source:marvel-game-087-marvel-ultimate-alliance",
+      "title": "Marvel: Ultimate Alliance",
+      "releaseDate": "2006",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-088-spider-man-battle-for-new-york",
+      "sourceUid": "chronizo:source:marvel-game-088-spider-man-battle-for-new-york",
+      "title": "Spider-Man: Battle for New York",
+      "releaseDate": "2006",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-089-spider-man-3",
+      "sourceUid": "chronizo:source:marvel-game-089-spider-man-3",
+      "title": "Spider-Man 3",
+      "releaseDate": "2007",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Spider-Man 3"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-090-fantastic-four-rise-of-the-silver-surfer",
+      "sourceUid": "chronizo:source:marvel-game-090-fantastic-four-rise-of-the-silver-surfer",
+      "title": "Fantastic Four: Rise of the Silver Surfer",
+      "releaseDate": "2007",
+      "franchise": "Fantastic Four",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Fantastic Four: Rise of the Silver Surfer"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-091-ghost-rider",
+      "sourceUid": "chronizo:source:marvel-game-091-ghost-rider",
+      "title": "Ghost Rider",
+      "releaseDate": "2007",
+      "franchise": "Ghost Rider",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Ghost Rider"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-092-spider-man-friend-or-foe",
+      "sourceUid": "chronizo:source:marvel-game-092-spider-man-friend-or-foe",
+      "title": "Spider-Man: Friend or Foe",
+      "releaseDate": "2007",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-093-iron-man",
+      "sourceUid": "chronizo:source:marvel-game-093-iron-man",
+      "title": "Iron Man",
+      "releaseDate": "2008",
+      "franchise": "Iron Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Iron Man"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-094-the-incredible-hulk-2008",
+      "sourceUid": "chronizo:source:marvel-game-094-the-incredible-hulk-2008",
+      "title": "The Incredible Hulk (2008)",
+      "releaseDate": "2008",
+      "franchise": "Hulk",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "The Incredible Hulk"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-095-spider-man-web-of-shadows",
+      "sourceUid": "chronizo:source:marvel-game-095-spider-man-web-of-shadows",
+      "title": "Spider-Man: Web of Shadows",
+      "releaseDate": "2008",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-096-x-men-origins-wolverine",
+      "sourceUid": "chronizo:source:marvel-game-096-x-men-origins-wolverine",
+      "title": "X-Men Origins: Wolverine",
+      "releaseDate": "2009",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "X-Men Origins: Wolverine"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-097-the-punisher-no-mercy",
+      "sourceUid": "chronizo:source:marvel-game-097-the-punisher-no-mercy",
+      "title": "The Punisher: No Mercy",
+      "releaseDate": "2009",
+      "franchise": "Punisher",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-098-marvel-super-hero-squad",
+      "sourceUid": "chronizo:source:marvel-game-098-marvel-super-hero-squad",
+      "title": "Marvel Super Hero Squad",
+      "releaseDate": "2009",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-099-marvel-ultimate-alliance-2",
+      "sourceUid": "chronizo:source:marvel-game-099-marvel-ultimate-alliance-2",
+      "title": "Marvel: Ultimate Alliance 2",
+      "releaseDate": "2009",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-100-spider-man-toxic-city",
+      "sourceUid": "chronizo:source:marvel-game-100-spider-man-toxic-city",
+      "title": "Spider-Man: Toxic City",
+      "releaseDate": "2009",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-101-iron-man-2",
+      "sourceUid": "chronizo:source:marvel-game-101-iron-man-2",
+      "title": "Iron Man 2",
+      "releaseDate": "2010",
+      "franchise": "Iron Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Iron Man 2"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-102-spider-man-shattered-dimensions",
+      "sourceUid": "chronizo:source:marvel-game-102-spider-man-shattered-dimensions",
+      "title": "Spider-Man: Shattered Dimensions",
+      "releaseDate": "2010",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-103-marvel-super-hero-squad-the-infinity-gauntlet",
+      "sourceUid": "chronizo:source:marvel-game-103-marvel-super-hero-squad-the-infinity-gauntlet",
+      "title": "Marvel Super Hero Squad: The Infinity Gauntlet",
+      "releaseDate": "2010",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-104-marvel-super-heroes-3d-grandmaster-s-challenge",
+      "sourceUid": "chronizo:source:marvel-game-104-marvel-super-heroes-3d-grandmaster-s-challenge",
+      "title": "Marvel Super Heroes 3D: Grandmaster's Challenge",
+      "releaseDate": "2010",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-105-marvel-pinball",
+      "sourceUid": "chronizo:source:marvel-game-105-marvel-pinball",
+      "title": "Marvel Pinball",
+      "releaseDate": "2010",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-106-ultimate-spider-man-total-mayhem",
+      "sourceUid": "chronizo:source:marvel-game-106-ultimate-spider-man-total-mayhem",
+      "title": "Ultimate Spider-Man: Total Mayhem",
+      "releaseDate": "2010",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-107-marvel-vs-capcom-3-fate-of-two-worlds",
+      "sourceUid": "chronizo:source:marvel-game-107-marvel-vs-capcom-3-fate-of-two-worlds",
+      "title": "Marvel vs. Capcom 3: Fate of Two Worlds",
+      "releaseDate": "2011",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-108-marvel-super-hero-squad-online",
+      "sourceUid": "chronizo:source:marvel-game-108-marvel-super-hero-squad-online",
+      "title": "Marvel Super Hero Squad Online",
+      "releaseDate": "2011",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-109-thor-god-of-thunder",
+      "sourceUid": "chronizo:source:marvel-game-109-thor-god-of-thunder",
+      "title": "Thor: God of Thunder",
+      "releaseDate": "2011",
+      "franchise": "Thor",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Thor"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-110-thor-son-of-asgard",
+      "sourceUid": "chronizo:source:marvel-game-110-thor-son-of-asgard",
+      "title": "Thor: Son of Asgard",
+      "releaseDate": "2011",
+      "franchise": "Thor",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-111-captain-america-super-soldier",
+      "sourceUid": "chronizo:source:marvel-game-111-captain-america-super-soldier",
+      "title": "Captain America: Super Soldier",
+      "releaseDate": "2011",
+      "franchise": "Captain America",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Captain America: The First Avenger"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-112-captain-america-sentinel-of-liberty",
+      "sourceUid": "chronizo:source:marvel-game-112-captain-america-sentinel-of-liberty",
+      "title": "Captain America: Sentinel of Liberty",
+      "releaseDate": "2011",
+      "franchise": "Captain America",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-113-spider-man-edge-of-time",
+      "sourceUid": "chronizo:source:marvel-game-113-spider-man-edge-of-time",
+      "title": "Spider-Man: Edge of Time",
+      "releaseDate": "2011",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-114-x-men-destiny",
+      "sourceUid": "chronizo:source:marvel-game-114-x-men-destiny",
+      "title": "X-Men: Destiny",
+      "releaseDate": "2011",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-115-marvel-super-hero-squad-comic-combat",
+      "sourceUid": "chronizo:source:marvel-game-115-marvel-super-hero-squad-comic-combat",
+      "title": "Marvel Super Hero Squad: Comic Combat",
+      "releaseDate": "2011",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-116-ultimate-marvel-vs-capcom-3",
+      "sourceUid": "chronizo:source:marvel-game-116-ultimate-marvel-vs-capcom-3",
+      "title": "Ultimate Marvel vs. Capcom 3",
+      "releaseDate": "2011",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-117-marvel-avengers-alliance",
+      "sourceUid": "chronizo:source:marvel-game-117-marvel-avengers-alliance",
+      "title": "Marvel Avengers Alliance",
+      "releaseDate": "2012",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-118-mib-alien-crisis",
+      "sourceUid": "chronizo:source:marvel-game-118-mib-alien-crisis",
+      "title": "MIB: Alien Crisis",
+      "releaseDate": "2012",
+      "franchise": "Men in Black",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-119-men-in-black-3",
+      "sourceUid": "chronizo:source:marvel-game-119-men-in-black-3",
+      "title": "Men in Black 3",
+      "releaseDate": "2012",
+      "franchise": "Men in Black",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-120-the-amazing-spider-man-2012",
+      "sourceUid": "chronizo:source:marvel-game-120-the-amazing-spider-man-2012",
+      "title": "The Amazing Spider-Man (2012)",
+      "releaseDate": "2012",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "The Amazing Spider-Man"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-121-marvel-vs-capcom-origins",
+      "sourceUid": "chronizo:source:marvel-game-121-marvel-vs-capcom-origins",
+      "title": "Marvel vs. Capcom Origins",
+      "releaseDate": "2012",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-122-marvel-war-of-heroes",
+      "sourceUid": "chronizo:source:marvel-game-122-marvel-war-of-heroes",
+      "title": "Marvel: War of Heroes",
+      "releaseDate": "2012",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-123-marvel-avengers-battle-for-earth",
+      "sourceUid": "chronizo:source:marvel-game-123-marvel-avengers-battle-for-earth",
+      "title": "Marvel Avengers: Battle for Earth",
+      "releaseDate": "2012",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-124-avengers-initiative",
+      "sourceUid": "chronizo:source:marvel-game-124-avengers-initiative",
+      "title": "Avengers: Initiative",
+      "releaseDate": "2012",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-125-iron-man-3-the-official-game",
+      "sourceUid": "chronizo:source:marvel-game-125-iron-man-3-the-official-game",
+      "title": "Iron Man 3: The Official Game",
+      "releaseDate": "2013",
+      "franchise": "Iron Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Iron Man 3"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-126-marvel-heroes",
+      "sourceUid": "chronizo:source:marvel-game-126-marvel-heroes",
+      "title": "Marvel Heroes",
+      "releaseDate": "2013",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-127-deadpool",
+      "sourceUid": "chronizo:source:marvel-game-127-deadpool",
+      "title": "Deadpool",
+      "releaseDate": "2013",
+      "franchise": "Deadpool",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-128-marvel-puzzle-quest",
+      "sourceUid": "chronizo:source:marvel-game-128-marvel-puzzle-quest",
+      "title": "Marvel Puzzle Quest",
+      "releaseDate": "2013",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-129-lego-marvel-super-heroes",
+      "sourceUid": "chronizo:source:marvel-game-129-lego-marvel-super-heroes",
+      "title": "Lego Marvel Super Heroes",
+      "releaseDate": "2013",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-130-thor-the-dark-world-the-official-game",
+      "sourceUid": "chronizo:source:marvel-game-130-thor-the-dark-world-the-official-game",
+      "title": "Thor: The Dark World – The Official Game",
+      "releaseDate": "2013",
+      "franchise": "Thor",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Thor: The Dark World"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-131-x-men-battle-of-the-atom",
+      "sourceUid": "chronizo:source:marvel-game-131-x-men-battle-of-the-atom",
+      "title": "X-Men: Battle of the Atom",
+      "releaseDate": "2014",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-132-captain-america-the-winter-soldier-the-official-game",
+      "sourceUid": "chronizo:source:marvel-game-132-captain-america-the-winter-soldier-the-official-game",
+      "title": "Captain America: The Winter Soldier – The Official Game",
+      "releaseDate": "2014",
+      "franchise": "Captain America",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Captain America: The Winter Soldier"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-133-the-amazing-spider-man-2",
+      "sourceUid": "chronizo:source:marvel-game-133-the-amazing-spider-man-2",
+      "title": "The Amazing Spider-Man 2",
+      "releaseDate": "2014",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "The Amazing Spider-Man 2"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-134-kellogg-s-the-amazing-spider-man-2",
+      "sourceUid": "chronizo:source:marvel-game-134-kellogg-s-the-amazing-spider-man-2",
+      "title": "Kellogg's The Amazing Spider-Man 2",
+      "releaseDate": "2014",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-135-spider-man-ultimate-power",
+      "sourceUid": "chronizo:source:marvel-game-135-spider-man-ultimate-power",
+      "title": "Spider-Man Ultimate Power",
+      "releaseDate": "2014",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-136-uncanny-x-men-days-of-future-past",
+      "sourceUid": "chronizo:source:marvel-game-136-uncanny-x-men-days-of-future-past",
+      "title": "Uncanny X-Men: Days of Future Past",
+      "releaseDate": "2014",
+      "franchise": "X-Men",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-137-spider-man-unlimited",
+      "sourceUid": "chronizo:source:marvel-game-137-spider-man-unlimited",
+      "title": "Spider-Man Unlimited",
+      "releaseDate": "2014",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-138-disney-infinity-2-0",
+      "sourceUid": "chronizo:source:marvel-game-138-disney-infinity-2-0",
+      "title": "Disney Infinity 2.0",
+      "releaseDate": "2014",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-139-guardians-of-the-galaxy-the-universal-weapon",
+      "sourceUid": "chronizo:source:marvel-game-139-guardians-of-the-galaxy-the-universal-weapon",
+      "title": "Guardians of the Galaxy: The Universal Weapon",
+      "releaseDate": "2014",
+      "franchise": "Guardians of the Galaxy",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-140-marvel-disk-wars-the-avengers-ultimate-heroes",
+      "sourceUid": "chronizo:source:marvel-game-140-marvel-disk-wars-the-avengers-ultimate-heroes",
+      "title": "Marvel Disk Wars: The Avengers: Ultimate Heroes",
+      "releaseDate": "2014",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-141-marvel-contest-of-champions",
+      "sourceUid": "chronizo:source:marvel-game-141-marvel-contest-of-champions",
+      "title": "Marvel Contest of Champions",
+      "releaseDate": "2014",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-142-marvel-future-fight",
+      "sourceUid": "chronizo:source:marvel-game-142-marvel-future-fight",
+      "title": "Marvel: Future Fight",
+      "releaseDate": "2015",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-143-lego-marvel-s-avengers",
+      "sourceUid": "chronizo:source:marvel-game-143-lego-marvel-s-avengers",
+      "title": "Lego Marvel's Avengers",
+      "releaseDate": "2016",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "The Avengers",
+        "Avengers: Age of Ultron"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-144-marvel-avengers-academy",
+      "sourceUid": "chronizo:source:marvel-game-144-marvel-avengers-academy",
+      "title": "Marvel Avengers Academy",
+      "releaseDate": "2016",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-145-kellogg-s-marvel-s-civil-war-vr",
+      "sourceUid": "chronizo:source:marvel-game-145-kellogg-s-marvel-s-civil-war-vr",
+      "title": "Kellogg's Marvel's Civil War VR",
+      "releaseDate": "2016",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-146-marvel-tsum-tsum",
+      "sourceUid": "chronizo:source:marvel-game-146-marvel-tsum-tsum",
+      "title": "Marvel Tsum Tsum",
+      "releaseDate": "2016",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-147-marvel-heroes-omega",
+      "sourceUid": "chronizo:source:marvel-game-147-marvel-heroes-omega",
+      "title": "Marvel Heroes Omega",
+      "releaseDate": "2017",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-148-guardians-of-the-galaxy-the-telltale-series",
+      "sourceUid": "chronizo:source:marvel-game-148-guardians-of-the-galaxy-the-telltale-series",
+      "title": "Guardians of the Galaxy: The Telltale Series",
+      "releaseDate": "2017",
+      "franchise": "Guardians of the Galaxy",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-149-spider-man-homecoming-virtual-reality-experience",
+      "sourceUid": "chronizo:source:marvel-game-149-spider-man-homecoming-virtual-reality-experience",
+      "title": "Spider-Man: Homecoming – Virtual Reality Experience",
+      "releaseDate": "2017",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Spider-Man: Homecoming"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-150-marvel-vs-capcom-infinite",
+      "sourceUid": "chronizo:source:marvel-game-150-marvel-vs-capcom-infinite",
+      "title": "Marvel vs. Capcom: Infinite",
+      "releaseDate": "2017",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-151-lego-marvel-super-heroes-2",
+      "sourceUid": "chronizo:source:marvel-game-151-lego-marvel-super-heroes-2",
+      "title": "Lego Marvel Super Heroes 2",
+      "releaseDate": "2017",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-152-marvel-strike-force",
+      "sourceUid": "chronizo:source:marvel-game-152-marvel-strike-force",
+      "title": "Marvel Strike Force",
+      "releaseDate": "2018",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-153-marvel-end-time-arena",
+      "sourceUid": "chronizo:source:marvel-game-153-marvel-end-time-arena",
+      "title": "Marvel End Time Arena",
+      "releaseDate": "2018",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-154-marvel-battle-lines",
+      "sourceUid": "chronizo:source:marvel-game-154-marvel-battle-lines",
+      "title": "Marvel Battle Lines",
+      "releaseDate": "2018",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-155-marvel-s-spider-man",
+      "sourceUid": "chronizo:source:marvel-game-155-marvel-s-spider-man",
+      "title": "Marvel's Spider-Man",
+      "releaseDate": "2018",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-156-marvel-powers-united-vr",
+      "sourceUid": "chronizo:source:marvel-game-156-marvel-powers-united-vr",
+      "title": "Marvel Powers United VR",
+      "releaseDate": "2018",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-157-spider-man-far-from-home-virtual-reality-experience",
+      "sourceUid": "chronizo:source:marvel-game-157-spider-man-far-from-home-virtual-reality-experience",
+      "title": "Spider-Man: Far From Home Virtual Reality Experience",
+      "releaseDate": "2019",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Spider-Man: Far From Home"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-158-marvel-ultimate-alliance-3-the-black-order",
+      "sourceUid": "chronizo:source:marvel-game-158-marvel-ultimate-alliance-3-the-black-order",
+      "title": "Marvel Ultimate Alliance 3: The Black Order",
+      "releaseDate": "2019",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-159-avengers-damage-control",
+      "sourceUid": "chronizo:source:marvel-game-159-avengers-damage-control",
+      "title": "Avengers: Damage Control",
+      "releaseDate": "2019",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "tiein",
+      "canonStatus": "oficjalne powiązanie filmowe — zakres kanonu do weryfikacji",
+      "relatedTitles": [
+        "Avengers: Endgame"
+      ],
+      "tags": [
+        "EMCU",
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-160-marvel-super-war",
+      "sourceUid": "chronizo:source:marvel-game-160-marvel-super-war",
+      "title": "Marvel Super War",
+      "releaseDate": "2019",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-161-marvel-duel",
+      "sourceUid": "chronizo:source:marvel-game-161-marvel-duel",
+      "title": "Marvel Duel",
+      "releaseDate": "2020",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-162-iron-man-vr",
+      "sourceUid": "chronizo:source:marvel-game-162-iron-man-vr",
+      "title": "Iron Man VR",
+      "releaseDate": "2020",
+      "franchise": "Iron Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-163-marvel-s-avengers",
+      "sourceUid": "chronizo:source:marvel-game-163-marvel-s-avengers",
+      "title": "Marvel's Avengers",
+      "releaseDate": "2020",
+      "franchise": "Avengers",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-164-marvel-realm-of-champions",
+      "sourceUid": "chronizo:source:marvel-game-164-marvel-realm-of-champions",
+      "title": "Marvel Realm of Champions",
+      "releaseDate": "2020",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-165-marvel-s-spider-man-miles-morales",
+      "sourceUid": "chronizo:source:marvel-game-165-marvel-s-spider-man-miles-morales",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "releaseDate": "2020",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-166-marvel-future-revolution",
+      "sourceUid": "chronizo:source:marvel-game-166-marvel-future-revolution",
+      "title": "Marvel Future Revolution",
+      "releaseDate": "2021",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-167-marvel-s-guardians-of-the-galaxy",
+      "sourceUid": "chronizo:source:marvel-game-167-marvel-s-guardians-of-the-galaxy",
+      "title": "Marvel's Guardians of the Galaxy",
+      "releaseDate": "2021",
+      "franchise": "Guardians of the Galaxy",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-168-marvel-snap",
+      "sourceUid": "chronizo:source:marvel-game-168-marvel-snap",
+      "title": "Marvel Snap",
+      "releaseDate": "2022",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-169-marvel-s-midnight-suns",
+      "sourceUid": "chronizo:source:marvel-game-169-marvel-s-midnight-suns",
+      "title": "Marvel's Midnight Suns",
+      "releaseDate": "2022",
+      "franchise": "Midnight Sons",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-170-marvel-s-spider-man-2",
+      "sourceUid": "chronizo:source:marvel-game-170-marvel-s-spider-man-2",
+      "title": "Marvel's Spider-Man 2",
+      "releaseDate": "2023",
+      "franchise": "Spider-Man",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-171-marvel-vs-capcom-fighting-collection-arcade-classics",
+      "sourceUid": "chronizo:source:marvel-game-171-marvel-vs-capcom-fighting-collection-arcade-classics",
+      "title": "Marvel vs. Capcom Fighting Collection: Arcade Classics",
+      "releaseDate": "2024",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-172-marvel-rivals",
+      "sourceUid": "chronizo:source:marvel-game-172-marvel-rivals",
+      "title": "Marvel Rivals",
+      "releaseDate": "2024",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-173-marvel-mystic-mayhem",
+      "sourceUid": "chronizo:source:marvel-game-173-marvel-mystic-mayhem",
+      "title": "Marvel Mystic Mayhem",
+      "releaseDate": "2025",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-174-marvel-s-deadpool-vr",
+      "sourceUid": "chronizo:source:marvel-game-174-marvel-s-deadpool-vr",
+      "title": "Marvel's Deadpool VR",
+      "releaseDate": "2025",
+      "franchise": "Deadpool",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-175-marvel-cosmic-invasion",
+      "sourceUid": "chronizo:source:marvel-game-175-marvel-cosmic-invasion",
+      "title": "Marvel Cosmic Invasion",
+      "releaseDate": "2025",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-176-marvel-maximum-collection",
+      "sourceUid": "chronizo:source:marvel-game-176-marvel-maximum-collection",
+      "title": "Marvel MaXimum Collection",
+      "releaseDate": "2026",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-177-marvel-tokon-fighting-souls",
+      "sourceUid": "chronizo:source:marvel-game-177-marvel-tokon-fighting-souls",
+      "title": "Marvel Tokon: Fighting Souls",
+      "releaseDate": "2026",
+      "franchise": "Crossover",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-178-marvel-s-wolverine",
+      "sourceUid": "chronizo:source:marvel-game-178-marvel-s-wolverine",
+      "title": "Marvel's Wolverine",
+      "releaseDate": "2026",
+      "franchise": "Wolverine",
+      "releaseStatus": "wydana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-179-marvel-s-blade",
+      "sourceUid": "chronizo:source:marvel-game-179-marvel-s-blade",
+      "title": "Marvel's Blade",
+      "releaseDate": "2027",
+      "franchise": "Blade",
+      "releaseStatus": "zapowiedziana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-180-marvel-s-iron-man",
+      "sourceUid": "chronizo:source:marvel-game-180-marvel-s-iron-man",
+      "title": "Marvel's Iron Man",
+      "releaseDate": "",
+      "franchise": "Iron Man",
+      "releaseStatus": "zapowiedziana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    },
+    {
+      "key": "marvel-game-181-marvel-1943-rise-of-hydra",
+      "sourceUid": "chronizo:source:marvel-game-181-marvel-1943-rise-of-hydra",
+      "title": "Marvel 1943: Rise of Hydra",
+      "releaseDate": "",
+      "franchise": "Captain America / Black Panther",
+      "releaseStatus": "zapowiedziana",
+      "relationType": "standalone",
+      "canonStatus": "własna ciągłość gry",
+      "relatedTitles": [],
+      "tags": [
+        "MARVEL GAMES"
+      ]
+    }
+  ]
+}

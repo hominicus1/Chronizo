@@ -18,6 +18,17 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.70
+
+- Established `data/chronizo-bible.sources.json` as the generated master source catalog.
+- Added an immutable hidden `sourceUid` to every source; exports and project merges preserve it.
+- Added “Źródła z projektu” to merge only sources and their required worlds from another Chronizo file.
+- Definite duplicates merge by `sourceUid` or legacy import key while preserving user status, dates, notes and edits.
+- Similar title/type pairs are reported as possible duplicates but are never merged automatically.
+- Added 181 released and announced Marvel games, with ports of the same game kept as one source and genuinely different same-title games separated.
+- Linked screen tie-in games to their related films and propagated `#EMCU` where appropriate.
+- Generated a complete α70 Road to Doomsday Bible project containing 3,564 sources and 130 worlds.
+
 ## alpha.69
 
 - Added source sorting by catalog order, action date, release date and title A–Z/Z–A.

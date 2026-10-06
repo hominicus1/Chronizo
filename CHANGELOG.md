@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.66
+
+- Expanded the movie-comic working catalog from 34 to 101 sources across MCU, Fox, Sony and legacy Marvel screen continuities.
+- Added official adaptations, prequels, promotional comics and a separate inspiration layer.
+- Inspiration comics link to screen sources but deliberately inherit no film-world placement.
+- Added `#FOX`, `#SONY`, `#LEGACY` and `#INSPIRACJA` catalog filters while preserving all user statuses and edits.
+
 ## alpha.65
 
 - Added `Inspiracja` as a distinct comic-to-screen relationship with automatic `#INSPIRACJA` tagging.

@@ -18,6 +18,14 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.69
+
+- Added source sorting by catalog order, action date, release date and title A–Z/Z–A.
+- Comic adaptations inherit the action date of their linked screen source.
+- Prequels are placed descriptively before their linked source; tie-ins and promotional comics are marked approximately around it.
+- Inspiration comics display `Poza chronologią ekranową` instead of the misleading `data nieustalona`.
+- Existing edited or processed comic dates remain untouched.
+
 ## alpha.68
 
 - Audited 4,116 source chronology dates and 3,246 release dates.

@@ -69,6 +69,8 @@ for(const projectTransfer of ['↑ Importuj projekt','↓ Eksportuj projekt','id
 for(const mergeFeature of ['Źródła z projektu','mergeSourcesFromProjectFile','sourceUid','Możliwe duplikaty po tytule'])assert.ok(js.includes(mergeFeature),`missing safe project source merge: ${mergeFeature}`);
 for(const sourceWorkspace of ['source-workspace','source-event-add','copy-source-uid','Pełna edycja','eventSourceUids','ensureEventSourceUids','sourceUids'])assert.ok((js+css).includes(sourceWorkspace),`missing source event workspace: ${sourceWorkspace}`);
 for(const sourceWorldPicker of ['source-world-search','source-world-selected','source-world-results','selectedSourceWorldIds','populateSourceWorlds','data-pick-source-world','data-remove-source-world'])assert.ok((js+css).includes(sourceWorldPicker),`missing searchable source world picker: ${sourceWorldPicker}`);
+for(const sourceRelationVisibility of ['updateSourceRelationVisibility','source-relation-fields','Film','Serial'])assert.ok(js.includes(sourceRelationVisibility),`missing source relation visibility rule: ${sourceRelationVisibility}`);
+for(const sourceEventOverview of ['WSZYSTKIE WYDARZENIA ŹRÓDŁA','sourceEventMoment','sourceEventCompare','grid-template-columns: minmax(0, 1fr) minmax(420px, 0.92fr)'])assert.ok((js+css).includes(sourceEventOverview),`missing complete source event overview: ${sourceEventOverview}`);
 assert.equal(marvelGames.sources.length,181,'complete Marvel games baseline changed unexpectedly');
 assert.equal(new Set(marvelGames.sources.map(source=>source.sourceUid)).size,marvelGames.sources.length,'duplicate game sourceUid');
 assert.equal(bible.format,'chronizo-bible');

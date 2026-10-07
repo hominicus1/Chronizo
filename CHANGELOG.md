@@ -22,6 +22,8 @@
 
 - Replaced the full source-world checkbox wall with a compact searchable picker.
 - Worlds can be found by designation, name or description, selected as removable chips, or created directly with the `＋` button.
+- The film/series relation section is shown only for other source types such as comics, books, games and miscellaneous media.
+- On desktop, source data and the complete source-event list now remain visible side by side; events are ordered by their moment within the source.
 
 ## alpha.71
 

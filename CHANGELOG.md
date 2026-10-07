@@ -18,6 +18,11 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.72
+
+- Replaced the full source-world checkbox wall with a compact searchable picker.
+- Worlds can be found by designation, name or description, selected as removable chips, or created directly with the `＋` button.
+
 ## alpha.71
 
 - Made every source's stable `sourceUid` visible and copyable in the source list and editor.

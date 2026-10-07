@@ -1,0 +1,14 @@
+.source-world-picker legend {
+  padding: 0 6px;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.source-world-picker .picker-head {
+  margin-top: 4px;
+}
+
+.source-world-picker > input {
+  margin-bottom: 10px;
+}

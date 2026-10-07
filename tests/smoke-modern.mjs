@@ -2,11 +2,11 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
-const js=fs.readFileSync(new URL('../js/workbench-alpha70.js',import.meta.url),'utf8');
+const js=fs.readFileSync(new URL('../js/workbench-alpha71.js',import.meta.url),'utf8');
 const movieComics=JSON.parse(fs.readFileSync(new URL('../data/movie-comics.sources.json',import.meta.url),'utf8'));
 const marvelGames=JSON.parse(fs.readFileSync(new URL('../data/marvel-games.sources.json',import.meta.url),'utf8'));
 const bible=JSON.parse(fs.readFileSync(new URL('../data/chronizo-bible.sources.json',import.meta.url),'utf8'));
-const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-alpha71.css',import.meta.url),'utf8');
 
 for(const id of ['build-version','project-select','view-road','view-sources','view-worlds','view-characters','view-events','view-atlas','road-content','sources-content','worlds-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
   assert.match(html,new RegExp(`id=["']${id}["']`),`missing ${id}`);
@@ -38,8 +38,8 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α70/,'visible build version missing');
-assert.match(html,/workbench-alpha70\.js/,'immutable workbench build missing');
+assert.match(html,/α71/,'visible build version missing');
+assert.match(html,/workbench-alpha71\.js/,'immutable workbench build missing');
 for(const quickEvent of ['add-event-from-source','event-source-moment','sourceMoment','Moment w źródle'])assert.ok((html+js+css).includes(quickEvent),`missing source-context event capture: ${quickEvent}`);
 for(const notebook of ['quick-event-dialog','openQuickEventDialog','saveQuickEvent','quickCharacterIds','quickWorldLabel','Pełny formularz','Zapisz i następne','draft:!0'])assert.ok((js+css).includes(notebook),`missing watch notebook: ${notebook}`);
 for(const draftCard of ['draft-tag','edit-world','openWorldDialog(null,','do uzupełnienia'])assert.ok((js+css).includes(draftCard),`missing draft completion path: ${draftCard}`);
@@ -67,6 +67,7 @@ for(const comicDate of ['syncComicChronologyLabels','comic-chronology-labels-v1'
 assert.equal((js.match(/\[\s*["']mini-verse-vo-\d+["']/g)||[]).length,9,'embedded MVO migration must contain exactly nine sources');
 for(const projectTransfer of ['↑ Importuj projekt','↓ Eksportuj projekt','id="export-project"'])assert.ok(js.includes(projectTransfer),`missing universal project transfer action: ${projectTransfer}`);
 for(const mergeFeature of ['Źródła z projektu','mergeSourcesFromProjectFile','sourceUid','Możliwe duplikaty po tytule'])assert.ok(js.includes(mergeFeature),`missing safe project source merge: ${mergeFeature}`);
+for(const sourceWorkspace of ['source-workspace','source-event-add','copy-source-uid','Pełna edycja','eventSourceUids','ensureEventSourceUids','sourceUids'])assert.ok((js+css).includes(sourceWorkspace),`missing source event workspace: ${sourceWorkspace}`);
 assert.equal(marvelGames.sources.length,181,'complete Marvel games baseline changed unexpectedly');
 assert.equal(new Set(marvelGames.sources.map(source=>source.sourceUid)).size,marvelGames.sources.length,'duplicate game sourceUid');
 assert.equal(bible.format,'chronizo-bible');

@@ -18,6 +18,13 @@
 - Micro-event `type` values such as event/clue/background no longer split one episode into multiple release blocks.
 # 4.0.0-alpha.1
 
+## alpha.71
+
+- Made every source's stable `sourceUid` visible and copyable in the source list and editor.
+- Events now retain both their project-local source IDs and stable source UIDs; older events are migrated automatically.
+- Added a dedicated event workspace inside source editing for quick creation, inline correction, deletion and opening full event details.
+- The source-level workspace captures the event title, position within the source, descriptive date and a short note without requiring the full event form.
+
 ## alpha.70
 
 - Established `data/chronizo-bible.sources.json` as the generated master source catalog.

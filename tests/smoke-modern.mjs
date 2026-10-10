@@ -2,11 +2,11 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
 const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');
-const js=fs.readFileSync(new URL('../js/workbench-alpha76.js',import.meta.url),'utf8');
+const js=fs.readFileSync(new URL('../js/workbench-alpha78.js',import.meta.url),'utf8');
 const movieComics=JSON.parse(fs.readFileSync(new URL('../data/movie-comics.sources.json',import.meta.url),'utf8'));
 const marvelGames=JSON.parse(fs.readFileSync(new URL('../data/marvel-games.sources.json',import.meta.url),'utf8'));
 const bible=JSON.parse(fs.readFileSync(new URL('../data/chronizo-bible.sources.json',import.meta.url),'utf8'));
-const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-alpha71.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-alpha76.css',import.meta.url),'utf8');
+const css=fs.readFileSync(new URL('../css/workbench.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-enhancements.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-alpha71.css',import.meta.url),'utf8')+fs.readFileSync(new URL('../css/workbench-alpha78.css',import.meta.url),'utf8');
 
 for(const id of ['build-version','project-select','view-road','view-sources','view-worlds','view-characters','view-events','view-atlas','road-content','sources-content','worlds-content','characters-content','events-content','atlas-content','project-dialog','source-dialog','event-dialog']){
   assert.match(html,new RegExp(`id=["']${id}["']`),`missing ${id}`);
@@ -30,7 +30,7 @@ for(const concept of ['add-event-world','worldDialogTarget',"openWorldDialog('ev
 for(const concept of ['projectCharacters','characterIds','characterConnections','character-name','character-aliases','characterAliases','character-birth','character-death'])assert.ok(js.includes(concept),`missing character concept: ${concept}`);
 assert.ok(html.includes('id="event-character-picker"'),'event form must contain one dedicated character picker');
 for(const concept of ['sourceDialogTarget','characterDialogTarget','source-worlds','add-source-world','add-event-source','add-event-character','add-character-world','Świat pochodzenia'])assert.ok(js.includes(concept),`missing linked creation concept: ${concept}`);
-for(const concept of ['importExtendedVo','extended-vo.sources.json','importMultiversalVo','multiversal-vo.sources.json','chronizo-source-pack','Nierozpoczęte','sourceTagFilter','sourceColorMode','EMCU','MVO','SMU','strict-vo.sources.json','syncStrictMarvelUniverseTags'])assert.ok(js.includes(concept),`missing hidden source compendium mechanism: ${concept}`);
+for(const concept of ['importExtendedVo','extended-vo.sources.json','importMultiversalVo','multiversal-vo.sources.json','chronizo-source-pack','Nierozpoczęte','sourceTagFilter','sourceColorMode','EMCU','MVO','SMU','strict-vo.sources.json','syncStrictMarvelUniverseTags','mergeImportedVoDuplicates','isVoImportedSource'])assert.ok(js.includes(concept),`missing hidden source compendium mechanism: ${concept}`);
 assert.doesNotMatch(html,/id="import-(extended|multiversal)-vo"/,'Marvel catalog import buttons must stay out of the universal UI');
 for(const concept of ['THEME_KEY','ensureThemeDialog','data-theme-choice','shield','green','dark','light'])assert.ok((js+css).includes(concept),`missing theme concept: ${concept}`);
 for(const concept of ['road-track','roadNode','branch-up','branch-down','exportProject','importProjectFile','chronizo-project','Eksportuj projekt','Importuj projekt'])assert.ok((html+js+css).includes(concept),`missing horizontal road or JSON concept: ${concept}`);
@@ -38,8 +38,8 @@ assert.match(html,/data-view="atlas"[^>]*hidden/,'Atlas should be hidden in alph
 assert.ok(css.includes('.metric{text-align:center}'),'metric numbers are not centered');
 for(const type of ['Film','Serial','Komiks','Książka','Gra','Inne'])assert.match(html,new RegExp(`<option>${type}</option>`),`missing source type: ${type}`);
 assert.doesNotMatch(html,/<option>Odcinek<\/option>/,'redundant source type remains: Odcinek');
-assert.match(html,/α76/,'visible build version missing');
-assert.match(html,/workbench-alpha76\.js/,'immutable workbench build missing');
+assert.match(html,/α78/,'visible build version missing');
+assert.match(html,/workbench-alpha78\.js/,'immutable workbench build missing');
 for(const quickEvent of ['add-event-from-source','event-source-moment','sourceMoment','Moment w źródle'])assert.ok((html+js+css).includes(quickEvent),`missing source-context event capture: ${quickEvent}`);
 for(const notebook of ['quick-event-dialog','openQuickEventDialog','saveQuickEvent','quickCharacterIds','quickWorldLabel','Pełny formularz','Zapisz i następne','draft:!0'])assert.ok((js+css).includes(notebook),`missing watch notebook: ${notebook}`);
 for(const draftCard of ['draft-tag','edit-world','openWorldDialog(null,','do uzupełnienia'])assert.ok((js+css).includes(draftCard),`missing draft completion path: ${draftCard}`);
@@ -99,3 +99,8 @@ assert.ok(bible.sources.every(source=>source.relationType!=='inspiration'&&!(sou
 
 assert.ok(js.includes('id="source-release-date" type="text"'),'release date must accept partial descriptive dates');
 assert.ok(js.includes('releaseDateManual:!0'),'manual release date must override catalog metadata');
+
+const releaseOverrides=JSON.parse(fs.readFileSync(new URL('../data/release-date-overrides.json',import.meta.url),'utf8'));
+assert.equal(releaseOverrides.sources.length,14,'release-date audit count changed');
+assert.ok(releaseOverrides.sources.every(source=>/^\d{4}-\d{2}-\d{2}$/.test(source.releaseDate)),'release override must be a full ISO date');
+for(const feature of ['syncReleaseDateOverrides','release-date-overrides.json?v=1','sourceActionChronologyKey','outside of time','-tva-'])assert.ok(js.toLowerCase().includes(feature.toLowerCase()),`missing release chronology feature: ${feature}`);

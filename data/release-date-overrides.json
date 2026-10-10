@@ -1,0 +1,20 @@
+{
+  "format": "chronizo-release-date-overrides",
+  "version": 1,
+  "sources": [
+    { "title": "The Fantastic Four: First Steps", "releaseDate": "2025-07-25" },
+    { "title": "Power Pack", "releaseDate": "1991-09-28" },
+    { "title": "Daredevil (2003)", "releaseDate": "2003-02-14" },
+    { "title": "The Punisher (2004)", "releaseDate": "2004-04-16" },
+    { "title": "Punisher: Warzone", "releaseDate": "2008-12-05" },
+    { "title": "Guardians of the Galaxy, Vol. 2", "releaseDate": "2017-05-05" },
+    { "title": "Super Hero Adventures: Frost Fight!", "releaseDate": "2015-12-11" },
+    { "title": "Marvel's Spider-Man (PS4)", "releaseDate": "2018-09-07", "type": "Gra" },
+    { "title": "LEGO Avengers: Time Twisted", "releaseDate": "2022-01-17" },
+    { "title": "Spider-Man: Far From Home", "releaseDate": "2019-07-02" },
+    { "title": "Short: What If… You Controlled the LEGO Marvel Brickverse?", "releaseDate": "2025-07-14" },
+    { "title": "The Guardians of the Galaxy: Holiday Special", "releaseDate": "2022-11-25" },
+    { "title": "Ant-Man and the Wasp: Quantumania", "releaseDate": "2023-02-17" },
+    { "title": "The Guardians of the Galaxy: Vol. 3", "releaseDate": "2023-05-05" }
+  ]
+}

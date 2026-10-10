@@ -1,0 +1,53 @@
+.source-world-picker legend {
+  padding: 0 6px;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.source-world-picker .picker-head {
+  margin-top: 4px;
+}
+
+.source-world-picker > input {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 901px) {
+  #source-dialog {
+    width: min(1180px, calc(100vw - 32px));
+  }
+
+  #source-form {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(420px, 0.92fr);
+    gap: 0 24px;
+  }
+
+  #source-form > :not(.source-workspace) {
+    grid-column: 1;
+  }
+
+  #source-form > .dialog-close {
+    justify-self: end;
+  }
+
+  #source-form > .source-workspace {
+    grid-column: 2;
+    grid-row: 1 / span 20;
+    align-self: start;
+    max-height: calc(100dvh - 82px);
+    margin: 0;
+    padding: 18px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--panel2);
+  }
+
+  .source-workspace .source-event-list {
+    max-height: calc(100dvh - 390px);
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+}

@@ -1,5 +1,20 @@
 # Chronizo OET Changelog
 
+## α78 — Jeden Hulk, jedno źródło
+
+- Scala identyczne źródła z Multiversal VO i Extended VO po tytule oraz świecie, zamiast rozdzielać je przez różne daty akcji.
+- Zachowuje oba hashtagi, pozycje katalogowe, status użytkownika, ręczną datę premiery i wszystkie powiązania wydarzeń.
+- Dla wspólnych źródeł przyjmuje chronologię Extended VO; `The Incredible Hulk` ma więc orientacyjnie `May, 2010`.
+- Ogranicza `#SMU` do źródeł faktycznie obecnych w arkuszu Strict Marvel Universe; gry nie dziedziczą już tego tagu przez sam tytuł.
+- Kompletna Biblia jest generowana już bez dubli VO.
+
+## α77 — Premiery i Outside of Time
+
+- Uzupełniono 14 brakujących dat premier źródeł filmowych i specjalnych.
+- Poprawiono typ `Marvel's Spider-Man (PS4)` z filmu na grę.
+- `Outside of Time` oraz `-TVA-` są w chronologii akcji osadzane według daty premiery.
+- Ręczne daty premiery użytkownika nadal mają pierwszeństwo.
+
 ## α76 — Edytowalna data premiery
 
 - Data premiery przyjmuje teraz pełną datę, sam rok, miesiąc lub opisowy okres.

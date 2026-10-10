@@ -1,5 +1,11 @@
 # Chronizo OET Changelog
 
+## α76 — Edytowalna data premiery
+
+- Data premiery przyjmuje teraz pełną datę, sam rok, miesiąc lub opisowy okres.
+- Ręcznie zapisana albo wyczyszczona data ma pierwszeństwo przed metadanymi katalogu.
+- Poprawiono obsługę pola daty premiery na telefonach.
+
 ## α75 — Bez luźnych inspiracji
 
 - Usunięto 46 komiksów będących jedynie inspiracjami dla ekranizacji.

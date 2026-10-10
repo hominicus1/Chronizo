@@ -39,13 +39,13 @@ for(const source of sources){
 const screenByTitle=new Map();
 for(const source of sources){const key=normalize(source.title);if(!screenByTitle.has(key))screenByTitle.set(key,[]);screenByTitle.get(key).push(source);}
 for(const packed of comics.sources){
-  const targets=[...new Set((packed.relatedTitles||[]).flatMap(title=>screenByTitle.get(normalize(title))||[]))],inspiration=packed.relationType==='inspiration',targetIds=targets.map(source=>source.id),touchesEmcu=targets.some(source=>source.tags.includes('EMCU')),tags=[...new Set([...(packed.tags||['EMCU']),'FILMOWY',...(inspiration?['INSPIRACJA']:[]),...(touchesEmcu?['EMCU']:[])])],anchor=targets.find(source=>source.date)||targets[0],anchorDate=anchor?.date||'';
+  if(packed.relationType==='inspiration'||(packed.tags||[]).includes('INSPIRACJA'))continue;
+  const targets=[...new Set((packed.relatedTitles||[]).flatMap(title=>screenByTitle.get(normalize(title))||[]))],targetIds=targets.map(source=>source.id),touchesEmcu=targets.some(source=>source.tags.includes('EMCU')),tags=[...new Set([...(packed.tags||['EMCU']),'FILMOWY',...(touchesEmcu?['EMCU']:[])])],anchor=targets.find(source=>source.date)||targets[0],anchorDate=anchor?.date||'';
   let date='',dateApprox=false;
-  if(inspiration)date='Poza chronologią ekranową';
-  else if(packed.relationType==='prequel'){date=anchorDate?`Przed ${anchorDate}`:'Przed źródłem ekranowym';dateApprox=true;}
+  if(packed.relationType==='prequel'){date=anchorDate?`Przed ${anchorDate}`:'Przed źródłem ekranowym';dateApprox=true;}
   else if(['adaptation','tiein','promotional'].includes(packed.relationType)){date=anchorDate||'Wokół źródła ekranowego';dateApprox=packed.relationType!=='adaptation';}
   else if(targets.length){date=anchorDate||'Powiązane ze źródłem ekranowym';dateApprox=true;}
-  sources.push({id:`source-${sources.length+1}`,sourceUid:packed.sourceUid||`chronizo:source:${packed.key}`,importKey:packed.key,importKeys:[packed.key],importOrigin:'Movie Comics',title:packed.title,type:'Komiks',status:'Nierozpoczęte',date,dateApprox,releaseDate:packed.releaseDate||'',tags,worldIds:inspiration?[]:[...new Set(targets.flatMap(source=>source.worldIds||[]))],relatedSourceIds:targetIds,relationType:packed.relationType||'tiein',canonStatus:packed.canonStatus||'oficjalny — kanon niejasny',createdAt:'2026-10-06T00:00:00.000Z'});
+  sources.push({id:`source-${sources.length+1}`,sourceUid:packed.sourceUid||`chronizo:source:${packed.key}`,importKey:packed.key,importKeys:[packed.key],importOrigin:'Movie Comics',title:packed.title,type:'Komiks',status:'Nierozpoczęte',date,dateApprox,releaseDate:packed.releaseDate||'',tags,worldIds:[...new Set(targets.flatMap(source=>source.worldIds||[]))],relatedSourceIds:targetIds,relationType:packed.relationType||'tiein',canonStatus:packed.canonStatus||'oficjalny — kanon niejasny',createdAt:'2026-10-06T00:00:00.000Z'});
 }
 
 for(const packed of games.sources){
@@ -53,9 +53,9 @@ for(const packed of games.sources){
   sources.push({id:`source-${sources.length+1}`,sourceUid:packed.sourceUid||`chronizo:source:${packed.key}`,importKey:packed.key,importKeys:[packed.key],importOrigin:'Chronizo Bible · Marvel Games',title:packed.title,type:'Gra',status:'Nierozpoczęte',date:packed.relationType==='standalone'?'Własna ciągłość gry':'Wokół źródła ekranowego',dateApprox:true,releaseDate:packed.releaseDate||'',tags,worldIds:[...new Set(targets.flatMap(source=>source.worldIds||[]))],relatedSourceIds:targetIds,relationType:packed.relationType||'standalone',canonStatus:packed.canonStatus||'własna ciągłość gry',releaseStatus:packed.releaseStatus||'wydana',franchise:packed.franchise||'Marvel',createdAt:'2026-10-06T00:00:00.000Z'});
 }
 
-const project={id:'project-road-to-doomsday-complete',name:'Road to Doomsday — Biblia Chronizo',description:'SMU + EMCU + Multiversal VO + komiksy filmowe + pełny katalog gier Marvela. α74.',createdAt:'2026-10-06T00:00:00.000Z',worlds:[...worlds.values()],sources,characters:[],events:[],catalogMigrations:['mvo-mini-verse-9-v4-title-order-repair',`movie-comics-v${comics.version}`,`marvel-games-v${games.version}`,'source-date-order-audit-v1','comic-chronology-labels-v1','source-uid-v1']};
+const project={id:'project-road-to-doomsday-complete',name:'Road to Doomsday — Biblia Chronizo',description:'SMU + EMCU + Multiversal VO + komiksy filmowe + pełny katalog gier Marvela — bez luźnych inspiracji. α75.',createdAt:'2026-10-06T00:00:00.000Z',worlds:[...worlds.values()],sources,characters:[],events:[],catalogMigrations:['mvo-mini-verse-9-v4-title-order-repair',`movie-comics-v${comics.version}`,`marvel-games-v${games.version}`,'remove-imported-inspirations-v1','source-date-order-audit-v1','comic-chronology-labels-v1','source-uid-v1']};
 const payload={format:'chronizo-project',version:1,exportedAt:new Date().toISOString(),project};
-const output='Road-to-Doomsday-Biblia-Chronizo-alpha74.chronizo.json';
+const output='Road-to-Doomsday-Biblia-Chronizo-alpha75.chronizo.json';
 fs.writeFileSync(output,JSON.stringify(payload,null,2)+'\n');
 fs.writeFileSync('data/chronizo-bible.sources.json',JSON.stringify({format:'chronizo-bible',version:1,generatedAt:new Date().toISOString(),sources},null,2)+'\n');
 console.log(`${output}: ${sources.length} sources, ${project.worlds.length} worlds, ${sources.filter(source=>source.type==='Komiks').length} comics, ${sources.filter(source=>source.type==='Gra').length} games`);

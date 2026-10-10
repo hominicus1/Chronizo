@@ -1,7 +1,7 @@
 {
   "format": "chronizo-bible",
   "version": 1,
-  "generatedAt": "2026-10-10T13:24:02.406Z",
+  "generatedAt": "2026-10-10T14:52:21.777Z",
   "sources": [
     {
       "id": "source-1",
@@ -90251,1282 +90251,6 @@
     },
     {
       "id": "source-3338",
-      "sourceUid": "chronizo:source:insp-blade-tod10",
-      "importKey": "insp-blade-tod10",
-      "importKeys": [
-        "insp-blade-tod10"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Tomb of Dracula (1972) #10",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1973-07-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-788"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3339",
-      "sourceUid": "chronizo:source:insp-xmen-001",
-      "importKey": "insp-xmen-001",
-      "importKeys": [
-        "insp-xmen-001"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "X-Men (1963) #1",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1963-09-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-822",
-        "source-53"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3340",
-      "sourceUid": "chronizo:source:insp-xmen-god-loves",
-      "importKey": "insp-xmen-god-loves",
-      "importKeys": [
-        "insp-xmen-god-loves"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "X-Men: God Loves, Man Kills",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1982-12-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-920"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3341",
-      "sourceUid": "chronizo:source:insp-xmen-dark-phoenix",
-      "importKey": "insp-xmen-dark-phoenix",
-      "importKeys": [
-        "insp-xmen-dark-phoenix"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Uncanny X-Men #129–137: The Dark Phoenix Saga",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1980-01-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-967"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3342",
-      "sourceUid": "chronizo:source:insp-xmen-dofp",
-      "importKey": "insp-xmen-dofp",
-      "importKeys": [
-        "insp-xmen-dofp"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Uncanny X-Men #141–142: Days of Future Past",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1981-01-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-240"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3343",
-      "sourceUid": "chronizo:source:insp-wolverine-weaponx",
-      "importKey": "insp-wolverine-weaponx",
-      "importKeys": [
-        "insp-wolverine-weaponx"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Marvel Comics Presents #72–84: Weapon X",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1991-03-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-341",
-        "source-822",
-        "source-3164"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3344",
-      "sourceUid": "chronizo:source:insp-wolverine-oldman",
-      "importKey": "insp-wolverine-oldman",
-      "importKeys": [
-        "insp-wolverine-oldman"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Wolverine (2003) #66–72 & Giant-Size Wolverine: Old Man Logan",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2008-08-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3164"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3345",
-      "sourceUid": "chronizo:source:insp-x23-innocence",
-      "importKey": "insp-x23-innocence",
-      "importKeys": [
-        "insp-x23-innocence"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "X-23: Innocence Lost #1–6",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2005-03-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3164"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3346",
-      "sourceUid": "chronizo:source:insp-newmutants-demonbear",
-      "importKey": "insp-newmutants-demonbear",
-      "importKeys": [
-        "insp-newmutants-demonbear"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The New Mutants #18–20: The Demon Bear Saga",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1984-08-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3110"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3347",
-      "sourceUid": "chronizo:source:insp-ff-galactus",
-      "importKey": "insp-ff-galactus",
-      "importKeys": [
-        "insp-ff-galactus"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Fantastic Four #48–50: The Galactus Trilogy",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1966-03-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1009"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3348",
-      "sourceUid": "chronizo:source:insp-ultimate-ff",
-      "importKey": "insp-ultimate-ff",
-      "importKeys": [
-        "insp-ultimate-ff"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Ultimate Fantastic Four #1–6: The Fantastic",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2004-02-01",
-      "tags": [
-        "INSPIRACJA",
-        "FOX",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1846",
-        "source-3280"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3349",
-      "sourceUid": "chronizo:source:insp-spiderman-af15",
-      "importKey": "insp-spiderman-af15",
-      "importKeys": [
-        "insp-spiderman-af15"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Amazing Fantasy (1962) #15",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1962-08-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-906",
-        "source-1593",
-        "source-2029"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3350",
-      "sourceUid": "chronizo:source:insp-spiderman-nomore",
-      "importKey": "insp-spiderman-nomore",
-      "importKeys": [
-        "insp-spiderman-nomore"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Amazing Spider-Man #50: Spider-Man No More!",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1967-07-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-955"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3351",
-      "sourceUid": "chronizo:source:insp-spiderman-gwen",
-      "importKey": "insp-spiderman-gwen",
-      "importKeys": [
-        "insp-spiderman-gwen"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Amazing Spider-Man #121–122: The Night Gwen Stacy Died",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1973-06-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1750",
-        "source-906"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3352",
-      "sourceUid": "chronizo:source:insp-spiderman-venom",
-      "importKey": "insp-spiderman-venom",
-      "importKeys": [
-        "insp-spiderman-venom"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Amazing Spider-Man #300: Venom",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1988-05-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-960",
-        "source-2376"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3353",
-      "sourceUid": "chronizo:source:insp-venom-lethal",
-      "importKey": "insp-venom-lethal",
-      "importKeys": [
-        "insp-venom-lethal"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Venom: Lethal Protector #1–6",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1993-02-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2376",
-        "source-2531"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3354",
-      "sourceUid": "chronizo:source:insp-maximum-carnage",
-      "importKey": "insp-maximum-carnage",
-      "importKeys": [
-        "insp-maximum-carnage"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Spider-Man: Maximum Carnage",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1993-05-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2531"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3355",
-      "sourceUid": "chronizo:source:insp-morbius-origin",
-      "importKey": "insp-morbius-origin",
-      "importKeys": [
-        "insp-morbius-origin"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Amazing Spider-Man #101–102: Morbius",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1971-10-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2380"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3356",
-      "sourceUid": "chronizo:source:insp-madame-web",
-      "importKey": "insp-madame-web",
-      "importKeys": [
-        "insp-madame-web"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Amazing Spider-Man #210: The Prophecy of Madame Web",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1980-11-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-919"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3357",
-      "sourceUid": "chronizo:source:insp-kraven-last-hunt",
-      "importKey": "insp-kraven-last-hunt",
-      "importKeys": [
-        "insp-kraven-last-hunt"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Kraven's Last Hunt",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1987-10-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3358",
-      "sourceUid": "chronizo:source:insp-spiderverse",
-      "importKey": "insp-spiderverse",
-      "importKeys": [
-        "insp-spiderverse"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Spider-Verse (2014–2015)",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2014-11-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2668",
-        "source-2780"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3359",
-      "sourceUid": "chronizo:source:insp-miles-ultimate-fallout",
-      "importKey": "insp-miles-ultimate-fallout",
-      "importKeys": [
-        "insp-miles-ultimate-fallout"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Ultimate Fallout #4: Miles Morales",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2011-08-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2668"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3360",
-      "sourceUid": "chronizo:source:insp-spidergwen",
-      "importKey": "insp-spidergwen",
-      "importKeys": [
-        "insp-spidergwen"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Edge of Spider-Verse #2: Spider-Gwen",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2014-09-01",
-      "tags": [
-        "INSPIRACJA",
-        "SONY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2668",
-        "source-2780"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3361",
-      "sourceUid": "chronizo:source:insp-ironman-extremis",
-      "importKey": "insp-ironman-extremis",
-      "importKeys": [
-        "insp-ironman-extremis"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Iron Man (2005) #1–6: Extremis",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2005-01-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1092",
-        "source-1649"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3362",
-      "sourceUid": "chronizo:source:insp-ironman-armorwars",
-      "importKey": "insp-ironman-armorwars",
-      "importKeys": [
-        "insp-ironman-armorwars"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Iron Man #225–232: Armor Wars",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1987-12-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1208"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3363",
-      "sourceUid": "chronizo:source:insp-cap-winter-soldier",
-      "importKey": "insp-cap-winter-soldier",
-      "importKeys": [
-        "insp-cap-winter-soldier"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Captain America (2005) #1–14: The Winter Soldier",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2005-01-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1655"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3364",
-      "sourceUid": "chronizo:source:insp-civil-war",
-      "importKey": "insp-civil-war",
-      "importKeys": [
-        "insp-civil-war"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Civil War #1–7",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2006-07-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1997"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3365",
-      "sourceUid": "chronizo:source:insp-thor-godbomb",
-      "importKey": "insp-thor-godbomb",
-      "importKeys": [
-        "insp-thor-godbomb"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Thor: God of Thunder #1–11: The God Butcher / Godbomb",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2012-11-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3099"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3366",
-      "sourceUid": "chronizo:source:insp-thor-mighty",
-      "importKey": "insp-thor-mighty",
-      "importKeys": [
-        "insp-thor-mighty"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Thor (2014) #1–8: The Mighty Thor",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2014-10-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3099"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3367",
-      "sourceUid": "chronizo:source:insp-planet-hulk",
-      "importKey": "insp-planet-hulk",
-      "importKeys": [
-        "insp-planet-hulk"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Incredible Hulk #92–105: Planet Hulk",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2006-04-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2358"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3368",
-      "sourceUid": "chronizo:source:insp-avengers-ultron",
-      "importKey": "insp-avengers-ultron",
-      "importKeys": [
-        "insp-avengers-ultron"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Avengers: Ultron Unlimited",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1999-06-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-1833"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3369",
-      "sourceUid": "chronizo:source:insp-infinity-gauntlet",
-      "importKey": "insp-infinity-gauntlet",
-      "importKeys": [
-        "insp-infinity-gauntlet"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Infinity Gauntlet #1–6",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1991-07-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2360",
-        "source-2849"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3370",
-      "sourceUid": "chronizo:source:insp-doctor-strange-oath",
-      "importKey": "insp-doctor-strange-oath",
-      "importKeys": [
-        "insp-doctor-strange-oath"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Doctor Strange: The Oath #1–5",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2006-12-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2084"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3371",
-      "sourceUid": "chronizo:source:insp-blackpanther-nation",
-      "importKey": "insp-blackpanther-nation",
-      "importKeys": [
-        "insp-blackpanther-nation"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Black Panther (2016) #1–12: A Nation Under Our Feet",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2016-06-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2010"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3372",
-      "sourceUid": "chronizo:source:insp-shangchi-master",
-      "importKey": "insp-shangchi-master",
-      "importKeys": [
-        "insp-shangchi-master"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Master of Kung Fu #15–50",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1973-12-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2924"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3373",
-      "sourceUid": "chronizo:source:insp-eternals-kirby",
-      "importKey": "insp-eternals-kirby",
-      "importKeys": [
-        "insp-eternals-kirby"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Eternals (1976) #1–19 & Annual #1",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1976-07-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2893"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3374",
-      "sourceUid": "chronizo:source:insp-wandavision-vision",
-      "importKey": "insp-wandavision-vision",
-      "importKeys": [
-        "insp-wandavision-vision"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Vision (2015) #1–12",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2016-01-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-2879"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3375",
-      "sourceUid": "chronizo:source:insp-wandavision-housem",
-      "importKey": "insp-wandavision-housem",
-      "importKeys": [
-        "insp-wandavision-housem"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "House of M #1–8",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2005-08-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3038"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3376",
-      "sourceUid": "chronizo:source:insp-hawkeye-fraction",
-      "importKey": "insp-hawkeye-fraction",
-      "importKeys": [
-        "insp-hawkeye-fraction"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Hawkeye (2012) #1–22",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2012-10-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3045"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3377",
-      "sourceUid": "chronizo:source:insp-msmarvel-normal",
-      "importKey": "insp-msmarvel-normal",
-      "importKeys": [
-        "insp-msmarvel-normal"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Ms. Marvel (2014) #1–5: No Normal",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2014-04-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3090"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3378",
-      "sourceUid": "chronizo:source:insp-moonknight-lemire",
-      "importKey": "insp-moonknight-lemire",
-      "importKeys": [
-        "insp-moonknight-lemire"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Moon Knight (2016) #1–14",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2016-06-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3063"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3379",
-      "sourceUid": "chronizo:source:insp-shehulk-byrne",
-      "importKey": "insp-shehulk-byrne",
-      "importKeys": [
-        "insp-shehulk-byrne"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Sensational She-Hulk (1989) #1–8",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1989-05-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3061"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3380",
-      "sourceUid": "chronizo:source:insp-secret-invasion",
-      "importKey": "insp-secret-invasion",
-      "importKeys": [
-        "insp-secret-invasion"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Secret Invasion #1–8",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "2008-06-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3121"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3381",
-      "sourceUid": "chronizo:source:insp-werewolf32",
-      "importKey": "insp-werewolf32",
-      "importKeys": [
-        "insp-werewolf32"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Werewolf by Night (1972) #32–33",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1975-08-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3103"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3382",
-      "sourceUid": "chronizo:source:insp-daredevil-bornagain",
-      "importKey": "insp-daredevil-bornagain",
-      "importKeys": [
-        "insp-daredevil-bornagain"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "Daredevil #227–233: Born Again",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1986-02-01",
-      "tags": [
-        "INSPIRACJA",
-        "EMCU",
-        "FOX",
-        "FILMOWY"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-3120"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3383",
-      "sourceUid": "chronizo:source:insp-punisher-circle",
-      "importKey": "insp-punisher-circle",
-      "importKeys": [
-        "insp-punisher-circle"
-      ],
-      "importOrigin": "Movie Comics",
-      "title": "The Punisher (1986) #1–5: Circle of Blood",
-      "type": "Komiks",
-      "status": "Nierozpoczęte",
-      "date": "Poza chronologią ekranową",
-      "dateApprox": false,
-      "releaseDate": "1986-01-01",
-      "tags": [
-        "INSPIRACJA",
-        "LEGACY",
-        "FILMOWY",
-        "EMCU"
-      ],
-      "worldIds": [],
-      "relatedSourceIds": [
-        "source-923"
-      ],
-      "relationType": "inspiration",
-      "canonStatus": "poza ciągłością — inspiracja",
-      "createdAt": "2026-10-06T00:00:00.000Z"
-    },
-    {
-      "id": "source-3384",
       "sourceUid": "chronizo:source:marvel-game-001-spider-man",
       "importKey": "marvel-game-001-spider-man",
       "importKeys": [
@@ -91551,7 +90275,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3385",
+      "id": "source-3339",
       "sourceUid": "chronizo:source:marvel-game-002-questprobe-featuring-the-hulk",
       "importKey": "marvel-game-002-questprobe-featuring-the-hulk",
       "importKeys": [
@@ -91576,7 +90300,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3386",
+      "id": "source-3340",
       "sourceUid": "chronizo:source:marvel-game-003-questprobe-featuring-spider-man",
       "importKey": "marvel-game-003-questprobe-featuring-spider-man",
       "importKeys": [
@@ -91601,7 +90325,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3387",
+      "id": "source-3341",
       "sourceUid": "chronizo:source:marvel-game-004-questprobe-featuring-human-torch-and-the-thing",
       "importKey": "marvel-game-004-questprobe-featuring-human-torch-and-the-thing",
       "importKeys": [
@@ -91626,7 +90350,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3388",
+      "id": "source-3342",
       "sourceUid": "chronizo:source:marvel-game-005-howard-the-duck",
       "importKey": "marvel-game-005-howard-the-duck",
       "importKeys": [
@@ -91651,7 +90375,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3389",
+      "id": "source-3343",
       "sourceUid": "chronizo:source:marvel-game-006-captain-america-in-the-doom-tube-of-dr-megalomann",
       "importKey": "marvel-game-006-captain-america-in-the-doom-tube-of-dr-megalomann",
       "importKeys": [
@@ -91676,7 +90400,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3390",
+      "id": "source-3344",
       "sourceUid": "chronizo:source:marvel-game-007-the-amazing-spider-man-and-captain-america-in-dr-doom-s-revenge",
       "importKey": "marvel-game-007-the-amazing-spider-man-and-captain-america-in-dr-doom-s-revenge",
       "importKeys": [
@@ -91701,7 +90425,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3391",
+      "id": "source-3345",
       "sourceUid": "chronizo:source:marvel-game-008-the-uncanny-x-men",
       "importKey": "marvel-game-008-the-uncanny-x-men",
       "importKeys": [
@@ -91726,7 +90450,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3392",
+      "id": "source-3346",
       "sourceUid": "chronizo:source:marvel-game-009-x-men-madness-in-murderworld",
       "importKey": "marvel-game-009-x-men-madness-in-murderworld",
       "importKeys": [
@@ -91751,7 +90475,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3393",
+      "id": "source-3347",
       "sourceUid": "chronizo:source:marvel-game-010-x-men-ii-the-fall-of-the-mutants",
       "importKey": "marvel-game-010-x-men-ii-the-fall-of-the-mutants",
       "importKeys": [
@@ -91776,7 +90500,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3394",
+      "id": "source-3348",
       "sourceUid": "chronizo:source:marvel-game-011-the-amazing-spider-man",
       "importKey": "marvel-game-011-the-amazing-spider-man",
       "importKeys": [
@@ -91801,7 +90525,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3395",
+      "id": "source-3349",
       "sourceUid": "chronizo:source:marvel-game-012-the-punisher-microprose",
       "importKey": "marvel-game-012-the-punisher-microprose",
       "importKeys": [
@@ -91826,7 +90550,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3396",
+      "id": "source-3350",
       "sourceUid": "chronizo:source:marvel-game-013-the-amazing-spider-man-game-boy",
       "importKey": "marvel-game-013-the-amazing-spider-man-game-boy",
       "importKeys": [
@@ -91851,7 +90575,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3397",
+      "id": "source-3351",
       "sourceUid": "chronizo:source:marvel-game-014-silver-surfer",
       "importKey": "marvel-game-014-silver-surfer",
       "importKeys": [
@@ -91876,7 +90600,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3398",
+      "id": "source-3352",
       "sourceUid": "chronizo:source:marvel-game-015-the-punisher-nes",
       "importKey": "marvel-game-015-the-punisher-nes",
       "importKeys": [
@@ -91901,7 +90625,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3399",
+      "id": "source-3353",
       "sourceUid": "chronizo:source:marvel-game-016-the-punisher-the-ultimate-payback",
       "importKey": "marvel-game-016-the-punisher-the-ultimate-payback",
       "importKeys": [
@@ -91926,7 +90650,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3400",
+      "id": "source-3354",
       "sourceUid": "chronizo:source:marvel-game-017-spider-man-vs-the-kingpin",
       "importKey": "marvel-game-017-spider-man-vs-the-kingpin",
       "importKeys": [
@@ -91951,7 +90675,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3401",
+      "id": "source-3355",
       "sourceUid": "chronizo:source:marvel-game-018-spider-man-the-video-game",
       "importKey": "marvel-game-018-spider-man-the-video-game",
       "importKeys": [
@@ -91976,7 +90700,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3402",
+      "id": "source-3356",
       "sourceUid": "chronizo:source:marvel-game-019-wolverine",
       "importKey": "marvel-game-019-wolverine",
       "importKeys": [
@@ -92001,7 +90725,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3403",
+      "id": "source-3357",
       "sourceUid": "chronizo:source:marvel-game-020-captain-america-and-the-avengers",
       "importKey": "marvel-game-020-captain-america-and-the-avengers",
       "importKeys": [
@@ -92026,7 +90750,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3404",
+      "id": "source-3358",
       "sourceUid": "chronizo:source:marvel-game-021-x-men-arcade",
       "importKey": "marvel-game-021-x-men-arcade",
       "importKeys": [
@@ -92051,7 +90775,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3405",
+      "id": "source-3359",
       "sourceUid": "chronizo:source:marvel-game-022-the-amazing-spider-man-2-game-boy",
       "importKey": "marvel-game-022-the-amazing-spider-man-2-game-boy",
       "importKeys": [
@@ -92076,7 +90800,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3406",
+      "id": "source-3360",
       "sourceUid": "chronizo:source:marvel-game-023-spider-man-return-of-the-sinister-six",
       "importKey": "marvel-game-023-spider-man-return-of-the-sinister-six",
       "importKeys": [
@@ -92101,7 +90825,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3407",
+      "id": "source-3361",
       "sourceUid": "chronizo:source:marvel-game-024-spider-man-and-the-x-men-in-arcade-s-revenge",
       "importKey": "marvel-game-024-spider-man-and-the-x-men-in-arcade-s-revenge",
       "importKeys": [
@@ -92126,7 +90850,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3408",
+      "id": "source-3362",
       "sourceUid": "chronizo:source:marvel-game-025-x-men-genesis",
       "importKey": "marvel-game-025-x-men-genesis",
       "importKeys": [
@@ -92151,7 +90875,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3409",
+      "id": "source-3363",
       "sourceUid": "chronizo:source:marvel-game-026-the-punisher-arcade",
       "importKey": "marvel-game-026-the-punisher-arcade",
       "importKeys": [
@@ -92176,7 +90900,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3410",
+      "id": "source-3364",
       "sourceUid": "chronizo:source:marvel-game-027-the-amazing-spider-man-3-invasion-of-the-spider-slayers",
       "importKey": "marvel-game-027-the-amazing-spider-man-3-invasion-of-the-spider-slayers",
       "importKeys": [
@@ -92201,7 +90925,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3411",
+      "id": "source-3365",
       "sourceUid": "chronizo:source:marvel-game-028-x-men-game-gear",
       "importKey": "marvel-game-028-x-men-game-gear",
       "importKeys": [
@@ -92226,7 +90950,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3412",
+      "id": "source-3366",
       "sourceUid": "chronizo:source:marvel-game-029-the-incredible-hulk",
       "importKey": "marvel-game-029-the-incredible-hulk",
       "importKeys": [
@@ -92251,7 +90975,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3413",
+      "id": "source-3367",
       "sourceUid": "chronizo:source:marvel-game-030-spider-man-and-venom-maximum-carnage",
       "importKey": "marvel-game-030-spider-man-and-venom-maximum-carnage",
       "importKeys": [
@@ -92276,7 +91000,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3414",
+      "id": "source-3368",
       "sourceUid": "chronizo:source:marvel-game-031-wolverine-adamantium-rage",
       "importKey": "marvel-game-031-wolverine-adamantium-rage",
       "importKeys": [
@@ -92301,7 +91025,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3415",
+      "id": "source-3369",
       "sourceUid": "chronizo:source:marvel-game-032-x-men-mutant-apocalypse",
       "importKey": "marvel-game-032-x-men-mutant-apocalypse",
       "importKeys": [
@@ -92326,7 +91050,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3416",
+      "id": "source-3370",
       "sourceUid": "chronizo:source:marvel-game-033-x-men-children-of-the-atom",
       "importKey": "marvel-game-033-x-men-children-of-the-atom",
       "importKeys": [
@@ -92351,7 +91075,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3417",
+      "id": "source-3371",
       "sourceUid": "chronizo:source:marvel-game-034-x-men-2-clone-wars",
       "importKey": "marvel-game-034-x-men-2-clone-wars",
       "importKeys": [
@@ -92376,7 +91100,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3418",
+      "id": "source-3372",
       "sourceUid": "chronizo:source:marvel-game-035-x-men-gamesmaster-s-legacy",
       "importKey": "marvel-game-035-x-men-gamesmaster-s-legacy",
       "importKeys": [
@@ -92401,7 +91125,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3419",
+      "id": "source-3373",
       "sourceUid": "chronizo:source:marvel-game-036-spider-man-1995",
       "importKey": "marvel-game-036-spider-man-1995",
       "importKeys": [
@@ -92426,7 +91150,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3420",
+      "id": "source-3374",
       "sourceUid": "chronizo:source:marvel-game-037-the-amazing-spider-man-lethal-foes",
       "importKey": "marvel-game-037-the-amazing-spider-man-lethal-foes",
       "importKeys": [
@@ -92451,7 +91175,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3421",
+      "id": "source-3375",
       "sourceUid": "chronizo:source:marvel-game-038-marvel-super-heroes",
       "importKey": "marvel-game-038-marvel-super-heroes",
       "importKeys": [
@@ -92476,7 +91200,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3422",
+      "id": "source-3376",
       "sourceUid": "chronizo:source:marvel-game-039-venom-spider-man-separation-anxiety",
       "importKey": "marvel-game-039-venom-spider-man-separation-anxiety",
       "importKeys": [
@@ -92501,7 +91225,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3423",
+      "id": "source-3377",
       "sourceUid": "chronizo:source:marvel-game-040-avengers-in-galactic-storm",
       "importKey": "marvel-game-040-avengers-in-galactic-storm",
       "importKeys": [
@@ -92526,7 +91250,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3424",
+      "id": "source-3378",
       "sourceUid": "chronizo:source:marvel-game-041-the-amazing-spider-man-web-of-fire",
       "importKey": "marvel-game-041-the-amazing-spider-man-web-of-fire",
       "importKeys": [
@@ -92551,7 +91275,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3425",
+      "id": "source-3379",
       "sourceUid": "chronizo:source:marvel-game-042-x-men-vs-street-fighter",
       "importKey": "marvel-game-042-x-men-vs-street-fighter",
       "importKeys": [
@@ -92576,7 +91300,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3426",
+      "id": "source-3380",
       "sourceUid": "chronizo:source:marvel-game-043-marvel-super-heroes-in-war-of-the-gems",
       "importKey": "marvel-game-043-marvel-super-heroes-in-war-of-the-gems",
       "importKeys": [
@@ -92601,7 +91325,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3427",
+      "id": "source-3381",
       "sourceUid": "chronizo:source:marvel-game-044-x-men-mojo-world",
       "importKey": "marvel-game-044-x-men-mojo-world",
       "importKeys": [
@@ -92626,7 +91350,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3428",
+      "id": "source-3382",
       "sourceUid": "chronizo:source:marvel-game-045-iron-man-and-x-o-manowar-in-heavy-metal",
       "importKey": "marvel-game-045-iron-man-and-x-o-manowar-in-heavy-metal",
       "importKeys": [
@@ -92651,7 +91375,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3429",
+      "id": "source-3383",
       "sourceUid": "chronizo:source:marvel-game-046-spider-man-the-sinister-six",
       "importKey": "marvel-game-046-spider-man-the-sinister-six",
       "importKeys": [
@@ -92676,7 +91400,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3430",
+      "id": "source-3384",
       "sourceUid": "chronizo:source:marvel-game-047-the-incredible-hulk-the-pantheon-saga",
       "importKey": "marvel-game-047-the-incredible-hulk-the-pantheon-saga",
       "importKeys": [
@@ -92701,7 +91425,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3431",
+      "id": "source-3385",
       "sourceUid": "chronizo:source:marvel-game-048-marvel-super-heroes-vs-street-fighter",
       "importKey": "marvel-game-048-marvel-super-heroes-vs-street-fighter",
       "importKeys": [
@@ -92726,7 +91450,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3432",
+      "id": "source-3386",
       "sourceUid": "chronizo:source:marvel-game-049-fantastic-four",
       "importKey": "marvel-game-049-fantastic-four",
       "importKeys": [
@@ -92751,7 +91475,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3433",
+      "id": "source-3387",
       "sourceUid": "chronizo:source:marvel-game-050-men-in-black-the-game",
       "importKey": "marvel-game-050-men-in-black-the-game",
       "importKeys": [
@@ -92776,7 +91500,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3434",
+      "id": "source-3388",
       "sourceUid": "chronizo:source:marvel-game-051-x-men-the-ravages-of-apocalypse",
       "importKey": "marvel-game-051-x-men-the-ravages-of-apocalypse",
       "importKeys": [
@@ -92801,7 +91525,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3435",
+      "id": "source-3389",
       "sourceUid": "chronizo:source:marvel-game-052-marvel-vs-capcom-clash-of-super-heroes",
       "importKey": "marvel-game-052-marvel-vs-capcom-clash-of-super-heroes",
       "importKeys": [
@@ -92826,7 +91550,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3436",
+      "id": "source-3390",
       "sourceUid": "chronizo:source:marvel-game-053-marvel-vs-capcom-2-new-age-of-heroes",
       "importKey": "marvel-game-053-marvel-vs-capcom-2-new-age-of-heroes",
       "importKeys": [
@@ -92851,7 +91575,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3437",
+      "id": "source-3391",
       "sourceUid": "chronizo:source:marvel-game-054-x-men-mutant-academy",
       "importKey": "marvel-game-054-x-men-mutant-academy",
       "importKeys": [
@@ -92876,7 +91600,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3438",
+      "id": "source-3392",
       "sourceUid": "chronizo:source:marvel-game-055-spider-man-2000",
       "importKey": "marvel-game-055-spider-man-2000",
       "importKeys": [
@@ -92901,7 +91625,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3439",
+      "id": "source-3393",
       "sourceUid": "chronizo:source:marvel-game-056-blade",
       "importKey": "marvel-game-056-blade",
       "importKeys": [
@@ -92931,7 +91655,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3440",
+      "id": "source-3394",
       "sourceUid": "chronizo:source:marvel-game-057-x-men-mutant-wars",
       "importKey": "marvel-game-057-x-men-mutant-wars",
       "importKeys": [
@@ -92956,7 +91680,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3441",
+      "id": "source-3395",
       "sourceUid": "chronizo:source:marvel-game-058-x-men-wolverine-s-rage",
       "importKey": "marvel-game-058-x-men-wolverine-s-rage",
       "importKeys": [
@@ -92981,7 +91705,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3442",
+      "id": "source-3396",
       "sourceUid": "chronizo:source:marvel-game-059-spider-man-2-the-sinister-six",
       "importKey": "marvel-game-059-spider-man-2-the-sinister-six",
       "importKeys": [
@@ -93006,7 +91730,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3443",
+      "id": "source-3397",
       "sourceUid": "chronizo:source:marvel-game-060-spider-man-2-enter-electro",
       "importKey": "marvel-game-060-spider-man-2-enter-electro",
       "importKeys": [
@@ -93031,7 +91755,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3444",
+      "id": "source-3398",
       "sourceUid": "chronizo:source:marvel-game-061-x-men-mutant-academy-2",
       "importKey": "marvel-game-061-x-men-mutant-academy-2",
       "importKeys": [
@@ -93056,7 +91780,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3445",
+      "id": "source-3399",
       "sourceUid": "chronizo:source:marvel-game-062-spider-man-mysterio-s-menace",
       "importKey": "marvel-game-062-spider-man-mysterio-s-menace",
       "importKeys": [
@@ -93081,7 +91805,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3446",
+      "id": "source-3400",
       "sourceUid": "chronizo:source:marvel-game-063-x-men-reign-of-apocalypse",
       "importKey": "marvel-game-063-x-men-reign-of-apocalypse",
       "importKeys": [
@@ -93106,7 +91830,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3447",
+      "id": "source-3401",
       "sourceUid": "chronizo:source:marvel-game-064-men-in-black-the-series-crashdown",
       "importKey": "marvel-game-064-men-in-black-the-series-crashdown",
       "importKeys": [
@@ -93131,7 +91855,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3448",
+      "id": "source-3402",
       "sourceUid": "chronizo:source:marvel-game-065-men-in-black-ii-alien-escape",
       "importKey": "marvel-game-065-men-in-black-ii-alien-escape",
       "importKeys": [
@@ -93156,7 +91880,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3449",
+      "id": "source-3403",
       "sourceUid": "chronizo:source:marvel-game-066-spider-man-2002",
       "importKey": "marvel-game-066-spider-man-2002",
       "importKeys": [
@@ -93186,7 +91910,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3450",
+      "id": "source-3404",
       "sourceUid": "chronizo:source:marvel-game-067-x-men-next-dimension",
       "importKey": "marvel-game-067-x-men-next-dimension",
       "importKeys": [
@@ -93211,7 +91935,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3451",
+      "id": "source-3405",
       "sourceUid": "chronizo:source:marvel-game-068-blade-ii",
       "importKey": "marvel-game-068-blade-ii",
       "importKeys": [
@@ -93241,7 +91965,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3452",
+      "id": "source-3406",
       "sourceUid": "chronizo:source:marvel-game-069-the-invincible-iron-man",
       "importKey": "marvel-game-069-the-invincible-iron-man",
       "importKeys": [
@@ -93266,7 +91990,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3453",
+      "id": "source-3407",
       "sourceUid": "chronizo:source:marvel-game-070-daredevil",
       "importKey": "marvel-game-070-daredevil",
       "importKeys": [
@@ -93291,7 +92015,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3454",
+      "id": "source-3408",
       "sourceUid": "chronizo:source:marvel-game-071-the-incredible-hulk-2003",
       "importKey": "marvel-game-071-the-incredible-hulk-2003",
       "importKeys": [
@@ -93316,7 +92040,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3455",
+      "id": "source-3409",
       "sourceUid": "chronizo:source:marvel-game-072-hulk",
       "importKey": "marvel-game-072-hulk",
       "importKeys": [
@@ -93341,7 +92065,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3456",
+      "id": "source-3410",
       "sourceUid": "chronizo:source:marvel-game-073-x2-wolverine-s-revenge",
       "importKey": "marvel-game-073-x2-wolverine-s-revenge",
       "importKeys": [
@@ -93371,7 +92095,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3457",
+      "id": "source-3411",
       "sourceUid": "chronizo:source:marvel-game-074-spider-man-2",
       "importKey": "marvel-game-074-spider-man-2",
       "importKeys": [
@@ -93401,7 +92125,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3458",
+      "id": "source-3412",
       "sourceUid": "chronizo:source:marvel-game-075-spider-man-2-the-hero-returns",
       "importKey": "marvel-game-075-spider-man-2-the-hero-returns",
       "importKeys": [
@@ -93426,7 +92150,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3459",
+      "id": "source-3413",
       "sourceUid": "chronizo:source:marvel-game-076-blade-trinity",
       "importKey": "marvel-game-076-blade-trinity",
       "importKeys": [
@@ -93456,7 +92180,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3460",
+      "id": "source-3414",
       "sourceUid": "chronizo:source:marvel-game-077-x-men-legends",
       "importKey": "marvel-game-077-x-men-legends",
       "importKeys": [
@@ -93481,7 +92205,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3461",
+      "id": "source-3415",
       "sourceUid": "chronizo:source:marvel-game-078-x-men-legends-ii-rise-of-apocalypse",
       "importKey": "marvel-game-078-x-men-legends-ii-rise-of-apocalypse",
       "importKeys": [
@@ -93506,7 +92230,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3462",
+      "id": "source-3416",
       "sourceUid": "chronizo:source:marvel-game-079-fantastic-four-2005",
       "importKey": "marvel-game-079-fantastic-four-2005",
       "importKeys": [
@@ -93532,7 +92256,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3463",
+      "id": "source-3417",
       "sourceUid": "chronizo:source:marvel-game-080-fantastic-four-flame-on",
       "importKey": "marvel-game-080-fantastic-four-flame-on",
       "importKeys": [
@@ -93557,7 +92281,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3464",
+      "id": "source-3418",
       "sourceUid": "chronizo:source:marvel-game-081-ultimate-spider-man",
       "importKey": "marvel-game-081-ultimate-spider-man",
       "importKeys": [
@@ -93582,7 +92306,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3465",
+      "id": "source-3419",
       "sourceUid": "chronizo:source:marvel-game-082-elektra",
       "importKey": "marvel-game-082-elektra",
       "importKeys": [
@@ -93612,7 +92336,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3466",
+      "id": "source-3420",
       "sourceUid": "chronizo:source:marvel-game-083-the-punisher-2005",
       "importKey": "marvel-game-083-the-punisher-2005",
       "importKeys": [
@@ -93637,7 +92361,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3467",
+      "id": "source-3421",
       "sourceUid": "chronizo:source:marvel-game-084-the-incredible-hulk-ultimate-destruction",
       "importKey": "marvel-game-084-the-incredible-hulk-ultimate-destruction",
       "importKeys": [
@@ -93662,7 +92386,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3468",
+      "id": "source-3422",
       "sourceUid": "chronizo:source:marvel-game-085-marvel-nemesis-rise-of-the-imperfects",
       "importKey": "marvel-game-085-marvel-nemesis-rise-of-the-imperfects",
       "importKeys": [
@@ -93687,7 +92411,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3469",
+      "id": "source-3423",
       "sourceUid": "chronizo:source:marvel-game-086-x-men-the-official-game",
       "importKey": "marvel-game-086-x-men-the-official-game",
       "importKeys": [
@@ -93718,7 +92442,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3470",
+      "id": "source-3424",
       "sourceUid": "chronizo:source:marvel-game-087-marvel-ultimate-alliance",
       "importKey": "marvel-game-087-marvel-ultimate-alliance",
       "importKeys": [
@@ -93743,7 +92467,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3471",
+      "id": "source-3425",
       "sourceUid": "chronizo:source:marvel-game-088-spider-man-battle-for-new-york",
       "importKey": "marvel-game-088-spider-man-battle-for-new-york",
       "importKeys": [
@@ -93768,7 +92492,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3472",
+      "id": "source-3426",
       "sourceUid": "chronizo:source:marvel-game-089-spider-man-3",
       "importKey": "marvel-game-089-spider-man-3",
       "importKeys": [
@@ -93798,7 +92522,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3473",
+      "id": "source-3427",
       "sourceUid": "chronizo:source:marvel-game-090-fantastic-four-rise-of-the-silver-surfer",
       "importKey": "marvel-game-090-fantastic-four-rise-of-the-silver-surfer",
       "importKeys": [
@@ -93828,7 +92552,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3474",
+      "id": "source-3428",
       "sourceUid": "chronizo:source:marvel-game-091-ghost-rider",
       "importKey": "marvel-game-091-ghost-rider",
       "importKeys": [
@@ -93858,7 +92582,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3475",
+      "id": "source-3429",
       "sourceUid": "chronizo:source:marvel-game-092-spider-man-friend-or-foe",
       "importKey": "marvel-game-092-spider-man-friend-or-foe",
       "importKeys": [
@@ -93883,7 +92607,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3476",
+      "id": "source-3430",
       "sourceUid": "chronizo:source:marvel-game-093-iron-man",
       "importKey": "marvel-game-093-iron-man",
       "importKeys": [
@@ -93913,7 +92637,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3477",
+      "id": "source-3431",
       "sourceUid": "chronizo:source:marvel-game-094-the-incredible-hulk-2008",
       "importKey": "marvel-game-094-the-incredible-hulk-2008",
       "importKeys": [
@@ -93944,7 +92668,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3478",
+      "id": "source-3432",
       "sourceUid": "chronizo:source:marvel-game-095-spider-man-web-of-shadows",
       "importKey": "marvel-game-095-spider-man-web-of-shadows",
       "importKeys": [
@@ -93969,7 +92693,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3479",
+      "id": "source-3433",
       "sourceUid": "chronizo:source:marvel-game-096-x-men-origins-wolverine",
       "importKey": "marvel-game-096-x-men-origins-wolverine",
       "importKeys": [
@@ -93999,7 +92723,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3480",
+      "id": "source-3434",
       "sourceUid": "chronizo:source:marvel-game-097-the-punisher-no-mercy",
       "importKey": "marvel-game-097-the-punisher-no-mercy",
       "importKeys": [
@@ -94024,7 +92748,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3481",
+      "id": "source-3435",
       "sourceUid": "chronizo:source:marvel-game-098-marvel-super-hero-squad",
       "importKey": "marvel-game-098-marvel-super-hero-squad",
       "importKeys": [
@@ -94049,7 +92773,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3482",
+      "id": "source-3436",
       "sourceUid": "chronizo:source:marvel-game-099-marvel-ultimate-alliance-2",
       "importKey": "marvel-game-099-marvel-ultimate-alliance-2",
       "importKeys": [
@@ -94074,7 +92798,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3483",
+      "id": "source-3437",
       "sourceUid": "chronizo:source:marvel-game-100-spider-man-toxic-city",
       "importKey": "marvel-game-100-spider-man-toxic-city",
       "importKeys": [
@@ -94099,7 +92823,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3484",
+      "id": "source-3438",
       "sourceUid": "chronizo:source:marvel-game-101-iron-man-2",
       "importKey": "marvel-game-101-iron-man-2",
       "importKeys": [
@@ -94129,7 +92853,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3485",
+      "id": "source-3439",
       "sourceUid": "chronizo:source:marvel-game-102-spider-man-shattered-dimensions",
       "importKey": "marvel-game-102-spider-man-shattered-dimensions",
       "importKeys": [
@@ -94154,7 +92878,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3486",
+      "id": "source-3440",
       "sourceUid": "chronizo:source:marvel-game-103-marvel-super-hero-squad-the-infinity-gauntlet",
       "importKey": "marvel-game-103-marvel-super-hero-squad-the-infinity-gauntlet",
       "importKeys": [
@@ -94179,7 +92903,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3487",
+      "id": "source-3441",
       "sourceUid": "chronizo:source:marvel-game-104-marvel-super-heroes-3d-grandmaster-s-challenge",
       "importKey": "marvel-game-104-marvel-super-heroes-3d-grandmaster-s-challenge",
       "importKeys": [
@@ -94204,7 +92928,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3488",
+      "id": "source-3442",
       "sourceUid": "chronizo:source:marvel-game-105-marvel-pinball",
       "importKey": "marvel-game-105-marvel-pinball",
       "importKeys": [
@@ -94229,7 +92953,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3489",
+      "id": "source-3443",
       "sourceUid": "chronizo:source:marvel-game-106-ultimate-spider-man-total-mayhem",
       "importKey": "marvel-game-106-ultimate-spider-man-total-mayhem",
       "importKeys": [
@@ -94254,7 +92978,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3490",
+      "id": "source-3444",
       "sourceUid": "chronizo:source:marvel-game-107-marvel-vs-capcom-3-fate-of-two-worlds",
       "importKey": "marvel-game-107-marvel-vs-capcom-3-fate-of-two-worlds",
       "importKeys": [
@@ -94279,7 +93003,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3491",
+      "id": "source-3445",
       "sourceUid": "chronizo:source:marvel-game-108-marvel-super-hero-squad-online",
       "importKey": "marvel-game-108-marvel-super-hero-squad-online",
       "importKeys": [
@@ -94304,7 +93028,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3492",
+      "id": "source-3446",
       "sourceUid": "chronizo:source:marvel-game-109-thor-god-of-thunder",
       "importKey": "marvel-game-109-thor-god-of-thunder",
       "importKeys": [
@@ -94334,7 +93058,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3493",
+      "id": "source-3447",
       "sourceUid": "chronizo:source:marvel-game-110-thor-son-of-asgard",
       "importKey": "marvel-game-110-thor-son-of-asgard",
       "importKeys": [
@@ -94359,7 +93083,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3494",
+      "id": "source-3448",
       "sourceUid": "chronizo:source:marvel-game-111-captain-america-super-soldier",
       "importKey": "marvel-game-111-captain-america-super-soldier",
       "importKeys": [
@@ -94389,7 +93113,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3495",
+      "id": "source-3449",
       "sourceUid": "chronizo:source:marvel-game-112-captain-america-sentinel-of-liberty",
       "importKey": "marvel-game-112-captain-america-sentinel-of-liberty",
       "importKeys": [
@@ -94414,7 +93138,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3496",
+      "id": "source-3450",
       "sourceUid": "chronizo:source:marvel-game-113-spider-man-edge-of-time",
       "importKey": "marvel-game-113-spider-man-edge-of-time",
       "importKeys": [
@@ -94439,7 +93163,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3497",
+      "id": "source-3451",
       "sourceUid": "chronizo:source:marvel-game-114-x-men-destiny",
       "importKey": "marvel-game-114-x-men-destiny",
       "importKeys": [
@@ -94464,7 +93188,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3498",
+      "id": "source-3452",
       "sourceUid": "chronizo:source:marvel-game-115-marvel-super-hero-squad-comic-combat",
       "importKey": "marvel-game-115-marvel-super-hero-squad-comic-combat",
       "importKeys": [
@@ -94489,7 +93213,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3499",
+      "id": "source-3453",
       "sourceUid": "chronizo:source:marvel-game-116-ultimate-marvel-vs-capcom-3",
       "importKey": "marvel-game-116-ultimate-marvel-vs-capcom-3",
       "importKeys": [
@@ -94514,7 +93238,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3500",
+      "id": "source-3454",
       "sourceUid": "chronizo:source:marvel-game-117-marvel-avengers-alliance",
       "importKey": "marvel-game-117-marvel-avengers-alliance",
       "importKeys": [
@@ -94539,7 +93263,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3501",
+      "id": "source-3455",
       "sourceUid": "chronizo:source:marvel-game-118-mib-alien-crisis",
       "importKey": "marvel-game-118-mib-alien-crisis",
       "importKeys": [
@@ -94564,7 +93288,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3502",
+      "id": "source-3456",
       "sourceUid": "chronizo:source:marvel-game-119-men-in-black-3",
       "importKey": "marvel-game-119-men-in-black-3",
       "importKeys": [
@@ -94589,7 +93313,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3503",
+      "id": "source-3457",
       "sourceUid": "chronizo:source:marvel-game-120-the-amazing-spider-man-2012",
       "importKey": "marvel-game-120-the-amazing-spider-man-2012",
       "importKeys": [
@@ -94619,7 +93343,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3504",
+      "id": "source-3458",
       "sourceUid": "chronizo:source:marvel-game-121-marvel-vs-capcom-origins",
       "importKey": "marvel-game-121-marvel-vs-capcom-origins",
       "importKeys": [
@@ -94644,7 +93368,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3505",
+      "id": "source-3459",
       "sourceUid": "chronizo:source:marvel-game-122-marvel-war-of-heroes",
       "importKey": "marvel-game-122-marvel-war-of-heroes",
       "importKeys": [
@@ -94669,7 +93393,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3506",
+      "id": "source-3460",
       "sourceUid": "chronizo:source:marvel-game-123-marvel-avengers-battle-for-earth",
       "importKey": "marvel-game-123-marvel-avengers-battle-for-earth",
       "importKeys": [
@@ -94694,7 +93418,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3507",
+      "id": "source-3461",
       "sourceUid": "chronizo:source:marvel-game-124-avengers-initiative",
       "importKey": "marvel-game-124-avengers-initiative",
       "importKeys": [
@@ -94719,7 +93443,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3508",
+      "id": "source-3462",
       "sourceUid": "chronizo:source:marvel-game-125-iron-man-3-the-official-game",
       "importKey": "marvel-game-125-iron-man-3-the-official-game",
       "importKeys": [
@@ -94749,7 +93473,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3509",
+      "id": "source-3463",
       "sourceUid": "chronizo:source:marvel-game-126-marvel-heroes",
       "importKey": "marvel-game-126-marvel-heroes",
       "importKeys": [
@@ -94774,7 +93498,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3510",
+      "id": "source-3464",
       "sourceUid": "chronizo:source:marvel-game-127-deadpool",
       "importKey": "marvel-game-127-deadpool",
       "importKeys": [
@@ -94799,7 +93523,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3511",
+      "id": "source-3465",
       "sourceUid": "chronizo:source:marvel-game-128-marvel-puzzle-quest",
       "importKey": "marvel-game-128-marvel-puzzle-quest",
       "importKeys": [
@@ -94824,7 +93548,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3512",
+      "id": "source-3466",
       "sourceUid": "chronizo:source:marvel-game-129-lego-marvel-super-heroes",
       "importKey": "marvel-game-129-lego-marvel-super-heroes",
       "importKeys": [
@@ -94849,7 +93573,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3513",
+      "id": "source-3467",
       "sourceUid": "chronizo:source:marvel-game-130-thor-the-dark-world-the-official-game",
       "importKey": "marvel-game-130-thor-the-dark-world-the-official-game",
       "importKeys": [
@@ -94879,7 +93603,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3514",
+      "id": "source-3468",
       "sourceUid": "chronizo:source:marvel-game-131-x-men-battle-of-the-atom",
       "importKey": "marvel-game-131-x-men-battle-of-the-atom",
       "importKeys": [
@@ -94904,7 +93628,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3515",
+      "id": "source-3469",
       "sourceUid": "chronizo:source:marvel-game-132-captain-america-the-winter-soldier-the-official-game",
       "importKey": "marvel-game-132-captain-america-the-winter-soldier-the-official-game",
       "importKeys": [
@@ -94934,7 +93658,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3516",
+      "id": "source-3470",
       "sourceUid": "chronizo:source:marvel-game-133-the-amazing-spider-man-2",
       "importKey": "marvel-game-133-the-amazing-spider-man-2",
       "importKeys": [
@@ -94964,7 +93688,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3517",
+      "id": "source-3471",
       "sourceUid": "chronizo:source:marvel-game-134-kellogg-s-the-amazing-spider-man-2",
       "importKey": "marvel-game-134-kellogg-s-the-amazing-spider-man-2",
       "importKeys": [
@@ -94989,7 +93713,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3518",
+      "id": "source-3472",
       "sourceUid": "chronizo:source:marvel-game-135-spider-man-ultimate-power",
       "importKey": "marvel-game-135-spider-man-ultimate-power",
       "importKeys": [
@@ -95014,7 +93738,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3519",
+      "id": "source-3473",
       "sourceUid": "chronizo:source:marvel-game-136-uncanny-x-men-days-of-future-past",
       "importKey": "marvel-game-136-uncanny-x-men-days-of-future-past",
       "importKeys": [
@@ -95039,7 +93763,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3520",
+      "id": "source-3474",
       "sourceUid": "chronizo:source:marvel-game-137-spider-man-unlimited",
       "importKey": "marvel-game-137-spider-man-unlimited",
       "importKeys": [
@@ -95064,7 +93788,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3521",
+      "id": "source-3475",
       "sourceUid": "chronizo:source:marvel-game-138-disney-infinity-2-0",
       "importKey": "marvel-game-138-disney-infinity-2-0",
       "importKeys": [
@@ -95089,7 +93813,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3522",
+      "id": "source-3476",
       "sourceUid": "chronizo:source:marvel-game-139-guardians-of-the-galaxy-the-universal-weapon",
       "importKey": "marvel-game-139-guardians-of-the-galaxy-the-universal-weapon",
       "importKeys": [
@@ -95114,7 +93838,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3523",
+      "id": "source-3477",
       "sourceUid": "chronizo:source:marvel-game-140-marvel-disk-wars-the-avengers-ultimate-heroes",
       "importKey": "marvel-game-140-marvel-disk-wars-the-avengers-ultimate-heroes",
       "importKeys": [
@@ -95139,7 +93863,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3524",
+      "id": "source-3478",
       "sourceUid": "chronizo:source:marvel-game-141-marvel-contest-of-champions",
       "importKey": "marvel-game-141-marvel-contest-of-champions",
       "importKeys": [
@@ -95164,7 +93888,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3525",
+      "id": "source-3479",
       "sourceUid": "chronizo:source:marvel-game-142-marvel-future-fight",
       "importKey": "marvel-game-142-marvel-future-fight",
       "importKeys": [
@@ -95189,7 +93913,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3526",
+      "id": "source-3480",
       "sourceUid": "chronizo:source:marvel-game-143-lego-marvel-s-avengers",
       "importKey": "marvel-game-143-lego-marvel-s-avengers",
       "importKeys": [
@@ -95220,7 +93944,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3527",
+      "id": "source-3481",
       "sourceUid": "chronizo:source:marvel-game-144-marvel-avengers-academy",
       "importKey": "marvel-game-144-marvel-avengers-academy",
       "importKeys": [
@@ -95245,7 +93969,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3528",
+      "id": "source-3482",
       "sourceUid": "chronizo:source:marvel-game-145-kellogg-s-marvel-s-civil-war-vr",
       "importKey": "marvel-game-145-kellogg-s-marvel-s-civil-war-vr",
       "importKeys": [
@@ -95270,7 +93994,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3529",
+      "id": "source-3483",
       "sourceUid": "chronizo:source:marvel-game-146-marvel-tsum-tsum",
       "importKey": "marvel-game-146-marvel-tsum-tsum",
       "importKeys": [
@@ -95295,7 +94019,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3530",
+      "id": "source-3484",
       "sourceUid": "chronizo:source:marvel-game-147-marvel-heroes-omega",
       "importKey": "marvel-game-147-marvel-heroes-omega",
       "importKeys": [
@@ -95320,7 +94044,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3531",
+      "id": "source-3485",
       "sourceUid": "chronizo:source:marvel-game-148-guardians-of-the-galaxy-the-telltale-series",
       "importKey": "marvel-game-148-guardians-of-the-galaxy-the-telltale-series",
       "importKeys": [
@@ -95345,7 +94069,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3532",
+      "id": "source-3486",
       "sourceUid": "chronizo:source:marvel-game-149-spider-man-homecoming-virtual-reality-experience",
       "importKey": "marvel-game-149-spider-man-homecoming-virtual-reality-experience",
       "importKeys": [
@@ -95375,7 +94099,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3533",
+      "id": "source-3487",
       "sourceUid": "chronizo:source:marvel-game-150-marvel-vs-capcom-infinite",
       "importKey": "marvel-game-150-marvel-vs-capcom-infinite",
       "importKeys": [
@@ -95400,7 +94124,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3534",
+      "id": "source-3488",
       "sourceUid": "chronizo:source:marvel-game-151-lego-marvel-super-heroes-2",
       "importKey": "marvel-game-151-lego-marvel-super-heroes-2",
       "importKeys": [
@@ -95425,7 +94149,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3535",
+      "id": "source-3489",
       "sourceUid": "chronizo:source:marvel-game-152-marvel-strike-force",
       "importKey": "marvel-game-152-marvel-strike-force",
       "importKeys": [
@@ -95450,7 +94174,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3536",
+      "id": "source-3490",
       "sourceUid": "chronizo:source:marvel-game-153-marvel-end-time-arena",
       "importKey": "marvel-game-153-marvel-end-time-arena",
       "importKeys": [
@@ -95475,7 +94199,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3537",
+      "id": "source-3491",
       "sourceUid": "chronizo:source:marvel-game-154-marvel-battle-lines",
       "importKey": "marvel-game-154-marvel-battle-lines",
       "importKeys": [
@@ -95500,7 +94224,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3538",
+      "id": "source-3492",
       "sourceUid": "chronizo:source:marvel-game-155-marvel-s-spider-man",
       "importKey": "marvel-game-155-marvel-s-spider-man",
       "importKeys": [
@@ -95525,7 +94249,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3539",
+      "id": "source-3493",
       "sourceUid": "chronizo:source:marvel-game-156-marvel-powers-united-vr",
       "importKey": "marvel-game-156-marvel-powers-united-vr",
       "importKeys": [
@@ -95550,7 +94274,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3540",
+      "id": "source-3494",
       "sourceUid": "chronizo:source:marvel-game-157-spider-man-far-from-home-virtual-reality-experience",
       "importKey": "marvel-game-157-spider-man-far-from-home-virtual-reality-experience",
       "importKeys": [
@@ -95580,7 +94304,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3541",
+      "id": "source-3495",
       "sourceUid": "chronizo:source:marvel-game-158-marvel-ultimate-alliance-3-the-black-order",
       "importKey": "marvel-game-158-marvel-ultimate-alliance-3-the-black-order",
       "importKeys": [
@@ -95605,7 +94329,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3542",
+      "id": "source-3496",
       "sourceUid": "chronizo:source:marvel-game-159-avengers-damage-control",
       "importKey": "marvel-game-159-avengers-damage-control",
       "importKeys": [
@@ -95635,7 +94359,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3543",
+      "id": "source-3497",
       "sourceUid": "chronizo:source:marvel-game-160-marvel-super-war",
       "importKey": "marvel-game-160-marvel-super-war",
       "importKeys": [
@@ -95660,7 +94384,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3544",
+      "id": "source-3498",
       "sourceUid": "chronizo:source:marvel-game-161-marvel-duel",
       "importKey": "marvel-game-161-marvel-duel",
       "importKeys": [
@@ -95685,7 +94409,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3545",
+      "id": "source-3499",
       "sourceUid": "chronizo:source:marvel-game-162-iron-man-vr",
       "importKey": "marvel-game-162-iron-man-vr",
       "importKeys": [
@@ -95710,7 +94434,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3546",
+      "id": "source-3500",
       "sourceUid": "chronizo:source:marvel-game-163-marvel-s-avengers",
       "importKey": "marvel-game-163-marvel-s-avengers",
       "importKeys": [
@@ -95735,7 +94459,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3547",
+      "id": "source-3501",
       "sourceUid": "chronizo:source:marvel-game-164-marvel-realm-of-champions",
       "importKey": "marvel-game-164-marvel-realm-of-champions",
       "importKeys": [
@@ -95760,7 +94484,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3548",
+      "id": "source-3502",
       "sourceUid": "chronizo:source:marvel-game-165-marvel-s-spider-man-miles-morales",
       "importKey": "marvel-game-165-marvel-s-spider-man-miles-morales",
       "importKeys": [
@@ -95785,7 +94509,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3549",
+      "id": "source-3503",
       "sourceUid": "chronizo:source:marvel-game-166-marvel-future-revolution",
       "importKey": "marvel-game-166-marvel-future-revolution",
       "importKeys": [
@@ -95810,7 +94534,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3550",
+      "id": "source-3504",
       "sourceUid": "chronizo:source:marvel-game-167-marvel-s-guardians-of-the-galaxy",
       "importKey": "marvel-game-167-marvel-s-guardians-of-the-galaxy",
       "importKeys": [
@@ -95835,7 +94559,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3551",
+      "id": "source-3505",
       "sourceUid": "chronizo:source:marvel-game-168-marvel-snap",
       "importKey": "marvel-game-168-marvel-snap",
       "importKeys": [
@@ -95860,7 +94584,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3552",
+      "id": "source-3506",
       "sourceUid": "chronizo:source:marvel-game-169-marvel-s-midnight-suns",
       "importKey": "marvel-game-169-marvel-s-midnight-suns",
       "importKeys": [
@@ -95885,7 +94609,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3553",
+      "id": "source-3507",
       "sourceUid": "chronizo:source:marvel-game-170-marvel-s-spider-man-2",
       "importKey": "marvel-game-170-marvel-s-spider-man-2",
       "importKeys": [
@@ -95910,7 +94634,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3554",
+      "id": "source-3508",
       "sourceUid": "chronizo:source:marvel-game-171-marvel-vs-capcom-fighting-collection-arcade-classics",
       "importKey": "marvel-game-171-marvel-vs-capcom-fighting-collection-arcade-classics",
       "importKeys": [
@@ -95935,7 +94659,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3555",
+      "id": "source-3509",
       "sourceUid": "chronizo:source:marvel-game-172-marvel-rivals",
       "importKey": "marvel-game-172-marvel-rivals",
       "importKeys": [
@@ -95960,7 +94684,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3556",
+      "id": "source-3510",
       "sourceUid": "chronizo:source:marvel-game-173-marvel-mystic-mayhem",
       "importKey": "marvel-game-173-marvel-mystic-mayhem",
       "importKeys": [
@@ -95985,7 +94709,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3557",
+      "id": "source-3511",
       "sourceUid": "chronizo:source:marvel-game-174-marvel-s-deadpool-vr",
       "importKey": "marvel-game-174-marvel-s-deadpool-vr",
       "importKeys": [
@@ -96010,7 +94734,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3558",
+      "id": "source-3512",
       "sourceUid": "chronizo:source:marvel-game-175-marvel-cosmic-invasion",
       "importKey": "marvel-game-175-marvel-cosmic-invasion",
       "importKeys": [
@@ -96035,7 +94759,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3559",
+      "id": "source-3513",
       "sourceUid": "chronizo:source:marvel-game-176-marvel-maximum-collection",
       "importKey": "marvel-game-176-marvel-maximum-collection",
       "importKeys": [
@@ -96060,7 +94784,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3560",
+      "id": "source-3514",
       "sourceUid": "chronizo:source:marvel-game-177-marvel-tokon-fighting-souls",
       "importKey": "marvel-game-177-marvel-tokon-fighting-souls",
       "importKeys": [
@@ -96085,7 +94809,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3561",
+      "id": "source-3515",
       "sourceUid": "chronizo:source:marvel-game-178-marvel-s-wolverine",
       "importKey": "marvel-game-178-marvel-s-wolverine",
       "importKeys": [
@@ -96110,7 +94834,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3562",
+      "id": "source-3516",
       "sourceUid": "chronizo:source:marvel-game-179-marvel-s-blade",
       "importKey": "marvel-game-179-marvel-s-blade",
       "importKeys": [
@@ -96135,7 +94859,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3563",
+      "id": "source-3517",
       "sourceUid": "chronizo:source:marvel-game-180-marvel-s-iron-man",
       "importKey": "marvel-game-180-marvel-s-iron-man",
       "importKeys": [
@@ -96160,7 +94884,7 @@
       "createdAt": "2026-10-06T00:00:00.000Z"
     },
     {
-      "id": "source-3564",
+      "id": "source-3518",
       "sourceUid": "chronizo:source:marvel-game-181-marvel-1943-rise-of-hydra",
       "importKey": "marvel-game-181-marvel-1943-rise-of-hydra",
       "importKeys": [

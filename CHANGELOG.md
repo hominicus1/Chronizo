@@ -1,5 +1,11 @@
 # Chronizo OET Changelog
 
+## α75 — Bez luźnych inspiracji
+
+- Usunięto 46 komiksów będących jedynie inspiracjami dla ekranizacji.
+- Automatyczny katalog nie odtworzy inspiracji po ponownym uruchomieniu ani świeżym imporcie Biblii.
+- Migracja usuwa wyłącznie importowane inspiracje; wydarzenia i własne źródła użytkownika pozostają bez zmian.
+
 ## α74 — Strict Marvel Universe
 
 - Dodano hashtag i filtr `SMU` na podstawie 422 pozycji z zakładki `Strict VO`.

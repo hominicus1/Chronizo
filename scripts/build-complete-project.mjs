@@ -6,6 +6,7 @@ const multiversal=read('data/multiversal-vo.sources.json');
 const comics=read('data/movie-comics.sources.json');
 const games=read('data/marvel-games.sources.json');
 const metadata=read('data/source-metadata.json');
+const strict=read('data/strict-vo.sources.json');
 const normalize=value=>String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’‘]/g,"'").replace(/[–—]/g,'-').replace(/\s+/g,' ').trim();
 const universeLabels=value=>String(value||'').split('/').map(part=>part.trim()).filter(Boolean).map(part=>part==='FW'?'Framework':/^\d+[✩★]?$/.test(part)?`Earth-${part}`:part);
 const worldId=label=>`world-${normalize(label).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}`;
@@ -26,6 +27,15 @@ for(const [pack,tag] of [[multiversal,'MVO'],[extended,'EMCU']])for(const packed
   sources.push(source);byImport.set(packed.importKey,source);byIdentity.set(key,source);
 }
 
+const strictExact=new Set(strict.sources.map(item=>[normalize(item.title),normalize(item.universe).replace(/^earth-/, '')].join('|')));
+for(const source of sources){
+  const labels=(source.worldIds||[]).map(id=>worlds.get(id)?.designation).filter(Boolean).map(label=>normalize(label).replace(/^earth-/, ''));
+  if(labels.some(label=>strictExact.has([normalize(source.title),label].join('|')))){
+    source.tags=[...new Set([...source.tags,'SMU'])];
+    source.sheetRows.SMU=Math.min(...strict.sources.filter(item=>normalize(item.title)===normalize(source.title)&&labels.includes(normalize(item.universe).replace(/^earth-/, ''))).map(item=>item.row));
+  }
+}
+
 const screenByTitle=new Map();
 for(const source of sources){const key=normalize(source.title);if(!screenByTitle.has(key))screenByTitle.set(key,[]);screenByTitle.get(key).push(source);}
 for(const packed of comics.sources){
@@ -43,9 +53,9 @@ for(const packed of games.sources){
   sources.push({id:`source-${sources.length+1}`,sourceUid:packed.sourceUid||`chronizo:source:${packed.key}`,importKey:packed.key,importKeys:[packed.key],importOrigin:'Chronizo Bible · Marvel Games',title:packed.title,type:'Gra',status:'Nierozpoczęte',date:packed.relationType==='standalone'?'Własna ciągłość gry':'Wokół źródła ekranowego',dateApprox:true,releaseDate:packed.releaseDate||'',tags,worldIds:[...new Set(targets.flatMap(source=>source.worldIds||[]))],relatedSourceIds:targetIds,relationType:packed.relationType||'standalone',canonStatus:packed.canonStatus||'własna ciągłość gry',releaseStatus:packed.releaseStatus||'wydana',franchise:packed.franchise||'Marvel',createdAt:'2026-10-06T00:00:00.000Z'});
 }
 
-const project={id:'project-road-to-doomsday-complete',name:'Road to Doomsday — Biblia Chronizo',description:'EMCU + Multiversal VO + komiksy filmowe + pełny katalog gier Marvela. α73.',createdAt:'2026-10-06T00:00:00.000Z',worlds:[...worlds.values()],sources,characters:[],events:[],catalogMigrations:['mvo-mini-verse-9-v4-title-order-repair',`movie-comics-v${comics.version}`,`marvel-games-v${games.version}`,'source-date-order-audit-v1','comic-chronology-labels-v1','source-uid-v1']};
+const project={id:'project-road-to-doomsday-complete',name:'Road to Doomsday — Biblia Chronizo',description:'SMU + EMCU + Multiversal VO + komiksy filmowe + pełny katalog gier Marvela. α74.',createdAt:'2026-10-06T00:00:00.000Z',worlds:[...worlds.values()],sources,characters:[],events:[],catalogMigrations:['mvo-mini-verse-9-v4-title-order-repair',`movie-comics-v${comics.version}`,`marvel-games-v${games.version}`,'source-date-order-audit-v1','comic-chronology-labels-v1','source-uid-v1']};
 const payload={format:'chronizo-project',version:1,exportedAt:new Date().toISOString(),project};
-const output='Road-to-Doomsday-Biblia-Chronizo-alpha73.chronizo.json';
+const output='Road-to-Doomsday-Biblia-Chronizo-alpha74.chronizo.json';
 fs.writeFileSync(output,JSON.stringify(payload,null,2)+'\n');
 fs.writeFileSync('data/chronizo-bible.sources.json',JSON.stringify({format:'chronizo-bible',version:1,generatedAt:new Date().toISOString(),sources},null,2)+'\n');
 console.log(`${output}: ${sources.length} sources, ${project.worlds.length} worlds, ${sources.filter(source=>source.type==='Komiks').length} comics, ${sources.filter(source=>source.type==='Gra').length} games`);

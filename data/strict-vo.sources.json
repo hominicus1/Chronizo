@@ -1,0 +1,2543 @@
+{
+  "format": "chronizo-strict-vo-membership",
+  "version": 1,
+  "name": "Strict Marvel Universe",
+  "tag": "SMU",
+  "sourceSheet": "Strict VO",
+  "spreadsheetId": "1DkyVfe5nEIMg3a7W84CuZt2lqpcOiXNDUJSBNS2K7yo",
+  "retrievedAt": "2026-10-10",
+  "sources": [
+    {
+      "row": 4,
+      "date": "1260 BC",
+      "title": "Eyes of Wakanda Season 1 Episode 1: Into the Lion's Den",
+      "universe": "199999"
+    },
+    {
+      "row": 5,
+      "date": "1200 BC",
+      "title": "Eyes of Wakanda Season 1 Episode 2: Legends and Lies",
+      "universe": "199999"
+    },
+    {
+      "row": 6,
+      "date": "658 BC",
+      "title": "What If...? Season 2 Episode 7: What If... Hela Found the Ten Rings?",
+      "universe": "TRN-1092"
+    },
+    {
+      "row": 7,
+      "date": "1400",
+      "title": "Eyes of Wakanda Season 1 Episode 3: Lost and Found",
+      "universe": "199999"
+    },
+    {
+      "row": 8,
+      "date": "1491",
+      "title": "What If...? Season 2 Episode 6: What If... Kahhori Reshaped the World?",
+      "universe": "43166"
+    },
+    {
+      "row": 9,
+      "date": "1602",
+      "title": "What If...? Season 2 Episode 8: What If... The Avengers Assembled in 1602?",
+      "universe": "TRN-1093"
+    },
+    {
+      "row": 10,
+      "date": "1872",
+      "title": "What If...? Season 3 Episode 6: What If... 1872?",
+      "universe": "TRN-1495"
+    },
+    {
+      "row": 11,
+      "date": "Mar, 1896",
+      "title": "Eyes of Wakanda Season 1 Episode 4: The Last Panther",
+      "universe": "TRN-1663"
+    },
+    {
+      "row": 12,
+      "date": "1943-1945",
+      "title": "Captain America: The First Avenger",
+      "universe": "199999"
+    },
+    {
+      "row": 13,
+      "date": "Jun, 1943",
+      "title": "What If...? Season 1 Episode 1: What If... Captain Carter Were The First Avenger?",
+      "universe": "82111"
+    },
+    {
+      "row": 14,
+      "date": "Mar, 1946",
+      "title": "One Shot: Agent Carter",
+      "universe": "199999"
+    },
+    {
+      "row": 15,
+      "date": "Apr, 1946",
+      "title": "Agent Carter Season 1 Episode 1: Now is Not The End",
+      "universe": "199999"
+    },
+    {
+      "row": 16,
+      "date": "Apr, 1946",
+      "title": "Agent Carter Season 1 Episode 2: Bridge and Tunnel",
+      "universe": "199999"
+    },
+    {
+      "row": 17,
+      "date": "Apr, 1946",
+      "title": "Agent Carter Season 1 Episode 3: Time and Tide",
+      "universe": "199999"
+    },
+    {
+      "row": 18,
+      "date": "Apr, 1946",
+      "title": "Agent Carter Season 1 Episode 4: The Blitzkrieg Button",
+      "universe": "199999"
+    },
+    {
+      "row": 19,
+      "date": "Apr, 1946",
+      "title": "Agent Carter Season 1 Episode 5: The Iron Ceiling",
+      "universe": "199999"
+    },
+    {
+      "row": 20,
+      "date": "May, 1946",
+      "title": "Agent Carter Season 1 Episode 6: A Sin to Err",
+      "universe": "199999"
+    },
+    {
+      "row": 21,
+      "date": "May, 1946",
+      "title": "Agent Carter Season 1 Episode 7: Snafu",
+      "universe": "199999"
+    },
+    {
+      "row": 22,
+      "date": "May, 1946",
+      "title": "Agent Carter Season 1 Episode 8: Valediction",
+      "universe": "199999"
+    },
+    {
+      "row": 23,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 1: The Lady in the Lake",
+      "universe": "199999"
+    },
+    {
+      "row": 24,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 2: A View in the Dark",
+      "universe": "199999"
+    },
+    {
+      "row": 25,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 3: Better Angels",
+      "universe": "199999"
+    },
+    {
+      "row": 26,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 4: Smoke & Mirrors",
+      "universe": "199999"
+    },
+    {
+      "row": 27,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 5: The Atomic Job",
+      "universe": "199999"
+    },
+    {
+      "row": 28,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 6: Life of the Party",
+      "universe": "199999"
+    },
+    {
+      "row": 29,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 7: Monsters",
+      "universe": "199999"
+    },
+    {
+      "row": 30,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 8: The Edge of Mystery",
+      "universe": "199999"
+    },
+    {
+      "row": 31,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 9: A Little Song and Dance",
+      "universe": "199999"
+    },
+    {
+      "row": 32,
+      "date": "Jul, 1947",
+      "title": "Agent Carter Season 2 Episode 10: Hollywood Ending",
+      "universe": "199999"
+    },
+    {
+      "row": 33,
+      "date": "Aug, 1948",
+      "title": "What If...? Season 3 Episode 2: What If... Agatha Went to Hollywood",
+      "universe": "TRN-1492"
+    },
+    {
+      "row": 34,
+      "date": "Dec, 1964",
+      "title": "The Fantastic Four: First Steps",
+      "universe": "828"
+    },
+    {
+      "row": 35,
+      "date": "Mar, 1974",
+      "title": "Short: Stark Expo 1974 Ad",
+      "universe": "199999"
+    },
+    {
+      "row": 36,
+      "date": "Dec, 1980",
+      "title": "Short: From the Archives: Wonder Man 1980s Trailer",
+      "universe": "199999"
+    },
+    {
+      "row": 37,
+      "date": "Dec, 1991",
+      "title": "What If...? Season 3 Episode 3: What If... Red Guardian Stopped the Winter Soldier?",
+      "universe": "TRN-1493"
+    },
+    {
+      "row": 38,
+      "date": "Jun, 1995",
+      "title": "Captain Marvel",
+      "universe": "199999"
+    },
+    {
+      "row": 39,
+      "date": "Nov, 2009",
+      "title": "Iron Man",
+      "universe": "199999"
+    },
+    {
+      "row": 40,
+      "date": "Nov, 2009",
+      "title": "What If...? Season 1 Episode 6: What If... Killmonger Rescued Tony Stark?",
+      "universe": "32938"
+    },
+    {
+      "row": 41,
+      "date": "Apr, 2010",
+      "title": "Short: Stark Expo 2010: Better Living Through Technology",
+      "universe": "199999"
+    },
+    {
+      "row": 42,
+      "date": "Apr, 2010",
+      "title": "Short: Stark Expo 2010: AccuTech",
+      "universe": "199999"
+    },
+    {
+      "row": 43,
+      "date": "Apr, 2010",
+      "title": "Short: Stark Expo 2010: CordCo",
+      "universe": "199999"
+    },
+    {
+      "row": 44,
+      "date": "Apr, 2010",
+      "title": "Short: Stark Expo 2010: Fujikawa",
+      "universe": "199999"
+    },
+    {
+      "row": 45,
+      "date": "May, 2010",
+      "title": "The Incredible Hulk",
+      "universe": "199999"
+    },
+    {
+      "row": 46,
+      "date": "Jun, 2010",
+      "title": "Iron Man 2",
+      "universe": "199999"
+    },
+    {
+      "row": 47,
+      "date": "Jun, 2010",
+      "title": "One Shot: A Funny Thing Happened on the Way to Thor's Hammer",
+      "universe": "199999"
+    },
+    {
+      "row": 48,
+      "date": "Jun, 2010",
+      "title": "Thor",
+      "universe": "199999"
+    },
+    {
+      "row": 49,
+      "date": "Jun, 2010",
+      "title": "What If...? Season 1 Episode 3: What If... The World Lost its Mightiest Heroes?",
+      "universe": "51825"
+    },
+    {
+      "row": 50,
+      "date": "Jun, 2010",
+      "title": "What If...? Season 1 Episode 7: What If... Thor Were an Only Child?",
+      "universe": "72124"
+    },
+    {
+      "row": 51,
+      "date": "Jul, 2010",
+      "title": "One Shot: The Consultant",
+      "universe": "199999"
+    },
+    {
+      "row": 52,
+      "date": "Dec, 2010",
+      "title": "What If...? Season 3 Episode 4: What If... Howard the Duck Got Hitched?",
+      "universe": "72124"
+    },
+    {
+      "row": 53,
+      "date": "May, 2012",
+      "title": "The Avengers",
+      "universe": "199999"
+    },
+    {
+      "row": 54,
+      "date": "May, 2012",
+      "title": "What If...? Season 2 Episode 4: What If... Iron Man Crashed into the Grandmaster?",
+      "universe": "TRN-908"
+    },
+    {
+      "row": 55,
+      "date": "May, 2012",
+      "title": "One Shot: Item 47",
+      "universe": "199999"
+    },
+    {
+      "row": 56,
+      "date": "Nov, 2013",
+      "title": "Thor: The Dark World",
+      "universe": "199999"
+    },
+    {
+      "row": 57,
+      "date": "Dec, 2013",
+      "title": "Iron Man 3",
+      "universe": "199999"
+    },
+    {
+      "row": 58,
+      "date": "Jan, 2014",
+      "title": "Captain America: The Winter Soldier",
+      "universe": "199999"
+    },
+    {
+      "row": 59,
+      "date": "Jan, 2014",
+      "title": "What If...? Season 2 Episode 5: What If... Captain Carter Fought the Hydra Stomper?",
+      "universe": "82111"
+    },
+    {
+      "row": 60,
+      "date": "Mar, 2014",
+      "title": "One Shot: All Hail the King",
+      "universe": "199999"
+    },
+    {
+      "row": 61,
+      "date": "Apr, 2014",
+      "title": "Guardians of the Galaxy",
+      "universe": "199999"
+    },
+    {
+      "row": 62,
+      "date": "Apr, 2014",
+      "title": "What If...? Season 1 Episode 2: What If... T'Challa Became a Star-Lord?",
+      "universe": "21818"
+    },
+    {
+      "row": 63,
+      "date": "Apr, 2014",
+      "title": "I Am Groot Season 1 Episode 1: Groots First Steps",
+      "universe": "199999"
+    },
+    {
+      "row": 64,
+      "date": "May, 2014",
+      "title": "I Am Groot Season 1 Episode 2: The Little Guy",
+      "universe": "199999"
+    },
+    {
+      "row": 65,
+      "date": "May, 2014",
+      "title": "I Am Groot Season 1 Episode 4: Groot Takes a Bath",
+      "universe": "199999"
+    },
+    {
+      "row": 66,
+      "date": "Jun, 2014",
+      "title": "I Am Groot Season 2 Episode 3: Groot's Snow Day",
+      "universe": "199999"
+    },
+    {
+      "row": 67,
+      "date": "Jun, 2014",
+      "title": "I Am Groot Season 2 Episode 5: Groot and the Great Prophecy",
+      "universe": "199999"
+    },
+    {
+      "row": 68,
+      "date": "Aug, 2014",
+      "title": "Guardians of the Galaxy, Vol. 2",
+      "universe": "199999"
+    },
+    {
+      "row": 69,
+      "date": "Sep, 2014",
+      "title": "I Am Groot Season 1 Episode 3: Groots Pursuit",
+      "universe": "199999"
+    },
+    {
+      "row": 70,
+      "date": "Sep, 2014",
+      "title": "I Am Groot Season 2 Episode 1: Are You My Groot?",
+      "universe": "199999"
+    },
+    {
+      "row": 71,
+      "date": "Oct, 2014",
+      "title": "I Am Groot Season 1 Episode 5: Magnus Opus",
+      "universe": "199999"
+    },
+    {
+      "row": 72,
+      "date": "Oct, 2014",
+      "title": "I Am Groot Season 2 Episode 2: Groot Noses Around",
+      "universe": "199999"
+    },
+    {
+      "row": 73,
+      "date": "Oct, 2014",
+      "title": "I Am Groot Season 2 Episode 4: Groot's Sweet Teeth",
+      "universe": "199999"
+    },
+    {
+      "row": 74,
+      "date": "Dec, 2014",
+      "title": "What If...? Season 2 Episode 3: What If... Happy Hogan Saved Christmas?",
+      "universe": "TRN-1090"
+    },
+    {
+      "row": 75,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 1: Into The Ring",
+      "universe": "199999"
+    },
+    {
+      "row": 76,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 2: Cut Man",
+      "universe": "199999"
+    },
+    {
+      "row": 77,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 3: Rabbit in a Snowstorm",
+      "universe": "199999"
+    },
+    {
+      "row": 78,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 4: In The Blood",
+      "universe": "199999"
+    },
+    {
+      "row": 79,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 5: World on Fire",
+      "universe": "199999"
+    },
+    {
+      "row": 80,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 6: Condemned",
+      "universe": "199999"
+    },
+    {
+      "row": 81,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 7: Stick",
+      "universe": "199999"
+    },
+    {
+      "row": 82,
+      "date": "Jan, 2015",
+      "title": "Daredevil Season 1 Episode 8: Shadows in the Glass",
+      "universe": "199999"
+    },
+    {
+      "row": 83,
+      "date": "Feb, 2015",
+      "title": "Daredevil Season 1 Episode 9: Speak of the Devil",
+      "universe": "199999"
+    },
+    {
+      "row": 84,
+      "date": "Feb, 2015",
+      "title": "Daredevil Season 1 Episode 10: Nelson V. Murdock",
+      "universe": "199999"
+    },
+    {
+      "row": 85,
+      "date": "Feb, 2015",
+      "title": "Daredevil Season 1 Episode 11: The Path of the Righteous",
+      "universe": "199999"
+    },
+    {
+      "row": 86,
+      "date": "Feb, 2015",
+      "title": "Daredevil Season 1 Episode 12: The Ones We Leave Behind",
+      "universe": "199999"
+    },
+    {
+      "row": 87,
+      "date": "Feb, 2015",
+      "title": "Daredevil Season 1 Episode 13: Daredevil",
+      "universe": "199999"
+    },
+    {
+      "row": 88,
+      "date": "Mar, 2015",
+      "title": "Jessica Jones Season 1 Episode 1: A.K.A. Ladies Night",
+      "universe": "199999"
+    },
+    {
+      "row": 89,
+      "date": "Mar, 2015",
+      "title": "Jessica Jones Season 1 Episode 2: A.K.A. Crush Syndrome",
+      "universe": "199999"
+    },
+    {
+      "row": 90,
+      "date": "Mar, 2015",
+      "title": "Jessica Jones Season 1 Episode 3: A.K.A. It's Called Whiskey",
+      "universe": "199999"
+    },
+    {
+      "row": 91,
+      "date": "Mar, 2015",
+      "title": "Jessica Jones Season 1 Episode 4:  A.K.A. 99 Friends",
+      "universe": "199999"
+    },
+    {
+      "row": 92,
+      "date": "Mar, 2015",
+      "title": "Jessica Jones Season 1 Episode 5: A.K.A. The Sandwich Saved Me",
+      "universe": "199999"
+    },
+    {
+      "row": 93,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 6: A.K.A. You're a Winner!",
+      "universe": "199999"
+    },
+    {
+      "row": 94,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 7. A.K.A. Top Shelf Perverts",
+      "universe": "199999"
+    },
+    {
+      "row": 95,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 8: A.K.A. WWJD?",
+      "universe": "199999"
+    },
+    {
+      "row": 96,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 9: A.K.A. Sin Bin",
+      "universe": "199999"
+    },
+    {
+      "row": 97,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 10: A.K.A. 1,000 Cuts",
+      "universe": "199999"
+    },
+    {
+      "row": 98,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 11: A.K.A. I've Got the Blues",
+      "universe": "199999"
+    },
+    {
+      "row": 99,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 12: A.K.A. Take a Bloody Number",
+      "universe": "199999"
+    },
+    {
+      "row": 100,
+      "date": "Apr, 2015",
+      "title": "Jessica Jones Season 1 Episode 13: A.K.A. Smile",
+      "universe": "199999"
+    },
+    {
+      "row": 101,
+      "date": "May, 2015",
+      "title": "Avengers: Age of Ultron",
+      "universe": "199999"
+    },
+    {
+      "row": 102,
+      "date": "May, 2015",
+      "title": "What If...? Season 1 Episode 8: What If... Ultron Won?",
+      "universe": "29929"
+    },
+    {
+      "row": 103,
+      "date": "Jul, 2015",
+      "title": "Ant-Man",
+      "universe": "199999"
+    },
+    {
+      "row": 104,
+      "date": "Oct, 2015",
+      "title": "Daredevil Season 2 Episode 1: Bang",
+      "universe": "199999"
+    },
+    {
+      "row": 105,
+      "date": "Oct, 2015",
+      "title": "Daredevil Season 2 Episode 2: Dogs to a Gunfight",
+      "universe": "199999"
+    },
+    {
+      "row": 106,
+      "date": "Oct, 2015",
+      "title": "Daredevil Season 2 Episode 3: New York's Finest",
+      "universe": "199999"
+    },
+    {
+      "row": 107,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 4: Penny and Dime",
+      "universe": "199999"
+    },
+    {
+      "row": 108,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 5: Kinbaku",
+      "universe": "199999"
+    },
+    {
+      "row": 109,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 6: Regrets Only",
+      "universe": "199999"
+    },
+    {
+      "row": 110,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 7: Semper Fidelis",
+      "universe": "199999"
+    },
+    {
+      "row": 111,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 8: Guilty as Sin",
+      "universe": "199999"
+    },
+    {
+      "row": 112,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 1: Moment of Truth",
+      "universe": "199999"
+    },
+    {
+      "row": 113,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 2: Code of the Streets",
+      "universe": "199999"
+    },
+    {
+      "row": 114,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 9: Seven Minutes in Heaven",
+      "universe": "199999"
+    },
+    {
+      "row": 115,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 3: Who's Gonna Take the Weight?",
+      "universe": "199999"
+    },
+    {
+      "row": 116,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 4: Step in the Arena",
+      "universe": "199999"
+    },
+    {
+      "row": 117,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 10: The Man in the Box",
+      "universe": "199999"
+    },
+    {
+      "row": 118,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 11: .380",
+      "universe": "199999"
+    },
+    {
+      "row": 119,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 12: The Dark at the End of the Tunnel",
+      "universe": "199999"
+    },
+    {
+      "row": 120,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 5: Just Get a Rep",
+      "universe": "199999"
+    },
+    {
+      "row": 121,
+      "date": "Nov, 2015",
+      "title": "Daredevil Season 2 Episode 13: A Cold Day in Hell's Kitchen",
+      "universe": "199999"
+    },
+    {
+      "row": 122,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 6: Suckas Need Bodyguards",
+      "universe": "199999"
+    },
+    {
+      "row": 123,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 7: Manifest",
+      "universe": "199999"
+    },
+    {
+      "row": 124,
+      "date": "Nov, 2015",
+      "title": "Luke Cage Season 1 Episode 8: Blowin' Up the Spot",
+      "universe": "199999"
+    },
+    {
+      "row": 125,
+      "date": "Dec, 2015",
+      "title": "Luke Cage Season 1 Episode 9: DWYCK",
+      "universe": "199999"
+    },
+    {
+      "row": 126,
+      "date": "Dec, 2015",
+      "title": "Luke Cage Season 1 Episode 10: Take It Personal",
+      "universe": "199999"
+    },
+    {
+      "row": 127,
+      "date": "Dec, 2015",
+      "title": "Luke Cage Season 1 Episode 11: Now You're Mine",
+      "universe": "199999"
+    },
+    {
+      "row": 128,
+      "date": "Dec, 2015",
+      "title": "Luke Cage Season 1 Episode 12: Soliloquy of Chaos",
+      "universe": "199999"
+    },
+    {
+      "row": 129,
+      "date": "Dec, 2015",
+      "title": "Luke Cage Season 1 Episode 13: You Know My Steez",
+      "universe": "199999"
+    },
+    {
+      "row": 130,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 1: Snow Gives Way",
+      "universe": "199999"
+    },
+    {
+      "row": 131,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 2: Shadow Hawk Takes Flight",
+      "universe": "199999"
+    },
+    {
+      "row": 132,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 3: Rolling Thunder Cannon Punch",
+      "universe": "199999"
+    },
+    {
+      "row": 133,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 4: Eight Diagram Dragon Palm",
+      "universe": "199999"
+    },
+    {
+      "row": 134,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 5: Under Leaf Pluck Lotus",
+      "universe": "199999"
+    },
+    {
+      "row": 135,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 6: Immortal Emerges from Cave",
+      "universe": "199999"
+    },
+    {
+      "row": 136,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 7: Felling Tree with Roots",
+      "universe": "199999"
+    },
+    {
+      "row": 137,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 8: The Blessing of Many Fracture",
+      "universe": "199999"
+    },
+    {
+      "row": 138,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 9: The Mistress of All Agonies",
+      "universe": "199999"
+    },
+    {
+      "row": 139,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 10: Black Tiger Steals Heart",
+      "universe": "199999"
+    },
+    {
+      "row": 140,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 11: Lead Horse Back to Stable",
+      "universe": "199999"
+    },
+    {
+      "row": 141,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 12: Bar the Big Boss",
+      "universe": "199999"
+    },
+    {
+      "row": 142,
+      "date": "Feb, 2016",
+      "title": "Iron Fist Season 1 Episode 13: Dragon Plays with Fire",
+      "universe": "199999"
+    },
+    {
+      "row": 143,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 1: The H Word",
+      "universe": "199999"
+    },
+    {
+      "row": 144,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 2: Mean Right Hook",
+      "universe": "199999"
+    },
+    {
+      "row": 145,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 3: Worst Behavior",
+      "universe": "199999"
+    },
+    {
+      "row": 146,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 4: Royal Dragon",
+      "universe": "199999"
+    },
+    {
+      "row": 147,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 5: Take Shelter",
+      "universe": "199999"
+    },
+    {
+      "row": 148,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 6: Ashes, Ashes",
+      "universe": "199999"
+    },
+    {
+      "row": 149,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 7: Fish in the Jailhouse",
+      "universe": "199999"
+    },
+    {
+      "row": 150,
+      "date": "May, 2016",
+      "title": "The Defenders Season 1 Episode 8: The Defenders",
+      "universe": "199999"
+    },
+    {
+      "row": 151,
+      "date": "May, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 1: Amazing Fantasy",
+      "universe": "86445"
+    },
+    {
+      "row": 152,
+      "date": "May, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 2: The Parker Luck",
+      "universe": "86445"
+    },
+    {
+      "row": 153,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 3: Secret Identity Crisis",
+      "universe": "86445"
+    },
+    {
+      "row": 154,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 4: Hitting the Big Time",
+      "universe": "86445"
+    },
+    {
+      "row": 155,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 5: The Unicorn Unleashed!",
+      "universe": "86445"
+    },
+    {
+      "row": 156,
+      "date": "Jun, 2016",
+      "title": "Captain America: Civil War",
+      "universe": "199999"
+    },
+    {
+      "row": 157,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 6: Duel with the Devil",
+      "universe": "86445"
+    },
+    {
+      "row": 158,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 7: Scorpion Rising",
+      "universe": "86445"
+    },
+    {
+      "row": 159,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 8: Tangled Web",
+      "universe": "86445"
+    },
+    {
+      "row": 160,
+      "date": "Jun, 2016",
+      "title": "Black Widow",
+      "universe": "199999"
+    },
+    {
+      "row": 161,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 9: Hero or Menace",
+      "universe": "86445"
+    },
+    {
+      "row": 162,
+      "date": "Jun, 2016",
+      "title": "Your Friendly Neighborhood Spider-Man Season 1 Episode 10: If This Be My Destiny...",
+      "universe": "86445"
+    },
+    {
+      "row": 163,
+      "date": "Jun, 2016",
+      "title": "Black Panther",
+      "universe": "199999"
+    },
+    {
+      "row": 164,
+      "date": "Jul, 2016",
+      "title": "One Shot: Team Thor (Part 1)",
+      "universe": "16828"
+    },
+    {
+      "row": 165,
+      "date": "Sep, 2016",
+      "title": "Spider-Man: Homecoming",
+      "universe": "199999"
+    },
+    {
+      "row": 166,
+      "date": "Oct, 2016",
+      "title": "One Shot: Team Thor (Part 2)",
+      "universe": "16828"
+    },
+    {
+      "row": 167,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 1: 3AM",
+      "universe": "199999"
+    },
+    {
+      "row": 168,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 2: Two Dead Men",
+      "universe": "199999"
+    },
+    {
+      "row": 169,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 3: Kandahar",
+      "universe": "199999"
+    },
+    {
+      "row": 170,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 4: Resupply",
+      "universe": "199999"
+    },
+    {
+      "row": 171,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 5: Gunner",
+      "universe": "199999"
+    },
+    {
+      "row": 172,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 6: The Judas Goat",
+      "universe": "199999"
+    },
+    {
+      "row": 173,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 7: Crosshairs",
+      "universe": "199999"
+    },
+    {
+      "row": 174,
+      "date": "Nov, 2016",
+      "title": "The Punisher Season 1 Episode 8: Cold Steel",
+      "universe": "199999"
+    },
+    {
+      "row": 175,
+      "date": "Dec, 2016",
+      "title": "The Punisher Season 1 Episode 9: Front Towards Enemy",
+      "universe": "199999"
+    },
+    {
+      "row": 176,
+      "date": "Dec, 2016",
+      "title": "The Punisher Season 1 Episode 10: Virtue of the Vicious",
+      "universe": "199999"
+    },
+    {
+      "row": 177,
+      "date": "Dec, 2016",
+      "title": "The Punisher Season 1 Episode 11: Danger Close",
+      "universe": "199999"
+    },
+    {
+      "row": 178,
+      "date": "Dec, 2016",
+      "title": "The Punisher Season 1 Episode 12: Home",
+      "universe": "199999"
+    },
+    {
+      "row": 179,
+      "date": "Dec, 2016",
+      "title": "The Punisher Season 1 Episode 13: Memento Mori",
+      "universe": "199999"
+    },
+    {
+      "row": 180,
+      "date": "Jan, 2017",
+      "title": "One Shot: Team Darryl",
+      "universe": "16828"
+    },
+    {
+      "row": 181,
+      "date": "Jan, 2017",
+      "title": "Doctor Strange",
+      "universe": "199999"
+    },
+    {
+      "row": 182,
+      "date": "Jan, 2017",
+      "title": "What If...? Season 1 Episode 4: What If... Doctor Strange Lost His Heart Instead of His Hands?",
+      "universe": "91233"
+    },
+    {
+      "row": 183,
+      "date": "Apr, 2017",
+      "title": "Wonderman Season 1 Episode 4: Doorman",
+      "universe": "199999"
+    },
+    {
+      "row": 184,
+      "date": "Apr, 2017",
+      "title": "Jessica Jones Season 2 Episode 1: AKA Start at the Beginning",
+      "universe": "199999"
+    },
+    {
+      "row": 185,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 2: AKA Freak Accident",
+      "universe": "199999"
+    },
+    {
+      "row": 186,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 3: AKA Sole Survivor",
+      "universe": "199999"
+    },
+    {
+      "row": 187,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 4: AKA God Help the Hobo",
+      "universe": "199999"
+    },
+    {
+      "row": 188,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 5: AKA Octopus",
+      "universe": "199999"
+    },
+    {
+      "row": 189,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 6: Facetime",
+      "universe": "199999"
+    },
+    {
+      "row": 190,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 7: AKA I Want Your Cray Cray",
+      "universe": "199999"
+    },
+    {
+      "row": 191,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 8: AKA Ain't We Got Fun",
+      "universe": "199999"
+    },
+    {
+      "row": 192,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 9: Shark in the Bathtub",
+      "universe": "199999"
+    },
+    {
+      "row": 193,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 10: AKA Pork Chop",
+      "universe": "199999"
+    },
+    {
+      "row": 194,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 11: AKA Three Lives and Counting",
+      "universe": "199999"
+    },
+    {
+      "row": 195,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 12: AKA Pray for My Patsy",
+      "universe": "199999"
+    },
+    {
+      "row": 196,
+      "date": "May, 2017",
+      "title": "Jessica Jones Season 2 Episode 13: AKA Playland",
+      "universe": "199999"
+    },
+    {
+      "row": 197,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 1: Soul Brother #1",
+      "universe": "199999"
+    },
+    {
+      "row": 198,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 2: Straighten It Out",
+      "universe": "199999"
+    },
+    {
+      "row": 199,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 3: Wig Out",
+      "universe": "199999"
+    },
+    {
+      "row": 200,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 4: I Get Physical",
+      "universe": "199999"
+    },
+    {
+      "row": 201,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 5: All Souled Out",
+      "universe": "199999"
+    },
+    {
+      "row": 202,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 6: The Basement",
+      "universe": "199999"
+    },
+    {
+      "row": 203,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 7: On and On",
+      "universe": "199999"
+    },
+    {
+      "row": 204,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 8: If It Ain't Rough, It Ain't Right",
+      "universe": "199999"
+    },
+    {
+      "row": 205,
+      "date": "Aug, 2017",
+      "title": "Luke Cage Season 2 Episode 9: For Pete's Sake",
+      "universe": "199999"
+    },
+    {
+      "row": 206,
+      "date": "Sep, 2017",
+      "title": "Luke Cage Season 2 Episode 10: The Main Ingredient",
+      "universe": "199999"
+    },
+    {
+      "row": 207,
+      "date": "Sep, 2017",
+      "title": "Luke Cage Season 2 Episode 11: The Creator",
+      "universe": "199999"
+    },
+    {
+      "row": 208,
+      "date": "Sep, 2017",
+      "title": "Luke Cage Season 2 Episode 12: Can't Front On Me",
+      "universe": "199999"
+    },
+    {
+      "row": 209,
+      "date": "Sep, 2017",
+      "title": "Luke Cage Season 2 Episode 13: They Reminisce Over You",
+      "universe": "199999"
+    },
+    {
+      "row": 210,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 1: The Fury Of Iron Fist",
+      "universe": "199999"
+    },
+    {
+      "row": 211,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 2: The City's Not for Burning",
+      "universe": "199999"
+    },
+    {
+      "row": 212,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 3: This Deadly Secret...",
+      "universe": "199999"
+    },
+    {
+      "row": 213,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 4: Target: Iron Fist",
+      "universe": "199999"
+    },
+    {
+      "row": 214,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 5: Heart of the Dragon",
+      "universe": "199999"
+    },
+    {
+      "row": 215,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 6: The Dragon Dies at Dawn",
+      "universe": "199999"
+    },
+    {
+      "row": 216,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 7: Morning of the Mindstorm",
+      "universe": "199999"
+    },
+    {
+      "row": 217,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 1: Resurrection",
+      "universe": "199999"
+    },
+    {
+      "row": 218,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 2: Please",
+      "universe": "199999"
+    },
+    {
+      "row": 219,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 3: No Good Deed",
+      "universe": "199999"
+    },
+    {
+      "row": 220,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 4: Blindsided",
+      "universe": "199999"
+    },
+    {
+      "row": 221,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 8: Citadel on the Edge of Vengeance",
+      "universe": "199999"
+    },
+    {
+      "row": 222,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 5: The Perfect Game",
+      "universe": "199999"
+    },
+    {
+      "row": 223,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 9: War Without End",
+      "universe": "199999"
+    },
+    {
+      "row": 224,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 6: The Devil You Know",
+      "universe": "199999"
+    },
+    {
+      "row": 225,
+      "date": "Oct, 2017",
+      "title": "Iron Fist Season 2 Episode 10: A Duel of Iron",
+      "universe": "199999"
+    },
+    {
+      "row": 226,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 7: Aftermath",
+      "universe": "199999"
+    },
+    {
+      "row": 227,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 8: Upstairs/Downstairs",
+      "universe": "199999"
+    },
+    {
+      "row": 228,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 9: Revelations",
+      "universe": "199999"
+    },
+    {
+      "row": 229,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 10: Karen",
+      "universe": "199999"
+    },
+    {
+      "row": 230,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 11: Reunion",
+      "universe": "199999"
+    },
+    {
+      "row": 231,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 12: One Last Shot",
+      "universe": "199999"
+    },
+    {
+      "row": 232,
+      "date": "Oct, 2017",
+      "title": "Daredevil Season 3 Episode 13: A New Napkin",
+      "universe": "199999"
+    },
+    {
+      "row": 233,
+      "date": "Apr, 2018",
+      "title": "Jessica Jones Season 3 Episode 1: AKA The Perfect Burger",
+      "universe": "199999"
+    },
+    {
+      "row": 234,
+      "date": "Apr, 2018",
+      "title": "The Punisher Season 2 Episode 1: Roadhouse Blues",
+      "universe": "199999"
+    },
+    {
+      "row": 235,
+      "date": "Apr, 2018",
+      "title": "The Punisher Season 2 Episode 2: Fight or Flight",
+      "universe": "199999"
+    },
+    {
+      "row": 236,
+      "date": "Apr, 2018",
+      "title": "Jessica Jones Season 3 Episode 2: AKA You're Welcome",
+      "universe": "199999"
+    },
+    {
+      "row": 237,
+      "date": "Apr, 2018",
+      "title": "The Punisher Season 2 Episode 3: Trouble The Water",
+      "universe": "199999"
+    },
+    {
+      "row": 238,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 3: AKA I Have No Spleen",
+      "universe": "199999"
+    },
+    {
+      "row": 239,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 4: Scar Tissue",
+      "universe": "199999"
+    },
+    {
+      "row": 240,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 5: One-Eyed Jacks",
+      "universe": "199999"
+    },
+    {
+      "row": 241,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 4: AKA Customer Service Is Standing By",
+      "universe": "199999"
+    },
+    {
+      "row": 242,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 5: AKA I Wish",
+      "universe": "199999"
+    },
+    {
+      "row": 243,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 6: Nakazat",
+      "universe": "199999"
+    },
+    {
+      "row": 244,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 6: AKA Sorry Face",
+      "universe": "199999"
+    },
+    {
+      "row": 245,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 7: One Bad Day",
+      "universe": "199999"
+    },
+    {
+      "row": 246,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 7: AKA The Double Half-Wappinger",
+      "universe": "199999"
+    },
+    {
+      "row": 247,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 8: My Brother's Keeper",
+      "universe": "199999"
+    },
+    {
+      "row": 248,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 8: AKA Camera Friendly",
+      "universe": "199999"
+    },
+    {
+      "row": 249,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 9: Flustercluck",
+      "universe": "199999"
+    },
+    {
+      "row": 250,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 9: AKA I Did Something Today",
+      "universe": "199999"
+    },
+    {
+      "row": 251,
+      "date": "May, 2018",
+      "title": "Ant-Man & the Wasp",
+      "universe": "199999"
+    },
+    {
+      "row": 252,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 10: The Hearts of Men",
+      "universe": "199999"
+    },
+    {
+      "row": 253,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 11: The Abyss",
+      "universe": "199999"
+    },
+    {
+      "row": 254,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 10: AKA Hero Pants",
+      "universe": "199999"
+    },
+    {
+      "row": 255,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 12: Collision Course",
+      "universe": "199999"
+    },
+    {
+      "row": 256,
+      "date": "May, 2018",
+      "title": "The Punisher Season 2 Episode 13: The Whirlwind",
+      "universe": "199999"
+    },
+    {
+      "row": 257,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 11: AKA Hellcat",
+      "universe": "199999"
+    },
+    {
+      "row": 258,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 12: AKA A Lotta Worms",
+      "universe": "199999"
+    },
+    {
+      "row": 259,
+      "date": "May, 2018",
+      "title": "Jessica Jones Season 3 Episode 13: AKA Everything",
+      "universe": "199999"
+    },
+    {
+      "row": 260,
+      "date": "May, 2018",
+      "title": "Thor: Ragnarok",
+      "universe": "199999"
+    },
+    {
+      "row": 261,
+      "date": "May, 2018",
+      "title": "Avengers: Infinity War",
+      "universe": "199999"
+    },
+    {
+      "row": 262,
+      "date": "May, 2018",
+      "title": "What If...? Season 1 Episode 5: What If... Zombies?!",
+      "universe": "89521"
+    },
+    {
+      "row": 263,
+      "date": "Aug, 2018",
+      "title": "Short: Darryl Survived the Snap",
+      "universe": "16828"
+    },
+    {
+      "row": 264,
+      "date": "Jun, 2019",
+      "title": "What If...? Season 2 Episode 1: What If... Nebula Joined The Nova Corps?",
+      "universe": "625"
+    },
+    {
+      "row": 265,
+      "date": "May, 2023",
+      "title": "Marvel Zombies Season 1 Episode 2: Episode 1",
+      "universe": "89521"
+    },
+    {
+      "row": 266,
+      "date": "Concurrent",
+      "title": "Marvel Zombies Season 1 Episode 2: Episode 2",
+      "universe": "89521"
+    },
+    {
+      "row": 267,
+      "date": "Concurrent",
+      "title": "Marvel Zombies Season 1 Episode 3: Episode 3",
+      "universe": "89521"
+    },
+    {
+      "row": 268,
+      "date": "Concurrent",
+      "title": "Marvel Zombies Season 1 Episode 4: Episode 4",
+      "universe": "89521"
+    },
+    {
+      "row": 269,
+      "date": "Oct, 2023",
+      "title": "Avengers: Endgame",
+      "universe": "199999"
+    },
+    {
+      "row": 270,
+      "date": "-TVA-",
+      "title": "TVA Shorts: Your Place At The TVA",
+      "universe": "TVA"
+    },
+    {
+      "row": 271,
+      "date": "-TVA-",
+      "title": "TVA Shorts: Butterfly Effect",
+      "universe": "TVA"
+    },
+    {
+      "row": 272,
+      "date": "-TVA-",
+      "title": "TVA Shorts: 17 Minutes",
+      "universe": "TVA"
+    },
+    {
+      "row": 273,
+      "date": "-TVA-",
+      "title": "TVA Shorts: TVA Tech Tips",
+      "universe": "TVA"
+    },
+    {
+      "row": 274,
+      "date": "-TVA-",
+      "title": "TVA Shorts: Trapped in a Time Loop",
+      "universe": "TVA"
+    },
+    {
+      "row": 275,
+      "date": "-TVA-",
+      "title": "Loki Season 1 Episode 1: Glorious Purpose",
+      "universe": "TVA"
+    },
+    {
+      "row": 276,
+      "date": "-TVA-",
+      "title": "Loki Season 1 Episode 2: The Variant",
+      "universe": "TVA"
+    },
+    {
+      "row": 277,
+      "date": "-TVA-",
+      "title": "Loki Season 1 Episode 3: Lamentis",
+      "universe": "TVA"
+    },
+    {
+      "row": 278,
+      "date": "-TVA-",
+      "title": "Loki Season 1 Episode 4: The Nexus Event",
+      "universe": "TVA"
+    },
+    {
+      "row": 279,
+      "date": "-TVA-",
+      "title": "Loki Season 1 Episode 5: Journey Into Mystery",
+      "universe": "TVA"
+    },
+    {
+      "row": 280,
+      "date": "-TVA-",
+      "title": "Loki Season 1 Episode 6: For All Time. Always.",
+      "universe": "TVA"
+    },
+    {
+      "row": 281,
+      "date": "-TVA-",
+      "title": "Loki Season 2 Episode 1: Ouroboros",
+      "universe": "TVA"
+    },
+    {
+      "row": 282,
+      "date": "-TVA-",
+      "title": "Loki Season 2 Episode 2: Breaking Brad",
+      "universe": "TVA"
+    },
+    {
+      "row": 283,
+      "date": "-TVA-",
+      "title": "Loki Season 2 Episode 3: 1893",
+      "universe": "TVA"
+    },
+    {
+      "row": 284,
+      "date": "-TVA-",
+      "title": "Loki Season 2 Episode 4: Heart of the TVA",
+      "universe": "TVA"
+    },
+    {
+      "row": 285,
+      "date": "-TVA-",
+      "title": "Loki Season 2 Episode 5: Science Fiction",
+      "universe": "TVA"
+    },
+    {
+      "row": 286,
+      "date": "-TVA-",
+      "title": "Loki Season 2 Episode 6: Glorious Purpose",
+      "universe": "TVA"
+    },
+    {
+      "row": 287,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 1: Filmed Before a Live Studio Audience",
+      "universe": "199999"
+    },
+    {
+      "row": 288,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 2: Don't Touch That Dial",
+      "universe": "199999"
+    },
+    {
+      "row": 289,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 3: Now in Color",
+      "universe": "199999"
+    },
+    {
+      "row": 290,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 4: We Interrupt This Program",
+      "universe": "199999"
+    },
+    {
+      "row": 291,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 5: On a Very Special Episode...",
+      "universe": "199999"
+    },
+    {
+      "row": 292,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 6: All-New Halloween Spooktacular!",
+      "universe": "199999"
+    },
+    {
+      "row": 293,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 7: Breaking the Fourth Wall",
+      "universe": "199999"
+    },
+    {
+      "row": 294,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 8: Previously On",
+      "universe": "199999"
+    },
+    {
+      "row": 295,
+      "date": "Nov, 2023",
+      "title": "WandaVision Season 1 Episode 9: The Series Finale",
+      "universe": "199999"
+    },
+    {
+      "row": 296,
+      "date": "Dec, 2023",
+      "title": "Eternals",
+      "universe": "199999"
+    },
+    {
+      "row": 297,
+      "date": "Dec, 2023",
+      "title": "What If...? Season 3 Episode 5: What If... The Emergence Destroyed the Earth?",
+      "universe": "TRN-1494"
+    },
+    {
+      "row": 298,
+      "date": "Apr, 2024",
+      "title": "Shang-Chi and The Legend of The Ten Rings",
+      "universe": "199999"
+    },
+    {
+      "row": 299,
+      "date": "Apr, 2024",
+      "title": "The Falcon and The Winter Soldier Season 1 Episode 1: New World Order",
+      "universe": "199999"
+    },
+    {
+      "row": 300,
+      "date": "May, 2024",
+      "title": "The Falcon and The Winter Soldier Season 1 Episode 2: The Star-Spangled Man",
+      "universe": "199999"
+    },
+    {
+      "row": 301,
+      "date": "May, 2024",
+      "title": "The Falcon and The Winter Soldier Season 1 Episode 3: Power Broker",
+      "universe": "199999"
+    },
+    {
+      "row": 302,
+      "date": "May, 2024",
+      "title": "The Falcon and The Winter Soldier Season 1 Episode 4: The Whole World Is Watching",
+      "universe": "199999"
+    },
+    {
+      "row": 303,
+      "date": "May, 2024",
+      "title": "The Falcon and The Winter Soldier Season 1 Episode 5: Truth",
+      "universe": "199999"
+    },
+    {
+      "row": 304,
+      "date": "May, 2024",
+      "title": "The Falcon and The Winter Soldier Season 1 Episode 6: One World, One People",
+      "universe": "199999"
+    },
+    {
+      "row": 305,
+      "date": "May, 2024",
+      "title": "What If...? Season 3 Episode 1: What If... The Hulk Fought the Mech Avengers",
+      "universe": "TRN-1491"
+    },
+    {
+      "row": 306,
+      "date": "Jul, 2024",
+      "title": "Spider-Man: Far From Home",
+      "universe": "199999"
+    },
+    {
+      "row": 307,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 1: What If... Captain Carter Were The First Avenger?",
+      "universe": "82111"
+    },
+    {
+      "row": 308,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 2: What If... T'Challa Became a Star-Lord?",
+      "universe": "21818"
+    },
+    {
+      "row": 309,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 3: What If... The World Lost its Mightiest Heroes?",
+      "universe": "51825"
+    },
+    {
+      "row": 310,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 4: What If... Doctor Strange Lost His Heart Instead of His Hands?",
+      "universe": "91233"
+    },
+    {
+      "row": 311,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 5: What If... Zombies?!",
+      "universe": "89521"
+    },
+    {
+      "row": 312,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 6: What If... Killmonger Rescued Tony Stark?",
+      "universe": "32938"
+    },
+    {
+      "row": 313,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 4: What If... Iron Man Crashed into the Grandmaster?",
+      "universe": "TRN-908"
+    },
+    {
+      "row": 314,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 7: What If... Thor Were an Only Child?",
+      "universe": "72124"
+    },
+    {
+      "row": 315,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 8: What If... Ultron Won?",
+      "universe": "29929"
+    },
+    {
+      "row": 316,
+      "date": "Outside of Time",
+      "title": "What If...? Season 1 Episode 9: What If... The Watcher Broke His Oath?",
+      "universe": "Various"
+    },
+    {
+      "row": 317,
+      "date": "Nov, 2024",
+      "title": "Spider-Man: No Way Home",
+      "universe": "199999"
+    },
+    {
+      "row": 318,
+      "date": "Nov, 2024",
+      "title": "Deadpool & Wolverine",
+      "universe": "Multiversal"
+    },
+    {
+      "row": 319,
+      "date": "Nov, 2024",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "universe": "Various"
+    },
+    {
+      "row": 320,
+      "date": "Dec, 2024",
+      "title": "Hawkeye Season 1 Episode 1: Never Meet Your Heroes",
+      "universe": "199999"
+    },
+    {
+      "row": 321,
+      "date": "Dec, 2024",
+      "title": "Hawkeye Season 1 Episode 2: Hide and Seek",
+      "universe": "199999"
+    },
+    {
+      "row": 322,
+      "date": "Dec, 2024",
+      "title": "Hawkeye Season 1 Episode 3: Echoes",
+      "universe": "199999"
+    },
+    {
+      "row": 323,
+      "date": "Dec, 2024",
+      "title": "Hawkeye Season 1 Episode 4: Partners, Am I Right?",
+      "universe": "199999"
+    },
+    {
+      "row": 324,
+      "date": "Dec, 2024",
+      "title": "Hawkeye Season 1 Episode 5: Ronin",
+      "universe": "199999"
+    },
+    {
+      "row": 325,
+      "date": "Dec, 2024",
+      "title": "Hawkeye Season 1 Episode 6: So This Is Christmas?",
+      "universe": "199999"
+    },
+    {
+      "row": 326,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 1: What If... Nebula Joined The Nova Corps?",
+      "universe": "625"
+    },
+    {
+      "row": 327,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 2: What If... Peter Quill Attacked Earth's Mightiest Heroes?",
+      "universe": "TRN-1089"
+    },
+    {
+      "row": 328,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 3: What If... Happy Hogan Saved Christmas?",
+      "universe": "TRN-1090"
+    },
+    {
+      "row": 329,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 5: What If... Captain Carter Fought the Hydra Stomper?",
+      "universe": "82111"
+    },
+    {
+      "row": 330,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 6: What If... Kahhori Reshaped the World?",
+      "universe": "43166"
+    },
+    {
+      "row": 331,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 7: What If... Hela Found the Ten Rings?",
+      "universe": "TRN-1092"
+    },
+    {
+      "row": 332,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 8: What If... The Avengers Assembled in 1602?",
+      "universe": "TRN-1093"
+    },
+    {
+      "row": 333,
+      "date": "Outside of Time",
+      "title": "What If...? Season 2 Episode 9: What If... Supreme Strange Intervened?",
+      "universe": "Nexus"
+    },
+    {
+      "row": 334,
+      "date": "Apr, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 1: A Normal Amount of Rage",
+      "universe": "199999"
+    },
+    {
+      "row": 335,
+      "date": "Apr, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 2: Superhuman Law",
+      "universe": "199999"
+    },
+    {
+      "row": 336,
+      "date": "Apr, 2025",
+      "title": "Moon Knight Season 1 Episode 1: The Goldfish Problem",
+      "universe": "199999"
+    },
+    {
+      "row": 337,
+      "date": "May, 2025",
+      "title": "Moon Knight Season 1 Episode 2: Summon the Suit",
+      "universe": "199999"
+    },
+    {
+      "row": 338,
+      "date": "May, 2025",
+      "title": "Moon Knight Season 1 Episode 3: The Friendly Type",
+      "universe": "199999"
+    },
+    {
+      "row": 339,
+      "date": "May, 2025",
+      "title": "Moon Knight Season 1 Episode 4: The Tomb",
+      "universe": "199999"
+    },
+    {
+      "row": 340,
+      "date": "May, 2025",
+      "title": "Moon Knight Season 1 Episode 5: Asylum",
+      "universe": "199999"
+    },
+    {
+      "row": 341,
+      "date": "May, 2025",
+      "title": "Moon Knight Season 1 Episode 6: Gods and Monsters",
+      "universe": "199999"
+    },
+    {
+      "row": 342,
+      "date": "May, 2025",
+      "title": "Black Panther: Wakanda Forever",
+      "universe": "199999"
+    },
+    {
+      "row": 343,
+      "date": "May, 2025",
+      "title": "Echo Season 1 Episode 1: Chafa",
+      "universe": "199999"
+    },
+    {
+      "row": 344,
+      "date": "May, 2025",
+      "title": "Echo Season 1 Episode 2: Lowak",
+      "universe": "199999"
+    },
+    {
+      "row": 345,
+      "date": "May, 2025",
+      "title": "Echo Season 1 Episode 3: Tuklo",
+      "universe": "199999"
+    },
+    {
+      "row": 346,
+      "date": "May, 2025",
+      "title": "Echo Season 1 Episode 4: Taloa",
+      "universe": "199999"
+    },
+    {
+      "row": 347,
+      "date": "May, 2025",
+      "title": "Echo Season 1 Episode 5: Maya",
+      "universe": "199999"
+    },
+    {
+      "row": 348,
+      "date": "May, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 3: The People vs. Emil Blonsky",
+      "universe": "199999"
+    },
+    {
+      "row": 349,
+      "date": "Jun, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 4: Is This Not Real Magic?",
+      "universe": "199999"
+    },
+    {
+      "row": 350,
+      "date": "Jul, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 5: Mean Green and Straight Poured into These Jeans",
+      "universe": "199999"
+    },
+    {
+      "row": 351,
+      "date": "Jul, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 6: Just Jen",
+      "universe": "199999"
+    },
+    {
+      "row": 352,
+      "date": "Jul, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 7: The Retreat",
+      "universe": "199999"
+    },
+    {
+      "row": 353,
+      "date": "Aug, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 8: Ribbit and Rip It",
+      "universe": "199999"
+    },
+    {
+      "row": 354,
+      "date": "Aug, 2025",
+      "title": "She-Hulk: Attorney at Law Season 1 Episode 9: Whose Show is This?",
+      "universe": "Various"
+    },
+    {
+      "row": 355,
+      "date": "Sep, 2025",
+      "title": "Short: GLK&H Commercial",
+      "universe": "199999"
+    },
+    {
+      "row": 356,
+      "date": "Sep, 2025",
+      "title": "Ironheart Season 1 Episode 1: Take Me Home",
+      "universe": "199999"
+    },
+    {
+      "row": 357,
+      "date": "Sep, 2025",
+      "title": "Short: The Real Carol Danvers Story",
+      "universe": "199999"
+    },
+    {
+      "row": 358,
+      "date": "Sep, 2025",
+      "title": "Ms. Marvel Season 1 Episode 1: Generation Why",
+      "universe": "199999"
+    },
+    {
+      "row": 359,
+      "date": "Sep, 2025",
+      "title": "Ironheart Season 1 Episode 2: Will the Real Natalie Please Stand Up?",
+      "universe": "199999"
+    },
+    {
+      "row": 360,
+      "date": "Sep, 2025",
+      "title": "Ms. Marvel Season 1 Episode 2: Crushed",
+      "universe": "199999"
+    },
+    {
+      "row": 361,
+      "date": "Oct, 2025",
+      "title": "Ms. Marvel Season 1 Episode 3: Destined",
+      "universe": "199999"
+    },
+    {
+      "row": 362,
+      "date": "Oct, 2025",
+      "title": "Ironheart Season 1 Episode 3: We in Danger, Girl",
+      "universe": "199999"
+    },
+    {
+      "row": 363,
+      "date": "Oct, 2025",
+      "title": "Ms. Marvel Season 1 Episode 4: Seeing Red",
+      "universe": "199999"
+    },
+    {
+      "row": 364,
+      "date": "Oct, 2025",
+      "title": "Ironheart Season 1 Episode 4: Bad Magic",
+      "universe": "199999"
+    },
+    {
+      "row": 365,
+      "date": "Oct, 2025",
+      "title": "Ms. Marvel Season 1 Episode 5: Time and Again",
+      "universe": "199999"
+    },
+    {
+      "row": 366,
+      "date": "Oct, 2025",
+      "title": "Ms. Marvel Season 1 Episode 6: No Normal",
+      "universe": "199999"
+    },
+    {
+      "row": 367,
+      "date": "Oct, 2025",
+      "title": "Thor: Love and Thunder",
+      "universe": "199999"
+    },
+    {
+      "row": 368,
+      "date": "Oct, 2025",
+      "title": "Ironheart Season 1 Episode 5: Karma's a Glitch",
+      "universe": "199999"
+    },
+    {
+      "row": 369,
+      "date": "Oct, 2025",
+      "title": "Ironheart Season 1 Episode 6: The Past Is the Past",
+      "universe": "199999"
+    },
+    {
+      "row": 370,
+      "date": "Oct, 2025",
+      "title": "Werewolf by Night",
+      "universe": "199999"
+    },
+    {
+      "row": 371,
+      "date": "Dec, 2025",
+      "title": "The Guardians of the Galaxy: Holiday Special",
+      "universe": "199999"
+    },
+    {
+      "row": 372,
+      "date": "Jul, 2026",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "universe": "199999"
+    },
+    {
+      "row": 373,
+      "date": "Aug, 2026",
+      "title": "The Guardians of the Galaxy: Vol. 3",
+      "universe": "199999"
+    },
+    {
+      "row": 374,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 1: What If... The Hulk Fought the Mech Avengers",
+      "universe": "TRN-1491"
+    },
+    {
+      "row": 375,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 2: What If... Agatha Went to Hollywood",
+      "universe": "TRN-1492"
+    },
+    {
+      "row": 376,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 3: What If... Red Guardian Stopped the Winter Soldier?",
+      "universe": "TRN-1493"
+    },
+    {
+      "row": 377,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 4: What If... Howard the Duck Got Hitched?",
+      "universe": "72124"
+    },
+    {
+      "row": 378,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 5: What If... The Emergence Destroyed the Earth?",
+      "universe": "TRN-1494"
+    },
+    {
+      "row": 379,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 6: What If... 1872?",
+      "universe": "TRN-1495"
+    },
+    {
+      "row": 380,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 7: What If... The Watcher Disappeared?",
+      "universe": "Various"
+    },
+    {
+      "row": 381,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 8: What If... What If?",
+      "universe": "Various"
+    },
+    {
+      "row": 382,
+      "date": "Oct, 2026",
+      "title": "Daredevil: Born Again Season 1 Episode 1: Heaven's Half Hour",
+      "universe": "199999"
+    },
+    {
+      "row": 383,
+      "date": "Oct, 2026",
+      "title": "Secret Invasion Season 1 Episode 1: Resurrection",
+      "universe": "199999"
+    },
+    {
+      "row": 384,
+      "date": "Nov, 2026",
+      "title": "Secret Invasion Season 1 Episode 2: Promises",
+      "universe": "199999"
+    },
+    {
+      "row": 385,
+      "date": "Nov, 2026",
+      "title": "Secret Invasion Season 1 Episode 3: Betrayed",
+      "universe": "199999"
+    },
+    {
+      "row": 386,
+      "date": "Nov, 2026",
+      "title": "Secret Invasion Season 1 Episode 4: Beloved",
+      "universe": "199999"
+    },
+    {
+      "row": 387,
+      "date": "Nov, 2026",
+      "title": "Secret Invasion Season 1 Episode 5: Harvest",
+      "universe": "199999"
+    },
+    {
+      "row": 388,
+      "date": "Nov, 2026",
+      "title": "Secret Invasion Season 1 Episode 6: Home",
+      "universe": "199999"
+    },
+    {
+      "row": 389,
+      "date": "Nov, 2026",
+      "title": "The Marvels",
+      "universe": "199999"
+    },
+    {
+      "row": 390,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 1: Seekest Thou the Road",
+      "universe": "199999"
+    },
+    {
+      "row": 391,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 2: Circle Sewn with Faith / Unlock thy Hidden Gate",
+      "universe": "199999"
+    },
+    {
+      "row": 392,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 3: Through Many Miles / Of Tricks and Trials",
+      "universe": "199999"
+    },
+    {
+      "row": 393,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 4: If I Can't Reach You / Let My Song Teach You",
+      "universe": "199999"
+    },
+    {
+      "row": 394,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 5: Darkest Hour / Wake Thy Power",
+      "universe": "199999"
+    },
+    {
+      "row": 395,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 6: Familiar by Thy Side",
+      "universe": "199999"
+    },
+    {
+      "row": 396,
+      "date": "Nov, 2026",
+      "title": "Agatha All Along Season 1 Episode 7: Death's Hand in Mine",
+      "universe": "199999"
+    },
+    {
+      "row": 397,
+      "date": "Dec, 2026",
+      "title": "Agatha All Along Season 1 Episode 8: Follow Me My Friend / To Glory at the End",
+      "universe": "199999"
+    },
+    {
+      "row": 398,
+      "date": "Dec, 2026",
+      "title": "Agatha All Along Season 1 Episode 9: Mother Maiden Crone",
+      "universe": "199999"
+    },
+    {
+      "row": 399,
+      "date": "Jan, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 2: Optics",
+      "universe": "199999"
+    },
+    {
+      "row": 400,
+      "date": "Jan, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 3: The Hollow of His Hand",
+      "universe": "199999"
+    },
+    {
+      "row": 401,
+      "date": "Feb, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 4: Sic Semper Systema",
+      "universe": "199999"
+    },
+    {
+      "row": 402,
+      "date": "Mar, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 5: With Interest",
+      "universe": "199999"
+    },
+    {
+      "row": 403,
+      "date": "Mar, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 6: Excessive Force",
+      "universe": "199999"
+    },
+    {
+      "row": 404,
+      "date": "Mar, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 7: Art for Art's Sake",
+      "universe": "199999"
+    },
+    {
+      "row": 405,
+      "date": "Apr, 2027",
+      "title": "Wonderman Season 1 Episode 1: Matinee",
+      "universe": "199999"
+    },
+    {
+      "row": 406,
+      "date": "Apr, 2027",
+      "title": "Wonderman Season 1 Episode 2: Self-Tape",
+      "universe": "199999"
+    },
+    {
+      "row": 407,
+      "date": "Apr, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 8: Isle of Joy",
+      "universe": "199999"
+    },
+    {
+      "row": 408,
+      "date": "Apr, 2027",
+      "title": "Daredevil: Born Again Season 1 Episode 9: Straight to Hell",
+      "universe": "199999"
+    },
+    {
+      "row": 409,
+      "date": "Apr, 2027",
+      "title": "Wonderman Season 1 Episode 3: Pacoima",
+      "universe": "199999"
+    },
+    {
+      "row": 410,
+      "date": "Apr, 2027",
+      "title": "Wonderman Season 1 Episode 5: Found Footage",
+      "universe": "199999"
+    },
+    {
+      "row": 411,
+      "date": "Apr, 2027",
+      "title": "Wonderman Season 1 Episode 6: Call Back",
+      "universe": "199999"
+    },
+    {
+      "row": 412,
+      "date": "Apr, 2027",
+      "title": "Captain America: Brave New World",
+      "universe": "199999"
+    },
+    {
+      "row": 413,
+      "date": "May, 2027",
+      "title": "Wonderman Season 1 Episode 7: Kathy Friedman",
+      "universe": "199999"
+    },
+    {
+      "row": 414,
+      "date": "Sep, 2027",
+      "title": "Thunderbolts*",
+      "universe": "199999"
+    },
+    {
+      "row": 415,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 1: The Northern Star",
+      "universe": "199999"
+    },
+    {
+      "row": 416,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 2: Shoot the Moon",
+      "universe": "199999"
+    },
+    {
+      "row": 417,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 3: The Scales & The Sword",
+      "universe": "199999"
+    },
+    {
+      "row": 418,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 4: Gloves Off",
+      "universe": "199999"
+    },
+    {
+      "row": 419,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 5: The Grand Design",
+      "universe": "199999"
+    },
+    {
+      "row": 420,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 6: Requiem",
+      "universe": "199999"
+    },
+    {
+      "row": 421,
+      "date": "Oct, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 7: The Hateful Darkness",
+      "universe": "199999"
+    },
+    {
+      "row": 422,
+      "date": "Nov, 2027",
+      "title": "Daredevil: Born Again Season 2 Episode 8: The Southern Cross",
+      "universe": "199999"
+    },
+    {
+      "row": 423,
+      "date": "Dec, 2027",
+      "title": "The Punisher: One Last Kill",
+      "universe": "199999"
+    },
+    {
+      "row": 424,
+      "date": "May, 2028",
+      "title": "Wonderman Season 1 Episode 8: Yucca Valley",
+      "universe": "199999"
+    },
+    {
+      "row": 425,
+      "date": "Oct, 2028",
+      "title": "Spider-Man: Brand New Day",
+      "universe": "199999"
+    }
+  ]
+}

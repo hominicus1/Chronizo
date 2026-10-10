@@ -1,5 +1,11 @@
 # Chronizo OET Changelog
 
+## α74 — Strict Marvel Universe
+
+- Dodano hashtag i filtr `SMU` na podstawie 422 pozycji z zakładki `Strict VO`.
+- Istniejące źródła są oznaczane bez duplikowania rekordów i bez zmiany statusu użytkownika.
+- Biblia Chronizo zapisuje członkostwo `SMU` oraz pozycję źródła w Strict VO.
+
 ## v3.10 — Delete/Create Lock Hotfix
 
 - Added defensive repair after event deletion, bulk deletion, loading, merging, startup, and refresh.

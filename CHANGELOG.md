@@ -1,5 +1,22 @@
 # Chronizo OET Changelog
 
+## α80 — Dodatkowe media i naturalna kolejność odcinków
+
+- Sortowanie według daty akcji i wydania rozstrzyga remisy naturalnie: odcinki 1, 2, 3… 10, 11.
+- Pełne daty premiery w zapisie angielskim i ISO mają tę samą wartość i uwzględniają dzień.
+- Dodatkowe media są wstawiane między wiersze katalogu bez zmiany względnej kolejności arkusza.
+- Prequele trafiają przed źródło powiązane, inne materiały powiązane obok niego; dla materiałów bez daty akcji ani powiązania punktem odniesienia jest data wydania.
+
+
+## α79 — Kolejność arkusza 1:1
+
+- Filtry MVO, EMCU i SMU w trybie kolejności katalogu odwzorowują wszystkie wiersze swoich zakładek: 3273, 834 i 422.
+- Powtórne wystąpienia tego samego źródła zachowują pozycję i datę z arkusza, bez duplikowania źródła i jego statusu.
+- Dodatkowe komiksy, gry i dziewięć odcinków Meet Spidey pozostają w bazie i innych trybach sortowania.
+- Automatyczna migracja istniejących projektów zachowuje ID, statusy, ręczne premiery i powiązania wydarzeń.
+- Przywrócono poprawny JSON katalogu MVO w repozytorium.
+
+
 ## α78 — Jeden Hulk, jedno źródło
 
 - Scala identyczne źródła z Multiversal VO i Extended VO po tytule oraz świecie, zamiast rozdzielać je przez różne daty akcji.

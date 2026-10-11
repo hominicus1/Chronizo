@@ -1,5 +1,11 @@
 # Chronizo OET Changelog
 
+## α82 — Zapis źródła zachowuje widok
+
+- Zmiana statusu lub innych danych źródła pozostawia użytkownika na aktualnej zakładce.
+- Dodawanie źródła z formularza wydarzenia nadal uzupełnia wybór źródeł w tym formularzu.
+
+
 ## α81 — Import dużych projektów
 
 - Po przekroczeniu limitu localStorage zapis przechodzi do IndexedDB i zachowuje wszystkie dotychczasowe projekty.

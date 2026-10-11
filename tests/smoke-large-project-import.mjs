@@ -46,7 +46,7 @@ failWrite=true;
 await assert.rejects(storage.saveWorkbenchState({...loaded,activeProjectId:'broken'}));
 assert.equal(durable.activeProjectId,'second','Failed transaction preserves the last committed state');
 
-const code=fs.readFileSync(new URL('../js/workbench-alpha81.js',import.meta.url),'utf8');
+const code=fs.readFileSync(new URL('../js/workbench-alpha82.js',import.meta.url),'utf8');
 const start=code.indexOf('function importProjectFile('), importer=code.slice(start,code.indexOf('\n',start));
 const alerts=[];let read, saveOk=true, renderCount=0;
 const state=structuredClone(legacy);

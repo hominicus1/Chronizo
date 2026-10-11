@@ -7,7 +7,7 @@ import {insertAdditionalSources} from '../js/vo-sheet-order.js';
 assert.equal(chronologyKey('May 2, 2020'), chronologyKey('2020-05-02'));
 assert.ok(chronologyKey('May 2, 2020') < chronologyKey('May 10, 2020'));
 const sources = [1, 10, 11, 2, 3].map(number => ({id:`episode-${number}`, title:`Series Season 1 Episode ${number}`, date:'May, 2020', releaseDate:'2020-05-01'}));
-const code = fs.readFileSync(new URL('../js/workbench-alpha81.js', import.meta.url), 'utf8');
+const code = fs.readFileSync(new URL('../js/workbench-alpha82.js', import.meta.url), 'utf8');
 const start = code.indexOf('function sourceCatalogCompare(');
 const comparator = code.slice(start, code.indexOf('\n', start));
 const context = vm.createContext({chronologyKey, compareSourceTitles, sourceActionChronologyKey: source => sourceActionKey(source, sources)});

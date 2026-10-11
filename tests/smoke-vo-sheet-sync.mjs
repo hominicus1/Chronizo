@@ -14,7 +14,7 @@ applyVoSheetOrder(project, pack);
 assert.deepEqual(project.sources.map(({sheetEntries, sheetOrderSynced, ...source}) => source), before.sources.map(({sheetEntries, sheetOrderSynced, ...source}) => source));
 assert.deepEqual(project.events, before.events);
 
-const code = fs.readFileSync(new URL('../js/workbench-alpha80.js', import.meta.url), 'utf8');
+const code = fs.readFileSync(new URL('../js/workbench-alpha81.js', import.meta.url), 'utf8');
 const functions = ['filteredSources', 'sourceSheetRow', 'sourceCatalogCompare'].map(name => {
   const start = code.indexOf(`function ${name}(`);
   const end = code.indexOf('\n', start);

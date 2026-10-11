@@ -1,5 +1,13 @@
 # Chronizo OET Changelog
 
+## α81 — Import dużych projektów
+
+- Po przekroczeniu limitu localStorage zapis przechodzi do IndexedDB i zachowuje wszystkie dotychczasowe projekty.
+- Import czeka na zakończenie zapisu; nieudany zapis wycofuje nowy projekt.
+- Błąd formatu, odczytu pliku, zapisu i wyświetlenia mają osobne komunikaty.
+- Kolejka zapisów chroni przed nadpisaniem nowszego stanu starszym.
+
+
 ## α80 — Dodatkowe media i naturalna kolejność odcinków
 
 - Sortowanie według daty akcji i wydania rozstrzyga remisy naturalnie: odcinki 1, 2, 3… 10, 11.

@@ -1,0 +1,2955 @@
+{
+  "format": "chronizo-source-membership",
+  "version": 1,
+  "name": "Fox / X-Men universes",
+  "tag": "FOX-MEN",
+  "sourceSheets": [
+    "Multi. X-Men VO",
+    "Extended FoX VO",
+    "Strict FoX VO"
+  ],
+  "spreadsheetId": "1DkyVfe5nEIMg3a7W84CuZt2lqpcOiXNDUJSBNS2K7yo",
+  "retrievedAt": "2026-10-23",
+  "sources": [
+    {
+      "row": 152,
+      "date": "-3000 BC-",
+      "title": "X-Men '97 Season 2 Episode 3: Rise of Apocalypse (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 153,
+      "date": "-3000 BC-",
+      "title": "X-Men '97 Season 2 Episode 4: Rise of Apocalypse (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 4,
+      "date": "Oct, 1962",
+      "title": "X-Men: First Class",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 5,
+      "date": "Nov, 1968",
+      "title": "Legion Season 1 Episode 1: Chapter 1",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 6,
+      "date": "Nov, 1968",
+      "title": "Legion Season 1 Episode 2: Chapter 2",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 7,
+      "date": "Nov, 1968",
+      "title": "Legion Season 1 Episode 3: Chapter 3",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 8,
+      "date": "Nov, 1968",
+      "title": "Legion Season 1 Episode 4: Chapter 4",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 9,
+      "date": "Dec, 1968",
+      "title": "Legion Season 1 Episode 5: Chapter 5",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 10,
+      "date": "Dec, 1968",
+      "title": "Legion Season 1 Episode 6: Chapter 6",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 11,
+      "date": "Dec, 1968",
+      "title": "Legion Season 1 Episode 7: Chapter 7",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 12,
+      "date": "Dec, 1968",
+      "title": "Legion Season 1 Episode 8: Chapter 8",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 13,
+      "date": "Dec, 1968",
+      "title": "Legion Season 2 Episode 1: Chapter 9",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 14,
+      "date": "Jan, 1969",
+      "title": "Legion Season 2 Episode 2: Chapter 10",
+      "universe": "17040/19264",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 15,
+      "date": "Jan, 1969",
+      "title": "Legion Season 2 Episode 3: Chapter 11",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 16,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 4: Chapter 12",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 17,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 5: Chapter 13",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 18,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 6: Chapter 14",
+      "universe": "Various",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 19,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 7: Chapter 15",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 20,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 8: Chapter 16",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 21,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 9:  Chapter 17",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 22,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 10:  Chapter 18",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 23,
+      "date": "Feb, 1969",
+      "title": "Legion Season 2 Episode 11:  Chapter 19",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 24,
+      "date": "Apr, 1971",
+      "title": "Legion Season 3 Episode 1: Chapter 20",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 25,
+      "date": "Apr, 1971",
+      "title": "Legion Season 3 Episode 2: Chapter 21",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 26,
+      "date": "Apr, 1971",
+      "title": "Legion Season 3 Episode 3: Chapter 22",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 27,
+      "date": "May, 1971",
+      "title": "Legion Season 3 Episode 4: Chapter 23",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 28,
+      "date": "May, 1971",
+      "title": "Legion Season 3 Episode 5: Chapter 24",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 29,
+      "date": "May, 1971",
+      "title": "Legion Season 3 Episode 6: Chapter 25",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 30,
+      "date": "-",
+      "title": "Legion Season 3 Episode 7: Chapter 26",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 31,
+      "date": "-",
+      "title": "Legion Season 3 Episode 8: Chapter 27",
+      "universe": "17040",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 5,
+      "date": "Feb, 1973",
+      "title": "X-Men: Days of Future Past",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 6,
+      "date": "Mar, 1979",
+      "title": "X-Men Origins: Wolverine",
+      "universe": "10005✩",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 36,
+      "date": "Aug, 1979",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 5: The Origin of the Spider-Friends",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 37,
+      "date": "Sep, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 1: The Triumph of the Green Goblin",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 38,
+      "date": "Sep, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 2: The Crime of All Centuries",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 39,
+      "date": "Sep, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 3: The Fantastic Mr. Frump",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 40,
+      "date": "Oct, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 4: Sunfire",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 41,
+      "date": "Oct, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 5: Swarm",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 42,
+      "date": "Oct, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 6: Seven Little Superheroes",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 43,
+      "date": "Oct, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 7: Video-Man",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 44,
+      "date": "Oct, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 8: The Prison Plot",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 45,
+      "date": "Nov, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 9: Spidey Goes Hollywood",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 46,
+      "date": "Nov, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 10: The Vengeance of Loki!",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 47,
+      "date": "Nov, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 11: Knights & Demons",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 48,
+      "date": "Nov, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 12: Pawns of the Kingpin",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 49,
+      "date": "Dec, 1981",
+      "title": "Spider-Man and His Amazing Friends Season 1 Episode 13: The Crime of all Centuries",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 50,
+      "date": "Sep, 1982",
+      "title": "Spider-Man and His Amazing Friends Season 2 Episode 1: The Origin of Iceman",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 51,
+      "date": "Sep, 1982",
+      "title": "Spider-Man and His Amazing Friends Season 2 Episode 2: Along Came Spidey",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 52,
+      "date": "Oct, 1982",
+      "title": "Spider-Man and His Amazing Friends Season 2 Episode 3: A Firestar Is Born",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 7,
+      "date": "Jul, 1983",
+      "title": "X-Men: Apocalypse",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 54,
+      "date": "Sep, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 1: Spider-Man: Unmasked!",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 55,
+      "date": "Sep, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 2: The Bride of Dracula!",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 56,
+      "date": "Oct, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 3: The Education of a Superhero",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 57,
+      "date": "Oct, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 4: Attack of the Arachnoid",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 58,
+      "date": "Oct, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 6: Spidey Meets the Girl from Tomorrow",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 59,
+      "date": "Oct, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 7: The X-Men Adventure",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 60,
+      "date": "Nov, 1983",
+      "title": "Spider-Man and His Amazing Friends Season 3 Episode 8: Mission: Save the Guardstar",
+      "universe": "8107",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 61,
+      "date": "Sep, 1989",
+      "title": "X-Men: Pryde of the X-Men",
+      "universe": "652975",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 62,
+      "date": "Jan, 1992",
+      "title": "X-Men '92 Season 1 Episode 1: Night of the Sentinels (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 63,
+      "date": "Jan, 1992",
+      "title": "X-Men '92 Season 1 Episode 2: Night of the Sentinels (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 64,
+      "date": "Jan, 1992",
+      "title": "X-Men '92 Season 1 Episode 3: Enter Magneto",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 65,
+      "date": "Jan, 1992",
+      "title": "X-Men '92 Season 1 Episode 4: Deadly Reunions",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 66,
+      "date": "Jan, 1992",
+      "title": "X-Men '92 Season 1 Episode 5: Captive Hearts",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 67,
+      "date": "Feb, 1992",
+      "title": "X-Men '92 Season 1 Episode 6: Cold Vengeance",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 68,
+      "date": "Feb, 1992",
+      "title": "X-Men '92 Season 1 Episode 7: Slave Island",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 69,
+      "date": "Feb, 1992",
+      "title": "X-Men '92 Season 1 Episode 8: The Unstoppable Juggernaut",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 70,
+      "date": "Feb, 1992",
+      "title": "X-Men '92 Season 1 Episode 9: The Cure",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 71,
+      "date": "Feb, 1992",
+      "title": "X-Men '92 Season 1 Episode 10: Come the Apocalypse",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 72,
+      "date": "May, 1992",
+      "title": "X-Men '92 Season 1 Episode 11: Days of Future Past (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 73,
+      "date": "May, 1992",
+      "title": "X-Men '92 Season 1 Episode 12: Days of Future Past (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 74,
+      "date": "May/Oct, 1992",
+      "title": "X-Men '92 Season 1 Episode 13: The Final Decision",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 8,
+      "date": "Oct, 1992",
+      "title": "X-Men: Dark Phoenix",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 76,
+      "date": "Jun, 1993",
+      "title": "X-Men '92 Season 2 Episode 1: 'Til Death Do Us Part (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 77,
+      "date": "Jun, 1993",
+      "title": "X-Men '92 Season 2 Episode 2:  'Til Death Do Us Part (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 78,
+      "date": "Jun, 1993",
+      "title": "X-Men '92 Season 2 Episode 3: Whatever It Takes",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 79,
+      "date": "Jun, 1993",
+      "title": "X-Men '92 Season 2 Episode 4: Red Dawn",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 80,
+      "date": "Jun, 1993",
+      "title": "X-Men '92 Season 2 Episode 5: Repo Man",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 81,
+      "date": "Jul, 1993",
+      "title": "X-Men '92 Season 2 Episode 6: X-Ternally Yours",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 82,
+      "date": "Jul, 1993",
+      "title": "X-Men '92 Season 2 Episode 7: Time Fugitives (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 83,
+      "date": "Jul, 1993",
+      "title": "X-Men '92 Season 2 Episode 8: Time Fugitives (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 84,
+      "date": "Jul, 1993",
+      "title": "X-Men '92 Season 2 Episode 9: A Rogue's Tale",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 85,
+      "date": "Aug, 1993",
+      "title": "X-Men '92 Season 2 Episode 10: Beauty and the Beast",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 86,
+      "date": "Aug, 1993",
+      "title": "X-Men '92 Season 2 Episode 11: MojoVision",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 87,
+      "date": "Aug, 1993",
+      "title": "X-Men '92 Season 2 Episode 12: Reunion (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 88,
+      "date": "Aug, 1993",
+      "title": "X-Men '92 Season 2 Episode 13: Reunion (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 89,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 1: Out of the Past (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 90,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 2: Out of the Past (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 91,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 3: Phoenix Saga, Part 1: Sacrifice",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 92,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 4: Phoenix Saga, Part 2: The Dark Shroud",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 93,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 5: Phoenix Saga, Part 3: Cry of the Banshee",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 94,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 6: Phoenix Saga, Part 4: Starjammers",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 95,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 7: Phoenix Saga, Part 5: Child of Light",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 96,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 8: No Mutant is an Island",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 97,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 9: Obsession",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 98,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 10: Longshot",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 99,
+      "date": "Jan, 1994",
+      "title": "X-Men '92 Season 3 Episode 11: Cold Comfort",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 100,
+      "date": "Feb, 1994",
+      "title": "X-Men '92 Season 3 Episode 12: Savage Land, Savage Heart (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 101,
+      "date": "Feb, 1994",
+      "title": "X-Men '92 Season 3 Episode 13: Savage Land, Savage Heart (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 102,
+      "date": "Mar, 1994",
+      "title": "X-Men '92 Season 3 Episode 14: Dark Phoenix Saga, Part 1: Dazzled",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 103,
+      "date": "Mar, 1994",
+      "title": "X-Men '92 Season 3 Episode 15: Dark Phoenix Saga, Part 2: The Inner Circle",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 104,
+      "date": "Mar, 1994",
+      "title": "X-Men '92 Season 3 Episode 16: Dark Phoenix Saga, Part 3: Cry of the Banshee",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 105,
+      "date": "Mar, 1994",
+      "title": "X-Men '92 Season 3 Episode 17: Dark Phoenix Saga, Part 4: Starjammers",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 106,
+      "date": "Mar, 1994",
+      "title": "X-Men '92 Season 3 Episode 18: Orphans End",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 107,
+      "date": "Mar, 1994",
+      "title": "X-Men '92 Season 3 Episode 19: Love in Vain",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 108,
+      "date": "Jul, 1995",
+      "title": "X-Men '92 Season 4 Episode 1: The Juggernaut Returns",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 109,
+      "date": "Jul, 1995",
+      "title": "X-Men '92 Season 4 Episode 2: A Deal with the Devil",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 110,
+      "date": "Jul, 1995",
+      "title": "X-Men '92 Season 4 Episode 3: Sanctuary (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 111,
+      "date": "Jul, 1995",
+      "title": "X-Men '92 Season 4 Episode 4: Sanctuary (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 112,
+      "date": "Aug, 1995",
+      "title": "X-Men '92 Season 4 Episode 5: Xavier Remembers",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 113,
+      "date": "Aug, 1995",
+      "title": "X-Men '92 Season 4 Episode 6: Courage",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 114,
+      "date": "Aug, 1995",
+      "title": "X-Men '92 Season 4 Episode 7: Secrets, Not Long Buried",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 115,
+      "date": "Sep, 1995",
+      "title": "X-Men '92 Season 4 Episode 8: Nightcrawler",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 116,
+      "date": "Sep, 1995",
+      "title": "X-Men '92 Season 4 Episode 9: One Man's Worth (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 117,
+      "date": "Sep, 1995",
+      "title": "X-Men '92 Season 4 Episode 10: One Man's Worth (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 118,
+      "date": "Oct, 1995",
+      "title": "X-Men '92 Season 4 Episode 11: Proteus (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 119,
+      "date": "Oct, 1995",
+      "title": "X-Men '92 Season 4 Episode 12: Proteus (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 120,
+      "date": "Oct, 1995",
+      "title": "X-Men '92 Season 4 Episode 13: Family Ties",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 121,
+      "date": "Oct, 1995",
+      "title": "X-Men '92 Season 4 Episode 14: Bloodlines",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 122,
+      "date": "Nov, 1995",
+      "title": "X-Men '92 Season 4 Episode 16: Weapon X, Lies and Video Tape",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 123,
+      "date": "Nov, 1995",
+      "title": "X-Men '92 Season 4 Episode 15: Lotus and the Steel",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 124,
+      "date": "Dec, 1995",
+      "title": "X-Men '92 Season 4 Episode 17: Have Yourself a Morlock little X-Mas",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 125,
+      "date": "Jan, 1996",
+      "title": "X-Men '92 Season 4 Episode 16: Beyond Good and Evil, Part 1: The End of Time",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 126,
+      "date": "Jan, 1996",
+      "title": "X-Men '92 Season 4 Episode 17: Beyond Good and Evil, Part 2: Promise of Apocalypse",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 127,
+      "date": "Jan, 1996",
+      "title": "X-Men '92 Season 4 Episode 18: Beyond Good and Evil, Part 3: The Lazarus Chamber",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 128,
+      "date": "Jan, 1996",
+      "title": "X-Men '92 Season 4 Episode 19: Beyond Good and Evil, Part 4: End and Beginning",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 129,
+      "date": "Sep, 1996",
+      "title": "X-Men '92 Season 5 Episode 1: The Phalanx Covenant (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 130,
+      "date": "Sep, 1996",
+      "title": "X-Men '92 Season 5 Episode 2: The Phalanx Covenant (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 131,
+      "date": "Sep, 1996",
+      "title": "Generation X",
+      "universe": "700029",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 132,
+      "date": "Sep, 1996",
+      "title": "X-Men '92 Season 5 Episode 3: Storm Front (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 133,
+      "date": "Sep, 1996",
+      "title": "X-Men '92 Season 5 Episode 4: Storm Front (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 134,
+      "date": "Oct, 1996",
+      "title": "X-Men '92 Season 5 Episode 5: The Fifth Horseman",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 135,
+      "date": "Oct, 1996",
+      "title": "X-Men '92 Season 5 Episode 6: Jubilee's Fairytale Theater",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 136,
+      "date": "Oct, 1996",
+      "title": "X-Men '92 Season 5 Episode 7: Old Soldiers",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 137,
+      "date": "Nov, 1996",
+      "title": "X-Men '92 Season 5 Episode 8: Hidden Agendas",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 138,
+      "date": "Nov, 1996",
+      "title": "X-Men '92 Season 5 Episode 9: Descent",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 139,
+      "date": "Nov, 1996",
+      "title": "X-Men '92 Season 5 Episode 10: Graduation Day",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 140,
+      "date": "Oct, 1997",
+      "title": "X-Men '97 Season 1 Episode 1: To Me My X-Men",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 141,
+      "date": "Oct, 1997",
+      "title": "X-Men '97 Season 1 Episode 2: Mutant Liberation Begins",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 142,
+      "date": "Oct, 1997",
+      "title": "X-Men '97 Season 1 Episode 3: Fire Made Flesh",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 143,
+      "date": "Oct, 1997",
+      "title": "X-Men '97 Season 1 Episode 4: Motendo / Lifedeath (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 144,
+      "date": "Oct, 1997",
+      "title": "X-Men '97 Season 1 Episode 5: Remember It",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 145,
+      "date": "Oct, 1997",
+      "title": "X-Men '97 Season 1 Episode 6: Lifedeath (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 146,
+      "date": "Nov, 1997",
+      "title": "X-Men '97 Season 1 Episode 7: Bright Eyes",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 147,
+      "date": "Nov, 1997",
+      "title": "X-Men '97 Season 1 Episode 8: Tolerance is Extinction (Part 1)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 148,
+      "date": "Nov, 1997",
+      "title": "X-Men '97 Season 1 Episode 9: Tolerance is Extinction (Part 2)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 149,
+      "date": "Nov, 1997",
+      "title": "X-Men '97 Season 1 Episode 10: Tolerance is Extinction (Part 3)",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 150,
+      "date": "-3960-",
+      "title": "X-Men '97 Season 2 Episode 1: Days of Past Future",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 151,
+      "date": "Feb, 1998",
+      "title": "X-Men '97 Season 2 Episode 2: A Force to Be Reckoned With",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 154,
+      "date": "Jun, 1998",
+      "title": "X-Men '97 Season 2 Episode 5: Weapon X, Lies and DVDs",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 155,
+      "date": "Jun, 1998",
+      "title": "X-Men '97 Season 2 Episode 6: Danger.exe",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 156,
+      "date": "Jul, 1998",
+      "title": "X-Men '97 Season 2 Episode 7: Strange Land, Savage Heart",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 157,
+      "date": "Jul, 1998",
+      "title": "X-Men '97 Season 2 Episode 8: The Dead Man's Hand",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 158,
+      "date": "Jul, 1998",
+      "title": "X-Men '97 Season 2 Episode 9: Survival of the Fittest",
+      "universe": "92131",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 159,
+      "date": "Nov, 2000",
+      "title": "X-Men: Evolution Season 1 Episode 1: Strategy X",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 160,
+      "date": "Nov, 2000",
+      "title": "X-Men: Evolution Season 1 Episode 2: The X-Impulse",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 161,
+      "date": "Nov, 2000",
+      "title": "X-Men: Evolution Season 1 Episode 3: Rogue Recruit",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 162,
+      "date": "Nov, 2000",
+      "title": "X-Men: Evolution Season 1 Episode 4: Mutant Crush",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 9,
+      "date": "Dec, 2000",
+      "title": "X-Men",
+      "universe": "10005✩",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 164,
+      "date": "Dec, 2000",
+      "title": "X-Men: Evolution Season 1 Episode 5: Speed and Spyke",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 165,
+      "date": "Mar, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 6: Middleverse",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 166,
+      "date": "Mar, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 7: Turn of the Rogue",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 167,
+      "date": "Apr, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 8: SpykeCam",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 168,
+      "date": "Apr, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 9: Survival of the Fittest",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 169,
+      "date": "May, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 10: Shadowed Past",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 170,
+      "date": "May, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 11: Grim Reminder",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 171,
+      "date": "Jun, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 12: The Cauldron (Part 1)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 172,
+      "date": "Jun, 2001",
+      "title": "X-Men: Evolution Season 1 Episode 13: The Cauldron (Part 2)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 173,
+      "date": "Sep, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 1: Growing Pains",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 174,
+      "date": "Oct, 2001",
+      "title": "Mutant X Season 1 Episode 1: The Shock of the New",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 175,
+      "date": "Oct, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 2: Bada-Bing Bada-Boom",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 176,
+      "date": "Oct, 2001",
+      "title": "Mutant X Season 1 Episode 2: I Scream the Body Electric",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 177,
+      "date": "Oct, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 3: Power Surge",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 178,
+      "date": "Oct, 2001",
+      "title": "Mutant X Season 1 Episode 3: Russian Roulette",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 179,
+      "date": "Oct, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 4: Fun and Games",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 180,
+      "date": "Oct, 2001",
+      "title": "Mutant X Season 1 Episode 4: Fool for Love",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 181,
+      "date": "Oct, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 5: The Beast of Bayville",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 182,
+      "date": "Nov, 2001",
+      "title": "Mutant X Season 1 Episode 5: Kilohertz",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 183,
+      "date": "Nov, 2001",
+      "title": "Mutant X Season 1 Episode 6: The Meaning of Death",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 184,
+      "date": "Nov, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 6: Adrift",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 185,
+      "date": "Nov, 2001",
+      "title": "Mutant X Season 1 Episode 7: Lit Fuse",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 186,
+      "date": "Nov, 2001",
+      "title": "Mutant X Season 1 Episode 8: In the Presence of Mine Enemies",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 187,
+      "date": "Nov, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 7: African Storm",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 188,
+      "date": "Dec, 2001",
+      "title": "Mutant X Season 1 Episode 9: Crime of the New Century",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 189,
+      "date": "Dec, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 8: Joyride",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 190,
+      "date": "Dec 21-23, 2001",
+      "title": "X-Men: Evolution Season 2 Episode 9: On Angel's Wings",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 191,
+      "date": "Jan, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 10: Mindbender",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 192,
+      "date": "Jan, 2002",
+      "title": "Mutant X Season 1 Episode 10: Dark Star Rising",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 193,
+      "date": "Jan, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 11: Shadow Dance",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 194,
+      "date": "Jan, 2002",
+      "title": "Mutant X Season 1 Episode 11: Whiter Shade of Pale",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 195,
+      "date": "Jan, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 12: Retreat",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 196,
+      "date": "Jan, 2002",
+      "title": "Mutant X Season 1 Episode 12: Double Vision",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 197,
+      "date": "Jan, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 13: Walk on the Wild Side",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 198,
+      "date": "Jan, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 14: Operation Rebirth",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 199,
+      "date": "Feb, 2002",
+      "title": "Mutant X Season 1 Episode 13: Blood Ties",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 200,
+      "date": "Feb, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 15: The Hex Factor",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 201,
+      "date": "Feb, 2002",
+      "title": "Mutant X Season 1 Episode 14: Altered Ego",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 202,
+      "date": "Feb, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 16: Day of Reckoning (Part 1)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 203,
+      "date": "Feb, 2002",
+      "title": "X-Men: Evolution Season 2 Episode 17: Day of Reckoning (Part 2)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 204,
+      "date": "Feb, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 1: Day of Recovery",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 205,
+      "date": "Feb, 2002",
+      "title": "Mutant X Season 1 Episode 15: Lazarus Syndrome",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 206,
+      "date": "Feb, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 2: The Stuff of Heroes",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 207,
+      "date": "Feb, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 3: Mainstream",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 208,
+      "date": "Mar, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 4: The Stuff of Villains",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 209,
+      "date": "Mar, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 5: Blind Alley",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 210,
+      "date": "Mar, 2002",
+      "title": "Mutant X Season 1 Episode 16: Interface",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 211,
+      "date": "Mar, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 6: X-Treme Measures",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 212,
+      "date": "Mar, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 7: The Toad, the Witch and the Wardrobe",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 213,
+      "date": "Mar, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 13: Cruise Control",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 214,
+      "date": "Apr, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 8: Self Possessed",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 215,
+      "date": "Apr, 2002",
+      "title": "Mutant X Season 1 Episode 17: Presumed Guilty",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 216,
+      "date": "Apr, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 9: Under Lock and Key",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 217,
+      "date": "Apr, 2002",
+      "title": "Mutant X Season 1 Episode 18: Ex Marks the Spot",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 218,
+      "date": "Apr, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 10: X23",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 219,
+      "date": "May, 2002",
+      "title": "Mutant X Season 1 Episode 19: Nothing to Fear",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 220,
+      "date": "May, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 11: Dark Horizon (Part 1)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 221,
+      "date": "May, 2002",
+      "title": "X-Men: Evolution Season 3 Episode 12: Dark Horizon (Part 2)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 222,
+      "date": "May, 2002",
+      "title": "Mutant X Season 1 Episode 20: Deadly Desire",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 223,
+      "date": "May, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 1: Impact",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 224,
+      "date": "May, 2002",
+      "title": "Mutant X Season 1 Episode 21: A Breed Apart",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 225,
+      "date": "May, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 2: No Good Deed...",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 226,
+      "date": "May, 2002",
+      "title": "Mutant X Season 1 Episode 22: Dancing on the Razor",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 227,
+      "date": "Jun, 2002",
+      "title": "Mutant X Season 2 Episode 1: Past as Prologue",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 228,
+      "date": "Jun, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 3: Target X",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 229,
+      "date": "Jun, 2002",
+      "title": "Mutant X Season 2 Episode 2: Power Play",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 230,
+      "date": "Jun, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 4: Sins of the Son",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 231,
+      "date": "Jun, 2002",
+      "title": "Mutant X Season 2 Episode 3: Time Squared",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 232,
+      "date": "Jun, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 5: Uprising",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 233,
+      "date": "Jun, 2002",
+      "title": "Mutant X Season 2 Episode 4: Whose Woods These Are",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 234,
+      "date": "Jun, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 6: Cajun Spice",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 235,
+      "date": "Jun, 2002",
+      "title": "Mutant X Season 2 Episode 5: The Future Revealed",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 236,
+      "date": "Jul, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 7: Ghost of a Chance",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 237,
+      "date": "Jul, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 8: Ascension (Part 1)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 238,
+      "date": "Jul, 2002",
+      "title": "X-Men: Evolution Season 4 Episode 9: Ascension (Part 2)",
+      "universe": "11052",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 239,
+      "date": "Sep, 2002",
+      "title": "Mutant X Season 2 Episode 6: No Man Left Behind",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 240,
+      "date": "Sep, 2002",
+      "title": "Mutant X Season 2 Episode 7: Crossroads of the Soul",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 241,
+      "date": "Sep, 2002",
+      "title": "Mutant X Season 2 Episode 8: Sign from Above",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 242,
+      "date": "Sep, 2002",
+      "title": "Mutant X Season 2 Episode 9: Body and Soul",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 243,
+      "date": "Oct, 2002",
+      "title": "Mutant X Season 2 Episode 10: Understudy",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 244,
+      "date": "Oct, 2002",
+      "title": "Mutant X Season 2 Episode 11: The Grift",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 245,
+      "date": "Oct, 2002",
+      "title": "Mutant X Season 2 Episode 12: At Destiny's End",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 246,
+      "date": "Nov, 2002",
+      "title": "Mutant X Season 2 Episode 13: Within These Walls",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 247,
+      "date": "Nov, 2002",
+      "title": "Mutant X Season 2 Episode 14: Hard Time",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 248,
+      "date": "Nov, 2002",
+      "title": "Mutant X Season 2 Episode 15: Under the Cloak of War",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 249,
+      "date": "Dec, 2002",
+      "title": "Mutant X Season 2 Episode 16: Once Around",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 250,
+      "date": "Dec, 2002",
+      "title": "Mutant X Season 2 Episode 17: Final Judgment",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 251,
+      "date": "Dec, 2002",
+      "title": "Mutant X Season 2 Episode 18: Inferno",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 252,
+      "date": "Feb, 2003",
+      "title": "Mutant X Season 2 Episode 19: One Step Closer",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 253,
+      "date": "Feb, 2003",
+      "title": "Mutant X Season 2 Episode 20: Reality Check",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 254,
+      "date": "Mar, 2003",
+      "title": "Mutant X Season 2 Episode 21: Reawakening",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 255,
+      "date": "Mar, 2003",
+      "title": "Mutant X Season 2 Episode 22: Lest He Become",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 256,
+      "date": "Mar, 2003",
+      "title": "Mutant X Season 3 Episode 1: Into the Moonless Night",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 10,
+      "date": "Aug, 2003",
+      "title": "X2: X-Men United",
+      "universe": "10005✩",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 258,
+      "date": "Oct, 2003",
+      "title": "Mutant X Season 3 Episode 2: Wages of Sin",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 259,
+      "date": "Nov, 2003",
+      "title": "Mutant X Season 3 Episode 3: The Breed",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 260,
+      "date": "Nov, 2003",
+      "title": "Mutant X Season 3 Episode 4: Where Evil Dwells",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 261,
+      "date": "Nov, 2003",
+      "title": "Mutant X Season 3 Episode 5: The Taking of Crows",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 262,
+      "date": "Dec, 2003",
+      "title": "Mutant X Season 3 Episode 6: Shadows of Darkness",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 263,
+      "date": "Dec, 2003",
+      "title": "Mutant X Season 3 Episode 7: The Hand of God",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 264,
+      "date": "Jan, 2004",
+      "title": "Mutant X Season 3 Episode 8: Wasteland",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 265,
+      "date": "Jan, 2004",
+      "title": "Mutant X Season 3 Episode 9: No Exit",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 266,
+      "date": "Jan, 2004",
+      "title": "Mutant X Season 3 Episode 10: Brother's Keeper",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 267,
+      "date": "Jan, 2004",
+      "title": "Mutant X Season 3 Episode 11: Possibilities",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 268,
+      "date": "Feb, 2004",
+      "title": "Mutant X Season 3 Episode 12: Conspiracy Theory",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 269,
+      "date": "Feb, 2004",
+      "title": "Mutant X Season 3 Episode 13: Art of Attraction",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 270,
+      "date": "Feb, 2004",
+      "title": "Mutant X Season 3 Episode 14: A Normal Life",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 271,
+      "date": "Mar, 2004",
+      "title": "Mutant X Season 3 Episode 15: Divided Loyalties",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 272,
+      "date": "Mar, 2004",
+      "title": "Mutant X Season 3 Episode 16: Age of Innocence",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 273,
+      "date": "Mar, 2004",
+      "title": "Mutant X Season 3 Episode 17: She's Come Undone",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 274,
+      "date": "Mar, 2004",
+      "title": "Mutant X Season 3 Episode 18: In Between",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 275,
+      "date": "Apr, 2004",
+      "title": "Mutant X Season 3 Episode 19: Dream Lover",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 276,
+      "date": "Apr, 2004",
+      "title": "Mutant X Season 3 Episode 20: The Prophecy",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 277,
+      "date": "Apr, 2004",
+      "title": "Mutant X Season 3 Episode 21: Cirque des Merveilles",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 278,
+      "date": "Apr, 2004",
+      "title": "Mutant X Season 3 Episode 22: The Assault",
+      "universe": "704509",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 11,
+      "date": "Jul, 2006",
+      "title": "X-Men: The Last Stand",
+      "universe": "10005✩",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 280,
+      "date": "Jan, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 1: Hindsight (Part 1)",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 281,
+      "date": "Jan, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 2: Hindsight (Part 2)",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 282,
+      "date": "Jan, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 3: Hindsight (Part 3)",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 283,
+      "date": "Jan, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 4: Overflow",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 284,
+      "date": "Feb, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 5: Thieves Gambit",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 285,
+      "date": "Feb, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 6: Ex-Calibre",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 286,
+      "date": "Feb, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 7: Wolverine vs. Hulk",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 287,
+      "date": "Feb, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 8: Timb Bomb",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 288,
+      "date": "Feb, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 9: Future X",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 289,
+      "date": "Mar, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 10: Greetings from Genosha",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 290,
+      "date": "Mar, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 11: Past Discretions",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 291,
+      "date": "Mar, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 12: eXcessive Force",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 292,
+      "date": "Apr, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 13: Battle Lines",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 293,
+      "date": "Apr, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 14: Stolen Lives",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 294,
+      "date": "Apr, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 15: Hunting Grounds",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 295,
+      "date": "Apr, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 16: Badlands",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 296,
+      "date": "Apr, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 17: Code of Conduct",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 297,
+      "date": "Apr, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 18: Backlash",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 298,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 19: Guardians Angel",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 299,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 20: Breakdown",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 300,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 21: Rover",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 301,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 22: Aces & Eights",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 302,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 23: Shades of Grey",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 303,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 24: Foresight (Part 1)",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 304,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 25: Foresight (Part 2)",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 305,
+      "date": "May, 2009",
+      "title": "Wolverine and the X-Men Season 1 Episode 26: Foresight (Part 3)",
+      "universe": "8096",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 306,
+      "date": "Sep, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 1: Enter Iron Man",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 307,
+      "date": "Sep, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 2: Going Nuclear",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 308,
+      "date": "Sep, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 3: Reap The Whirlwind",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 309,
+      "date": "Sep, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 4: A Twist Of Memory, A Turn Of Mind",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 310,
+      "date": "Sep, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 5: Outbreak",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 311,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 6: Technical Difficulties",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 312,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 7: At The Mercy Of My Friends",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 313,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 8: Daughter Of The Zodiac",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 314,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 9: A Duel Of Iron",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 315,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 10: Casualties Of War",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 316,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 11: Beginning Of The End",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 317,
+      "date": "Oct, 2010",
+      "title": "Iron Man (2010) Season 1 Episode 12: Endgame",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 318,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 1: Mariko",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 319,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 2: Yukio",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 320,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 3: Kikyo",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 321,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 4: Omega Red",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 322,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 5: Asano",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 323,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 6: Min",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 324,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 7: Vadhaka",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 325,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 8: Koh",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 326,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 9: Hell Road",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 327,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 10: Shingen",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 328,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 11: Kurohagi",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 329,
+      "date": "Nov, 2010",
+      "title": "Wolverine (2011) Season 1 Episode 12: Logan",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 330,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 1: The Return",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 331,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 2: U-Men",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 332,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 3: Armor",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 333,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 4: Transformation",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 334,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 5: Power",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 335,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 6: Conflict",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 336,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 7: Betrayal",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 337,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 8: Lost",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 338,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 9: Revelations",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 339,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 10: Countdown",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 340,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 11: Revenge",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 341,
+      "date": "Dec, 2010",
+      "title": "X-Men (2011) Season 1 Episode 12: Destiny",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 342,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 1: His Name Is Blade",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 343,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 2: Mad World",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 344,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 3: Vampire Hunter",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 345,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 4: Childhood Days",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 346,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 5: Island Lights",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 347,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 6: The Magic Medicine Man",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 348,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 7: Day Walker and Mutant",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 349,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 8: Eternal Apocalypse",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 350,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 9: Teacher's and Student's Bonds",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 351,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 10: To the Vortex of Sorrows",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 352,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 11: Partner",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 353,
+      "date": "Jul, 2011",
+      "title": "Blade (2011) Season 1 Episode 12: The Other Side of Darkness",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 354,
+      "date": "Aug, 2011",
+      "title": "Iron Man: Rise of Technovore",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 355,
+      "date": "Sep, 2011",
+      "title": "Avengers Confidential: Black Widow & Punisher",
+      "universe": "101001",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 12,
+      "date": "Jun, 2013",
+      "title": "The Wolverine",
+      "universe": "10005✩",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 40,
+      "date": "Aug, 2015",
+      "title": "Deadpool Shorts Season 1 Episode 1: Deadpool Trailer Trailer",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 41,
+      "date": "Mar, 2016",
+      "title": "Deadpool Shorts Season 1 Episode 2: Best. Review. EVER.",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 42,
+      "date": "Mar, 2016",
+      "title": "Deadpool Shorts Season 1 Episode 3: Watch Our Awkward Interview with Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 43,
+      "date": "May, 2016",
+      "title": "Deadpool Shorts Season 1 Episode 4: Need a Little Hand? Try Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 44,
+      "date": "May, 2016",
+      "title": "The Gifted Season 1 Episode 1: eXposed",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 45,
+      "date": "May, 2016",
+      "title": "The Gifted Season 1 Episode 2: rX",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 46,
+      "date": "May, 2016",
+      "title": "The Gifted Season 1 Episode 3: eXodus",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 47,
+      "date": "May, 2016",
+      "title": "The Gifted Season 1 Episode 4: eXit strategy",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 48,
+      "date": "May, 2016",
+      "title": "The Gifted Season 1 Episode 5: boXed in",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 49,
+      "date": "Jun, 2016",
+      "title": "The Gifted Season 1 Episode 6: got your siX",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 50,
+      "date": "Jun, 2016",
+      "title": "The Gifted Season 1 Episode 7: eXtreme measures",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 51,
+      "date": "Jun, 2016",
+      "title": "The Gifted Season 1 Episode 8: threat of eXtinction",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 52,
+      "date": "Jun, 2016",
+      "title": "The Gifted Season 1 Episode 9: outFox",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 53,
+      "date": "Jun, 2016",
+      "title": "The Gifted Season 1 Episode 10: eXploited",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 13,
+      "date": "Jul, 2016",
+      "title": "Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 55,
+      "date": "Jul, 2016",
+      "title": "The Gifted Season 1 Episode 11: 3 X 1",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 56,
+      "date": "Jul, 2016",
+      "title": "The Gifted Season 1 Episode 12: eXtraction",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 57,
+      "date": "Jul, 2016",
+      "title": "The Gifted Season 1 Episode 13: X-roads",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 58,
+      "date": "Oct, 2016",
+      "title": "Deadpool Shorts Season 1 Episode 5: How Deadpool Spent Halloween",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 59,
+      "date": "Dec, 2016",
+      "title": "Deadpool Shorts Season 1 Episode 6: The 'Pool Log",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 60,
+      "date": "Jan, 2017",
+      "title": "Deadpool Shorts Season 1 Episode 7: Rootin' For Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 61,
+      "date": "Jan, 2017",
+      "title": "The Gifted Season 2 Episode 1: eMergence",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 62,
+      "date": "Jan, 2017",
+      "title": "The Gifted Season 2 Episode 2: unMoored",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 63,
+      "date": "Jan, 2017",
+      "title": "The Gifted Season 2 Episode 3: coMplications",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 64,
+      "date": "Feb, 2017",
+      "title": "Deadpool Shorts Season 1 Episode 8: Manchester United Dream",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 65,
+      "date": "Jan, 2017",
+      "title": "The Gifted Season 2 Episode 4: outMatched",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 66,
+      "date": "Feb, 2017",
+      "title": "The Gifted Season 2 Episode 5: afterMath",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 67,
+      "date": "Feb, 2017",
+      "title": "The Gifted Season 2 Episode 6: iMprint",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 68,
+      "date": "Feb, 2017",
+      "title": "The Gifted Season 2 Episode 7: no Mercy",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 69,
+      "date": "Feb, 2017",
+      "title": "The Gifted Season 2 Episode 8: the dreaM",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 70,
+      "date": "Feb, 2017",
+      "title": "The Gifted Season 2 Episode 9: gaMe changer",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 71,
+      "date": "Feb, 2017",
+      "title": "The Gifted Season 2 Episode 10: eneMy of My eneMy",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 72,
+      "date": "Mar, 2017",
+      "title": "The Gifted Season 2 Episode 11: meMento",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 73,
+      "date": "Mar, 2017",
+      "title": "The Gifted Season 2 Episode 12: hoMe",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 74,
+      "date": "Mar, 2017",
+      "title": "The Gifted Season 2 Episode 13: teMpted",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 75,
+      "date": "Mar, 2017",
+      "title": "The Gifted Season 2 Episode 14: calaMity",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 76,
+      "date": "Mar, 2017",
+      "title": "The Gifted Season 2 Episode 15: Monsters",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 77,
+      "date": "Mar, 2017",
+      "title": "The Gifted Season 2 Episode 16: oMens",
+      "universe": "17372",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 78,
+      "date": "Apr, 2017",
+      "title": "Deadpool Shorts Season 1 Episode 9: Touch Yourself Tonight",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 79,
+      "date": "May, 2017",
+      "title": "Deadpool Shorts Season 1 Episode 10: Cat-Astrophe Averted",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 14,
+      "date": "May, 2017",
+      "title": "Short: Deadpool - No Good Deed",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 81,
+      "date": "Nov, 2017",
+      "title": "Deadpool Shorts Season 2 Episode 1: Wet on Wet",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 82,
+      "date": "Mar, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 2: Celine Dion - Ashes",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 83,
+      "date": "Mar, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 3: Behind the Scenes of Ashes with Celine Dion",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 15,
+      "date": "Mar, 2018",
+      "title": "Deadpool 2",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 85,
+      "date": "Mar, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 4: Don't Skimp on the Powder",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 86,
+      "date": "Apr, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 5: A Very Special Message from Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 87,
+      "date": "Apr, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 6: Another Awkward Interview with Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 88,
+      "date": "Apr, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 7: My Full Interview with Deadpool",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 89,
+      "date": "May, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 8: Eur Missing a Country",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 90,
+      "date": "May, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 9: Deadpool Takes Over Stephen's Monologue",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 91,
+      "date": "Jun, 2018",
+      "title": "Deadpool Shorts Season 2 Episode 10: With Apologies to David Beckham",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 16,
+      "date": "Oct, 2021",
+      "title": "Deadpool Maximum Reactions Season 1 Episode 1: Channel Trailer",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 17,
+      "date": "Oct, 2021",
+      "title": "Deadpool Maximum Reactions Season 1 Episode 2: Deadpool and Korg React",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 18,
+      "date": "Oct, 2021",
+      "title": "Deadpool Maximum Reactions Season 1 Episode 3: Deadpool and Pongo React",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 95,
+      "date": "Sep, 2022",
+      "title": "Deadpool Shorts Season 3 Episode 1: Deadpool Update",
+      "universe": "TRN-1511",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 96,
+      "date": "Sep, 2022",
+      "title": "Deadpool Shorts Season 3 Episode 2: Deadpool Update, Part Hugh",
+      "universe": "TRN-1511",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 19,
+      "date": "Aug, 2023",
+      "title": "X-Men: Days of Future Past",
+      "universe": "10005✩",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 98,
+      "date": "Oct, 2024",
+      "title": "Deadpool Shorts Season 3 Episode 3: Deadpool & Wolverine Popcorn Bucket",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 20,
+      "date": "Nov, 2024",
+      "title": "Deadpool & Wolverine",
+      "universe": "Multiversal",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 100,
+      "date": "Jan, 2025",
+      "title": "Deadpool Shorts Season 3 Episode 4: Welcome to Wrexham, Emmy",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 101,
+      "date": "Jun, 2025",
+      "title": "Deadpool Shorts Season 3 Episode 5: Deadpool and Blind Al Have a Big Announcement",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 102,
+      "date": "Jul, 2025",
+      "title": "Deadpool Shorts Season 3 Episode 6: Deadpool & Wolverine & The Bachelorette",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 103,
+      "date": "Aug, 2025",
+      "title": "Deadpool Shorts Season 3 Episode 7: Jack in the Box",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 104,
+      "date": "Dec, 2025",
+      "title": "Deadpool Shorts Season 3 Episode 8: Deadpool and Kidpool Help SickKids",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 21,
+      "date": "Aug, 2026",
+      "title": "Short: Laura.mov",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 22,
+      "date": "Aug, 2026",
+      "title": "The New Mutants",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 23,
+      "date": "Dec, 2026",
+      "title": "The Marvels",
+      "universe": "10005*",
+      "tag": "FOX-MEN"
+    },
+    {
+      "row": 24,
+      "date": "Sep, 2029",
+      "title": "Logan",
+      "universe": "10005",
+      "tag": "FOX-MEN"
+    }
+  ]
+}

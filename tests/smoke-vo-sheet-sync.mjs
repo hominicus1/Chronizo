@@ -8,13 +8,13 @@ import {applyVoSheetOrder, sheetOrderSources, insertAdditionalSources} from '../
 const read = path => JSON.parse(fs.readFileSync(new URL(path, import.meta.url), 'utf8'));
 execFileSync(process.execPath, ['scripts/build-complete-project.mjs'], {cwd: new URL('..', import.meta.url)});
 const pack = read('../data/vo-sheet-order.json');
-const project = read('../Road-to-Doomsday-Biblia-Chronizo-alpha80.chronizo.json').project;
+const project = read('../Road-to-Doomsday-Biblia-Chronizo-alpha83.chronizo.json').project;
 const before = structuredClone(project);
 applyVoSheetOrder(project, pack);
 assert.deepEqual(project.sources.map(({sheetEntries, sheetOrderSynced, ...source}) => source), before.sources.map(({sheetEntries, sheetOrderSynced, ...source}) => source));
 assert.deepEqual(project.events, before.events);
 
-const code = fs.readFileSync(new URL('../js/workbench-alpha82.js', import.meta.url), 'utf8');
+const code = fs.readFileSync(new URL('../js/workbench-alpha83.js', import.meta.url), 'utf8');
 const functions = ['filteredSources', 'sourceSheetRow', 'sourceCatalogCompare'].map(name => {
   const start = code.indexOf(`function ${name}(`);
   const end = code.indexOf('\n', start);

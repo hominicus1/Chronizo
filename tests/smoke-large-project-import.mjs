@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 execFileSync(process.execPath,['scripts/build-complete-project.mjs'],{cwd:new URL('..',import.meta.url)});
 
-const project = JSON.parse(fs.readFileSync(new URL('../Road-to-Doomsday-Biblia-Chronizo-alpha80.chronizo.json',import.meta.url),'utf8'));
+const project = JSON.parse(fs.readFileSync(new URL('../Road-to-Doomsday-Biblia-Chronizo-alpha83.chronizo.json',import.meta.url),'utf8'));
 const legacy = {projects:[structuredClone(project.project)], activeProjectId:project.project.id};
 let local = JSON.stringify(legacy), durable, failWrite = false;
 globalThis.localStorage = {
@@ -46,7 +46,7 @@ failWrite=true;
 await assert.rejects(storage.saveWorkbenchState({...loaded,activeProjectId:'broken'}));
 assert.equal(durable.activeProjectId,'second','Failed transaction preserves the last committed state');
 
-const code=fs.readFileSync(new URL('../js/workbench-alpha82.js',import.meta.url),'utf8');
+const code=fs.readFileSync(new URL('../js/workbench-alpha83.js',import.meta.url),'utf8');
 const start=code.indexOf('function importProjectFile('), importer=code.slice(start,code.indexOf('\n',start));
 const alerts=[];let read, saveOk=true, renderCount=0;
 const state=structuredClone(legacy);

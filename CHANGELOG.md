@@ -1,5 +1,13 @@
 # Chronizo OET Changelog
 
+## α83 — Pełne EMCU i Fox/X-Men
+
+- Zsynchronizowano Multiversal VO, Extended VO, Strict VO i Release Order ze stanem arkusza z 23 października 2026.
+- `#EMCU` wynika teraz z pełnego arkusza Extended MCU, a nie wyłącznie z uproszczonego Extended VO.
+- Dodano `#FOX-MEN` dla źródeł należących do osi Fox/X-Men.
+- Istniejąca Biblia automatycznie dostaje nowe źródła i oznaczenia bez kasowania statusów, wydarzeń ani ręcznych dat premier.
+- `X-Men: First Class` ma `#MVO`, `#EMCU` i `#FOX-MEN`.
+
 ## α82 — Zapis źródła zachowuje widok
 
 - Zmiana statusu lub innych danych źródła pozostawia użytkownika na aktualnej zakładce.

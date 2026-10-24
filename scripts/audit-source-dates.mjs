@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
 const packFiles=['data/extended-vo.sources.json','data/multiversal-vo.sources.json'];
-const acceptedDate=/^(?:[A-Z][a-z]{2}(?:\/[A-Z][a-z]{2})?(?: \d{1,2})?, \d{4}|\d{4}|\d{4}-\d{4}|\d+(?:\.\d+)? (?:BC|AD)|Outside(?: of)? Time(?: and Space)?|Concurrent|-TVA-|-)$/;
+const acceptedDate=/^(?:[A-Z][a-z]{2}(?:\/[A-Z][a-z]{2})?(?: \d{1,2})?, \d{4}|\d{4}|\d{4}-\d{4}|\d+(?:\.\d+)? (?:BC|AD)|Outside(?: of)? Time(?: and Space)?|Concurrent|-.+-|-)$/;
 let total=0;
 
 for(const file of packFiles){

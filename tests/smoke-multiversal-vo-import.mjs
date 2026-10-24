@@ -6,9 +6,9 @@ const extended=JSON.parse(fs.readFileSync(new URL('../data/extended-vo.sources.j
 
 assert.equal(pack.format,'chronizo-source-pack');
 assert.equal(pack.name,'Multiversal VO');
-assert.equal(pack.rowCount,3282);
-assert.equal(pack.sources.length,3282);
-assert.equal(new Set(pack.sources.map(source=>source.importKey)).size,3282);
+assert.equal(pack.rowCount,3294);
+assert.equal(pack.sources.length,3294);
+assert.equal(new Set(pack.sources.map(source=>source.importKey)).size,3294);
 assert.ok(pack.sources.every(source=>source.title&&source.date&&source.universe));
 assert.ok(pack.sources.every(source=>source.status==='Nierozpoczęte'));
 assert.ok(pack.sources.every(source=>source.tags.includes('MVO')));
@@ -19,6 +19,6 @@ assert.equal(firstMain.universe,'199999');
 const normalize=value=>String(value||'').toLowerCase().replace(/\s+/g,' ').trim();
 const identity=source=>[normalize(source.title),normalize(source.date),normalize(source.universe)].join('|');
 const extendedKeys=new Set(extended.sources.map(identity));
-assert.equal(pack.sources.filter(source=>extendedKeys.has(identity(source))).length,831);
+assert.equal(pack.sources.filter(source=>extendedKeys.has(identity(source))).length,833);
 
 console.log('Chronizo Multiversal VO source pack: OK');

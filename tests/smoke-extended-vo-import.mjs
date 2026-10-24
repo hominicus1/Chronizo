@@ -5,9 +5,9 @@ const pack=JSON.parse(fs.readFileSync(new URL('../data/extended-vo.sources.json'
 
 assert.equal(pack.format,'chronizo-source-pack');
 assert.equal(pack.name,'Extended VO');
-assert.equal(pack.rowCount,834);
-assert.equal(pack.sources.length,834);
-assert.equal(new Set(pack.sources.map(source=>source.importKey)).size,834);
+assert.equal(pack.rowCount,836);
+assert.equal(pack.sources.length,836);
+assert.equal(new Set(pack.sources.map(source=>source.importKey)).size,836);
 assert.ok(pack.sources.every(source=>source.title&&source.date&&source.universe));
 assert.ok(pack.sources.every(source=>source.status==='Nierozpoczęte'));
 assert.ok(pack.sources.every(source=>source.tags.includes('EMCU')));

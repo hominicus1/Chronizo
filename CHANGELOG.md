@@ -1,5 +1,13 @@
 # Chronizo OET Changelog
 
+## α84 — Projekt Marvel na każdym urządzeniu
+
+- Dodano przycisk „Otwórz projekt Marvel”, który pobiera pełną Biblię z GitHuba.
+- Ponowne użycie przycisku otwiera istniejącą lokalną kopię zamiast tworzyć duplikat.
+- Import nie nadpisuje pozostałych projektów ani notatek użytkownika.
+- Przycisk jest tymczasowym narzędziem technicznym i zostanie ukryty przed publicznym udostępnieniem Chronizo.
+
+
 ## α83 — Pełne EMCU i Fox/X-Men
 
 - Zsynchronizowano Multiversal VO, Extended VO, Strict VO i Release Order ze stanem arkusza z 23 października 2026.

@@ -1,11 +1,11 @@
 {
   "format": "chronizo-source-pack",
-  "version": 4,
+  "version": 5,
   "name": "Extended VO",
   "sourceSheet": "Extended VO",
   "spreadsheetId": "1DkyVfe5nEIMg3a7W84CuZt2lqpcOiXNDUJSBNS2K7yo",
-  "generatedAt": "2026-10-23",
-  "rowCount": 836,
+  "generatedAt": "2026-10-29",
+  "rowCount": 842,
   "sources": [
     {
       "importKey": "extended-vo-4",
@@ -11642,13 +11642,125 @@
       ]
     },
     {
-      "importKey": "extended-vo-835",
+      "importKey": "extended-vo-837",
       "row": 835,
-      "title": "Wonderman Season 1 Episode 8: Yucca Valley",
+      "title": "VisionQuest Season 1 Episode 1: No Strings",
       "type": "Serial",
       "status": "Nierozpoczęte",
       "date": "May, 2028",
-      "dateApprox": true,
+      "dateApprox": false,
+      "releaseDate": "2026-10-13",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-838",
+      "row": 836,
+      "title": "VisionQuest Season 1 Episode 2: Theseus",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-10-13",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-visionquest-s1e3",
+      "row": 837,
+      "title": "VisionQuest Season 1 Episode 3: Reboot",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-10-20",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-visionquest-s1e4",
+      "row": 838,
+      "title": "VisionQuest Season 1 Episode 4: Malware",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-10-20",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-visionquest-s1e5",
+      "row": 839,
+      "title": "VisionQuest Season 1 Episode 5: Firewall",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-10-27",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-visionquest-s1e6",
+      "row": 840,
+      "title": "VisionQuest Season 1 Episode 6: Deadlock",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-10-27",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-visionquest-s1e7",
+      "row": 841,
+      "title": "VisionQuest Season 1 Episode 7",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-11-03",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-visionquest-s1e8",
+      "row": 842,
+      "title": "VisionQuest Season 1 Episode 8",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "May, 2028",
+      "dateApprox": false,
+      "releaseDate": "2026-11-10",
+      "universe": "199999",
+      "tags": [
+        "EMCU"
+      ]
+    },
+    {
+      "importKey": "extended-vo-835",
+      "row": 843,
+      "title": "Wonderman Season 1 Episode 8: Yucca Valley",
+      "type": "Serial",
+      "status": "Nierozpoczęte",
+      "date": "Sep, 2028",
+      "dateApprox": false,
       "releaseDate": "",
       "universe": "199999",
       "tags": [
@@ -11657,7 +11769,7 @@
     },
     {
       "importKey": "extended-vo-836",
-      "row": 836,
+      "row": 844,
       "title": "Spider-Man: Brand New Day",
       "type": "Film",
       "status": "Nierozpoczęte",
@@ -11670,36 +11782,8 @@
       ]
     },
     {
-      "importKey": "extended-vo-837",
-      "row": 837,
-      "title": "VisionQuest Season 1 Episode 1: No Strings",
-      "type": "Serial",
-      "status": "Nierozpoczęte",
-      "date": "Nov, 2028",
-      "dateApprox": false,
-      "releaseDate": "",
-      "universe": "199999",
-      "tags": [
-        "EMCU"
-      ]
-    },
-    {
-      "importKey": "extended-vo-838",
-      "row": 838,
-      "title": "VisionQuest Season 1 Episode 2: Theseus",
-      "type": "Serial",
-      "status": "Nierozpoczęte",
-      "date": "Nov, 2028",
-      "dateApprox": false,
-      "releaseDate": "",
-      "universe": "199999",
-      "tags": [
-        "EMCU"
-      ]
-    },
-    {
       "importKey": "extended-vo-839",
-      "row": 839,
+      "row": 845,
       "title": "Logan",
       "type": "Film",
       "status": "Nierozpoczęte",

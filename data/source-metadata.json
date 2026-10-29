@@ -1,7 +1,7 @@
 {
   "format": "chronizo-source-metadata",
   "version": 1,
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-29",
   "source": {
     "spreadsheetId": "1DkyVfe5nEIMg3a7W84CuZt2lqpcOiXNDUJSBNS2K7yo",
     "universeSheet": "Universe Index",
@@ -28095,6 +28095,38 @@
       "title": "Iron Man and His Awesome Friends Season 1 Episode 35b: Ultron Traps The Iron Friends",
       "type": "Disney+",
       "length": "13",
+      "where": "Disney+"
+    },
+    {
+      "row": 3262,
+      "date": "Oct 20, 2026",
+      "title": "VisionQuest Season 1 Episode 3: Reboot",
+      "type": "Disney+",
+      "length": "54",
+      "where": "Disney+"
+    },
+    {
+      "row": 3263,
+      "date": "Oct 20, 2026",
+      "title": "VisionQuest Season 1 Episode 4: Malware",
+      "type": "Disney+",
+      "length": "51",
+      "where": "Disney+"
+    },
+    {
+      "row": 3264,
+      "date": "Oct 27, 2026",
+      "title": "VisionQuest Season 1 Episode 5: Firewall",
+      "type": "Disney+",
+      "length": "48",
+      "where": "Disney+"
+    },
+    {
+      "row": 3265,
+      "date": "Oct 27, 2026",
+      "title": "VisionQuest Season 1 Episode 6: Deadlock",
+      "type": "Disney+",
+      "length": "57",
       "where": "Disney+"
     }
   ]

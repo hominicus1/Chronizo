@@ -1,11 +1,11 @@
 {
   "format": "chronizo-strict-vo-membership",
-  "version": 2,
+  "version": 3,
   "name": "Strict Marvel Universe",
   "tag": "SMU",
   "sourceSheet": "Strict VO",
   "spreadsheetId": "1DkyVfe5nEIMg3a7W84CuZt2lqpcOiXNDUJSBNS2K7yo",
-  "retrievedAt": "2026-10-23",
+  "retrievedAt": "2026-10-29",
   "sources": [
     {
       "row": 4,
@@ -2950,28 +2950,70 @@
     {
       "row": 424,
       "date": "May, 2028",
-      "title": "Wonderman Season 1 Episode 8: Yucca Valley",
-      "universe": "199999",
-      "tag": "SMU"
-    },
-    {
-      "row": 425,
-      "date": "Oct, 2028",
-      "title": "Spider-Man: Brand New Day",
-      "universe": "199999",
-      "tag": "SMU"
-    },
-    {
-      "row": 426,
-      "date": "Nov, 2028",
       "title": "VisionQuest Season 1 Episode 1: No Strings",
       "universe": "199999",
       "tag": "SMU"
     },
     {
-      "row": 427,
-      "date": "Nov, 2028",
+      "row": 425,
+      "date": "May, 2028",
       "title": "VisionQuest Season 1 Episode 2: Theseus",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 426,
+      "date": "May, 2028",
+      "title": "VisionQuest Season 1 Episode 3: Reboot",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 427,
+      "date": "May, 2028",
+      "title": "VisionQuest Season 1 Episode 4: Malware",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 428,
+      "date": "May, 2028",
+      "title": "VisionQuest Season 1 Episode 5: Firewall",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 429,
+      "date": "May, 2028",
+      "title": "VisionQuest Season 1 Episode 6: Deadlock",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 430,
+      "date": "May, 2028",
+      "title": "VisionQuest Season 1 Episode 7",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 431,
+      "date": "May, 2028",
+      "title": "VisionQuest Season 1 Episode 8",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 432,
+      "date": "Sep, 2028",
+      "title": "Wonderman Season 1 Episode 8: Yucca Valley",
+      "universe": "199999",
+      "tag": "SMU"
+    },
+    {
+      "row": 433,
+      "date": "Oct, 2028",
+      "title": "Spider-Man: Brand New Day",
       "universe": "199999",
       "tag": "SMU"
     }

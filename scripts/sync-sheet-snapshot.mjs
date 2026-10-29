@@ -2,7 +2,7 @@ import fs from 'node:fs';
 
 const snapshot=JSON.parse(fs.readFileSync(process.argv[2]||'/tmp/chronizo-sheet-snapshot.json','utf8'));
 const dataDir='data';
-const generatedAt='2026-10-23';
+const generatedAt=new Date().toISOString().slice(0,10);
 const spreadsheetId=snapshot.spreadsheetId;
 const normalize=value=>String(value||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’‘]/g,"'").replace(/[–—]/g,'-').replace(/\s+/g,' ').trim();
 const inferType=title=>/season\s+\d+\s+episode|episode\s+\d+/i.test(title)?'Serial':/game|playstation|xbox/i.test(title)?'Gra':'Film';
@@ -11,11 +11,12 @@ const sourceRows=name=>rows(name).filter(({row,cells})=>row>=4&&String(cells[1]|
 const oldPack=file=>JSON.parse(fs.readFileSync(`${dataDir}/${file}`,'utf8'));
 const oldMvo=oldPack('multiversal-vo.sources.json');
 const oldExtended=oldPack('extended-vo.sources.json');
-const oldByIdentity=new Map([...oldMvo.sources,...oldExtended.sources].map(item=>[[normalize(item.title),normalize(item.universe)].join('|'),item]));
+const canonicalTitle=value=>String(value||'').trim().replace(/^VisionQuestion Season 1 Episode ([78])$/i,'VisionQuest Season 1 Episode $1');
 
 function makePack(name,file,tag,prefix){
-  const items=sourceRows(name).map(({row,cells})=>{const [date,title,,universe]=cells,old=oldByIdentity.get([normalize(title),normalize(universe)].join('|'));return{importKey:`${prefix}-${row}`,row,title:String(title).trim(),type:old?.type||inferType(title),status:'Nierozpoczęte',date:String(date||'').trim(),dateApprox:old?.dateApprox??false,releaseDate:'',universe:String(universe).trim(),tags:[tag]};});
-  const pack={format:'chronizo-source-pack',version:4,name,sourceSheet:name,spreadsheetId,generatedAt,rowCount:items.length,sources:items};
+  const previous=name==='Multiversal VO'?oldMvo.sources:oldExtended.sources,oldByIdentity=new Map(previous.map(item=>[[normalize(item.title),normalize(item.universe)].join('|'),item])),usedKeys=new Set(previous.map(item=>item.importKey).filter(Boolean));
+  const items=sourceRows(name).map(({row,cells})=>{const [date,rawTitle,,universe]=cells,title=canonicalTitle(rawTitle),old=oldByIdentity.get([normalize(title),normalize(universe)].join('|'));let importKey=old?.importKey||`${prefix}-${row}`;if(!old&&usedKeys.has(importKey))importKey=`${prefix}-${normalize(title).replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}-${normalize(universe).replace(/[^a-z0-9]+/g,'-')}`;usedKeys.add(importKey);return{importKey,row,title,type:old?.type||inferType(title),status:'Nierozpoczęte',date:String(date||'').trim(),dateApprox:old?.dateApprox??false,releaseDate:old?.releaseDate||'',universe:String(universe).trim(),tags:[tag]};});
+  const pack={format:'chronizo-source-pack',version:5,name,sourceSheet:name,spreadsheetId,generatedAt,rowCount:items.length,sources:items};
   fs.writeFileSync(`${dataDir}/${file}`,JSON.stringify(pack,null,2)+'\n');return items;
 }
 

@@ -19,6 +19,6 @@ assert.equal(firstMain.universe,'199999');
 const normalize=value=>String(value||'').toLowerCase().replace(/\s+/g,' ').trim();
 const identity=source=>[normalize(source.title),normalize(source.date),normalize(source.universe)].join('|');
 const extendedKeys=new Set(extended.sources.map(identity));
-assert.equal(pack.sources.filter(source=>extendedKeys.has(identity(source))).length,833);
+assert.equal(pack.sources.filter(source=>extendedKeys.has(identity(source))).length,830);
 
 console.log('Chronizo Multiversal VO source pack: OK');

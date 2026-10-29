@@ -1,5 +1,13 @@
 # Chronizo OET Changelog
 
+## α85 — aktualizacja katalogu 29.10.2026
+
+- Dodano sześć kolejnych pozycji `VisionQuest` (odcinki 3–8); odcinki 7–8 pozostają bez wymyślonych podtytułów.
+- Zaktualizowano premiery odcinków 3–6 oraz zapowiedziane daty odcinków 7–8.
+- Chronologia `VisionQuest` została ustawiona na maj 2028, a `Wonderman` S01E08 na wrzesień 2028.
+- Odświeżono członkostwo pełnego `#EMCU`, Strict VO i kolejność katalogową.
+- Synchronizacja nadal chroni statusy i ręczne daty źródeł już rozpoczętych lub ukończonych.
+
 ## α84 — Projekt Marvel na każdym urządzeniu
 
 - Dodano przycisk „Otwórz projekt Marvel”, który pobiera pełną Biblię z GitHuba.

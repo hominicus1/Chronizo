@@ -10,10 +10,10 @@ const matched=pack=>pack.sources.filter(source=>releaseTitles.has(normalize(sour
 
 assert.equal(metadata.format,'chronizo-source-metadata');
 assert.equal(metadata.universes.length,289,'Universe Index row count changed');
-assert.equal(metadata.releases.length,3258,'Release Order row count changed');
-assert.equal(extended.sources.length,836,'Extended VO must include every titled row');
+assert.equal(metadata.releases.length,3262,'Release Order row count changed');
+assert.equal(extended.sources.length,842,'Extended VO must include every titled row');
 assert.equal(multiversal.sources.length,3294,'MVO catalog must include the main sheet and nine Mini-Verse additions');
-assert.equal(matched(extended),824,'unexpected Extended VO release match coverage');
+assert.equal(matched(extended),828,'unexpected Extended VO release match coverage');
 assert.equal(matched(multiversal),3187,'unexpected Multiversal VO release match coverage');
 assert.equal(multiversal.sources.filter(source=>source.sourceSheet==='Mini-Verse VOs').length,9,'unique Mini-Verse VO titles missing');
 assert.ok(metadata.universes.some(item=>item.designation==='199999 (AKA 616)'),'main MCU universe name missing');

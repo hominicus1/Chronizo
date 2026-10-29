@@ -1,11 +1,11 @@
 {
   "format": "chronizo-source-membership",
-  "version": 1,
+  "version": 2,
   "name": "Extended Marvel Cinematic Universe",
   "tag": "EMCU",
   "sourceSheet": "Extended MCU",
   "spreadsheetId": "1DkyVfe5nEIMg3a7W84CuZt2lqpcOiXNDUJSBNS2K7yo",
-  "retrievedAt": "2026-10-23",
+  "retrievedAt": "2026-10-29",
   "sources": [
     {
       "row": 4,
@@ -17372,6 +17372,13 @@
       "date": "Outside of Time",
       "title": "What If...? Season 2 Episode 6: What If... Kahhori Reshaped the World?",
       "universe": "43166",
+      "tag": "EMCU"
+    },
+    {
+      "row": 2542,
+      "date": "Outside of Time",
+      "title": "What If...? Season 3 Episode 7: What If... The Watcher Disappeared?",
+      "universe": "Various",
       "tag": "EMCU"
     }
   ]
